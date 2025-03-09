@@ -129,11 +129,8 @@ for val in RandomizerLocationList:
         PoptrackerList.append(regionTemplate)
 
     locName = val["LocationName"].split("-")[1][1:]
-    itemName = ""
-    if val["Itemname"] in TeviRuleToPoptacker:
-        itemName = TeviRuleToPoptacker[val["Itemname"]]
-    else:
-        itemName = val["Itemname"]
+    itemName = val["LocationName"].split("-")[1][1:]
+
     locTemplate = {
         "name": locName,
         "access_rules": setAccessRule(val["Requirement"]),
