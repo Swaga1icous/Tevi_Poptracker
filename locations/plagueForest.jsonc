@@ -1,0 +1,287 @@
+[
+	{
+    "name": "Plague Forest",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1001"
+    ],
+    "children": [
+      {
+        "name": "Windmill Strike",
+        "access_rules": [
+          "$canChargeShot"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 312,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "C. Rank Frenzy: Defend",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 168,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "hp",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 216,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "mp",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 72,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Slick Boots",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "slide",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 168,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [
+          "$canChargeShot"
+        ],
+        "sections": [
+          {
+            "name": "ep",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 504,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Special Action: Show Off",
+        "access_rules": [
+          "airDash",
+          "airJump",
+          "jetpack",
+          "bombs",
+          "highJump , wallJump"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 408,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Dodge Enhancer: Upper",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 360,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [
+          "decayMask , Boss"
+        ],
+        "sections": [
+          {
+            "name": "other",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 456,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "ratk",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "matk",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 264,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Unlucky 7",
+        "access_rules": [
+          "bombs"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 168,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plague Forest Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Plague Forest,bombs , slide",
+      "@Exit Logic/1004"
+    ],
+    "children": [
+      {
+        "name": "Aplomb",
+        "access_rules": [
+          "slide , bombs"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 648,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Blood Armor",
+        "access_rules": [
+          "powder , slide , bombs"
+        ],
+        "sections": [
+          {
+            "name": "badge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 648,
+            "y": 552
+          }
+        ]
+      }
+    ]
+  }
+]

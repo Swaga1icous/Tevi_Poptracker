@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Gallery of Mirrors West",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/2706,$canChargeShot"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors West - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 551,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors West - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 455,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "MP Saver: Fireworks",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors West - MP Saver: Fireworks",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 647,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors West - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 119,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gallery of Mirrors East",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Gallery of Mirrors West,$canChargeShot , slide"
+    ],
+    "children": [
+      {
+        "name": "Bomb Pitcher",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Bomb Pitcher",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 983,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Triple Threat",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Triple Threat",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 791,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Combustible",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Combustible",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 935,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , decayAntidote , Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 887,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memloch",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Memloch",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 935,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "C. Count Frenzy: Uprise",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - C. Count Frenzy: Uprise",
+            "item_count": 1,
+            "access_rules": [
+              "highJump , $canChargeShot",
+              "airJump , $canChargeShot",
+              "jetpack , $canChargeShot",
+              "airDash , $canChargeShot",
+              "rabbitJump , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 1031,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "vortex , jetpack , airJump , airDash",
+              "vortex , jetpack , airDash",
+              "vortex , $hasAmount|jetpack|2 , airDash",
+              "vortex , airJump , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 647,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gallery of Souls Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Gallery of Mirrors East"
+    ],
+    "children": [
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 935,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gallery of Souls",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Gallery of Souls Entrance,bombs",
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , BarrierSkip",
+      "@Gallery of Souls Boss Area,wallJump , bombs , BarrierSkip",
+      "@Gallery of Souls Boss Area,airJump , bombs , BarrierSkip"
+    ],
+    "children": [
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 935,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Double Rabi Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls - Double Rabi Boots",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 887,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gallery of Souls Boss Area",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
+      "@Gallery of Souls,wallJump , $canChargeShot",
+      "@Gallery of Souls,airJump , $canChargeShot",
+      "@Gallery of Souls,bombs , $canChargeShot",
+      "@Gallery of Souls Sea Exit,$hasAmount|bombRange|3"
+    ],
+    "children": [
+      {
+        "name": "Hero Call",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls Boss Area - Hero Call",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 551,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls Boss Area - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "decayAntidote , Boss",
+              "alembicCrystal , Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 431,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  }
+]
