@@ -203,3 +203,4 @@ canEarlyDream = function() return EarlyDream() and Dagger() end
 
 canBackflip = function() return Backflip() and Dagger() end
 
+returnTrue = function() return true end
