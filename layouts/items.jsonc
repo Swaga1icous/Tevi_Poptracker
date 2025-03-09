@@ -13,19 +13,69 @@
         "content": [
           {
             "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
+            "h_alignment": "center",
+            "item_size": "36",
+            "item_margin": "2,2",
             "rows": [
-              [
-                "toggle",
-                "progressive"
-              ],
-              [
-                "consumable",
-                "progressive_toggle"
-              ]
+                      ["dagger", "daggerExtend", "daggerCombo", "vortex", "sable", "celia", "ranged", "orbRapid", "burst"],
+                      ["bombs", "bombThrow", "bombFuel", "bombRange", "", "waffle", "paw", "royal_emblem", "pillow"],
+                      ["blueprints", "boostU", "boostD", "ticketHell", "orbS2", "orbS3", "ticketHeaven", "orbC2", "orbC3"],
+                      ["highJump", "airJump", "speed", "slide", "wallJump", "slip", "airDash", "jetpack", "powder"],
+                      ["water", "emblem", "ringDodge", "decayMask", "decayAntidote", "alembicCrystal", "ringTemp", "alterscope", "key"],
+                      ["handLeft", "handRight", "hands", "", "", "", "compass", "gauntlet", "bag"],
+                      ["hp", "mp", "ep", "matk", "ratk", "shard", "", "", "gear"]
             ]
           }
+        ] 
+      }
+    ]
+  },
+  "bomb_grid": {
+    "type": "array", 
+    "orientation": "vertical",
+    "margin": "2,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "2,2",
+        "item_size": "36",
+        "rows": [
+            ["voidBomb"],
+            ["cloudBomb"],
+            ["calicoBomb"],
+            ["tabbyBomb"],
+            ["bbRabbit"]          
+        ]
+      }      
+    ]
+  },
+  "crafting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "-44,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,1",
+        "item_size": "18",
+        "rows": [
+            //void bombs
+            ["fireElement"],
+            [""],
+            //cloud bombs
+            ["fireElement"],
+            ["lightElement"],
+            //calico bombs
+            ["waterElement"],
+            ["earthElement"],
+            //tabby bombs
+            ["darkElement"],
+            ["earthElement"],
+            //bb rabbit
+            [""],
+            [""]
         ]
       }
     ]

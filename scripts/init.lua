@@ -15,28 +15,30 @@ end
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
 
--- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
-
 -- Items
 Tracker:AddItems("items/items.jsonc")
+
+-- Logic
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/logic_rules.lua")
+
+-- Custom Items
+-- ScriptHost:LoadScript("scripts/custom_items/class.lua")
+-- ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
+-- ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
-    Tracker:AddLocations("locations/locations.jsonc")
+    ScriptHost:LoadScript("scripts/locations.lua")
 end
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
+Tracker:AddLayouts("layouts/settings.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

@@ -2,14 +2,25 @@
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
 -- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+
+function hasAmount (code, count)
+    local item = Tracker:FindObjectForCode(code)
+    if (item == nil) then
+        return 0
     end
-    if val then
-        return 1 -- 1 => access is in logic
+    if (item.AcquiredCount >= count) then
+        return 1
     end
-    return 0 -- 0 => no access
+    return 0
 end
+
+
+function canAccessExit(exit_name)
+    local entrance = TRANSITION_PAIRS[exit_name]
+    local entrance_logic_path = "@Entrance Logic/"..entrance
+    local loc = Tracker:FindObjectForCode(entrance_logic_path)
+    print(string.format("Resolving exit logic for '%s' accessible from entrance '%s'", exit_name, entrance))
+    return loc.AccessibilityLevel
+end
+
+--TODO memine challenge count

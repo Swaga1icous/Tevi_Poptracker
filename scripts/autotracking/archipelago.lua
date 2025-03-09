@@ -8,6 +8,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
+SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
@@ -43,7 +44,7 @@ function resetItem(item_code, item_type)
 end
 
 -- advances the state of an item
-function incrementItem(item_code, item_type, multiplier)
+function incrementItem(item_code, item_type)
 	local obj = Tracker:FindObjectForCode(item_code)
 	if obj then
 		item_type = item_type or obj.Type
@@ -59,7 +60,7 @@ function incrementItem(item_code, item_type, multiplier)
 				obj.Active = true
 			end
 		elseif item_type == "consumable" then
-			obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
+			obj.AcquiredCount = obj.AcquiredCount + obj.Increment
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -79,6 +80,41 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	local SLOT_DATA = slot_data
+	--print(dump_table(SLOT_DATA))
+
+	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
+	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["attackMode"]
+
+	if SLOT_DATA["CeliaSable"] > 0 then
+		Tracker:FindObjectForCode("startWithCelia/Sable").Active = true
+	end
+
+	if SLOT_DATA["openMorose"] > 0 then
+		Tracker:FindObjectForCode("openMorose").Active = true
+	end
+
+	--if SLOT_DATA["REPLACE VALUE"] > 0 then
+	--	Tracker:FindObjectForCode("REPLACE VALUE").Active = true
+	--end
+
+	--Petition to Add to SlotData:
+	--randomizeKnife
+	--randomizeOrb
+	--randomizeItemUpgrades
+	--chaosMode
+	--rabbitJump
+	--rabbitWallJump
+	--backflip
+	--ceilingKick
+	--hiddenPaths
+	--earlyDream
+	--transistionShuffle
+
+	local Transition_Data = SLOT_DATA["transitionData"]
+	for _, transitionNumber in pairs(Transition_Data) do
+		TRANSITION_PAIRS[tostring(transitionNumber["to"])] = tostring(transitionNumber["from"])
+	end
 end
 
 -- called right after an AP slot is connected
@@ -168,9 +204,8 @@ function onItem(index, item_id, item_name, player_number)
 		if item_table then
 			local item_code = item_table[1]
 			local item_type = item_table[2]
-			local multiplier = item_table[3] or 1
 			if item_code then
-				incrementItem(item_code, item_type, multiplier)
+				incrementItem(item_code, item_type)
 				-- keep track which items we touch are local and which are global
 				if is_local then
 					if LOCAL_ITEMS[item_code] then

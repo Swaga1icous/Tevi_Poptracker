@@ -1,0 +1,61 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "item_margin": "2, 2",
+                                "item_size": "140, 48",
+                                "h_alignment": "left",
+                                "item_h_alignment": "center",
+                                "item_v_alignment": "center",
+                                "rows": [                        
+                                    [
+                                        "openMorose",
+                                        "rabbitJump"
+                                    ],
+                                    [
+                                        "randomizeKnife",
+                                        "rabbitWallJump"
+                                    ],
+                                    [
+                                        "randomizeOrb",
+                                        "backflip"
+                                    ],
+                                    [
+                                        "randomizeItemUpgrades",
+                                        "ceilingKick"
+                                    ],
+                                    [
+                                        "chaosMode",
+                                        "hiddenPaths"
+                                    ],
+                                    [
+                                        "startWithCelia/Sable",
+                                        "earlyDream"
+                                    ],
+                                    [
+                                        "freeAttackUp",
+                                        "transitionShuffle"
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

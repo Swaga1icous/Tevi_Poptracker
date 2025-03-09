@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Ana Thema",
+    "clear_as_group": false,
+    "access_rules": [
+          "@Exit Logic/0805",
+          "@Ana Thema Gallery, bombs, slide"
+        ],
+    "children": [
+      {
+        "name": "Library Key",
+        "access_rules": [
+          "bombThrow, slide, bombs, wallJump",
+          "bombThrow, slide, bombs, airJump, $has|jetpack|3",
+          "bombThrow, slide, bombs, airJump, highJump, jetpack"
+        ],
+        "sections": [
+          {
+            "name": "Library Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 167,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Ana Thema - Cherry Bunny Potion",
+        "access_rules": [
+          "slide, powder, bombs",
+          "slide, airJump, bombs",
+          "slide, [rabbitJump], bombs",
+          "slide, jetpack, bombs"
+        ],
+        "sections": [
+          {
+            "name": "Ana Thema - Cherry Bunny Potion",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"Ana Thema",
+            "x": 215,
+            "y": 266
+          }
+        ]
+      },
+      {
+        "name": "Ana Thema - Sable",
+        "access_rules": [
+          "key"
+        ],
+        "sections": [
+          {
+            "name": "Ana Thema - Sable",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map":"Ana Thema",
+            "x": 145,
+            "y": 313
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "name": "Ana Thema Gallery",
+    "clear_as_group": false,
+    "access_rules": [
+          "@Exit Logic/0806",
+          "@Ana Thema, bombs, slide"
+        ],
+    "children": [
+      {
+
+      }
+    ]
+  }
+]
