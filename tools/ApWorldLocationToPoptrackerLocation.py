@@ -29,10 +29,11 @@ def setAccessRule(rule):
     for v in rule:
         
         t = parse_expression_logic(v["Method"])
-        if t == "$True" or t == "":
-            continue
-        t = t[1:-1]
-        logic += [t]
+        for log in t:
+            if t == "$True" or t == "":
+                continue
+
+        logic += t
     return logic
 
 def addMapAccessRule(rule):

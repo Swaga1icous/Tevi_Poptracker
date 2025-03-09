@@ -132,9 +132,12 @@ def parse_expression_logic(line):
 
     assert len(stack) == 1
     logic = distribute_and_over_or(stack[0])
-    logic = re.sub('([()])', '', str(logic))
-    logic = logic.replace("AND",",")
-    return logic
+    newLogic =[]
+    for log in logic:
+        logs = re.sub('([()])', '', str(log))
+        logs = logs.replace("AND",",")
+        newLogic += [logs]
+    return newLogic
 
 class OpLit:
     def __init__(self, name):
