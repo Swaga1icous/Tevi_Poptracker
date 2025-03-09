@@ -1,6 +1,7 @@
 import re
 #Progression Items
 TeviRuleToPoptacker = {
+    "$True":"$True",
     "ITEM_KNIFE":"dagger",
     "I20" : "sable",
     "I19" : "celia",
@@ -75,10 +76,13 @@ TeviRuleToPoptacker = {
     "RabbitWalljump":"rabbitWallJump",
     "EarlyDream":"earlyDream",
     "ChargeShot":"$canChargeShot",
-    "Coins": "$returnTrue",
+    "Coins": "$True",
     "Core":"$canUpgradeCore",
     "VenaBomb":"$canUseVenaBomb",
-    "Upgrade" : "$canUpgradeItems"
+    "Upgrade" : "$canUpgradeItems",
+    "OpenMorose":"openMorose",
+    "SpinnerBash":"[$hasAmoun|dagger|1],false",
+    "LibraryExtra":"[SuperBoss]"
 }
 
 
@@ -87,7 +91,7 @@ isExpr = lambda s: not isinstance(s, str)
 
 def parse_expression_logic(line):
     if line == "" or line == "()":
-        line = "True"
+        line = "$True"
     line = line.replace('&&', '&').replace('||', '|')
     tokens = [s.strip() for s in re.split('([()&|!~])', line) if s.strip()]
     tokens.reverse()  # Reverse for stack processing
@@ -128,9 +132,8 @@ def parse_expression_logic(line):
 
     assert len(stack) == 1
     logic = distribute_and_over_or(stack[0])
-    logic = re.sub('([()&|!~])', '', str(logic))
+    logic = re.sub('([()])', '', str(logic))
     logic = logic.replace("AND",",")
-    logic = logic.replace("True","")
     return logic
 
 class OpLit:
@@ -141,8 +144,10 @@ class OpLit:
     def __str__(self):
         itemstack = self.name.split(' ')
         if len(itemstack)>1 and itemstack[0] in TeviRuleToPoptacker:
-            if not '$' in TeviRuleToPoptacker[itemstack[0]]:
-                return f"$has|{TeviRuleToPoptacker[itemstack[0]]}|{itemstack[1]}"
+            if TeviRuleToPoptacker[itemstack[0]] == "True":
+                return "$True"
+            elif not '$' in TeviRuleToPoptacker[itemstack[0]]:
+                return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|{itemstack[1]}"
             else:
                 return TeviRuleToPoptacker[itemstack[0]]
         elif self.name in TeviRuleToPoptacker:
@@ -187,5 +192,4 @@ class OpAnd:
     __repr__ = __str__
 
 def distribute_and_over_or(expression):
-    """Expands AND (`&&`) over OR (`||`) to generate all possible AND-only expressions."""
     return expression.expand()

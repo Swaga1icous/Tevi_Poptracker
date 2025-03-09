@@ -29,7 +29,7 @@ def setAccessRule(rule):
     for v in rule:
         
         t = parse_expression_logic(v["Method"])
-        if t == "True" or t == "":
+        if t == "$True" or t == "":
             continue
         t = t[1:-1]
         logic += [t]
@@ -108,7 +108,7 @@ def setMapName(area):
     elif "Valhalla Breath West" in area or "Valley West" in area:
         name = "Heaven's Valley (West) + Valhalla's Breath (West)"
     else:
-        print(f"{area} not found")
+        print(f"{area} has no Map")
     return name
 
 for v in PoptrackerList:
@@ -152,7 +152,7 @@ for val in RandomizerLocationList:
           }
         ]
       }
-    if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "":
+    if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
         locTemplate["access_rules"] = []
     found = False
 
@@ -160,7 +160,7 @@ for val in RandomizerLocationList:
         if location["name"] == locName:
             found = True
             location["access_rules"] = locTemplate["access_rules"]
-            if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "":
+            if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
                 locTemplate["access_rules"] = []
     if not found:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
@@ -173,6 +173,8 @@ for k,v in RandomizerAreaList.items():
             logic = setAccessRule([{"Method":con["Method"]}])
 
             for log in logic:
+                if log == "$True":
+                    logic[0] = []
                 if con["Exit"].isdigit():
                     if len(logic[0]) > 0:
                         logic[0] = f"@Exit Logic/{con['Exit']},{logic[0]}"
@@ -185,7 +187,6 @@ for k,v in RandomizerAreaList.items():
                         logic[0] = f"@{area['Name']}" 
             if con["Exit"].isdigit():
                 if not area["Name"] in regionsIds:
-                    print(f"THIS AREA NOT FOUND: {area['Name']}")
                     regionTemplate = {
                         "name": area['Name'],
                         "clear_as_group": False,
@@ -199,7 +200,6 @@ for k,v in RandomizerAreaList.items():
                     PoptrackerList[regionsIds[area["Name"]]]["access_rules"] += logic
             else:
                 if not con["Exit"] in regionsIds:
-                    print(f"THIS AREA NOT FOUND: {con['Exit']}")
                     regionTemplate = {
                         "name": con['Exit'],
                         "clear_as_group": False,

@@ -394,7 +394,7 @@
     "access_rules": [
       "@Desert Base Main,highJump , airJump , wallJump",
       "@Desert Base Main,jetpack , wallJump",
-      "@Desert Base Main,airJump , $haswallJump2",
+      "@Desert Base Main,airJump , $hasAmount|wallJump|2",
       "@Desert Base Entrance,backflip , slide , bombs , dagger, airJump , slide , bombs , dagger, jetpack , slide , bombs , dagger, airDash , slide , bombs , dagger"
     ],
     "children": [
@@ -531,7 +531,7 @@
       "@Thanatara Canyon Lower,bombs, slide",
       "@Thanatara Canyon - Heavens Valley West,bombs",
       "@Gurun Desert,bombs",
-      "@Gurun Desert,OpenMorose"
+      "@Gurun Desert,openMorose"
     ],
     "children": [
       {
@@ -807,7 +807,7 @@
     "name": "Gurun Desert",
     "clear_as_group": false,
     "access_rules": [
-      "@Thanatara Canyon Lower,bombs, OpenMorose",
+      "@Thanatara Canyon Lower,bombs, openMorose",
       "@Exit Logic/0102"
     ],
     "children": [
@@ -897,7 +897,7 @@
       {
         "name": "Kiwi Bunny Potion",
         "access_rules": [
-          "$hasjetpack2",
+          "$hasAmount|jetpack|2",
           "jetpack , airJump",
           "jetpack , airDash , wallJump"
         ],
@@ -1015,7 +1015,7 @@
         "name": "Nasty Break",
         "access_rules": [
           "wallJump",
-          "airJump , $hasjetpack2"
+          "airJump , $hasAmount|jetpack|2"
         ],
         "sections": [
           {
@@ -1441,7 +1441,7 @@
     "name": "Morose City",
     "clear_as_group": false,
     "access_rules": [
-      "@Thanatara Canyon,OpenMorose",
+      "@Thanatara Canyon,openMorose",
       "@Exit Logic/0302",
       "@Exit Logic/0303",
       "@Exit Logic/0301",
@@ -1503,9 +1503,7 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "mp",
@@ -1541,9 +1539,7 @@
       },
       {
         "name": "Lemon Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ep",
@@ -1560,9 +1556,7 @@
       },
       {
         "name": "Running Boots",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "speed",
@@ -1579,9 +1573,7 @@
       },
       {
         "name": "Metamorphose",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1599,7 +1591,7 @@
       {
         "name": "Style Combo: Triple Flash S",
         "access_rules": [
-          "$return , EVENT_Demonfray"
+          "$True , EVENT_Demonfray"
         ],
         "sections": [
           {
@@ -1618,7 +1610,7 @@
       {
         "name": "EP Booster: HP",
         "access_rules": [
-          "$return , EVENT_Demonfray"
+          "$True , EVENT_Demonfray"
         ],
         "sections": [
           {
@@ -1637,7 +1629,7 @@
       {
         "name": "Bone Breaker",
         "access_rules": [
-          "$return , EVENT_Demonfray"
+          "$True , EVENT_Demonfray"
         ],
         "sections": [
           {
@@ -1656,7 +1648,7 @@
       {
         "name": "Perseverance A",
         "access_rules": [
-          "$return , EVENT_Demonfray"
+          "$True , EVENT_Demonfray"
         ],
         "sections": [
           {
@@ -1674,9 +1666,7 @@
       },
       {
         "name": "Special Action: Question Mark",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1693,9 +1683,7 @@
       },
       {
         "name": "MP Reset A",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1712,9 +1700,7 @@
       },
       {
         "name": "Intrepid Explorer",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1731,9 +1717,7 @@
       },
       {
         "name": "Style Combo: Windmill B",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1750,9 +1734,7 @@
       },
       {
         "name": "Upper Slash: Shatter",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1769,9 +1751,7 @@
       },
       {
         "name": "Punisher",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -1788,9 +1768,7 @@
       },
       {
         "name": "Bag Expander",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "bag",
@@ -1807,9 +1785,7 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "hp",
@@ -1826,9 +1802,7 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "matk",
@@ -1845,9 +1819,7 @@
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ratk",
@@ -1865,7 +1837,7 @@
       {
         "name": "Rainbow Bunny Potion",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -1883,9 +1855,7 @@
       },
       {
         "name": "Honeycloud Waffle",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "other",
@@ -1903,7 +1873,7 @@
       {
         "name": "Toasted Meringue Waffle",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -1922,7 +1892,7 @@
       {
         "name": "Good Morning Waffle",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -1941,7 +1911,7 @@
       {
         "name": "Berry Pink Waffle",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -1960,7 +1930,7 @@
       {
         "name": "Blueberry Waffle",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -1978,9 +1948,7 @@
       },
       {
         "name": "Muscle Memory",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -3086,7 +3054,7 @@
       {
         "name": "Grape Bunny Potion",
         "access_rules": [
-          "orbS2 , $canChargeShot , sable , $hasrandged2",
+          "orbS2 , $canChargeShot , sable , $hasAmount|randged|2",
           "$canUseVenaBomb"
         ],
         "sections": [
@@ -3735,7 +3703,7 @@
       {
         "name": "Cursed 6",
         "access_rules": [
-          "orbS2 , $canChargeShot , sable , $hasrandged2 , bombs , slide",
+          "orbS2 , $canChargeShot , sable , $hasAmount|randged|2 , bombs , slide",
           "burst , bombs , slide",
           "$canUseVenaBomb , bombs , slide"
         ],
@@ -3788,9 +3756,9 @@
       {
         "name": "Grape Bunny Potion",
         "access_rules": [
-          "orbS2 , $canChargeShot , sable , $hasrandged2",
-          "orbS3 , $canChargeShot , sable , $hasrandged2",
-          "orbC3 , $canChargeShot , celia , $hasrandged2"
+          "orbS2 , $canChargeShot , sable , $hasAmount|randged|2",
+          "orbS3 , $canChargeShot , sable , $hasAmount|randged|2",
+          "orbC3 , $canChargeShot , celia , $hasAmount|randged|2"
         ],
         "sections": [
           {
@@ -4057,7 +4025,7 @@
         "name": "Library Key",
         "access_rules": [
           "bombThrow , slide , bombs , wallJump",
-          "bombThrow , slide , bombs , airJump , $hasjetpack3",
+          "bombThrow , slide , bombs , airJump , $hasAmount|jetpack|3",
           "bombThrow , slide , bombs , airJump , highJump , jetpack"
         ],
         "sections": [
@@ -4076,9 +4044,7 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "matk",
@@ -4243,9 +4209,7 @@
       },
       {
         "name": "Deadly Reach",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "daggerExtend",
@@ -4263,7 +4227,7 @@
       {
         "name": "Flash Point",
         "access_rules": [
-          "$return , EVENT_Memloch"
+          "$True , EVENT_Memloch"
         ],
         "sections": [
           {
@@ -4282,7 +4246,7 @@
       {
         "name": "Break Extend",
         "access_rules": [
-          "$return , EVENT_Memloch"
+          "$True , EVENT_Memloch"
         ],
         "sections": [
           {
@@ -4301,7 +4265,7 @@
       {
         "name": "Tornado Spin: Grav Reversal",
         "access_rules": [
-          "$return , EVENT_Memloch"
+          "$True , EVENT_Memloch"
         ],
         "sections": [
           {
@@ -4320,7 +4284,7 @@
       {
         "name": "Perseverance D",
         "access_rules": [
-          "$return , EVENT_Memloch"
+          "$True , EVENT_Memloch"
         ],
         "sections": [
           {
@@ -4338,9 +4302,7 @@
       },
       {
         "name": "MP Quicken: Step Up",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4357,9 +4319,7 @@
       },
       {
         "name": "Upper Slash: Augment",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4376,9 +4336,7 @@
       },
       {
         "name": "Synchronized Support II",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4395,9 +4353,7 @@
       },
       {
         "name": "EP Booster: Variety",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4414,9 +4370,7 @@
       },
       {
         "name": "Air Combo: Focus",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4433,9 +4387,7 @@
       },
       {
         "name": "Dodge Recovery",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4452,9 +4404,7 @@
       },
       {
         "name": "C. Count Frenzy: Acrobatics",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4471,9 +4421,7 @@
       },
       {
         "name": "Act Tough",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4490,9 +4438,7 @@
       },
       {
         "name": "Biscuit Delivery",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4509,9 +4455,7 @@
       },
       {
         "name": "Style Combo: Lock On A",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4528,9 +4472,7 @@
       },
       {
         "name": "Combo Crasher",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -4547,9 +4489,7 @@
       },
       {
         "name": "Bag Expander",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "bag",
@@ -4566,9 +4506,7 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "hp",
@@ -4585,9 +4523,7 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "mp",
@@ -4604,9 +4540,7 @@
       },
       {
         "name": "Lemon Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ep",
@@ -4623,9 +4557,7 @@
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ratk",
@@ -4643,7 +4575,7 @@
       {
         "name": "Rainbow Bunny Potion",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -5156,7 +5088,7 @@
       "@Pre Swamp,randged",
       "@Pre Swamp,airDash",
       "@Pre Swamp,bombs , bombThrow",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasjetpack2, slide , hiddenPaths , jetpack , airJump, slide , hiddenPaths , jetpack , airDash, slide , hiddenPaths , airDash , airJump, slide , bombs , $hasjetpack2, slide , bombs , jetpack , airJump, slide , bombs , jetpack , airDash, slide , bombs , airDash , airJump"
+      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2, slide , hiddenPaths , jetpack , airJump, slide , hiddenPaths , jetpack , airDash, slide , hiddenPaths , airDash , airJump, slide , bombs , $hasAmount|jetpack|2, slide , bombs , jetpack , airJump, slide , bombs , jetpack , airDash, slide , bombs , airDash , airJump"
     ],
     "children": [
       {
@@ -5266,7 +5198,7 @@
       {
         "name": "Blueberry Bunny Potion",
         "access_rules": [
-          "$hasjetpack2",
+          "$hasAmount|jetpack|2",
           "jetpack , airJump",
           "jetpack , airDash",
           "airDash , airJump"
@@ -5388,9 +5320,7 @@
       },
       {
         "name": "Lemon Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ep",
@@ -5414,7 +5344,7 @@
           "jetpack , airJump",
           "airDash , airJump",
           "airDash , jetpack",
-          "$hasjetpack2"
+          "$hasAmount|jetpack|2"
         ],
         "sections": [
           {
@@ -5432,9 +5362,7 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "mp",
@@ -5470,9 +5398,7 @@
       },
       {
         "name": "Tartarus VIP Pass ",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ticketHell",
@@ -5489,9 +5415,7 @@
       },
       {
         "name": "Style Combo: Trickshot",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5508,9 +5432,7 @@
       },
       {
         "name": "Hot Buzz",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5527,9 +5449,7 @@
       },
       {
         "name": "MP Quicken: Combo",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5546,9 +5466,7 @@
       },
       {
         "name": "Quick Break",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5565,9 +5483,7 @@
       },
       {
         "name": "EP Booster: Shopaholic",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5584,9 +5500,7 @@
       },
       {
         "name": "Bounce Bonus",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5603,9 +5517,7 @@
       },
       {
         "name": "Core Expansion: Extend",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5622,9 +5534,7 @@
       },
       {
         "name": "Crystal Healing",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5641,9 +5551,7 @@
       },
       {
         "name": "Head Over Heels",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5660,9 +5568,7 @@
       },
       {
         "name": "Low Defence Bomber",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -5679,9 +5585,7 @@
       },
       {
         "name": "Bag Expander",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "bag",
@@ -5698,9 +5602,7 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "hp",
@@ -5717,9 +5619,7 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "matk",
@@ -5736,9 +5636,7 @@
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ratk",
@@ -5908,7 +5806,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Catacombs Main,airJump , bombs , slide",
-      "@Catacombs Main,$hasjetpack2 , bombs , slide",
+      "@Catacombs Main,$hasAmount|jetpack|2 , bombs , slide",
       "@Catacombs Main,jetpack , highJump , bombs , slide",
       "@Catacombs Main,jetpack , wallJump , airDash , bombs , slide"
     ],
@@ -6016,13 +5914,13 @@
     "clear_as_group": false,
     "access_rules": [
       "@Lab Left,bombs , airJump, bombs , jetpack, bombs , wallJump , airDash, bombs , rabbitWallJump",
-      "@Lab - Verdazure Swamp Connection,$hasbombRange3 , bombs"
+      "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , bombs"
     ],
     "children": [
       {
         "name": "Cherry Bunny Potion",
         "access_rules": [
-          "$hasbombRange3 , bombs, bombThrow , bombs"
+          "$hasAmount|bombRange|3 , bombs, bombThrow , bombs"
         ],
         "sections": [
           {
@@ -6235,7 +6133,7 @@
     "name": "Lab - Verdazure Swamp Connection",
     "clear_as_group": false,
     "access_rules": [
-      "@Lab,$hasbombRange3 , bombs",
+      "@Lab,$hasAmount|bombRange|3 , bombs",
       "@Exit Logic/2510"
     ],
     "children": [
@@ -6498,7 +6396,7 @@
       {
         "name": "Dodge: Feeling Lucky",
         "access_rules": [
-          "$hasbombRange3 , bombs"
+          "$hasAmount|bombRange|3 , bombs"
         ],
         "sections": [
           {
@@ -6597,7 +6495,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Blushwood,slide",
-      "@Blushwood,hiddenPaths , airJump , jetpack, hiddenPaths , $hasjetpack3"
+      "@Blushwood,hiddenPaths , airJump , jetpack, hiddenPaths , $hasAmount|jetpack|3"
     ],
     "children": [
       {
@@ -6653,9 +6551,7 @@
     "children": [
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "mp",
@@ -6732,9 +6628,7 @@
       },
       {
         "name": "Lemon Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ep",
@@ -6751,9 +6645,7 @@
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ratk",
@@ -6772,7 +6664,7 @@
         "name": "Combo Momentum: Saver",
         "access_rules": [
           "bombThrow",
-          "$hasbombRange3"
+          "$hasAmount|bombRange|3"
         ],
         "sections": [
           {
@@ -6790,9 +6682,7 @@
       },
       {
         "name": "Valhalla VIP Pass",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ticketHeaven",
@@ -6809,9 +6699,7 @@
       },
       {
         "name": "Style Combo: Flash A",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6828,9 +6716,7 @@
       },
       {
         "name": "Tornado Spin: Flurry",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6847,9 +6733,7 @@
       },
       {
         "name": "Backflip Flurry",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6866,9 +6750,7 @@
       },
       {
         "name": "Combo Momentum: Dodge",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6885,9 +6767,7 @@
       },
       {
         "name": "MP Saver: Rhythm",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6904,9 +6784,7 @@
       },
       {
         "name": "EP Booster: Perfectionist",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6923,9 +6801,7 @@
       },
       {
         "name": "Style Combo: Bunny Kick S",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6942,9 +6818,7 @@
       },
       {
         "name": "Shock Armor",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6961,9 +6835,7 @@
       },
       {
         "name": "Quickstab: Sunder",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6980,9 +6852,7 @@
       },
       {
         "name": "Core Expansion: Erase",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -6999,9 +6869,7 @@
       },
       {
         "name": "Bag Expander",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "bag",
@@ -7018,9 +6886,7 @@
       },
       {
         "name": "Shop Kiwi Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "hp",
@@ -7037,9 +6903,7 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "matk",
@@ -7057,7 +6921,7 @@
       {
         "name": "Rainbow Bunny Potion",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -7131,7 +6995,7 @@
         "access_rules": [
           "bombs , airJump",
           "bombs , highJump , jetpack",
-          "bombs , $hasjetpack2",
+          "bombs , $hasAmount|jetpack|2",
           "bombs , wallJump , airDash"
         ],
         "sections": [
@@ -7152,8 +7016,8 @@
         "name": "Deft B",
         "access_rules": [
           "slide , airJump , jetpack",
-          "slide , $hasjetpack3",
-          "slide , highJump , $hasjetpack2"
+          "slide , $hasAmount|jetpack|3",
+          "slide , highJump , $hasAmount|jetpack|2"
         ],
         "sections": [
           {
@@ -7196,8 +7060,8 @@
     "access_rules": [
       "@EverGarden,airJump",
       "@EverGarden,jetpack , airDash",
-      "@EverGarden,$hasjetpack3",
-      "@EverGarden,$hasjetpack2",
+      "@EverGarden,$hasAmount|jetpack|3",
+      "@EverGarden,$hasAmount|jetpack|2",
       "@EverGarden Boss Area"
     ],
     "children": [
@@ -7268,8 +7132,8 @@
     "access_rules": [
       "@EverGarden Path to Boss,airJump , airDash",
       "@EverGarden Path to Boss,jetpack , airDash",
-      "@EverGarden Path to Boss,$hasjetpack3",
-      "@EverGarden Path to Boss,$hasjetpack2"
+      "@EverGarden Path to Boss,$hasAmount|jetpack|3",
+      "@EverGarden Path to Boss,$hasAmount|jetpack|2"
     ],
     "children": [
       {
@@ -7333,7 +7197,7 @@
       {
         "name": "Grape Bunny Potion",
         "access_rules": [
-          "orbS3 , airJump , airDash , $canChargeShot , sable , $hasrandged2"
+          "orbS3 , airJump , airDash , $canChargeShot , sable , $hasAmount|randged|2"
         ],
         "sections": [
           {
@@ -7875,7 +7739,7 @@
         "access_rules": [
           "vortex , jetpack , airJump , airDash",
           "vortex , jetpack , airDash",
-          "vortex , $hasjetpack2 , airDash",
+          "vortex , $hasAmount|jetpack|2 , airDash",
           "vortex , airJump , jetpack"
         ],
         "sections": [
@@ -7927,7 +7791,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
-      "@Gallery of Souls Boss Area,$hasjetpack2 , bombs , BarrierSkip",
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , BarrierSkip",
       "@Gallery of Souls Boss Area,wallJump , bombs , BarrierSkip",
       "@Gallery of Souls Boss Area,airJump , bombs , BarrierSkip"
     ],
@@ -7974,11 +7838,11 @@
     "name": "Gallery of Souls Boss Area",
     "clear_as_group": false,
     "access_rules": [
-      "@Gallery of Souls,$hasjetpack2 , $canChargeShot",
+      "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
       "@Gallery of Souls,wallJump , $canChargeShot",
       "@Gallery of Souls,airJump , $canChargeShot",
       "@Gallery of Souls,bombs , $canChargeShot",
-      "@Gallery of Souls Sea Exit,$hasbombRange3"
+      "@Gallery of Souls Sea Exit,$hasAmount|bombRange|3"
     ],
     "children": [
       {
@@ -8033,7 +7897,7 @@
         "name": "Kiwi Bunny Potion",
         "access_rules": [
           "wallJump , airJump",
-          "wallJump , $hasjetpack2",
+          "wallJump , $hasAmount|jetpack|2",
           "wallJump , water",
           "wallJump , jetpack , airDash",
           "water , airDash , airJump",
@@ -8144,7 +8008,7 @@
       {
         "name": "Blueberry Bunny Potion #2",
         "access_rules": [
-          "orbS2 , $canChargeShot , sable , $hasrandged2 , slide , bombRange , bombThrow"
+          "orbS2 , $canChargeShot , sable , $hasAmount|randged|2 , slide , bombRange , bombThrow"
         ],
         "sections": [
           {
@@ -8363,11 +8227,11 @@
     "name": "Forgotten City Upper Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Verdazure Ocean,water , orbS3 , sable , $canChargeShot , $hasrandged3",
+      "@Verdazure Ocean,water , orbS3 , sable , $canChargeShot , $hasAmount|randged|3",
       "@Forgotten City,$canChargeShot",
-      "@Forgotten City,airJump , $hasbombRange3 , bombs",
-      "@Forgotten City,wallJump , $hasbombRange3 , bombs",
-      "@Forgotten City,highJump , $hasjetpack3 , dagger , $hasbombRange3 , bombs"
+      "@Forgotten City,airJump , $hasAmount|bombRange|3 , bombs",
+      "@Forgotten City,wallJump , $hasAmount|bombRange|3 , bombs",
+      "@Forgotten City,highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
     ],
     "children": [
       {
@@ -8474,9 +8338,9 @@
         "name": "Astral Gear",
         "access_rules": [
           "$canChargeShot , Boss",
-          "airJump , $hasbombRange3 , bombs , Boss",
-          "wallJump , $hasbombRange3 , bombs , Boss",
-          "highJump , $hasjetpack3 , dagger , $hasbombRange3 , bombs , Boss"
+          "airJump , $hasAmount|bombRange|3 , bombs , Boss",
+          "wallJump , $hasAmount|bombRange|3 , bombs , Boss",
+          "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , Boss"
         ],
         "sections": [
           {
@@ -8496,9 +8360,9 @@
         "name": "Heavy Metal",
         "access_rules": [
           "$canChargeShot",
-          "airJump , $hasbombRange3 , bombs",
-          "wallJump , $hasbombRange3 , bombs",
-          "highJump , $hasjetpack3 , dagger , $hasbombRange3 , bombs"
+          "airJump , $hasAmount|bombRange|3 , bombs",
+          "wallJump , $hasAmount|bombRange|3 , bombs",
+          "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
         ],
         "sections": [
           {
@@ -8568,8 +8432,8 @@
     "name": "Snowveil",
     "clear_as_group": false,
     "access_rules": [
-      "@Snowveil Entrance,airDash , airJump , $hasjetpack2 , highJump , WindSkip",
-      "@Snowveil Entrance,airDash , airJump , $hasjetpack3 , WindSkip",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , WindSkip",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , WindSkip",
       "@Snowveil Entrance,bombs",
       "@Exit Logic/1204",
       "@Snowveil Ex"
@@ -8696,7 +8560,7 @@
       {
         "name": "Cherry Bunny Potion",
         "access_rules": [
-          "slide , $hasjetpack2",
+          "slide , $hasAmount|jetpack|2",
           "slide , jetpack , highJump , SpinnerBash",
           "airJump , wallJump, airJump , SpinnerBash"
         ],
@@ -8718,7 +8582,7 @@
         "name": "Aerial Assist",
         "access_rules": [
           "slide , airJump , airDash , jetpack",
-          "slide , airJump , $hasjetpack3"
+          "slide , airJump , $hasAmount|jetpack|3"
         ],
         "sections": [
           {
@@ -8737,7 +8601,7 @@
       {
         "name": "Kiwi Bunny Potion",
         "access_rules": [
-          "slide , $hasjetpack3 , airDash",
+          "slide , $hasAmount|jetpack|3 , airDash",
           "slide , BounceKick , airDash",
           "slide , jetpack , airDash , airJump"
         ],
@@ -8765,16 +8629,16 @@
       "@Snowveil Ex,jetpack , airJump",
       "@Snowveil Ex,jetpack , highJump , SpinnerBash",
       "@Snowveil Ex,airJump , highJump , ItemUse",
-      "@Snowveil Ex,$hasbombRange3 , bombs",
+      "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
       "@Exit Logic/1205"
     ],
     "children": [
       {
         "name": "Lemon Bunny Potion",
         "access_rules": [
-          "bombs , $hasjetpack2 , airJump",
-          "bombs , $hasjetpack3",
-          "bombs , $hasjetpack2 , highJump , SpinnerBash"
+          "bombs , $hasAmount|jetpack|2 , airJump",
+          "bombs , $hasAmount|jetpack|3",
+          "bombs , $hasAmount|jetpack|2 , highJump , SpinnerBash"
         ],
         "sections": [
           {
@@ -8804,9 +8668,7 @@
     "children": [
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ratk",
@@ -8842,9 +8704,7 @@
       },
       {
         "name": "Trinketeer's Fortune",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "gauntlet",
@@ -8861,9 +8721,7 @@
       },
       {
         "name": "Dodge Enhancer: Slide",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8880,9 +8738,7 @@
       },
       {
         "name": "Slayer",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8899,9 +8755,7 @@
       },
       {
         "name": "Ranged Roulette",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8918,9 +8772,7 @@
       },
       {
         "name": "Perseverance C",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8937,9 +8789,7 @@
       },
       {
         "name": "Ballasting Off",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8956,9 +8806,7 @@
       },
       {
         "name": "MP Surge: Explosives",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8975,9 +8823,7 @@
       },
       {
         "name": "Mana Flare",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -8994,9 +8840,7 @@
       },
       {
         "name": "Fast Pillar",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -9013,9 +8857,7 @@
       },
       {
         "name": "Bag Expander",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "bag",
@@ -9032,9 +8874,7 @@
       },
       {
         "name": "Lemon Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "ep",
@@ -9051,9 +8891,7 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "hp",
@@ -9070,9 +8908,7 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "matk",
@@ -9089,9 +8925,7 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "mp",
@@ -9109,7 +8943,7 @@
       {
         "name": "Rainbow Bunny Potion",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -9138,7 +8972,7 @@
       {
         "name": "Cherry Bunny Potion",
         "access_rules": [
-          "$hasbombRange3 , bombs , slide, bombThrow , bombs , slide"
+          "$hasAmount|bombRange|3 , bombs , slide, bombThrow , bombs , slide"
         ],
         "sections": [
           {
@@ -9782,7 +9616,7 @@
       {
         "name": "Crystal Mirror",
         "access_rules": [
-          "$hasbombRange3 , bombs , powder"
+          "$hasAmount|bombRange|3 , bombs , powder"
         ],
         "sections": [
           {
@@ -9801,7 +9635,7 @@
       {
         "name": "Sigil Quicken",
         "access_rules": [
-          "airJump , $hasjetpack2 , ItemUse , bombs",
+          "airJump , $hasAmount|jetpack|2 , ItemUse , bombs",
           "airJump , jetpack , wallJump , airDash , bombs",
           "airJump , jetpack , wallJump , highJump , ItemUse , bombs"
         ],
@@ -9824,7 +9658,7 @@
         "access_rules": [
           "jetpack , airJump",
           "airJump , airDash",
-          "$hasjetpack2 , airDash",
+          "$hasAmount|jetpack|2 , airDash",
           "jetpack , airDash , highJump"
         ],
         "sections": [
@@ -10166,7 +10000,7 @@
       {
         "name": "Lemon Bunny Potion",
         "access_rules": [
-          "$hasjetpack3 , airDash , vortex , slide",
+          "$hasAmount|jetpack|3 , airDash , vortex , slide",
           "jetpack , airDash , airJump , vortex , slide"
         ],
         "sections": [
@@ -10262,9 +10096,9 @@
       {
         "name": "Grape Bunny Potion",
         "access_rules": [
-          "$hasbombRange3 , bombs , powder , slide , airJump",
-          "$hasbombRange3 , bombs , powder , slide , jetpack",
-          "$hasbombRange3 , bombs , powder , slide , wallJump"
+          "$hasAmount|bombRange|3 , bombs , powder , slide , airJump",
+          "$hasAmount|bombRange|3 , bombs , powder , slide , jetpack",
+          "$hasAmount|bombRange|3 , bombs , powder , slide , wallJump"
         ],
         "sections": [
           {
@@ -10336,9 +10170,7 @@
     "children": [
       {
         "name": "Bombard",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -10355,9 +10187,7 @@
       },
       {
         "name": "Magic Mixer",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -10374,9 +10204,7 @@
       },
       {
         "name": "Inhale Dessert",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -10393,9 +10221,7 @@
       },
       {
         "name": "Shell Shock",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "badge",
@@ -10412,9 +10238,7 @@
       },
       {
         "name": "Kitty Paw Charm",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "paw",
@@ -10431,9 +10255,7 @@
       },
       {
         "name": "Rapid Shots Modchip",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "orbRapid",
@@ -10450,9 +10272,7 @@
       },
       {
         "name": "Void Bomb",
-        "access_rules": [
-          "$return"
-        ],
+        "access_rules": [],
         "sections": [
           {
             "name": "voidBomb",
@@ -10470,7 +10290,7 @@
       {
         "name": "Cloud Bomb",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10489,7 +10309,7 @@
       {
         "name": "BB Rabbit",
         "access_rules": [
-          "$return , Chapter 2"
+          "$True , Chapter 2"
         ],
         "sections": [
           {
@@ -10508,7 +10328,7 @@
       {
         "name": "Calico Bomb",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10527,7 +10347,7 @@
       {
         "name": "Tabby Bomb",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -10583,7 +10403,7 @@
       {
         "name": "Sable Type",
         "access_rules": [
-          "$return , ticketHell , orbS3"
+          "$True , ticketHell , orbS3"
         ],
         "sections": [
           {
@@ -10602,7 +10422,7 @@
       {
         "name": "Celia Type",
         "access_rules": [
-          "$return , ticketHeaven , orbC3"
+          "$True , ticketHeaven , orbC3"
         ],
         "sections": [
           {
@@ -10621,7 +10441,7 @@
       {
         "name": "C. Rank Frenzy: Fierce",
         "access_rules": [
-          "$return , Chapter 2"
+          "$True , Chapter 2"
         ],
         "sections": [
           {
@@ -10640,7 +10460,7 @@
       {
         "name": "Full Stop A",
         "access_rules": [
-          "$return , Chapter 2"
+          "$True , Chapter 2"
         ],
         "sections": [
           {
@@ -10659,7 +10479,7 @@
       {
         "name": "Orbital Efficiency B",
         "access_rules": [
-          "$return , Chapter 2"
+          "$True , Chapter 2"
         ],
         "sections": [
           {
@@ -10678,7 +10498,7 @@
       {
         "name": "Style Combo: Upper A",
         "access_rules": [
-          "$return , Chapter 2"
+          "$True , Chapter 2"
         ],
         "sections": [
           {
@@ -10697,7 +10517,7 @@
       {
         "name": "Two",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10716,7 +10536,7 @@
       {
         "name": "MP Quicken: Melee",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10735,7 +10555,7 @@
       {
         "name": "Dextrous",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10754,7 +10574,7 @@
       {
         "name": "Drop Kick",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10773,7 +10593,7 @@
       {
         "name": "Weak Dominance A",
         "access_rules": [
-          "$return , Chapter 3"
+          "$True , Chapter 3"
         ],
         "sections": [
           {
@@ -10792,7 +10612,7 @@
       {
         "name": "Power Drop",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10811,7 +10631,7 @@
       {
         "name": "Magic Cannon",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10830,7 +10650,7 @@
       {
         "name": "Synchronized Support I",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10849,7 +10669,7 @@
       {
         "name": "Health Surge",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10868,7 +10688,7 @@
       {
         "name": "Core Expansion: Full Offense",
         "access_rules": [
-          "$return , Chapter 4"
+          "$True , Chapter 4"
         ],
         "sections": [
           {
@@ -10887,7 +10707,7 @@
       {
         "name": "MP Quicken: Sacrifice",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -10906,7 +10726,7 @@
       {
         "name": "EP Booster: Synthesizer",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -10925,7 +10745,7 @@
       {
         "name": "Style Combo: Afterimage S",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -10944,7 +10764,7 @@
       {
         "name": "Mana Platform",
         "access_rules": [
-          "$return , Chapter 5"
+          "$True , Chapter 5"
         ],
         "sections": [
           {
@@ -10963,7 +10783,7 @@
       {
         "name": "Style Combo: Tornado A",
         "access_rules": [
-          "$return , Chapter 5 , dagger"
+          "$True , Chapter 5 , dagger"
         ],
         "sections": [
           {
@@ -10982,7 +10802,7 @@
       {
         "name": "Daisy Chain",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -11001,7 +10821,7 @@
       {
         "name": "Spanner Bash: Bounce",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -11020,7 +10840,7 @@
       {
         "name": "Full Stop B",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -11039,7 +10859,7 @@
       {
         "name": "Armor Piercer",
         "access_rules": [
-          "$return , Chapter 6"
+          "$True , Chapter 6"
         ],
         "sections": [
           {
@@ -11058,7 +10878,7 @@
       {
         "name": "Supernova",
         "access_rules": [
-          "$return , Chapter 6 , burst"
+          "$True , Chapter 6 , burst"
         ],
         "sections": [
           {
@@ -11077,7 +10897,7 @@
       {
         "name": "EP Booster: MP",
         "access_rules": [
-          "$return , Chapter 7"
+          "$True , Chapter 7"
         ],
         "sections": [
           {
@@ -11096,7 +10916,7 @@
       {
         "name": "The Untamed",
         "access_rules": [
-          "$return , Chapter 7"
+          "$True , Chapter 7"
         ],
         "sections": [
           {
@@ -11115,7 +10935,7 @@
       {
         "name": "Weak Dominance B",
         "access_rules": [
-          "$return , Chapter 7"
+          "$True , Chapter 7"
         ],
         "sections": [
           {
@@ -11134,7 +10954,7 @@
       {
         "name": "Range Break",
         "access_rules": [
-          "$return , Chapter 7"
+          "$True , Chapter 7"
         ],
         "sections": [
           {
@@ -11153,7 +10973,7 @@
       {
         "name": "Go Ballistic",
         "access_rules": [
-          "$return , BADGE_AmuletQuicken"
+          "$True , BADGE_AmuletQuicken"
         ],
         "sections": [
           {
@@ -11772,7 +11592,7 @@
       {
         "name": "Combustible #2",
         "access_rules": [
-          "$hasbombRange2 , $canUpgradeItems , fireElement"
+          "$hasAmount|bombRange|2 , $canUpgradeItems , fireElement"
         ],
         "sections": [
           {
@@ -11981,7 +11801,7 @@
       {
         "name": "Blue Module Type",
         "access_rules": [
-          "$return , $hasrandged3 , $canUpgradeCore"
+          "$True , $hasAmount|randged|3 , $canUpgradeCore"
         ],
         "sections": [
           {
@@ -12000,7 +11820,7 @@
       {
         "name": "Red Module Type",
         "access_rules": [
-          "$return , $hasrandged3 , $canUpgradeCore"
+          "$True , $hasAmount|randged|3 , $canUpgradeCore"
         ],
         "sections": [
           {
@@ -12019,7 +11839,7 @@
       {
         "name": "Core Module Type",
         "access_rules": [
-          "$return , $canUpgradeCore"
+          "$True , $canUpgradeCore"
         ],
         "sections": [
           {
@@ -12139,7 +11959,7 @@
     "name": "Magma Depths Sinner Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Magma Depths,hiddenPaths, powder , vortex , airDash, powder , vortex , airJump, powder , vortex , jetpack, powder , vortex , $hasspeed3",
+      "@Magma Depths,hiddenPaths, powder , vortex , airDash, powder , vortex , airJump, powder , vortex , jetpack, powder , vortex , $hasAmount|speed|3",
       "@Exit Logic/1701"
     ],
     "children": []
@@ -12239,7 +12059,7 @@
     "name": "EverGarden To Valhalla",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden,bombs , hiddenPaths, bombs , jetpack, bombs , airDash, bombs , airJump, bombs , $hasspeed3",
+      "@EverGarden,bombs , hiddenPaths, bombs , jetpack, bombs , airDash, bombs , airJump, bombs , $hasAmount|speed|3",
       "@Exit Logic/2902"
     ],
     "children": []
