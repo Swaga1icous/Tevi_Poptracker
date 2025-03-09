@@ -183,20 +183,21 @@ for k,v in RandomizerAreaList.items():
             if con["Exit"] == "":
                 continue
             logic = setAccessRule([{"Method":con["Method"]}])
-
+            newLogic = []
             for log in logic:
                 if log == "$True":
                     logic[0] = []
                 if con["Exit"].isdigit():
                     if len(logic[0]) > 0:
-                        logic[0] = f"@Exit Logic/{con['Exit']},{logic[0]}"
+                        newLogic += [f"@Exit Logic/{con['Exit']},{log}"]
                     else:
-                        logic[0] = f"@Exit Logic/{con['Exit']}"
+                        newLogic += [f"@Exit Logic/{con['Exit']}"]
                 else:
                     if len(logic[0])> 0:
-                        logic[0] = f"@{area['Name']},{logic[0]}"
+                        newLogic += [f"@{area['Name']},{log}"]
                     else:
-                        logic[0] = f"@{area['Name']}" 
+                        newLogic += [f"@{area['Name']}" ]
+            logic = newLogic
             if con["Exit"].isdigit():
                 if not area["Name"] in regionsIds:
                     regionTemplate = {

@@ -315,15 +315,15 @@
     "name": "Desert Base Main",
     "clear_as_group": false,
     "access_rules": [
-      "@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,$canChargeShot",
-      "jetpack",
-      "airDash",
-      "jetpack",
-      "airJump",
-      "highJump",
-      "bombs , bombThrow",
-      "rabbitJump",
-      "backflip , speed",
+      "@Desert Base Entrance,$canChargeShot",
+      "@Desert Base Entrance,jetpack",
+      "@Desert Base Entrance,airDash",
+      "@Desert Base Entrance,jetpack",
+      "@Desert Base Entrance,airJump",
+      "@Desert Base Entrance,highJump",
+      "@Desert Base Entrance,bombs , bombThrow",
+      "@Desert Base Entrance,rabbitJump",
+      "@Desert Base Entrance,backflip , speed",
       "@Desert Base Entrance,backflip , Hard",
       "@Desert Base Upper Half"
     ],
@@ -407,10 +407,10 @@
       "@Desert Base Main,highJump , airJump , wallJump",
       "@Desert Base Main,jetpack , wallJump",
       "@Desert Base Main,airJump , $hasAmount|wallJump|2",
-      "@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,@Desert Base Entrance,backflip , slide , bombs , dagger",
-      "airJump , slide , bombs , dagger",
-      "jetpack , slide , bombs , dagger",
-      "airDash , slide , bombs , dagger"
+      "@Desert Base Entrance,backflip , slide , bombs , dagger",
+      "@Desert Base Entrance,airJump , slide , bombs , dagger",
+      "@Desert Base Entrance,jetpack , slide , bombs , dagger",
+      "@Desert Base Entrance,airDash , slide , bombs , dagger"
     ],
     "children": [
       {
@@ -542,13 +542,13 @@
     "name": "Thanatara Canyon",
     "clear_as_group": false,
     "access_rules": [
-      "@Exit Logic/0101,@Exit Logic/0101,@Exit Logic/0101,@Exit Logic/0101,@Exit Logic/0101,$canChargeShot",
-      "airJump",
-      "jetpack",
-      "airDash",
-      "wallJump , ceilingKick",
-      "@Thanatara Canyon Lower,@Thanatara Canyon Lower,bombs",
-      "slide",
+      "@Exit Logic/0101,$canChargeShot",
+      "@Exit Logic/0101,airJump",
+      "@Exit Logic/0101,jetpack",
+      "@Exit Logic/0101,airDash",
+      "@Exit Logic/0101,wallJump , ceilingKick",
+      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,slide",
       "@Thanatara Canyon - Heavens Valley West,bombs",
       "@Gurun Desert,bombs",
       "@Gurun Desert,openMorose"
@@ -828,8 +828,8 @@
     "name": "Gurun Desert",
     "clear_as_group": false,
     "access_rules": [
-      "@Thanatara Canyon Lower,@Thanatara Canyon Lower,bombs",
-      "openMorose",
+      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,openMorose",
       "@Exit Logic/0102"
     ],
     "children": [
@@ -1119,10 +1119,10 @@
     "name": "Heavens Valley West",
     "clear_as_group": false,
     "access_rules": [
-      "@Valhalla Breath West,@Valhalla Breath West,@Valhalla Breath West,@Valhalla Breath West,bombs , ceilingKick",
-      "bombs , airJump",
-      "bombs , jetpack",
-      "bombs , airDash",
+      "@Valhalla Breath West,bombs , ceilingKick",
+      "@Valhalla Breath West,bombs , airJump",
+      "@Valhalla Breath West,bombs , jetpack",
+      "@Valhalla Breath West,bombs , airDash",
       "@Exit Logic/2105",
       "@Exit Logic/2100"
     ],
@@ -1213,16 +1213,16 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2101",
-      "@Heavens Valley West,@Heavens Valley West,jetpack , bombThrow",
-      "jetpack , hiddenPaths",
-      "@Heavens Valley West,@Heavens Valley West,airDash , bombThrow",
-      "airDash , hiddenPaths",
-      "@Heavens Valley West,@Heavens Valley West,slide , powder , bombThrow",
-      "slide , powder , hiddenPaths",
-      "@Heavens Valley West,@Heavens Valley West,airJump , bombThrow",
-      "airJump , hiddenPaths",
-      "@Heavens Valley West,@Heavens Valley West,$canChargeShot , bombThrow",
-      "$canChargeShot , hiddenPaths"
+      "@Heavens Valley West,jetpack , bombThrow",
+      "@Heavens Valley West,jetpack , hiddenPaths",
+      "@Heavens Valley West,airDash , bombThrow",
+      "@Heavens Valley West,airDash , hiddenPaths",
+      "@Heavens Valley West,slide , powder , bombThrow",
+      "@Heavens Valley West,slide , powder , hiddenPaths",
+      "@Heavens Valley West,airJump , bombThrow",
+      "@Heavens Valley West,airJump , hiddenPaths",
+      "@Heavens Valley West,$canChargeShot , bombThrow",
+      "@Heavens Valley West,$canChargeShot , hiddenPaths"
     ],
     "children": [
       {
@@ -1811,8 +1811,8 @@
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
-      "@Travoll Industrie East Exit,@Travoll Industrie East Exit,bombs",
-      "slide"
+      "@Travoll Industrie East Exit,bombs",
+      "@Travoll Industrie East Exit,slide"
     ],
     "children": [
       {
@@ -1936,8 +1936,8 @@
     "name": "Travoll Industrie East Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Travoll Industrie,@Travoll Industrie,bombs",
-      "slide",
+      "@Travoll Industrie,bombs",
+      "@Travoll Industrie,slide",
       "@Exit Logic/0605"
     ],
     "children": [
@@ -1969,8 +1969,8 @@
       "@Travoll Mines East Exit,bombs , bombFuel",
       "@Travoll Mines West Exit,bombs , bombFuel",
       "@Exit Logic/0500",
-      "@Travoll Mines Forest Exit,@Travoll Mines Forest Exit,bombs , dagger",
-      "bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines Forest Exit,bombs , dagger",
+      "@Travoll Mines Forest Exit,bombs , EVENT_FreeStrongAttack",
       "@Travoll Mines Swamp Exit"
     ],
     "children": [
@@ -2633,16 +2633,16 @@
     "access_rules": [
       "@Gleamwood Copperwood Exit,bombs",
       "@Gleamwood Relicts Exit,bombRange",
-      "@Gleamwood Bottom,@Gleamwood Bottom,@Gleamwood Bottom,@Gleamwood Bottom,airJump",
-      "bombs",
-      "jetpack",
-      "airDash",
+      "@Gleamwood Bottom,airJump",
+      "@Gleamwood Bottom,bombs",
+      "@Gleamwood Bottom,jetpack",
+      "@Gleamwood Bottom,airDash",
       "@Gleamwood Bottom,EnemyManip",
       "@Gleamwood Ulvosa Exit",
       "@Gleamwood Right",
-      "@Ulskan Village Area,@Ulskan Village Area,@Ulskan Village Area,dagger",
-      "$canUseVenaBomb",
-      "randged"
+      "@Ulskan Village Area,dagger",
+      "@Ulskan Village Area,$canUseVenaBomb",
+      "@Ulskan Village Area,randged"
     ],
     "children": [
       {
@@ -2837,8 +2837,8 @@
     "name": "Gleamwood Ulvosa Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Middle,@Gleamwood Middle,slide , $canChargeShot",
-      "hiddenPaths , $canChargeShot",
+      "@Gleamwood Middle,slide , $canChargeShot",
+      "@Gleamwood Middle,hiddenPaths , $canChargeShot",
       "@Exit Logic/0902"
     ],
     "children": [
@@ -2865,15 +2865,15 @@
     "name": "Gleamwood Right",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Blush Exit,@Gleamwood Blush Exit,@Gleamwood Blush Exit,@Gleamwood Blush Exit,@Gleamwood Blush Exit,highJump",
-      "airJump",
-      "airDash",
-      "jetpack",
-      "rabbitJump",
-      "@Gleamwood Middle,@Gleamwood Middle,@Gleamwood Middle,@Gleamwood Middle,airJump",
-      "airDash",
-      "jetpack",
-      "rabbitJump"
+      "@Gleamwood Blush Exit,highJump",
+      "@Gleamwood Blush Exit,airJump",
+      "@Gleamwood Blush Exit,airDash",
+      "@Gleamwood Blush Exit,jetpack",
+      "@Gleamwood Blush Exit,rabbitJump",
+      "@Gleamwood Middle,airJump",
+      "@Gleamwood Middle,airDash",
+      "@Gleamwood Middle,jetpack",
+      "@Gleamwood Middle,rabbitJump"
     ],
     "children": [
       {
@@ -3360,8 +3360,8 @@
     "name": "Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Ulvosa Exit,@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
-      "bombs , $canChargeShot , slide"
+      "@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
+      "@Ulvosa Exit,bombs , $canChargeShot , slide"
     ],
     "children": [
       {
@@ -3592,8 +3592,8 @@
     "name": "CopperWood",
     "clear_as_group": false,
     "access_rules": [
-      "@CopperWood Industry Exit,@CopperWood Industry Exit,bombs",
-      "slide",
+      "@CopperWood Industry Exit,bombs",
+      "@CopperWood Industry Exit,slide",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
@@ -3683,8 +3683,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry Exit,bombs",
-      "@CopperWood,@CopperWood,airJump",
-      "jetpack"
+      "@CopperWood,airJump",
+      "@CopperWood,jetpack"
     ],
     "children": [
       {
@@ -4623,9 +4623,9 @@
       "@Magma Pits Entrance,bombs",
       "@Magma Pits,bombs",
       "@Swamp Entrance,slide",
-      "@Swamp,@Swamp,@Swamp,airDash",
-      "randged",
-      "dagger"
+      "@Swamp,airDash",
+      "@Swamp,randged",
+      "@Swamp,dagger"
     ],
     "children": [
       {
@@ -4713,14 +4713,14 @@
       "@Pre Swamp,randged",
       "@Pre Swamp,airDash",
       "@Pre Swamp,bombs , bombThrow",
-      "@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2",
-      "slide , hiddenPaths , jetpack , airJump",
-      "slide , hiddenPaths , jetpack , airDash",
-      "slide , hiddenPaths , airDash , airJump",
-      "slide , bombs , $hasAmount|jetpack|2",
-      "slide , bombs , jetpack , airJump",
-      "slide , bombs , jetpack , airDash",
-      "slide , bombs , airDash , airJump"
+      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airJump",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airDash",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , airDash , airJump",
+      "@Swamp Tartarus Exit,slide , bombs , $hasAmount|jetpack|2",
+      "@Swamp Tartarus Exit,slide , bombs , jetpack , airJump",
+      "@Swamp Tartarus Exit,slide , bombs , jetpack , airDash",
+      "@Swamp Tartarus Exit,slide , bombs , airDash , airJump"
     ],
     "children": [
       {
@@ -4877,8 +4877,8 @@
       "@Morose City,EVENT_AnathemaVisited , ticketHell",
       "@Ana Thema,EVENT_MoroseVisited , ticketHell",
       "@Exit Logic/1502",
-      "@Tartarus Catacombs,@Tartarus Catacombs,slide",
-      "bombs"
+      "@Tartarus Catacombs,slide",
+      "@Tartarus Catacombs,bombs"
     ],
     "children": [
       {
@@ -5158,14 +5158,14 @@
     "name": "Catacombs Main",
     "clear_as_group": false,
     "access_rules": [
-      "@Catacombs Entrance,@Catacombs Entrance,slide , airJump",
-      "slide , jetpack",
-      "@Pre Lab,@Pre Lab,@Pre Lab,@Pre Lab,@Pre Lab,@Pre Lab,bombs , slide , jetpack",
-      "bombs , slide , airDash",
-      "bombs , slide , airJump",
-      "dagger , slide , jetpack",
-      "dagger , slide , airDash",
-      "dagger , slide , airJump"
+      "@Catacombs Entrance,slide , airJump",
+      "@Catacombs Entrance,slide , jetpack",
+      "@Pre Lab,bombs , slide , jetpack",
+      "@Pre Lab,bombs , slide , airDash",
+      "@Pre Lab,bombs , slide , airJump",
+      "@Pre Lab,dagger , slide , jetpack",
+      "@Pre Lab,dagger , slide , airDash",
+      "@Pre Lab,dagger , slide , airJump"
     ],
     "children": [
       {
@@ -5253,8 +5253,8 @@
     "name": "Pre Lab",
     "clear_as_group": false,
     "access_rules": [
-      "@Catacombs Main,@Catacombs Main,bombs , slide , airJump",
-      "bombs , slide , jetpack"
+      "@Catacombs Main,bombs , slide , airJump",
+      "@Catacombs Main,bombs , slide , jetpack"
     ],
     "children": [
       {
@@ -5407,10 +5407,10 @@
     "name": "Lab",
     "clear_as_group": false,
     "access_rules": [
-      "@Lab Left,@Lab Left,@Lab Left,@Lab Left,bombs , airJump",
-      "bombs , jetpack",
-      "bombs , wallJump , airDash",
-      "bombs , rabbitWallJump",
+      "@Lab Left,bombs , airJump",
+      "@Lab Left,bombs , jetpack",
+      "@Lab Left,bombs , wallJump , airDash",
+      "@Lab Left,bombs , rabbitWallJump",
       "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , bombs"
     ],
     "children": [
@@ -5605,10 +5605,10 @@
     "name": "Lab Left",
     "clear_as_group": false,
     "access_rules": [
-      "@Lab Hub,@Lab Hub,@Lab Hub,@Lab Hub,airJump , slide , bombs",
-      "airDash , wallJump , slide , bombs",
-      "jetpack , slide , bombs",
-      "rabbitWallJump , slide , bombs"
+      "@Lab Hub,airJump , slide , bombs",
+      "@Lab Hub,airDash , wallJump , slide , bombs",
+      "@Lab Hub,jetpack , slide , bombs",
+      "@Lab Hub,rabbitWallJump , slide , bombs"
     ],
     "children": [
       {
@@ -5661,12 +5661,12 @@
     "name": "Verdazure Sea West",
     "clear_as_group": false,
     "access_rules": [
-      "@Exit Logic/1307,@Exit Logic/1307,@Exit Logic/1307,airJump",
-      "jetpack",
-      "ADCKick",
+      "@Exit Logic/1307,airJump",
+      "@Exit Logic/1307,jetpack",
+      "@Exit Logic/1307,ADCKick",
       "@Verdazure Sea East,water",
-      "@Verdazure Sea West Exit,@Verdazure Sea West Exit,bombs",
-      "water"
+      "@Verdazure Sea West Exit,bombs",
+      "@Verdazure Sea West Exit,water"
     ],
     "children": [
       {
@@ -5999,8 +5999,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Blushwood,slide",
-      "@Blushwood,@Blushwood,hiddenPaths , airJump , jetpack",
-      "hiddenPaths , $hasAmount|jetpack|3"
+      "@Blushwood,hiddenPaths , airJump , jetpack",
+      "@Blushwood,hiddenPaths , $hasAmount|jetpack|3"
     ],
     "children": [
       {
@@ -6319,9 +6319,9 @@
     "name": "EverGarden",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden To Valley,@EverGarden To Valley,@EverGarden To Valley,airDash",
-      "airJump",
-      "jetpack",
+      "@EverGarden To Valley,airDash",
+      "@EverGarden To Valley,airJump",
+      "@EverGarden To Valley,jetpack",
       "@EverGarden To Valhalla,bombs",
       "@EverGarden Path to Boss",
       "@EverGarden Boss Area"
@@ -7312,9 +7312,9 @@
     "access_rules": [
       "@Verdazure Ocean Sea Exit,slide",
       "@Exit Logic/1402",
-      "@Verdazure Swamp,@Verdazure Swamp,@Verdazure Swamp,slide , bombs , highJump",
-      "slide , bombs , airJump",
-      "slide , bombs , jetpack",
+      "@Verdazure Swamp,slide , bombs , highJump",
+      "@Verdazure Swamp,slide , bombs , airJump",
+      "@Verdazure Swamp,slide , bombs , jetpack",
       "@Forgotten City Upper Exit,$canChargeShot"
     ],
     "children": [
@@ -7887,9 +7887,9 @@
     "name": "Snowveil Ex",
     "clear_as_group": false,
     "access_rules": [
-      "@Snowveil,@Snowveil,@Snowveil,$canChargeShot , bombs",
-      "airJump , bombs",
-      "jetpack , bombs",
+      "@Snowveil,$canChargeShot , bombs",
+      "@Snowveil,airJump , bombs",
+      "@Snowveil,jetpack , bombs",
       "@Snowveil above Verglas Village,bombs"
     ],
     "children": [
@@ -8195,9 +8195,9 @@
     "clear_as_group": false,
     "access_rules": [
       "@Snow City,bombs , slide",
-      "@Exit Logic/1600,@Exit Logic/1600,@Exit Logic/1600,airJump",
-      "wallJump",
-      "jetpack"
+      "@Exit Logic/1600,airJump",
+      "@Exit Logic/1600,wallJump",
+      "@Exit Logic/1600,jetpack"
     ],
     "children": [
       {
@@ -8578,11 +8578,11 @@
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
-      "@DreamKeeper Outside Left Snow Exit,@DreamKeeper Outside Left Snow Exit,@DreamKeeper Outside Left Snow Exit,@DreamKeeper Outside Left Snow Exit,@DreamKeeper Outside Left Snow Exit,rabbitJump",
-      "airDash",
-      "airJump",
-      "jetpack",
-      "highJump"
+      "@DreamKeeper Outside Left Snow Exit,rabbitJump",
+      "@DreamKeeper Outside Left Snow Exit,airDash",
+      "@DreamKeeper Outside Left Snow Exit,airJump",
+      "@DreamKeeper Outside Left Snow Exit,jetpack",
+      "@DreamKeeper Outside Left Snow Exit,highJump"
     ],
     "children": [
       {
@@ -8645,14 +8645,14 @@
     "name": "DreamKeeper",
     "clear_as_group": false,
     "access_rules": [
-      "@DreamKeeper Outside Right,@DreamKeeper Outside Right,@DreamKeeper Outside Right,@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , EVENT_SnowMechanic 2",
-      "vortex , $canChargeShot , bombs , slide , earlyDream",
-      "vortex , slide , bombs , slide , EVENT_SnowMechanic 2",
-      "vortex , slide , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Left,@DreamKeeper Outside Left,@DreamKeeper Outside Left,@DreamKeeper Outside Left,vortex , $canChargeShot , slide , EVENT_SnowMechanic 2",
-      "vortex , $canChargeShot , slide , earlyDream",
-      "vortex , slide , slide , EVENT_SnowMechanic 2",
-      "vortex , slide , slide , earlyDream"
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , earlyDream",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , earlyDream",
+      "@DreamKeeper Outside Left,vortex , slide , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Left,vortex , slide , slide , earlyDream"
     ],
     "children": [
       {
@@ -9184,10 +9184,10 @@
     "name": "Sinner's Oath",
     "clear_as_group": false,
     "access_rules": [
-      "@Sinner's Oath Entrance,@Sinner's Oath Entrance,@Sinner's Oath Entrance,@Sinner's Oath Entrance,$canChargeShot , bombs , hiddenPaths",
-      "$canChargeShot , bombs , slide , vortex , airDash",
-      "$canChargeShot , bombs , slide , vortex , jetpack",
-      "$canChargeShot , bombs , slide , vortex , airJump"
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , hiddenPaths",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airDash",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , jetpack",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airJump"
     ],
     "children": [
       {
@@ -9371,8 +9371,8 @@
     "name": "Illusion Palace",
     "clear_as_group": false,
     "access_rules": [
-      "@Illusion Palace Entrance,@Illusion Palace Entrance,Goal , $canChargeShot",
-      "Goal , hiddenPaths"
+      "@Illusion Palace Entrance,Goal , $canChargeShot",
+      "@Illusion Palace Entrance,Goal , hiddenPaths"
     ],
     "children": [
       {
@@ -11107,8 +11107,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1403",
-      "@Forgotten City,@Forgotten City,bombs , slide",
-      "bombs , water"
+      "@Forgotten City,bombs , slide",
+      "@Forgotten City,bombs , water"
     ],
     "children": []
   },
@@ -11116,8 +11116,8 @@
     "name": "Tartarus Catacombs",
     "clear_as_group": false,
     "access_rules": [
-      "@Tartarus,@Tartarus,slide",
-      "bombs",
+      "@Tartarus,slide",
+      "@Tartarus,bombs",
       "@Exit Logic/1503"
     ],
     "children": []
@@ -11135,11 +11135,11 @@
     "name": "Magma Depths Sinner Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Magma Depths,@Magma Depths,@Magma Depths,@Magma Depths,@Magma Depths,hiddenPaths",
-      "powder , vortex , airDash",
-      "powder , vortex , airJump",
-      "powder , vortex , jetpack",
-      "powder , vortex , $hasAmount|speed|3",
+      "@Magma Depths,hiddenPaths",
+      "@Magma Depths,powder , vortex , airDash",
+      "@Magma Depths,powder , vortex , airJump",
+      "@Magma Depths,powder , vortex , jetpack",
+      "@Magma Depths,powder , vortex , $hasAmount|speed|3",
       "@Exit Logic/1701"
     ],
     "children": []
@@ -11157,8 +11157,8 @@
     "name": "Swamp Tartarus Exit",
     "clear_as_group": false,
     "access_rules": [
-      "@Swamp,@Swamp,hiddenPaths",
-      "bombThrow",
+      "@Swamp,hiddenPaths",
+      "@Swamp,bombThrow",
       "@Exit Logic/1702"
     ],
     "children": []
@@ -11204,10 +11204,10 @@
     "clear_as_group": false,
     "access_rules": [
       "@Pre Lab,bombs",
-      "@Lab Hub,@Lab Hub,@Lab Hub,@Lab Hub,airJump",
-      "airDash , wallJump",
-      "jetpack",
-      "rabbitWallJump"
+      "@Lab Hub,airJump",
+      "@Lab Hub,airDash , wallJump",
+      "@Lab Hub,jetpack",
+      "@Lab Hub,rabbitWallJump"
     ],
     "children": []
   },
@@ -11234,9 +11234,9 @@
     "name": "EverGarden To Valley",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden,@EverGarden,@EverGarden,airJump",
-      "jetpack",
-      "airDash",
+      "@EverGarden,airJump",
+      "@EverGarden,jetpack",
+      "@EverGarden,airDash",
       "@Exit Logic/2900"
     ],
     "children": []
@@ -11245,11 +11245,11 @@
     "name": "EverGarden To Valhalla",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden,@EverGarden,@EverGarden,@EverGarden,@EverGarden,bombs , hiddenPaths",
-      "bombs , jetpack",
-      "bombs , airDash",
-      "bombs , airJump",
-      "bombs , $hasAmount|speed|3",
+      "@EverGarden,bombs , hiddenPaths",
+      "@EverGarden,bombs , jetpack",
+      "@EverGarden,bombs , airDash",
+      "@EverGarden,bombs , airJump",
+      "@EverGarden,bombs , $hasAmount|speed|3",
       "@Exit Logic/2902"
     ],
     "children": []
