@@ -132,10 +132,8 @@ for val in RandomizerLocationList:
     itemName = ""
     if val["Itemname"] in TeviRuleToPoptacker:
         itemName = TeviRuleToPoptacker[val["Itemname"]]
-    elif "BADGE" in val["Itemname"]:
-        itemName = "badge"
     else:
-        itemName = "other"
+        itemName = val["Itemname"]
     locTemplate = {
         "name": locName,
         "access_rules": setAccessRule(val["Requirement"]),
@@ -154,12 +152,28 @@ for val in RandomizerLocationList:
       }
     if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
         locTemplate["access_rules"] = []
+
+    if "Shop" in val["LocationName"]:
+        locName = val["LocationName"].split("-")[0][:-1]
+        locTemplate["name"] = locName
+        
+
+
     found = False
 
     for location in PoptrackerList[regionsIds[val["Location"]]]["children"]:
         if location["name"] == locName:
-            found = True
             location["access_rules"] = locTemplate["access_rules"]
+            for section in location["sections"]:
+                if section["name"] == itemName:
+                    found = True
+                    break
+            if not found:
+                location["sections"] += [{
+                    "name": itemName,
+                    "item_count": 1
+                    }]
+            found = True
             if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
                 locTemplate["access_rules"] = []
     if not found:
