@@ -15,4 +15,4 @@ PopTracker v0.23.0 or higher is recommended.
 
 No maps are current done logic wise.
 See Ana Thema for logic examples.
-Feel free to submit a PR for maps.
+Feel free to submit a PR for maps. Please comment your discord name at the top of the file so I can credit you for that map (also so I know who to find for issues XP)
