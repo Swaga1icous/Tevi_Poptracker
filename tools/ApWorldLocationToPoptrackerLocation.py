@@ -130,16 +130,16 @@ for val in RandomizerLocationList:
         PoptrackerList.append(regionTemplate)
 
     locName = val["LocationName"].split("-")[1][1:]
-    itemName = val["LocationName"].split("-")[1][1:]
+    itemName = val["LocationName"]
 
     locTemplate = {
         "name": locName,
-        "access_rules": setAccessRule(val["Requirement"]),
+        "access_rules": [],
         "sections": [{
-            "name": itemName,
-            "item_count": 1
-          }
-        ],
+                    "name": itemName,
+                    "item_count": 1,
+                    "access_rules":setAccessRule(val["Requirement"])
+                    }],
         "map_locations": [
           {
             "map": setMapName(val["Location"]),
@@ -153,6 +153,7 @@ for val in RandomizerLocationList:
 
     if "Shop" in val["LocationName"]:
         locName = val["LocationName"].split("-")[0][:-1]
+        locName = locName[:locName.find("Shop")+4]
         locTemplate["name"] = locName
         
 
@@ -169,7 +170,8 @@ for val in RandomizerLocationList:
             if not found:
                 location["sections"] += [{
                     "name": itemName,
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules":setAccessRule(val["Requirement"])
                     }]
             found = True
             if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":

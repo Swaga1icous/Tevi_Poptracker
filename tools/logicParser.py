@@ -5,7 +5,7 @@ TeviRuleToPoptacker = {
     "ITEM_KNIFE":"dagger",
     "I20" : "sable",
     "I19" : "celia",
-    "ITEM_ORB": "randged",
+    "ITEM_ORB": "ranged",
     "ITEM_LINEBOMB": "bombs",
     "ITEM_AREABOMB":"bombThrow",
     "ITEM_BOMBFUEL":"bombFuel",
@@ -81,7 +81,7 @@ TeviRuleToPoptacker = {
     "VenaBomb":"$canUseVenaBomb",
     "Upgrade" : "$canUpgradeItems",
     "OpenMorose":"openMorose",
-    "SpinnerBash":"[$hasAmoun|dagger|1],false",
+    "SpinnerBash":"[$hasAmount|dagger|1],false",
     "LibraryExtra":"[SuperBoss]"
 }
 
