@@ -8,7 +8,7 @@ function hasAmount (code, count)
     if (item == nil) then
         return 0
     end
-    if (item.AcquiredCount >= count) then
+    if (item.AcquiredCount >= tonumber(count)) then
         return 1
     end
     return 0
