@@ -96,22 +96,29 @@ TeviRuleToPoptacker = {
     "EVENT_EliteChallangeF":"^$EVENT_EliteChallangeF",
     "EVENT_Memloch":"^$EVENT_Memloch",
     "EVENT_FreeStrongAttack":"^$EVENT_FreeStrongAttack",
-    "Boss":"$True",
+    "EVENT_Memine":"^$EVENT_Memine",
+    "EVENT_Memine0":"^$EVENT_Memine0",
+    "EVENT_Memine1":"^$EVENT_Memine1",
+    "EVENT_Memine2":"^$EVENT_Memine2",
+    "EVENT_Memine3":"^$EVENT_Memine3",
+    "EVENT_Memine4":"^$EVENT_Memine4",
+    "EVENT_Memine5":"^$EVENT_Memine5",
+    "RainbowCheck":"^$RainbowCheck",
+    "ItemUse":"[$true]",
+    "EVENT_SnowMechanic":"^$EVENT_SnowMechanic",
+    
     "Everything that is by default false": "false",
-    "RainbowCheck":"false",
     "Memine":"false",
     "AllMemine":"false",
-    "EVENT_SnowMechanic":"false",
     "Explorer":"false",
     "Goal":"false",
-    "Chapter":"false",
+    "Chapter":"$SomethingWrong",
     "BounceKick":"false",
     "ADCKick":"false",
     "BarrierSkip":"false",
     "WindSkip":"false",
     "EnemyManip":"false",
-    "Hard":"false",
-    "ItemUse":"false"
+    "Hard":"false"
 }
 
 
@@ -178,6 +185,10 @@ class OpLit:
         if len(itemstack)>1 and itemstack[0] in TeviRuleToPoptacker:
             if TeviRuleToPoptacker[itemstack[0]] == "True":
                 return "$True"
+            elif itemstack[0] == "EVENT_Memine":
+                return TeviRuleToPoptacker[itemstack[0]]
+            elif itemstack[0] == "Chapter":
+                return f"$Chapter|{itemstack[1]}"
             elif not '$' in TeviRuleToPoptacker[itemstack[0]]:
                 return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|{itemstack[1]}"
             else:

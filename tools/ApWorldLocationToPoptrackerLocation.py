@@ -13,11 +13,11 @@ regionLocations = {}
 currentRegionId = 0
 PoptrackerList = []
 
-if os.path.isfile(Path+"\\locations.jsonc"):
-    PoptrackerList = json.load(open(Path+"\\locations.jsonc"))
-    for val in PoptrackerList:
-        regionsIds[val["name"]] = currentRegionId
-        currentRegionId += 1
+#if os.path.isfile(Path+"\\locations.jsonc"):
+#    PoptrackerList = json.load(open(Path+"\\locations.jsonc"))
+#    for val in PoptrackerList:
+#        regionsIds[val["name"]] = currentRegionId
+#        currentRegionId += 1
 
 RandomizerLocationList = json.load(open(Path+"\\Location.json"))
 RandomizerAreaList = json.load(open(Path+"\\Area.json"))

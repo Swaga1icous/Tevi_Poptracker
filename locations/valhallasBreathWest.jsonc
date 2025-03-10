@@ -370,26 +370,6 @@
             "y": 94
           }
         ]
-      },
-      {
-        "name": "Rainbow Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Memine Valhalla Breath West Extended - Rainbow Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 0,
-            "y": 0
-          }
-        ]
       }
     ]
   }

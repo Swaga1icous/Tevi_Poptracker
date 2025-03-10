@@ -387,11 +387,11 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion #2",
+        "name": "EVENT_Memine5",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Ana Thema - Rainbow Bunny Potion #2",
+            "name": "Ana Thema - Memine Race",
             "item_count": 1,
             "access_rules": [
               "airJump , bombs , dagger , airDash , slide , jetpack , Memine"

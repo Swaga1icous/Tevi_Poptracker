@@ -170,6 +170,26 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Oasis - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oasis",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -251,6 +271,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -321,6 +344,26 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "MP Surge: Tag Out",
         "access_rules": [],
         "sections": [
@@ -341,6 +384,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -803,7 +849,7 @@
             "name": "Memine Completion - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "false"
+              "^$EVENT_Memine"
             ]
           }
         ],
@@ -1087,6 +1133,26 @@
         "sections": [
           {
             "name": "Solennian Ruins - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Boss",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -1594,26 +1660,6 @@
             "y": 0
           }
         ]
-      },
-      {
-        "name": "Rainbow Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Memine Valhalla Breath West Extended - Rainbow Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 0,
-            "y": 0
-          }
-        ]
       }
     ]
   },
@@ -1674,6 +1720,26 @@
         "sections": [
           {
             "name": "Morose City - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Morose City - Boss",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -1883,7 +1949,7 @@
             "name": "Morose City Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -1910,28 +1976,28 @@
             "name": "Morose City Waffle Shop Chap 3 - Toasted Meringue Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           },
           {
             "name": "Morose City Waffle Shop Chap 4  - Good Morning Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           },
           {
             "name": "Morose City Waffle Shop Chap 5  - Berry Pink Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           },
           {
             "name": "Morose City Waffle Shop Chap 6 - Blueberry Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           },
           {
@@ -2183,7 +2249,27 @@
             "name": "Travoll Mines - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel , $True"
+              "$canChargeShot , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel"
             ]
           }
         ],
@@ -2505,14 +2591,17 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "EVENT_Memine2",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Forest - Rainbow Bunny Potion",
+            "name": "Forest - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
+              "airJump",
+              "jetpack",
+              "highJump",
+              "wallJump"
             ]
           }
         ],
@@ -2621,7 +2710,30 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -2845,14 +2957,14 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "EVENT_Memine0",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Gleamwood - Rainbow Bunny Potion",
+            "name": "Gleamwood - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
+              "$True"
             ]
           }
         ],
@@ -2997,6 +3109,13 @@
               "jetpack , bombs",
               "airDash , bombs"
             ]
+          },
+          {
+            "name": "Memine Gleamwood - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine0"
+            ]
           }
         ],
         "map_locations": [
@@ -3039,6 +3158,26 @@
             "item_count": 1,
             "access_rules": [
               "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Memine Gleamwood - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine0"
             ]
           }
         ],
@@ -3525,7 +3664,27 @@
             "name": "Plague Forest - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayMask , $True"
+              "decayMask"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Plague Forest - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "decayMask"
             ]
           }
         ],
@@ -3597,6 +3756,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -3868,6 +4030,26 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "Soul Burst Module",
         "access_rules": [],
         "sections": [
@@ -3909,6 +4091,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -4067,6 +4252,56 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "Memine Race from Forest",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Memine Race from Forest",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine2 , bombs , wallJump , highJump",
+              "^$EVENT_Memine2 , bombs , wallJump , airDash",
+              "^$EVENT_Memine2 , bombs , wallJump , airJump",
+              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
+              "^$EVENT_Memine2 , bombs , jetpack , airJump",
+              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Memine Race from Forest",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine2 , bombs , wallJump , highJump",
+              "^$EVENT_Memine2 , bombs , wallJump , airDash",
+              "^$EVENT_Memine2 , bombs , wallJump , airJump",
+              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
+              "^$EVENT_Memine2 , bombs , jetpack , airJump",
+              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ]
   },
@@ -4168,6 +4403,26 @@
         "sections": [
           {
             "name": "Relicts - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Boss",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -4308,7 +4563,7 @@
             "name": "Ana Thema - GemaYue",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , $hasAmount|false|4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -4328,7 +4583,7 @@
             "name": "Ana Thema - EinLee",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , $hasAmount|false|4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -4348,7 +4603,7 @@
             "name": "Ana Thema - Waero",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , $hasAmount|false|4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -4602,7 +4857,7 @@
             "name": "Ana Thema Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -4615,14 +4870,14 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion #2",
+        "name": "EVENT_Memine5",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Ana Thema - Rainbow Bunny Potion #2",
+            "name": "Ana Thema - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
+              "$Chapter|5"
             ]
           }
         ],
@@ -5612,7 +5867,7 @@
             "name": "Tartarus Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -5625,14 +5880,14 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "EVENT_Memine3",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Tartarus - Rainbow Bunny Potion",
+            "name": "Tartarus - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
+              "$True"
             ]
           }
         ],
@@ -5910,7 +6165,30 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Catacombs Inner - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Catacombs + Omphalos Laboratory",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6051,6 +6329,26 @@
         "sections": [
           {
             "name": "Lab - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Catacombs + Omphalos Laboratory",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lab - Boss",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -6630,12 +6928,27 @@
               "slide , bombs , rabbitWallJump",
               "slide , bombs , airDash , wallJump"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Memine Blushwood Sliding - Rainbow Bunny Potion",
+            "map": "Blushwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood Sliding - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , false"
+              "slide , bombs , $hasAmount|jetpack|3",
+              "slide , bombs , airJump , $hasAmount|speed|3",
+              "slide , bombs , airJump , jetpack"
             ]
           }
         ],
@@ -6937,7 +7250,47 @@
             "name": "Valhalla City Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Memine Race From Tartarus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
             ]
           }
         ],
@@ -7154,6 +7507,46 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "Memine Race From Valhallas Breath East",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ]
   },
@@ -7173,6 +7566,26 @@
         "sections": [
           {
             "name": "EverGarden Boss Area - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Boss",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -7248,6 +7661,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -7521,6 +7937,26 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cloister Boss - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "MP Reset B",
         "access_rules": [],
         "sections": [
@@ -7565,6 +8001,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -7731,7 +8170,27 @@
             "name": "Gallery of Mirrors East - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "bombRange , decayAntidote , $True"
+              "bombRange , decayAntidote"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , decayAntidote"
             ]
           }
         ],
@@ -7955,8 +8414,29 @@
             "name": "Gallery of Souls Boss Area - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayAntidote , $True",
-              "alembicCrystal , $True"
+              "decayAntidote",
+              "alembicCrystal"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls Boss Area - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "decayAntidote",
+              "alembicCrystal"
             ]
           }
         ],
@@ -7968,6 +8448,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -8106,6 +8589,46 @@
             "item_count": 1,
             "access_rules": [
               "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2 , slide , bombRange , bombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Memine Race From Blushwood",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Verdazure Ocean - Memine Race From Blushwood",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Verdazure Ocean - Memine Race From Blushwood",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine1"
             ]
           }
         ],
@@ -8463,10 +8986,33 @@
             "name": "Forgotten City - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $True",
-              "airJump , $hasAmount|bombRange|3 , bombs , $True",
-              "wallJump , $hasAmount|bombRange|3 , bombs , $True",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , $True"
+              "$canChargeShot",
+              "airJump , $hasAmount|bombRange|3 , bombs",
+              "wallJump , $hasAmount|bombRange|3 , bombs",
+              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forgotten City - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot",
+              "airJump , $hasAmount|bombRange|3 , bombs",
+              "wallJump , $hasAmount|bombRange|3 , bombs",
+              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
             ]
           }
         ],
@@ -8520,7 +9066,56 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "Memine Race From Ana Thema",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forgotten City - Memine Race From Ana Thema",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , ^$EVENT_Memine5",
+              "airJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
+              "wallJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
+              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forgotten City - Memine Race From Ana Thema",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , ^$EVENT_Memine5",
+              "airJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
+              "wallJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
+              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -8660,6 +9255,26 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "Life Steal",
         "access_rules": [],
         "sections": [
@@ -8765,6 +9380,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -8774,7 +9392,7 @@
       "@Snowveil Ex,slide",
       "@Snowveil Ex,jetpack , airJump",
       "@Snowveil Ex,jetpack , highJump , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,airJump , highJump , false",
+      "@Snowveil Ex,airJump , highJump , [$true]",
       "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
       "@Exit Logic/1205"
     ],
@@ -8966,7 +9584,7 @@
             "name": "Snow City Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -9317,10 +9935,33 @@
             "name": "Golden Hands HQ Sewer - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "wallJump , $True",
-              "airJump , $True",
-              "jetpack , $True",
-              "bombs , $canChargeShot , slide , $True"
+              "wallJump",
+              "airJump",
+              "jetpack",
+              "bombs , $canChargeShot , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Golden Hands HQ Sewer - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "wallJump",
+              "airJump",
+              "jetpack",
+              "bombs , $canChargeShot , slide"
             ]
           }
         ],
@@ -9332,6 +9973,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9467,13 +10111,13 @@
     "name": "DreamKeeper",
     "clear_as_group": false,
     "access_rules": [
-      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , $hasAmount|false|2",
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , $hasAmount|false|2",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , slide , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , $hasAmount|false|2",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , slide , slide , $hasAmount|false|2",
+      "@DreamKeeper Outside Left,vortex , slide , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Left,vortex , slide , slide , earlyDream"
     ],
     "children": [
@@ -9506,6 +10150,33 @@
         "sections": [
           {
             "name": "DreamKeeper - Astral Gear #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Boss Alius",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "DreamKeeper - Boss Charon",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -9680,6 +10351,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9720,9 +10394,9 @@
             "name": "Dreamless Depths 2 - Sigil Quicken",
             "item_count": 1,
             "access_rules": [
-              "airJump , $hasAmount|jetpack|2 , false , bombs",
+              "airJump , $hasAmount|jetpack|2 , [$true] , bombs",
               "airJump , jetpack , wallJump , airDash , bombs",
-              "airJump , jetpack , wallJump , highJump , false , bombs"
+              "airJump , jetpack , wallJump , highJump , [$true] , bombs"
             ]
           }
         ],
@@ -10037,6 +10711,29 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "EVENT_Memine4",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $hasAmount|wallJump|2 , airJump",
+              "slide , wallJump , jetpack , airJump",
+              "slide , wallJump , airDash , airJump",
+              "slide , wallJump , airDash , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ],
     "visibillity_rules": [
@@ -10186,6 +10883,26 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Illusion Palace Entrance - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ]
   },
@@ -10238,6 +10955,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -10356,28 +11076,28 @@
             "name": "Vena Shop Chap 4 - Cloud Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           },
           {
             "name": "Vena Shop Chap 2 - BB Rabbit",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|2"
+              "$True , $Chapter|2"
             ]
           },
           {
             "name": "Vena Shop Chap 3 - Calico Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           },
           {
             "name": "Vena Shop Chap 5 - Tabby Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           }
         ],
@@ -10406,7 +11126,7 @@
             "name": "Memine All - Electric Wind",
             "item_count": 1,
             "access_rules": [
-              "false"
+              "^$EVENT_Memine"
             ]
           }
         ],
@@ -10418,6 +11138,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -10435,7 +11158,7 @@
             "name": "Crafting Chap 1 - Sable Type A: Voracious",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|1"
+              "$True , $Chapter|1"
             ]
           }
         ],
@@ -10575,7 +11298,7 @@
             "name": "Crafting Chap 1 - Celia Type A: Stunning",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|1"
+              "$True , $Chapter|1"
             ]
           }
         ],
@@ -10715,7 +11438,7 @@
             "name": "Crafting Chap 2 - C. Rank Frenzy: Fierce",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|2"
+              "$True , $Chapter|2"
             ]
           }
         ],
@@ -10735,7 +11458,7 @@
             "name": "Crafting Chap 2 - Full Stop A",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|2"
+              "$True , $Chapter|2"
             ]
           }
         ],
@@ -10755,7 +11478,7 @@
             "name": "Crafting Chap 2 - Orbital Efficiency B",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|2"
+              "$True , $Chapter|2"
             ]
           }
         ],
@@ -10775,7 +11498,7 @@
             "name": "Crafting Chap 2 - Style Combo: Upper A",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|2"
+              "$True , $Chapter|2"
             ]
           }
         ],
@@ -10795,7 +11518,7 @@
             "name": "Crafting Chap 3 - Two pronged Shot",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           }
         ],
@@ -10815,7 +11538,7 @@
             "name": "Crafting Chap 3 - MP Quicken: Melee",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           }
         ],
@@ -10835,7 +11558,7 @@
             "name": "Crafting Chap 3 - Dextrous",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           }
         ],
@@ -10855,7 +11578,7 @@
             "name": "Crafting Chap 3 - Drop Kick",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           }
         ],
@@ -10875,7 +11598,7 @@
             "name": "Crafting Chap 3 - Weak Dominance A",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|3"
+              "$True , $Chapter|3"
             ]
           }
         ],
@@ -10895,7 +11618,7 @@
             "name": "Crafting Chap 4 - Power Drop",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           }
         ],
@@ -10915,7 +11638,7 @@
             "name": "Crafting Chap 4 - Magic Cannon",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           }
         ],
@@ -10935,7 +11658,7 @@
             "name": "Crafting Chap 4 - Synchronized Support I",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           }
         ],
@@ -10955,7 +11678,7 @@
             "name": "Crafting Chap 4 - Health Surge",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           }
         ],
@@ -10975,7 +11698,7 @@
             "name": "Crafting Chap 4 - Core Expansion: Full Offense",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|4"
+              "$True , $Chapter|4"
             ]
           }
         ],
@@ -10995,7 +11718,7 @@
             "name": "Crafting Chap 5 - MP Quicken: Sacrifice",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           }
         ],
@@ -11015,7 +11738,7 @@
             "name": "Crafting Chap 5 - EP Booster: Synthesizer",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           }
         ],
@@ -11035,7 +11758,7 @@
             "name": "Crafting Chap 5 - Style Combo: Afterimage S",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           }
         ],
@@ -11055,7 +11778,7 @@
             "name": "Crafting Chap 5 - Mana Platform",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5"
+              "$True , $Chapter|5"
             ]
           }
         ],
@@ -11075,7 +11798,7 @@
             "name": "Crafting Chap 5 - Style Combo: Tornado A",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|5 , dagger"
+              "$True , $Chapter|5 , dagger"
             ]
           }
         ],
@@ -11095,7 +11818,7 @@
             "name": "Crafting Chap 6 - Daisy Chain",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -11115,7 +11838,7 @@
             "name": "Crafting Chap 6 - Spanner Bash: Bounce",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -11135,7 +11858,7 @@
             "name": "Crafting Chap 6 - Full Stop B",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -11155,7 +11878,7 @@
             "name": "Crafting Chap 6 - Armor Piercer",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -11175,7 +11898,7 @@
             "name": "Crafting Chap 6 - Supernova",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|6 , burst"
+              "$True , $Chapter|6 , burst"
             ]
           }
         ],
@@ -11195,7 +11918,7 @@
             "name": "Crafting Chap 7 - EP Booster: MP",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|7"
+              "$True , $Chapter|7"
             ]
           }
         ],
@@ -11215,7 +11938,7 @@
             "name": "Crafting Chap 7 - The Untamed",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|7"
+              "$True , $Chapter|7"
             ]
           }
         ],
@@ -11235,7 +11958,7 @@
             "name": "Crafting Chap 7 - Weak Dominance B",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|7"
+              "$True , $Chapter|7"
             ]
           }
         ],
@@ -11255,7 +11978,7 @@
             "name": "Crafting Chap 7 - Range Break",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|false|7"
+              "$True , $Chapter|7"
             ]
           }
         ],
@@ -11304,7 +12027,7 @@
             "name": "Item Upgrade - Explorer's Compass #1",
             "item_count": 1,
             "access_rules": [
-              "compass , $canUpgradeCore , $canUpgradeItems , false",
+              "compass , $canUpgradeCore , $canUpgradeItems , ^$RainbowCheck",
               "compass , $canUpgradeCore , $canUpgradeItems , false"
             ]
           }
@@ -11325,7 +12048,7 @@
             "name": "Item Upgrade - Explorer's Compass #2",
             "item_count": 1,
             "access_rules": [
-              "compass , $canUpgradeCore , $canUpgradeItems , false",
+              "compass , $canUpgradeCore , $canUpgradeItems , ^$RainbowCheck",
               "compass , $canUpgradeCore , $canUpgradeItems , false"
             ]
           }

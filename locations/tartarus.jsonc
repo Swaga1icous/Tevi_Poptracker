@@ -316,11 +316,11 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "EVENT_Memine3",
         "access_rules": [],
         "sections": [
           {
-            "name": "Rainbow Bunny Potion",
+            "name": "Tartarus - Memine Race",
             "item_count": 1,
             "access_rules": [
               "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
