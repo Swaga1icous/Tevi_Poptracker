@@ -384,6 +384,12 @@
 		"codes": "pillow"
 	},
 	{
+		"name": "Supersonic",
+		"type": "toggle",
+		"img": "images/items/pillow.png",
+		"codes": "superSonic"
+	},
+	{
 		"name": "Kiwi Bunny Potion",
 		"type": "consumable",
 		"max_quantity": 35,

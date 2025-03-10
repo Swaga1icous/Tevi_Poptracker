@@ -58,6 +58,7 @@ TeviRuleToPoptacker = {
     "STACKABLE_RATK":"ratk",
     "STACKABLE_SHARD":"shard",
     "STACKABLE_BAG":"bag",
+    "BADGE_AmuletQuicken":"superSonic",
     "Useable_VenaBombSmall":"voidBomb",
     "Useable_VenaBombBig":"cloudBomb",
     "Useable_VenaBombDispel":"calicoBomb",
@@ -70,7 +71,7 @@ TeviRuleToPoptacker = {
     "EVENT_Dark":"darkElement",
     "BackFlip":"backflip",
     "CKick":"ceilingKick",
-    "HiddenP":"hiddenPaths",
+    "HiddenP":"[hiddenPaths]",
     "RabbitJump":"rabbitJump",
     "RabbitWalljump":"rabbitWallJump",
     "EarlyDream":"earlyDream",
@@ -95,7 +96,22 @@ TeviRuleToPoptacker = {
     "EVENT_EliteChallangeF":"^$EVENT_EliteChallangeF",
     "EVENT_Memloch":"^$EVENT_Memloch",
     "EVENT_FreeStrongAttack":"^$EVENT_FreeStrongAttack",
-    "Boss":"$True"
+    "Boss":"$True",
+    "Everything that is by default false": "false",
+    "RainbowCheck":"false",
+    "Memine":"false",
+    "AllMemine":"false",
+    "EVENT_SnowMechanic":"false",
+    "Explorer":"false",
+    "Goal":"false",
+    "Chapter":"false",
+    "BounceKick":"false",
+    "ADCKick":"false",
+    "BarrierSkip":"false",
+    "WindSkip":"false",
+    "EnemyManip":"false",
+    "Hard":"false",
+    "ItemUse":"false"
 }
 
 

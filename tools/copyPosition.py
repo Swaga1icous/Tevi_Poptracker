@@ -35,9 +35,35 @@ def updateLocation(mapName):
                     if len(regChild["map_locations"]) == 1:
                         regChild["map_locations"][0] = ve["map_locations"][0]
             if not found:
-                print(f"Could not find Location {ve['name']}")
+                print(f"Could not find Location {ve['name']} in Area {v['name']}")
+                a = 1
 
+updateLocation("anaThema")
+updateLocation("blushwood")
+updateLocation("canyonDesert")
+updateLocation("cloister")
+updateLocation("copperwood")
+updateLocation("dreamersKeep")
+updateLocation("evergarden")
+updateLocation("galleryMirrors")
+updateLocation("gloamwood")
+updateLocation("morose")
 updateLocation("oasis")
+updateLocation("plagueForest")
+updateLocation("relicts")
+updateLocation("sinners")
+updateLocation("snowCity")
+updateLocation("snowveilVerglas")
+updateLocation("solennianRuins")
+updateLocation("tartarus")
+updateLocation("travollIndustries")
+updateLocation("travollMines")
+updateLocation("ulvosa")
+updateLocation("valhalla")
+updateLocation("valhallasBreathEast")
+updateLocation("valhallasBreathWest")
+updateLocation("verdawnAndMaze")
+updateLocation("verdazureSea")
 
 
 file = open(Path+"\\AllLocations.jsonc",'w+')
