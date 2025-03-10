@@ -1,7 +1,6 @@
 [
   {
     "name": "Solennian Ruins Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2206"
     ],
@@ -32,7 +31,6 @@
   },
   {
     "name": "Solennian Ruins",
-    "clear_as_group": false,
     "access_rules": [
       "@Solennian Ruins Entrance,bombs"
     ],

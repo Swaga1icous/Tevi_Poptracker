@@ -1,7 +1,6 @@
 [
   {
     "name": "Ulvosa",
-    "clear_as_group": false,
     "access_rules": [
       "@Ulvosa to Gloamwood,bombs , $canChargeShot , [hiddenPaths]",
       "@Ulvosa to Gloamwood,bombs , $canChargeShot , slide"

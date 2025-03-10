@@ -1,7 +1,6 @@
 [
   {
     "name": "Blushwood",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2801",
       "@Exit Logic/2803"
@@ -176,7 +175,6 @@
   },
   {
     "name": "Blushwood Sliding",
-    "clear_as_group": false,
     "access_rules": [
       "@Blushwood,slide",
       "@Blushwood,[hiddenPaths] , airJump , jetpack",

@@ -1,7 +1,6 @@
 [
   {
     "name": "EverGarden",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden To Valley,airDash",
       "@EverGarden To Valley,airJump",
@@ -125,7 +124,6 @@
   },
   {
     "name": "EverGarden Path BossPath",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden,airJump",
       "@EverGarden,jetpack , airDash",
@@ -247,7 +245,6 @@
   },
   {
     "name": "EverGarden Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden Path BossPath,airJump , airDash",
       "@EverGarden Path BossPath,jetpack , airDash",

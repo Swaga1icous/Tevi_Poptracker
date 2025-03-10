@@ -1,7 +1,6 @@
 [
   {
     "name": "Tartarus",
-    "clear_as_group": false,
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
       "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",

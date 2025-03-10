@@ -1,7 +1,6 @@
 [
   {
     "name": "Sinner's Oath",
-    "clear_as_group": false,
     "access_rules": [
       "@Sinner's Oath Entrance,$canChargeShot , bombs , [hiddenPaths]",
       "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airDash",
@@ -97,7 +96,6 @@
   },
   {
     "name": "Illusion Palace Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Sinner's Oath Entrance,bombs , [hiddenPaths]",
       "@Sinner's Oath"
@@ -170,7 +168,6 @@
   },
   {
     "name": "Sinner's Oath Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2301"
     ],
@@ -221,7 +218,6 @@
   },
   {
     "name": "Illusion Palace",
-    "clear_as_group": false,
     "access_rules": [
       "@Illusion Palace Entrance,$False , $canChargeShot",
       "@Illusion Palace Entrance,$False , [hiddenPaths]"

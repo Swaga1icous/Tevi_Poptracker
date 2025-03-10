@@ -1,7 +1,6 @@
 [
   {
     "name": "Ana Thema",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0805",
       "@Ana Thema to Gallery,slide , bombs"
@@ -419,7 +418,6 @@
   },
   {
     "name": "Ana Thema to Gallery",
-    "clear_as_group": false,
     "access_rules": [
       "@Ana Thema,slide , bombs",
       "@Exit Logic/0806"

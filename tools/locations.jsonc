@@ -1,7 +1,6 @@
 [
   {
     "name": "Oasis",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0201"
     ],
@@ -278,7 +277,6 @@
   },
   {
     "name": "Desert Base Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0000"
     ],
@@ -391,7 +389,6 @@
   },
   {
     "name": "Desert Base Main",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Entrance,$canChargeShot",
       "@Desert Base Entrance,jetpack",
@@ -490,7 +487,6 @@
   },
   {
     "name": "Desert Base Upper Half",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Main,highJump , airJump , wallJump",
       "@Desert Base Main,jetpack , wallJump",
@@ -645,7 +641,6 @@
   },
   {
     "name": "Thanatara Canyon",
-    "clear_as_group": false,
     "access_rules": [],
     "children": [
       {
@@ -857,7 +852,6 @@
   },
   {
     "name": "Thanatara Canyon Lower",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon",
       "@Exit Logic/0106",
@@ -949,7 +943,6 @@
   },
   {
     "name": "Gurun Desert",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon Lower,bombs",
       "@Thanatara Canyon Lower,openMorose",
@@ -1040,7 +1033,6 @@
   },
   {
     "name": "Solennian Ruins Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2206"
     ],
@@ -1071,7 +1063,6 @@
   },
   {
     "name": "Solennian Ruins",
-    "clear_as_group": false,
     "access_rules": [
       "@Solennian Ruins Entrance,bombs"
     ],
@@ -1290,7 +1281,6 @@
   },
   {
     "name": "Heavens Valley West",
-    "clear_as_group": false,
     "access_rules": [
       "@Valhalla Breath West,bombs , ceilingKick",
       "@Valhalla Breath West,bombs , airJump",
@@ -1399,7 +1389,6 @@
   },
   {
     "name": "Valhalla Breath West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2101",
       "@Heavens Valley West,jetpack , bombThrow",
@@ -1564,7 +1553,6 @@
   },
   {
     "name": "Valhalla Breath West Extended",
-    "clear_as_group": false,
     "access_rules": [
       "@Valhalla Breath West,airDash",
       "@Valhalla Breath West,airJump",
@@ -1657,7 +1645,6 @@
   },
   {
     "name": "Morose City",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon,openMorose",
       "@Exit Logic/0302",
@@ -2021,7 +2008,6 @@
   },
   {
     "name": "Travoll Industrie",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
@@ -2158,7 +2144,6 @@
   },
   {
     "name": "Travoll Industrie to CopperWood",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Industrie,bombs",
       "@Travoll Industrie,slide",
@@ -2189,7 +2174,6 @@
   },
   {
     "name": "Travoll Mines",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines to Morose City,bombs , bombFuel",
       "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
@@ -2370,7 +2354,6 @@
   },
   {
     "name": "Travoll Mines to Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,slide , bombFuel",
       "@Exit Logic/0503"
@@ -2400,7 +2383,6 @@
   },
   {
     "name": "Travoll Mines to Morose City",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0501",
       "@Travoll Mines to Thanatara Canyon,bombs",
@@ -2431,7 +2413,6 @@
   },
   {
     "name": "Travoll Mines to Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,bombs",
       "@Exit Logic/0509"
@@ -2461,7 +2442,6 @@
   },
   {
     "name": "Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0400",
       "@Exit Logic/0401",
@@ -2621,7 +2601,6 @@
   },
   {
     "name": "Forest Maze",
-    "clear_as_group": false,
     "access_rules": [
       "@Forest"
     ],
@@ -2690,7 +2669,6 @@
   },
   {
     "name": "Forest Maze boss",
-    "clear_as_group": false,
     "access_rules": [
       "@Forest Maze,bombs"
     ],
@@ -2742,7 +2720,6 @@
   },
   {
     "name": "Forest Maze extended",
-    "clear_as_group": false,
     "access_rules": [
       "@Forest Maze boss,jetpack",
       "@Forest Maze boss,airJump",
@@ -2893,7 +2870,6 @@
   },
   {
     "name": "Gloamwood Bottom",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood to Forest",
       "@Exit Logic/0905",
@@ -2987,7 +2963,6 @@
   },
   {
     "name": "Gloamwood Middle",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Copperwood to CopperWood,bombs",
       "@Gloamwood to Relicts,bombRange",
@@ -3206,7 +3181,6 @@
   },
   {
     "name": "Gloamwood to Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0908",
       "@Gloamwood Bottom,bombs"
@@ -3239,7 +3213,6 @@
   },
   {
     "name": "Gloamwood to Ulvosa",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Middle,slide , $canChargeShot",
       "@Gloamwood Middle,[hiddenPaths] , $canChargeShot",
@@ -3273,7 +3246,6 @@
   },
   {
     "name": "Gloamwood Right",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood to Blushwood,highJump",
       "@Gloamwood to Blushwood,airJump",
@@ -3374,7 +3346,6 @@
   },
   {
     "name": "Ulskan Village Area",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
@@ -3448,7 +3419,6 @@
   },
   {
     "name": "Ulskan to Plague Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0904"
     ],
@@ -3497,7 +3467,6 @@
   },
   {
     "name": "Plague Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1001"
     ],
@@ -3773,7 +3742,6 @@
   },
   {
     "name": "Plague Forest to Ulskan",
-    "clear_as_group": false,
     "access_rules": [
       "@Plague Forest,bombs , slide",
       "@Exit Logic/1004"
@@ -3823,7 +3791,6 @@
   },
   {
     "name": "Ulvosa",
-    "clear_as_group": false,
     "access_rules": [
       "@Ulvosa to Gloamwood,bombs , $canChargeShot , [hiddenPaths]",
       "@Ulvosa to Gloamwood,bombs , $canChargeShot , slide"
@@ -4108,7 +4075,6 @@
   },
   {
     "name": "CopperWood",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood Industry to Travoll Industrie,slide",
@@ -4204,7 +4170,6 @@
   },
   {
     "name": "CopperWood EP Pot",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood,airJump",
@@ -4235,7 +4200,6 @@
   },
   {
     "name": "CopperWood Industry to Travoll Industrie",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0705",
       "@CopperWood EP Pot,bombs"
@@ -4320,7 +4284,6 @@
   },
   {
     "name": "Relicts",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
       "@Relicts to Gloamwood,bombs"
@@ -4500,7 +4463,6 @@
   },
   {
     "name": "Ana Thema",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0805",
       "@Ana Thema to Gallery,slide , bombs"
@@ -4918,7 +4880,6 @@
   },
   {
     "name": "Ana Thema to Gallery",
-    "clear_as_group": false,
     "access_rules": [
       "@Ana Thema,slide , bombs",
       "@Exit Logic/0806"
@@ -4948,7 +4909,6 @@
   },
   {
     "name": "Magma Pits",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits Entrance,bombs"
     ],
@@ -5077,7 +5037,6 @@
   },
   {
     "name": "Magma Depths O",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits,jetpack , powder",
       "@Magma Pits,powder , airDash , $canChargeShot",
@@ -5130,7 +5089,6 @@
   },
   {
     "name": "Magma Depths",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Depths O,powder",
       "@Swamp,bombs"
@@ -5303,7 +5261,6 @@
   },
   {
     "name": "Pre Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits Entrance,bombs",
       "@Magma Pits,bombs",
@@ -5400,7 +5357,6 @@
   },
   {
     "name": "Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits,$canChargeShot , bombs",
       "@Pre Swamp,dagger",
@@ -5587,7 +5543,6 @@
   },
   {
     "name": "Tartarus",
-    "clear_as_group": false,
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
       "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",
@@ -5931,7 +5886,6 @@
   },
   {
     "name": "Catacombs Main",
-    "clear_as_group": false,
     "access_rules": [
       "@Catacombs Entrance,slide , airJump",
       "@Catacombs Entrance,slide , jetpack",
@@ -5961,8 +5915,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 408,
+            "y": 120
           }
         ]
       },
@@ -5983,8 +5937,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 456,
+            "y": 216
           }
         ]
       },
@@ -6003,8 +5957,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 312,
+            "y": 120
           }
         ]
       },
@@ -6023,8 +5977,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 456,
+            "y": 360
           }
         ]
       }
@@ -6032,7 +5986,6 @@
   },
   {
     "name": "Pre Lab",
-    "clear_as_group": false,
     "access_rules": [
       "@Catacombs Main,bombs , slide , airJump",
       "@Catacombs Main,bombs , slide , jetpack"
@@ -6053,8 +6006,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 648,
+            "y": 168
           }
         ]
       },
@@ -6073,8 +6026,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 792,
+            "y": 312
           }
         ]
       }
@@ -6082,7 +6035,6 @@
   },
   {
     "name": "Catacombs Inner",
-    "clear_as_group": false,
     "access_rules": [
       "@Catacombs Main,airJump , bombs , slide",
       "@Catacombs Main,$hasAmount|jetpack|2 , bombs , slide",
@@ -6105,8 +6057,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 312,
+            "y": 312
           }
         ]
       },
@@ -6125,8 +6077,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 72,
+            "y": 312
           }
         ]
       },
@@ -6145,8 +6097,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 264,
+            "y": 360
           }
         ]
       },
@@ -6166,8 +6118,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 360,
+            "y": 456
           }
         ]
       },
@@ -6186,8 +6138,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 216,
+            "y": 408
           }
         ]
       },
@@ -6218,7 +6170,6 @@
   },
   {
     "name": "Lab",
-    "clear_as_group": false,
     "access_rules": [
       "@Lab Left,bombs , airJump",
       "@Lab Left,bombs , jetpack",
@@ -6243,8 +6194,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 792,
+            "y": 408
           }
         ]
       },
@@ -6263,8 +6214,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1032,
+            "y": 504
           }
         ]
       },
@@ -6283,8 +6234,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 984,
+            "y": 408
           }
         ]
       },
@@ -6303,8 +6254,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 984,
+            "y": 312
           }
         ]
       },
@@ -6323,8 +6274,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 888,
+            "y": 360
           }
         ]
       },
@@ -6343,8 +6294,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1032,
+            "y": 264
           }
         ]
       },
@@ -6363,8 +6314,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1248,
+            "y": 314
           }
         ]
       },
@@ -6429,8 +6380,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1272,
+            "y": 362
           }
         ]
       },
@@ -6449,8 +6400,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1128,
+            "y": 458
           }
         ]
       }
@@ -6458,7 +6409,6 @@
   },
   {
     "name": "Lab Left",
-    "clear_as_group": false,
     "access_rules": [
       "@Lab Hub,airJump , slide , bombs",
       "@Lab Hub,airDash , wallJump , slide , bombs",
@@ -6481,8 +6431,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 648,
+            "y": 456
           }
         ]
       }
@@ -6490,7 +6440,6 @@
   },
   {
     "name": "Lab to Verdazure Swamp Connection",
-    "clear_as_group": false,
     "access_rules": [],
     "children": [
       {
@@ -6508,8 +6457,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1320,
+            "y": 362
           }
         ]
       },
@@ -6528,8 +6477,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0
+            "x": 1368,
+            "y": 362
           }
         ]
       }
@@ -6537,7 +6486,6 @@
   },
   {
     "name": "Verdazure Sea West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1307,airJump",
       "@Exit Logic/1307,jetpack",
@@ -6654,7 +6602,6 @@
   },
   {
     "name": "Verdazure Sea East",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
       "@Exit Logic/1301",
@@ -6708,7 +6655,6 @@
   },
   {
     "name": "Verdazure Sea to Forgotten city",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,water , bombs",
       "@Exit Logic/1303"
@@ -6738,7 +6684,6 @@
   },
   {
     "name": "Blushwood",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2801",
       "@Exit Logic/2803"
@@ -6913,7 +6858,6 @@
   },
   {
     "name": "Blushwood Sliding",
-    "clear_as_group": false,
     "access_rules": [
       "@Blushwood,slide",
       "@Blushwood,[hiddenPaths] , airJump , jetpack",
@@ -6995,7 +6939,6 @@
   },
   {
     "name": "Valhalla City",
-    "clear_as_group": false,
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
       "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",
@@ -7343,7 +7286,6 @@
   },
   {
     "name": "EverGarden",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden To Valley,airDash",
       "@EverGarden To Valley,airJump",
@@ -7467,7 +7409,6 @@
   },
   {
     "name": "EverGarden Path BossPath",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden,airJump",
       "@EverGarden,jetpack , airDash",
@@ -7589,7 +7530,6 @@
   },
   {
     "name": "EverGarden Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden Path BossPath,airJump , airDash",
       "@EverGarden Path BossPath,jetpack , airDash",
@@ -7705,7 +7645,6 @@
   },
   {
     "name": "Cloister",
-    "clear_as_group": false,
     "access_rules": [
       "@Cloister Entrance,slide"
     ],
@@ -7816,7 +7755,6 @@
   },
   {
     "name": "Cloister Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2608"
     ],
@@ -7848,7 +7786,6 @@
   },
   {
     "name": "Cloister Pre Boss",
-    "clear_as_group": false,
     "access_rules": [
       "@Cloister,$canChargeShot"
     ],
@@ -8045,7 +7982,6 @@
   },
   {
     "name": "Gallery of Mirrors West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2706,$canChargeShot"
     ],
@@ -8134,7 +8070,6 @@
   },
   {
     "name": "Gallery of Mirrors East",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors West,$canChargeShot , slide"
     ],
@@ -8336,7 +8271,6 @@
   },
   {
     "name": "Gallery of Souls Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors East"
     ],
@@ -8365,7 +8299,6 @@
   },
   {
     "name": "Gallery of Souls",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
       "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , $False",
@@ -8417,7 +8350,6 @@
   },
   {
     "name": "Gallery of Souls Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
       "@Gallery of Souls,wallJump , $canChargeShot",
@@ -8495,7 +8427,6 @@
   },
   {
     "name": "Verdazure Ocean To Sea",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1400",
       "@Verdazure Ocean,slide"
@@ -8521,8 +8452,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 108,
+            "y": 204
           }
         ]
       }
@@ -8530,7 +8461,6 @@
   },
   {
     "name": "Verdazure Ocean",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean To Sea,slide",
       "@Exit Logic/1402",
@@ -8555,8 +8485,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 348,
+            "y": 204
           }
         ]
       },
@@ -8575,8 +8505,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 300
           }
         ]
       },
@@ -8595,8 +8525,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 636,
+            "y": 156
           }
         ]
       },
@@ -8615,8 +8545,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 972,
+            "y": 252
           }
         ]
       },
@@ -8635,8 +8565,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 636,
+            "y": 300
           }
         ]
       },
@@ -8655,8 +8585,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 684,
+            "y": 156
           }
         ]
       },
@@ -8687,7 +8617,6 @@
   },
   {
     "name": "Verdazure Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean,bombs , slide",
       "@Verdazure Swamp to Lab,slide"
@@ -8709,8 +8638,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 1116,
+            "y": 396
           }
         ]
       },
@@ -8729,8 +8658,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 924,
+            "y": 396
           }
         ]
       },
@@ -8795,8 +8724,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 924,
+            "y": 540
           }
         ]
       },
@@ -8815,8 +8744,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 876,
+            "y": 636
           }
         ]
       },
@@ -8835,8 +8764,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 972,
+            "y": 636
           }
         ]
       },
@@ -8855,8 +8784,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 1116,
+            "y": 684
           }
         ]
       },
@@ -8875,8 +8804,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 1020,
+            "y": 780
           }
         ]
       },
@@ -8897,8 +8826,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 924,
+            "y": 732
           }
         ]
       }
@@ -8906,7 +8835,6 @@
   },
   {
     "name": "Forgotten City Upper Exit",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean,water , orbS3 , sable , $canChargeShot , $hasAmount|ranged|3",
       "@Forgotten City,$canChargeShot",
@@ -8930,8 +8858,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 396,
+            "y": 444
           }
         ]
       }
@@ -8939,7 +8867,6 @@
   },
   {
     "name": "Forgotten City",
-    "clear_as_group": false,
     "access_rules": [
       "@Forgotten City Entrance,bombs"
     ],
@@ -8959,8 +8886,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 348,
+            "y": 684
           }
         ]
       },
@@ -8979,8 +8906,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 492,
+            "y": 828
           }
         ]
       },
@@ -8999,8 +8926,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 348,
+            "y": 780
           }
         ]
       },
@@ -9019,8 +8946,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 536,
+            "y": 492
           }
         ]
       },
@@ -9042,8 +8969,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 516,
+            "y": 636
           }
         ]
       },
@@ -9091,8 +9018,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 396,
+            "y": 588
           }
         ]
       },
@@ -9111,8 +9038,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 636,
+            "y": 684
           }
         ]
       },
@@ -9134,8 +9061,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 588,
+            "y": 636
           }
         ]
       },
@@ -9169,7 +9096,6 @@
   },
   {
     "name": "Snowveil Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1202",
       "@Snowveil"
@@ -9199,7 +9125,6 @@
   },
   {
     "name": "Snowveil",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
       "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
@@ -9275,7 +9200,6 @@
   },
   {
     "name": "Snowveil Ex",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil,$canChargeShot , bombs",
       "@Snowveil,airJump , bombs",
@@ -9436,7 +9360,6 @@
   },
   {
     "name": "Snowveil above Verglas Village",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil Ex,slide",
       "@Snowveil Ex,jetpack , airJump",
@@ -9472,7 +9395,6 @@
   },
   {
     "name": "Snow City",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1604",
       "@Snowveil Above HQ,bombs , bombThrow",
@@ -9649,7 +9571,6 @@
   },
   {
     "name": "Snowveil Above HQ",
-    "clear_as_group": false,
     "access_rules": [
       "@Snow City,bombs , slide",
       "@Exit Logic/1600,airJump",
@@ -9748,7 +9669,6 @@
   },
   {
     "name": "Golden Hands HQ",
-    "clear_as_group": false,
     "access_rules": [
       "@Snow City,slide , $canChargeShot"
     ],
@@ -9880,7 +9800,6 @@
   },
   {
     "name": "Golden Hands HQ Extra",
-    "clear_as_group": false,
     "access_rules": [
       "@Golden Hands HQ Sewer,slide , vortex , $canChargeShot"
     ],
@@ -9909,7 +9828,6 @@
   },
   {
     "name": "Golden Hands HQ Sewer",
-    "clear_as_group": false,
     "access_rules": [
       "@Snow City,slide",
       "@Snow City,$canChargeShot",
@@ -10032,7 +9950,6 @@
   },
   {
     "name": "DreamKeeper Outside Right",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1800",
       "@DreamKeeper,slide , bombs"
@@ -10085,7 +10002,6 @@
   },
   {
     "name": "DreamKeeper Outside Left",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
@@ -10161,7 +10077,6 @@
   },
   {
     "name": "DreamKeeper",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
@@ -10410,7 +10325,6 @@
   },
   {
     "name": "Dreamless Depths 2",
-    "clear_as_group": false,
     "access_rules": [
       "@Dreamless Depths,highJump , dagger",
       "@Dreamless Depths,wallJump",
@@ -10487,7 +10401,6 @@
   },
   {
     "name": "Dreamless Depths",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper,slide , bombs"
     ],
@@ -10518,7 +10431,6 @@
   },
   {
     "name": "Heavens Valley Snow Route Low",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,slide",
@@ -10638,7 +10550,6 @@
   },
   {
     "name": "Heavens Valley Snow Route Middle",
-    "clear_as_group": false,
     "access_rules": [
       "@Heavens Valley Snow Route Low,slide , vortex",
       "@Heavens Valley Snow Route Upper,slide"
@@ -10800,7 +10711,6 @@
   },
   {
     "name": "Sinner's Oath",
-    "clear_as_group": false,
     "access_rules": [
       "@Sinner's Oath Entrance,$canChargeShot , bombs , [hiddenPaths]",
       "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airDash",
@@ -10896,7 +10806,6 @@
   },
   {
     "name": "Illusion Palace Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Sinner's Oath Entrance,bombs , [hiddenPaths]",
       "@Sinner's Oath"
@@ -10969,7 +10878,6 @@
   },
   {
     "name": "Sinner's Oath Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2301"
     ],
@@ -11020,7 +10928,6 @@
   },
   {
     "name": "Illusion Palace",
-    "clear_as_group": false,
     "access_rules": [
       "@Illusion Palace Entrance,$False , $canChargeShot",
       "@Illusion Palace Entrance,$False , [hiddenPaths]"
@@ -11070,7 +10977,6 @@
   },
   {
     "name": "Vena Shop",
-    "clear_as_group": false,
     "access_rules": [
       "@Ana Thema",
       "@Tartarus",
@@ -11171,7 +11077,6 @@
   },
   {
     "name": "Memine All",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon,$False"
     ],
@@ -11200,7 +11105,6 @@
   },
   {
     "name": "Crafting",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon"
     ],
@@ -12069,7 +11973,6 @@
   },
   {
     "name": "Item Upgrade",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon"
     ],

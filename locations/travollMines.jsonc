@@ -1,7 +1,6 @@
 [
   {
     "name": "Travoll Mines",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines to Morose City,bombs , bombFuel",
       "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
@@ -182,7 +181,6 @@
   },
   {
     "name": "Travoll Mines to Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,slide , bombFuel",
       "@Exit Logic/0503"
@@ -212,7 +210,6 @@
   },
   {
     "name": "Travoll Mines to Morose City",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0501",
       "@Travoll Mines to Thanatara Canyon,bombs",
@@ -243,7 +240,6 @@
   },
   {
     "name": "Travoll Mines to Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,bombs",
       "@Exit Logic/0509"

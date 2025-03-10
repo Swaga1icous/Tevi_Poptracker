@@ -1,7 +1,6 @@
 [
   {
     "name": "Thanatara Canyon",
-    "clear_as_group": false,
     "access_rules": [],
     "children": [
       {
@@ -213,7 +212,6 @@
   },
   {
     "name": "Thanatara Canyon Lower",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon",
       "@Exit Logic/0106",
@@ -305,7 +303,6 @@
   },
   {
     "name": "Gurun Desert",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon Lower,bombs",
       "@Thanatara Canyon Lower,openMorose",

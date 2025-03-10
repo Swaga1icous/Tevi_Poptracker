@@ -1,7 +1,6 @@
 [
   {
     "name": "Heavens Valley Snow Route Low",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,slide",
@@ -121,7 +120,6 @@
   },
   {
     "name": "Heavens Valley Snow Route Middle",
-    "clear_as_group": false,
     "access_rules": [
       "@Heavens Valley Snow Route Low,slide , vortex",
       "@Heavens Valley Snow Route Upper,slide"

@@ -1,7 +1,6 @@
 [
   {
     "name": "Desert Base Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0000"
     ],
@@ -114,7 +113,6 @@
   },
   {
     "name": "Desert Base Main",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Entrance,$canChargeShot",
       "@Desert Base Entrance,jetpack",
@@ -213,7 +211,6 @@
   },
   {
     "name": "Desert Base Upper Half",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Main,highJump , airJump , wallJump",
       "@Desert Base Main,jetpack , wallJump",

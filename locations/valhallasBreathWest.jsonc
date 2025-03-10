@@ -1,7 +1,6 @@
 [
   {
     "name": "Heavens Valley West",
-    "clear_as_group": false,
     "access_rules": [
       "@Valhalla Breath West,bombs , ceilingKick",
       "@Valhalla Breath West,bombs , airJump",
@@ -110,7 +109,6 @@
   },
   {
     "name": "Valhalla Breath West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2101",
       "@Heavens Valley West,jetpack , bombThrow",
@@ -275,7 +273,6 @@
   },
   {
     "name": "Valhalla Breath West Extended",
-    "clear_as_group": false,
     "access_rules": [
       "@Valhalla Breath West,airDash",
       "@Valhalla Breath West,airJump",

@@ -1,7 +1,6 @@
 [
   {
     "name": "Verdazure Sea West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1307,airJump",
       "@Exit Logic/1307,jetpack",
@@ -118,7 +117,6 @@
   },
   {
     "name": "Verdazure Sea East",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
       "@Exit Logic/1301",
@@ -172,7 +170,6 @@
   },
   {
     "name": "Verdazure Sea to Forgotten city",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,water , bombs",
       "@Exit Logic/1303"

@@ -1,7 +1,6 @@
 [
   {
     "name": "Snowveil Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1202",
       "@Snowveil"
@@ -31,7 +30,6 @@
   },
   {
     "name": "Snowveil",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
       "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
@@ -107,7 +105,6 @@
   },
   {
     "name": "Snowveil Ex",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil,$canChargeShot , bombs",
       "@Snowveil,airJump , bombs",
@@ -268,7 +265,6 @@
   },
   {
     "name": "Snowveil above Verglas Village",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil Ex,slide",
       "@Snowveil Ex,jetpack , airJump",

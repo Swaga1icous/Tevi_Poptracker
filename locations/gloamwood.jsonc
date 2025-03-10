@@ -1,7 +1,6 @@
 [
   {
     "name": "Gloamwood Bottom",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood to Forest",
       "@Exit Logic/0905",
@@ -95,7 +94,6 @@
   },
   {
     "name": "Gloamwood Middle",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Copperwood to CopperWood,bombs",
       "@Gloamwood to Relicts,bombRange",
@@ -314,7 +312,6 @@
   },
   {
     "name": "Gloamwood to Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0908",
       "@Gloamwood Bottom,bombs"
@@ -347,7 +344,6 @@
   },
   {
     "name": "Gloamwood to Ulvosa",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Middle,slide , $canChargeShot",
       "@Gloamwood Middle,[hiddenPaths] , $canChargeShot",
@@ -381,7 +377,6 @@
   },
   {
     "name": "Gloamwood Right",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood to Blushwood,highJump",
       "@Gloamwood to Blushwood,airJump",
@@ -482,7 +477,6 @@
   },
   {
     "name": "Ulskan Village Area",
-    "clear_as_group": false,
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
@@ -556,7 +550,6 @@
   },
   {
     "name": "Ulskan to Plague Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0904"
     ],

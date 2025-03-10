@@ -1,7 +1,6 @@
 [
   {
     "name": "Oasis",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0201"
     ],

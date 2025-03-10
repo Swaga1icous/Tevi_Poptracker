@@ -1,7 +1,6 @@
 [
   {
     "name": "DreamKeeper Outside Right",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1800",
       "@DreamKeeper,slide , bombs"
@@ -54,7 +53,6 @@
   },
   {
     "name": "DreamKeeper Outside Left",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
@@ -130,7 +128,6 @@
   },
   {
     "name": "DreamKeeper",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
@@ -379,7 +376,6 @@
   },
   {
     "name": "Dreamless Depths 2",
-    "clear_as_group": false,
     "access_rules": [
       "@Dreamless Depths,highJump , dagger",
       "@Dreamless Depths,wallJump",
@@ -456,7 +452,6 @@
   },
   {
     "name": "Dreamless Depths",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper,slide , bombs"
     ],

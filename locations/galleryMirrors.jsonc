@@ -1,7 +1,6 @@
 [
   {
     "name": "Gallery of Mirrors West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2706,$canChargeShot"
     ],
@@ -90,7 +89,6 @@
   },
   {
     "name": "Gallery of Mirrors East",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors West,$canChargeShot , slide"
     ],
@@ -292,7 +290,6 @@
   },
   {
     "name": "Gallery of Souls Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors East"
     ],
@@ -321,7 +318,6 @@
   },
   {
     "name": "Gallery of Souls",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
       "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , $False",
@@ -373,7 +369,6 @@
   },
   {
     "name": "Gallery of Souls Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
       "@Gallery of Souls,wallJump , $canChargeShot",

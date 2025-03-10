@@ -1,7 +1,6 @@
 [
   {
     "name": "Magma Pits",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits Entrance,bombs"
     ],
@@ -130,7 +129,6 @@
   },
   {
     "name": "Magma Depths O",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits,jetpack , powder",
       "@Magma Pits,powder , airDash , $canChargeShot",
@@ -183,7 +181,6 @@
   },
   {
     "name": "Magma Depths",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Depths O,powder",
       "@Swamp,bombs"
@@ -356,7 +353,6 @@
   },
   {
     "name": "Pre Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits Entrance,bombs",
       "@Magma Pits,bombs",
@@ -453,7 +449,6 @@
   },
   {
     "name": "Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Magma Pits,$canChargeShot , bombs",
       "@Pre Swamp,dagger",

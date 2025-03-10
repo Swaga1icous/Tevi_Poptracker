@@ -1,7 +1,6 @@
 [
   {
     "name": "CopperWood",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood Industry to Travoll Industrie,slide",
@@ -97,7 +96,6 @@
   },
   {
     "name": "CopperWood EP Pot",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood,airJump",
@@ -128,7 +126,6 @@
   },
   {
     "name": "CopperWood Industry to Travoll Industrie",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0705",
       "@CopperWood EP Pot,bombs"

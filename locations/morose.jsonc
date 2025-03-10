@@ -1,7 +1,6 @@
 [
   {
     "name": "Morose City",
-    "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon,openMorose",
       "@Exit Logic/0302",

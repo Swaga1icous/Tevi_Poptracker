@@ -1,7 +1,6 @@
 [
   {
     "name": "Cloister",
-    "clear_as_group": false,
     "access_rules": [
       "@Cloister Entrance,slide"
     ],
@@ -112,7 +111,6 @@
   },
   {
     "name": "Cloister Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2608"
     ],
@@ -144,7 +142,6 @@
   },
   {
     "name": "Cloister Pre Boss",
-    "clear_as_group": false,
     "access_rules": [
       "@Cloister,$canChargeShot"
     ],

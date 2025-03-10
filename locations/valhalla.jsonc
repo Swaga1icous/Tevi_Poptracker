@@ -1,7 +1,6 @@
 [
   {
     "name": "Valhalla City",
-    "clear_as_group": false,
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
       "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",

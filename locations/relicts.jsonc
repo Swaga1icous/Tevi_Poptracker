@@ -1,7 +1,6 @@
 [
   {
     "name": "Relicts",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
       "@Relicts to Gloamwood,bombs"

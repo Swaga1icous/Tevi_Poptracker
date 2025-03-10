@@ -1,7 +1,6 @@
 [
   {
     "name": "Plague Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1001"
     ],
@@ -277,7 +276,6 @@
   },
   {
     "name": "Plague Forest to Ulskan",
-    "clear_as_group": false,
     "access_rules": [
       "@Plague Forest,bombs , slide",
       "@Exit Logic/1004"

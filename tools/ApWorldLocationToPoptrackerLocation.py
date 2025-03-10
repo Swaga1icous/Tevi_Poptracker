@@ -120,7 +120,6 @@ for val in RandomizerLocationList:
     if not val["Location"] in regionsIds:
         regionTemplate = {
             "name": val["Location"],
-            "clear_as_group": False,
             "access_rules": [],
             "children": []
         }
