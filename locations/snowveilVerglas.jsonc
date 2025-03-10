@@ -1,0 +1,279 @@
+[
+   {
+    "name": "Snowveil Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1202",
+      "@Snowveil"
+    ],
+    "children": [
+      {
+        "name": "Dodge: Discharge",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil Entrance - Dodge: Discharge",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 404,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowveil",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , WindSkip",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , WindSkip",
+      "@Snowveil Entrance,bombs",
+      "@Exit Logic/1204",
+      "@Snowveil Ex"
+    ],
+    "children": [
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 646,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Air",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Air",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EP Booster: Melee Menace",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - EP Booster: Melee Menace",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 502,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowveil Ex",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snowveil,$canChargeShot , bombs",
+      "@Snowveil,airJump , bombs",
+      "@Snowveil,jetpack , bombs",
+      "@Snowveil above Verglas Village,bombs"
+    ],
+    "children": [
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 216,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Life Steal",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Life Steal",
+            "item_count": 1,
+            "access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 260,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Vortex Gloves",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Vortex Gloves",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 168,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $hasAmount|jetpack|2",
+              "slide , jetpack , highJump , [$hasAmount|dagger|1],false",
+              "airJump , wallJump",
+              "airJump , [$hasAmount|dagger|1],false"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 216,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Aerial Assist",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Aerial Assist",
+            "item_count": 1,
+            "access_rules": [
+              "slide , airJump , airDash , jetpack",
+              "slide , airJump , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 694,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $hasAmount|jetpack|3 , airDash",
+              "slide , BounceKick , airDash",
+              "slide , jetpack , airDash , airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 550,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowveil above Verglas Village",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snowveil Ex,slide",
+      "@Snowveil Ex,jetpack , airJump",
+      "@Snowveil Ex,jetpack , highJump , [$hasAmount|dagger|1],false",
+      "@Snowveil Ex,airJump , highJump , ItemUse",
+      "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
+      "@Exit Logic/1205"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil above Verglas Village - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , $hasAmount|jetpack|2 , airJump",
+              "bombs , $hasAmount|jetpack|3",
+              "bombs , $hasAmount|jetpack|2 , highJump , [$hasAmount|dagger|1],false"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 360,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]
