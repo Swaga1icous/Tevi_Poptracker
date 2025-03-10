@@ -1,0 +1,251 @@
+[
+  {
+    "name": "Blushwood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/2801",
+      "@Exit Logic/2803"
+    ],
+    "children": [
+      {
+        "name": "Combo Time Extend I",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Combo Time Extend I",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 197,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Dark",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Dark",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 341,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Dodge: Feeling Lucky",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Dodge: Feeling Lucky",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombRange|3 , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 437,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Double Airstrike",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Double Airstrike",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 485,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 581,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "wallJump , jetpack",
+              "airDash , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 389,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Core Expansion: Recovery",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood - Core Expansion: Recovery",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 293,
+            "y": 348
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blushwood Sliding",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Blushwood,slide",
+      "@Blushwood,hiddenPaths , airJump , jetpack",
+      "@Blushwood,hiddenPaths , $hasAmount|jetpack|3"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood Sliding - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "jetpack",
+              "rabbitWallJump",
+              "airDash , wallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 245,
+            "y": 204
+          }
+        ]
+      },
+      {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood Sliding - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , airJump",
+              "slide , bombs , jetpack",
+              "slide , bombs , rabbitWallJump",
+              "slide , bombs , airDash , wallJump"
+            ]
+          }
+		],
+		"map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 197,
+            "y": 204
+          }
+        ]
+      },
+	  {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [  
+		  {
+            "name": "Memine Blushwood Sliding - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 485,
+            "y": 204
+          }
+        ]
+      }
+    ]
+  }
+]

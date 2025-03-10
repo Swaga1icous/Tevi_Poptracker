@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Travoll Mines",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Travoll Mines East Exit,bombs , bombFuel",
+      "@Travoll Mines West Exit,bombs , bombFuel",
+      "@Exit Logic/0500",
+      "@Travoll Mines Forest Exit,bombs , dagger",
+      "@Travoll Mines Forest Exit,bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines Swamp Exit"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 72,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Fire",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Fire",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel , Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 120,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Aerial Accel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Aerial Accel",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 312,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs",
+              "ceilingKick"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 456,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombThrow , bombs , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 264,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 936,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines Swamp Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Travoll Mines,slide , bombFuel",
+      "@Exit Logic/0503"
+    ],
+    "children": [
+      {
+        "name": "Dodge: Headstrong",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines Swamp Exit - Dodge: Headstrong",
+            "item_count": 1,
+            "access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 936,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines East Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0501",
+      "@Travoll Mines West Exit,bombs",
+      "@Travoll Mines"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 408,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines Forest Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Travoll Mines,bombs",
+      "@Exit Logic/0509"
+    ],
+    "children": [
+      {
+        "name": "Mana Armor",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines Forest Exit - Mana Armor",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 840,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

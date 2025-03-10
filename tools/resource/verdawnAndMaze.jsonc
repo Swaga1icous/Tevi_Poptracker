@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Forest",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0400",
+      "@Exit Logic/0401",
+      "@Exit Logic/0409",
+      "@Exit Logic/0404",
+      "@Exit Logic/0408",
+      "@Forest Maze"
+    ],
+    "children": [
+      {
+        "name": "Short Fuse",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Short Fuse",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 456,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Orbital Efficiency A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orbital Efficiency A",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 552,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Special Action: Olive Branch",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Special Action: Olive Branch",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Celia",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Celia",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , pillow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 456,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Acrobat",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Acrobat",
+            "item_count": 1,
+            "access_rules": [
+              "water"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 888,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Forest - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 600,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest Maze",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Forest"
+    ],
+    "children": [
+      {
+        "name": "Modular Blueprints",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Modular Blueprints",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 696,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Titanium Spanner",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Titanium Spanner",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 504,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 456,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest Maze boss",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Forest Maze,bombs"
+    ],
+    "children": [
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 624,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest Maze extended",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Forest Maze boss,jetpack",
+      "@Forest Maze boss,airJump",
+      "@Forest Maze boss,airDash"
+    ],
+    "children": [
+      {
+        "name": "Auto Heal",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Auto Heal",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 168,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Gilded Exultation",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gilded Exultation",
+            "item_count": 1,
+            "access_rules": [
+              "handRight , handLeft"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 264,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "MP Surge: Recovery",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Surge: Recovery",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 360,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 216,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 648,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion #1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion #1",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 648,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion #2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest + Misty Maze",
+            "x": 360,
+            "y": 648
+          }
+        ]
+      }
+    ]
+  }
+]

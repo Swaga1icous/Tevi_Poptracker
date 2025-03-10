@@ -1,0 +1,316 @@
+[
+  {
+    "name": "Cloister",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Cloister Entrance,slide"
+    ],
+    "children": [
+      {
+        "name": "Core Expansion: Combo",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Core Expansion: Combo",
+            "item_count": 1,
+            "access_rules": [
+              "EVENT_EliteChallangeF"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 190,
+            "y": 293
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 190,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "Style Combo: Aerial A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Style Combo: Aerial A",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 334,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow",
+              "bombRange"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 382,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "Crouching Bunny",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crouching Bunny",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , bombs",
+              "bombThrow , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 334,
+            "y": 149
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloister Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/2608"
+    ],
+    "children": [
+      {
+        "name": "EVENT_FreeStrongAttack",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cloister - Free Attack",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloister Pre Boss",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Cloister,$canChargeShot"
+    ],
+    "children": [
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 574,
+            "y": 437
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 622,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Coffee Break",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Coffee Break",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 574,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Parkour Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Parkour Boots",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 622,
+            "y": 509
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 286,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 214,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "MP Reset B",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Reset B",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "highJump , wallJump",
+              "airDash , wallJump",
+              "jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 334,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "C. Rank Frenzy: Focus MAX",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "C. Rank Frenzy: Focus MAX",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "airDash , wallJump",
+              "jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 430,
+            "y": 245
+          }
+        ]
+      }
+    ]
+  }
+]

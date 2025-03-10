@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Travoll Industrie",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0603",
+      "@Exit Logic/0600",
+      "@Travoll Industrie East Exit,bombs",
+      "@Travoll Industrie East Exit,slide"
+    ],
+    "children": [
+      {
+        "name": "Style Combo: Backbomb S",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Style Combo: Backbomb S",
+            "item_count": 1,
+            "access_rules": [
+              "slide , wallJump , airDash",
+              "slide , wallJump , jetpack",
+              "slide , wallJump , airJump",
+              "slide , BounceKick"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 216,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 312,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Bomb Fuel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Bomb Fuel",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 264,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Buns of Steel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Buns of Steel",
+            "item_count": 1,
+            "access_rules": [
+              "slide , jetpack",
+              "slide , airJump",
+              "slide , wallJump , airDash"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Industrie East Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Travoll Industrie,bombs",
+      "@Travoll Industrie,slide",
+      "@Exit Logic/0605"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Industrie - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 456,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  }
+]

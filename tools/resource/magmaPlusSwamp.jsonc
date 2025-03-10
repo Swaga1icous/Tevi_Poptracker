@@ -1,0 +1,635 @@
+[
+ {
+    "name": "Magma Pits",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Pits Entrance,bombs"
+    ],
+    "children": [
+      {
+        "name": "Kiwi Bunny Potion #1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion #1",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 600,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion #2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Supersonic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Supersonic",
+            "item_count": 1,
+            "access_rules": [
+              "EVENT_EliteChallangeE , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 408,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Jetpack",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Jetpack",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 72,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 216,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 168,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Magma Depths O",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Pits,jetpack , powder",
+      "@Magma Pits,powder , airDash , $canChargeShot",
+      "@Magma Pits,powder , airJump , $canChargeShot",
+      "@Magma Pits,powder , highJump , $canChargeShot",
+      "@Magma Pits,powder , airJump , jetpack"
+    ],
+    "children": [
+      {
+        "name": "EP Booster: Quintuple",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EP Booster: Quintuple",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 600,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Razor Arrow",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Razor Arrow",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 552,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Magma Depths",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Depths O,powder",
+      "@Swamp,bombs"
+    ],
+    "children": [
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 648,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Perseverance B",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Perseverance B",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 600,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Ground Control",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ground Control",
+            "item_count": 1,
+            "access_rules": [
+              "vortex , powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 264,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "MP Surge: Brawl",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Surge: Brawl",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 792,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide",
+              "bombRange , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 552,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 552,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , jetpack",
+              "slide , airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 840,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Dual Combo: Rush",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dual Combo: Rush",
+            "item_count": 1,
+            "access_rules": [
+              "slide , airJump , bombs",
+              "slide , jetpack , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 360,
+            "y": 648
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pre Swamp",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Pits Entrance,bombs",
+      "@Magma Pits,bombs",
+      "@Swamp Entrance,slide",
+      "@Swamp,airDash",
+      "@Swamp,randged",
+      "@Swamp,dagger"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 792,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Dark",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp Entrance - Dark",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Aerial Kinetics",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Aerial Kinetics",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 1128,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 1128,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Swamp",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Pits,$canChargeShot , bombs",
+      "@Pre Swamp,dagger",
+      "@Pre Swamp,randged",
+      "@Pre Swamp,airDash",
+      "@Pre Swamp,bombs , bombThrow",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airJump",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airDash",
+      "@Swamp Tartarus Exit,slide , hiddenPaths , airDash , airJump",
+      "@Swamp Tartarus Exit,slide , bombs , $hasAmount|jetpack|2",
+      "@Swamp Tartarus Exit,slide , bombs , jetpack , airJump",
+      "@Swamp Tartarus Exit,slide , bombs , jetpack , airDash",
+      "@Swamp Tartarus Exit,slide , bombs , airDash , airJump"
+    ],
+    "children": [
+      {
+        "name": "Cluster Bomb",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cluster Bomb",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 936,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Dark",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp - Dark",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 888,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 792,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Quickstab: Lightning",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Quickstab: Lightning",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 936,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "MP Surge: Break",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Surge: Break",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 888,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|jetpack|2",
+              "jetpack , airJump",
+              "jetpack , airDash",
+              "airDash , airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 1032,
+            "y": 502
+          }
+        ]
+      },
+      {
+        "name": "C. Count Frenzy: Preemptive",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "C. Count Frenzy: Preemptive",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+            "x": 1128,
+            "y": 502
+          }
+        ]
+      }
+    ]
+  }
+]

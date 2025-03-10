@@ -1,0 +1,249 @@
+[
+ {
+    "name": "Sinner's Oath",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , hiddenPaths",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airDash",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , jetpack",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airJump"
+    ],
+    "children": [
+      {
+        "name": "Blood Boil",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blood Boil",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 456,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , slide",
+              "jetpack , slide",
+              "airDash , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 600,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack , airJump , vortex",
+              "jetpack , airJump , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 792,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|jetpack|3 , airDash , vortex , slide",
+              "jetpack , airDash , airJump , vortex , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 792,
+            "y": 260
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Illusion Palace Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Sinner's Oath Entrance,bombs , hiddenPaths",
+      "@Sinner's Oath"
+    ],
+    "children": [
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 312,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 432,
+            "y": 452
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sinner's Oath Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/2301"
+    ],
+    "children": [
+      {
+        "name": "Rapid Shots Modchip",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rapid Shots Modchip",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 216,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombRange|3 , bombs , powder , slide , airJump",
+              "$hasAmount|bombRange|3 , bombs , powder , slide , jetpack",
+              "$hasAmount|bombRange|3 , bombs , powder , slide , wallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 120,
+            "y": 164
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Illusion Palace",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Illusion Palace Entrance,Goal , $canChargeShot",
+      "@Illusion Palace Entrance,Goal , hiddenPaths"
+    ],
+    "children": [
+      {
+        "name": "Core Expansion: Transcend",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Core Expansion: Transcend",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 744,
+            "y": 452
+          }
+        ]
+      },
+      {
+        "name": "Alembic Crystal",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Alembic Crystal",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 984,
+            "y": 260
+          }
+        ]
+      }
+    ]
+  }
+]

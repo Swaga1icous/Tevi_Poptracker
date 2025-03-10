@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Snow City",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1604",
+      "@Snowveil Above HQ,bombs , bombThrow",
+      "@Golden Hands HQ Sewer",
+      "@Golden Hands HQ Extra"
+    ],
+    "children": [
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 407,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Slash Quartet",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Slash Quartet",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 647,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Snow City Shop",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Trinketeer's Fortune",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Dodge Enhancer: Slide",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Slayer",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ranged Roulette",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Perseverance C",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ballasting Off",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "MP Surge: Explosives",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mana Flare",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Fast Pillar",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Bag Expander",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True , Chapter 6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 311,
+            "y": 337
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowveil Above HQ",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snow City,bombs , slide",
+      "@Exit Logic/1600,airJump",
+      "@Exit Logic/1600,wallJump",
+      "@Exit Logic/1600,jetpack"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombRange|3 , bombs , slide",
+              "bombThrow , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 647,
+            "y": 193
+          }
+        ]
+      },
+      {
+        "name": "Thick Pillar",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Thick Pillar",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 791,
+            "y": 193
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Air",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil Above HQ - Air",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_SnowMechanic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil Above HQ - Snow Orb",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden Hands HQ",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snow City,slide , $canChargeShot"
+    ],
+    "children": [
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , EVENT_HQSwitch1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 1079,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Gilded Right Hand",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gilded Right Hand",
+            "item_count": 1,
+            "access_rules": [
+              "powder , EVENT_HQSwitch1 , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 1271,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Headbutt",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Headbutt",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , slide , EVENT_HQSwitch1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 839,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 695,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $canChargeShot , EVENT_HQSwitch1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 839,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "EVENT_HQSwitch1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_HQSwitch1",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $canChargeShot , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden Hands HQ Extra",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Golden Hands HQ Sewer,slide , vortex , $canChargeShot"
+    ],
+    "children": [
+      {
+        "name": "Dodge Enhancer: Spanner",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dodge Enhancer: Spanner",
+            "item_count": 1,
+            "access_rules": [
+              "slide , vortex , $canChargeShot , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 1031,
+            "y": 577
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Golden Hands HQ Sewer",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Snow City,slide",
+      "@Snow City,$canChargeShot",
+      "@Golden Hands HQ,bombs , $canChargeShot"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 695,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "Supercluster Bomb",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Supercluster Bomb",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 887,
+            "y": 673
+          }
+        ]
+      },
+      {
+        "name": "Airy Powder",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Airy Powder",
+            "item_count": 1,
+            "access_rules": [
+              "wallJump",
+              "airJump",
+              "jetpack",
+              "bombs , $canChargeShot , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 743,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "wallJump , Boss",
+              "airJump , Boss",
+              "jetpack , Boss",
+              "bombs , $canChargeShot , slide , Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian Valley + Desert Hands HQ",
+            "x": 791,
+            "y": 577
+          }
+        ]
+      }
+    ]
+  }
+]
