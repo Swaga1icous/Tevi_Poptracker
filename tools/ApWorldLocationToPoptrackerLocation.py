@@ -116,6 +116,10 @@ for v in PoptrackerList:
     for ve in v["children"]:
         ve["access_rules"] = []
 
+extra = open(Path+"\\APlocationFile.txt",'w+')
+baseID = 44966541000
+
+
 for val in RandomizerLocationList:
     if not val["Location"] in regionsIds:
         regionTemplate = {
@@ -185,7 +189,9 @@ for val in RandomizerLocationList:
                 locTemplate["access_rules"] = []
     if not found:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
-
+        extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locName}/{itemName}"'+"}}\n")
+        baseID += 1
+extra.close()
 for k,v in RandomizerAreaList.items():
     for area in v:
         for con in area["Connections"]:
@@ -231,6 +237,7 @@ for k,v in RandomizerAreaList.items():
                     regionsIds[con['Exit']] = currentRegionId
                     currentRegionId +=1
                     PoptrackerList.append(regionTemplate)                    
+
 
                 else:
                     PoptrackerList[regionsIds[con["Exit"]]]["access_rules"] += logic
