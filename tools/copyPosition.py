@@ -2,11 +2,6 @@ import json
 import os
 
 
-from logicParser import parse_expression_logic
-
-
-
-
 
 Path = os.path.dirname(os.path.realpath(__file__))
 regionsIds = {}

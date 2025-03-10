@@ -5,7 +5,7 @@
       {
         "name": "0000",
         "access_rules": [
-          ""
+          "@Desert Base Entrance"
         ],
         "sections": [
           {
@@ -15,7 +15,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Sewerways + Golden Hands Desert Base",
             "x": 0,
             "y": 0
@@ -25,7 +27,7 @@
       {
         "name": "0100",
         "access_rules": [
-          ""
+          "@Thanatara Canyon Lower"
         ],
         "sections": [
           {
@@ -35,7 +37,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 0,
             "y": 0
@@ -45,11 +49,11 @@
       {
         "name": "0101",
         "access_rules": [
-          "$hasAmount|ranged|2",
-          "airJump",
-          "jetpack",
-          "airDash",
-          "wallJump, ceilingKick"
+          "@Thanatara Canyon,$hasAmount|ranged|2",
+          "@Thanatara Canyon,airJump",
+          "@Thanatara Canyon,jetpack",
+          "@Thanatara Canyon,airDash",
+          "@Thanatara Canyon,wallJump, ceilingKick"
         ],
         "sections": [
           {
@@ -59,7 +63,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 100,
             "y": 0
@@ -69,7 +75,7 @@
       {
         "name": "0201",
         "access_rules": [
-          ""
+          "@Oasis"
         ],
         "sections": [
           {
@@ -79,7 +85,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Oasis",
             "x": 0,
             "y": 0
@@ -89,7 +97,7 @@
       {
         "name": "0102",
         "access_rules": [
-          ""
+          "@Gurun Desert"
         ],
         "sections": [
           {
@@ -99,7 +107,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 0,
             "y": 0
@@ -109,7 +119,7 @@
       {
         "name": "0302",
         "access_rules": [
-          ""
+          "@Morose City"
         ],
         "sections": [
           {
@@ -119,7 +129,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Morose",
             "x": 0,
             "y": 0
@@ -129,7 +141,7 @@
       {
         "name": "0107",
         "access_rules": [
-          ""
+          "@Thanatara Canyon Lower"
         ],
         "sections": [
           {
@@ -139,7 +151,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 0,
             "y": 0
@@ -149,7 +163,7 @@
       {
         "name": "0507",
         "access_rules": [
-          ""
+          "@Travoll Mines to Thanatara Canyon"
         ],
         "sections": [
           {
@@ -159,7 +173,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Mines",
             "x": 0,
             "y": 0
@@ -169,7 +185,7 @@
       {
         "name": "0105",
         "access_rules": [
-          ""
+          "@Thanatara Canyon - Heavens Valley West"
         ],
         "sections": [
           {
@@ -179,7 +195,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 0,
             "y": 0
@@ -189,7 +207,7 @@
       {
         "name": "2105",
         "access_rules": [
-          ""
+          "@Heavens Valley West"
         ],
         "sections": [
           {
@@ -199,7 +217,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
             "x": 0,
             "y": 0
@@ -209,7 +229,7 @@
       {
         "name": "0106",
         "access_rules": [
-          ""
+          "@Thanatara Canyon Lower"
         ],
         "sections": [
           {
@@ -219,7 +239,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 0,
             "y": 0
@@ -229,7 +251,7 @@
       {
         "name": "2206",
         "access_rules": [
-          ""
+          "@Solennian Ruins Entrance"
         ],
         "sections": [
           {
@@ -239,7 +261,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Solennian Ruins",
             "x": 0,
             "y": 0
@@ -249,7 +273,7 @@
       {
         "name": "0303",
         "access_rules": [
-          ""
+          "@Morose City"
         ],
         "sections": [
           {
@@ -259,7 +283,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Morose",
             "x": 0,
             "y": 0
@@ -269,7 +295,7 @@
       {
         "name": "0603",
         "access_rules": [
-          ""
+          "@Travoll Industrie"
         ],
         "sections": [
           {
@@ -279,7 +305,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Industrial Park",
             "x": 0,
             "y": 0
@@ -289,7 +317,7 @@
       {
         "name": "0301",
         "access_rules": [
-          ""
+          "@Morose City"
         ],
         "sections": [
           {
@@ -299,7 +327,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Morose",
             "x": 0,
             "y": 0
@@ -309,7 +339,7 @@
       {
         "name": "0501",
         "access_rules": [
-          ""
+          "@Travoll Mines to Morose City"
         ],
         "sections": [
           {
@@ -319,7 +349,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Mines",
             "x": 0,
             "y": 0
@@ -329,7 +361,7 @@
       {
         "name": "0300",
         "access_rules": [
-          ""
+          "@Morose City"
         ],
         "sections": [
           {
@@ -339,7 +371,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Morose",
             "x": 0,
             "y": 0
@@ -349,7 +383,7 @@
       {
         "name": "0400",
         "access_rules": [
-          ""
+          "@Forest"
         ],
         "sections": [
           {
@@ -359,7 +393,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdawn Forest + Misty Maze",
             "x": 0,
             "y": 0
@@ -369,7 +405,7 @@
       {
         "name": "0409",
         "access_rules": [
-          ""
+          "@Forest"
         ],
         "sections": [
           {
@@ -379,7 +415,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdawn Forest + Misty Maze",
             "x": 0,
             "y": 0
@@ -389,7 +427,7 @@
       {
         "name": "0509",
         "access_rules": [
-          ""
+          "@Travoll Mines to Forest"
         ],
         "sections": [
           {
@@ -399,7 +437,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Mines",
             "x": 0,
             "y": 0
@@ -409,7 +449,7 @@
       {
         "name": "0401",
         "access_rules": [
-          ""
+          "@Forest"
         ],
         "sections": [
           {
@@ -419,7 +459,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdawn Forest + Misty Maze",
             "x": 0,
             "y": 0
@@ -429,7 +471,7 @@
       {
         "name": "0701",
         "access_rules": [
-          ""
+          "@CopperWood"
         ],
         "sections": [
           {
@@ -439,7 +481,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Copperwood",
             "x": 0,
             "y": 0
@@ -449,7 +493,7 @@
       {
         "name": "0408",
         "access_rules": [
-          ""
+          "@Forest"
         ],
         "sections": [
           {
@@ -459,7 +503,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdawn Forest + Misty Maze",
             "x": 0,
             "y": 0
@@ -469,7 +515,7 @@
       {
         "name": "0908",
         "access_rules": [
-          ""
+          "@Gloamwood to Forest"
         ],
         "sections": [
           {
@@ -479,7 +525,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -489,7 +537,7 @@
       {
         "name": "0404",
         "access_rules": [
-          ""
+          "@Forest"
         ],
         "sections": [
           {
@@ -499,7 +547,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdawn Forest + Misty Maze",
             "x": 0,
             "y": 0
@@ -509,7 +559,7 @@
       {
         "name": "1304",
         "access_rules": [
-          ""
+          "@Verdazure Sea to Forest"
         ],
         "sections": [
           {
@@ -519,7 +569,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
             "y": 0
@@ -529,7 +581,7 @@
       {
         "name": "0503",
         "access_rules": [
-          ""
+          "@Travoll Mines to Swamp"
         ],
         "sections": [
           {
@@ -539,7 +591,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Mines",
             "x": 0,
             "y": 0
@@ -549,7 +603,7 @@
       {
         "name": "1703",
         "access_rules": [
-          ""
+          "@Swamp Entrance"
         ],
         "sections": [
           {
@@ -559,7 +613,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
             "x": 0,
             "y": 0
@@ -569,7 +625,7 @@
       {
         "name": "0500",
         "access_rules": [
-          ""
+          "@Travoll Mines"
         ],
         "sections": [
           {
@@ -579,7 +635,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Mines",
             "x": 0,
             "y": 0
@@ -589,7 +647,7 @@
       {
         "name": "1700",
         "access_rules": [
-          "bombs"
+          "@Magma Pits Entrance,bombs"
         ],
         "sections": [
           {
@@ -599,7 +657,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
             "x": 0,
             "y": 0
@@ -609,7 +669,7 @@
       {
         "name": "0605",
         "access_rules": [
-          ""
+          "@Travoll Industrie to CopperWood"
         ],
         "sections": [
           {
@@ -619,7 +679,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Industrial Park",
             "x": 0,
             "y": 0
@@ -629,7 +691,7 @@
       {
         "name": "0705",
         "access_rules": [
-          ""
+          "@CopperWood Industry to Travoll Industrie"
         ],
         "sections": [
           {
@@ -639,7 +701,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Copperwood",
             "x": 0,
             "y": 0
@@ -649,7 +713,7 @@
       {
         "name": "0600",
         "access_rules": [
-          ""
+          "@Travoll Industrie"
         ],
         "sections": [
           {
@@ -659,7 +723,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Travoll Industrial Park",
             "x": 0,
             "y": 0
@@ -669,7 +735,7 @@
       {
         "name": "2100",
         "access_rules": [
-          ""
+          "@Heavens Valley West"
         ],
         "sections": [
           {
@@ -679,7 +745,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
             "x": 0,
             "y": 0
@@ -689,7 +757,7 @@
       {
         "name": "0700",
         "access_rules": [
-          "bombs"
+          "@CopperWood,bombs"
         ],
         "sections": [
           {
@@ -699,7 +767,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Copperwood",
             "x": 0,
             "y": 0
@@ -709,7 +779,7 @@
       {
         "name": "0900",
         "access_rules": [
-          ""
+          "@Gloamwood Copperwood to CopperWood"
         ],
         "sections": [
           {
@@ -719,7 +789,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -729,7 +801,7 @@
       {
         "name": "0704",
         "access_rules": [
-          ""
+          "@CopperWood"
         ],
         "sections": [
           {
@@ -739,7 +811,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Copperwood",
             "x": 0,
             "y": 0
@@ -749,7 +823,7 @@
       {
         "name": "2404",
         "access_rules": [
-          ""
+          "@Relicts"
         ],
         "sections": [
           {
@@ -759,7 +833,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Relicts",
             "x": 0,
             "y": 0
@@ -769,7 +845,7 @@
       {
         "name": "0805",
         "access_rules": [
-          ""
+          "@Ana Thema"
         ],
         "sections": [
           {
@@ -779,7 +855,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Ana Thema",
             "x": 0,
             "y": 0
@@ -789,7 +867,7 @@
       {
         "name": "0905",
         "access_rules": [
-          ""
+          "@Gloamwood Bottom"
         ],
         "sections": [
           {
@@ -799,7 +877,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -809,7 +889,7 @@
       {
         "name": "0806",
         "access_rules": [
-          ""
+          "@Ana Thema to Gallery"
         ],
         "sections": [
           {
@@ -819,7 +899,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Ana Thema",
             "x": 0,
             "y": 0
@@ -829,7 +911,7 @@
       {
         "name": "2706",
         "access_rules": [
-          "$hasAmount|ranged|2"
+          "@Gallery of Mirrors West,$hasAmount|ranged|2"
         ],
         "sections": [
           {
@@ -839,7 +921,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
             "y": 0
@@ -849,7 +933,7 @@
       {
         "name": "0901",
         "access_rules": [
-          ""
+          "@Ulskan Village Area"
         ],
         "sections": [
           {
@@ -859,7 +943,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -869,7 +955,7 @@
       {
         "name": "1001",
         "access_rules": [
-          ""
+          "@Plague Forest"
         ],
         "sections": [
           {
@@ -879,7 +965,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Plagued Forest",
             "x": 0,
             "y": 0
@@ -889,7 +977,7 @@
       {
         "name": "0904",
         "access_rules": [
-          ""
+          "@Ulskan to Plague Forest"
         ],
         "sections": [
           {
@@ -899,7 +987,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -909,7 +999,7 @@
       {
         "name": "1004",
         "access_rules": [
-          ""
+          "@Plague Forest to Ulskan"
         ],
         "sections": [
           {
@@ -919,7 +1009,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Plagued Forest",
             "x": 0,
             "y": 0
@@ -929,7 +1021,7 @@
       {
         "name": "0902",
         "access_rules": [
-          ""
+          "@Gloamwood to Ulvosa"
         ],
         "sections": [
           {
@@ -939,7 +1031,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -949,7 +1043,7 @@
       {
         "name": "1102",
         "access_rules": [
-          ""
+          "@Ulvosa to Gloamwood"
         ],
         "sections": [
           {
@@ -959,7 +1053,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Ulvosa",
             "x": 0,
             "y": 0
@@ -969,7 +1065,7 @@
       {
         "name": "0906",
         "access_rules": [
-          ""
+          "@Gloamwood to Relicts"
         ],
         "sections": [
           {
@@ -979,7 +1075,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -989,7 +1087,7 @@
       {
         "name": "2406",
         "access_rules": [
-          "bombs"
+          "@Relicts to Gloamwood,bombs"
         ],
         "sections": [
           {
@@ -999,7 +1097,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Relicts",
             "x": 0,
             "y": 0
@@ -1009,7 +1109,7 @@
       {
         "name": "0903",
         "access_rules": [
-          ""
+          "@Gloamwood to Blushwood"
         ],
         "sections": [
           {
@@ -1019,7 +1119,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gloamwood",
             "x": 0,
             "y": 0
@@ -1029,7 +1131,7 @@
       {
         "name": "2803",
         "access_rules": [
-          ""
+          "@Blushwood"
         ],
         "sections": [
           {
@@ -1039,7 +1141,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Blushwood",
             "x": 0,
             "y": 0
@@ -1049,7 +1153,7 @@
       {
         "name": "1202",
         "access_rules": [
-          ""
+          "@Snowveil Entrance"
         ],
         "sections": [
           {
@@ -1059,7 +1163,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Verglas Village",
             "x": 0,
             "y": 0
@@ -1069,7 +1175,7 @@
       {
         "name": "1402",
         "access_rules": [
-          ""
+          "@Verdazure Ocean"
         ],
         "sections": [
           {
@@ -1079,7 +1185,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0
@@ -1089,7 +1197,7 @@
       {
         "name": "1204",
         "access_rules": [
-          ""
+          "@Snowveil"
         ],
         "sections": [
           {
@@ -1099,7 +1207,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Verglas Village",
             "x": 0,
             "y": 0
@@ -1109,7 +1219,7 @@
       {
         "name": "1604",
         "access_rules": [
-          ""
+          "@Snow City"
         ],
         "sections": [
           {
@@ -1119,7 +1229,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveilian Valley + Desert Hands HQ",
             "x": 0,
             "y": 0
@@ -1129,7 +1241,7 @@
       {
         "name": "1205",
         "access_rules": [
-          ""
+          "@Snowveil above Verglas Village"
         ],
         "sections": [
           {
@@ -1139,7 +1251,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Verglas Village",
             "x": 0,
             "y": 0
@@ -1149,7 +1263,7 @@
       {
         "name": "1805",
         "access_rules": [
-          ""
+          "@DreamKeeper Outside Left Snow To Snowveil"
         ],
         "sections": [
           {
@@ -1159,7 +1273,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Dreamer's Keep",
             "x": 0,
             "y": 0
@@ -1169,7 +1285,7 @@
       {
         "name": "1303",
         "access_rules": [
-          ""
+          "@Verdazure Sea to Forgotten city"
         ],
         "sections": [
           {
@@ -1179,7 +1295,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
             "y": 0
@@ -1189,7 +1307,7 @@
       {
         "name": "1403",
         "access_rules": [
-          ""
+          "@Forgotten City Entrance"
         ],
         "sections": [
           {
@@ -1199,7 +1317,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0
@@ -1209,7 +1329,7 @@
       {
         "name": "1300",
         "access_rules": [
-          "$hasAmount|ranged|2, slide"
+          "@Verdazure Sea East,$hasAmount|ranged|2, slide"
         ],
         "sections": [
           {
@@ -1219,7 +1339,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
             "y": 0
@@ -1229,7 +1351,7 @@
       {
         "name": "1400",
         "access_rules": [
-          ""
+          "@Verdazure Ocean To Sea"
         ],
         "sections": [
           {
@@ -1239,7 +1361,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0
@@ -1249,9 +1373,9 @@
       {
         "name": "1307",
         "access_rules": [
-          "airJump",
-          "jetpack",
-          "ADCKick"
+          "@Verdazure Sea West,airJump",
+          "@Verdazure Sea West,jetpack",
+          "@Verdazure Sea West,ADCKick"
         ],
         "sections": [
           {
@@ -1261,7 +1385,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
             "y": 0
@@ -1271,7 +1397,7 @@
       {
         "name": "2707",
         "access_rules": [
-          ""
+          "@Gallery of Souls to Sea"
         ],
         "sections": [
           {
@@ -1281,7 +1407,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
             "y": 0
@@ -1291,7 +1419,7 @@
       {
         "name": "1301",
         "access_rules": [
-          ""
+          "@Verdazure Sea East"
         ],
         "sections": [
           {
@@ -1301,7 +1429,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
             "y": 0
@@ -1311,7 +1441,7 @@
       {
         "name": "2801",
         "access_rules": [
-          ""
+          "@Blushwood"
         ],
         "sections": [
           {
@@ -1321,7 +1451,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Blushwood",
             "x": 0,
             "y": 0
@@ -1331,7 +1463,7 @@
       {
         "name": "1410",
         "access_rules": [
-          ""
+          "@Verdazure Swamp to Lab"
         ],
         "sections": [
           {
@@ -1341,7 +1473,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0
@@ -1351,7 +1485,7 @@
       {
         "name": "2510",
         "access_rules": [
-          ""
+          "@Lab - Verdazure Swamp Connection"
         ],
         "sections": [
           {
@@ -1361,7 +1495,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Catacombs + Omphalos Laboratory",
             "x": 0,
             "y": 0
@@ -1371,7 +1507,7 @@
       {
         "name": "1502",
         "access_rules": [
-          ""
+          "@Tartarus"
         ],
         "sections": [
           {
@@ -1381,7 +1517,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Tartarus",
             "x": 0,
             "y": 0
@@ -1391,7 +1529,7 @@
       {
         "name": "1702",
         "access_rules": [
-          ""
+          "@Swamp to Tartarus"
         ],
         "sections": [
           {
@@ -1401,7 +1539,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
             "x": 0,
             "y": 0
@@ -1411,7 +1551,7 @@
       {
         "name": "1503",
         "access_rules": [
-          ""
+          "@Tartarus Catacombs"
         ],
         "sections": [
           {
@@ -1421,7 +1561,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Tartarus",
             "x": 0,
             "y": 0
@@ -1431,7 +1573,7 @@
       {
         "name": "2503",
         "access_rules": [
-          ""
+          "@Catacombs Entrance"
         ],
         "sections": [
           {
@@ -1441,7 +1583,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "The Catacombs + Omphalos Laboratory",
             "x": 0,
             "y": 0
@@ -1451,9 +1595,9 @@
       {
         "name": "1600",
         "access_rules": [
-          "airJump",
-          "wallJump",
-          "jetpack"
+          "@Snowveil Above HQ,airJump",
+          "@Snowveil Above HQ,wallJump",
+          "@Snowveil Above HQ,jetpack"
         ],
         "sections": [
           {
@@ -1463,7 +1607,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveilian Valley + Desert Hands HQ",
             "x": 0,
             "y": 0
@@ -1473,7 +1619,7 @@
       {
         "name": "1800",
         "access_rules": [
-          ""
+          "@DreamKeeper Outside Right"
         ],
         "sections": [
           {
@@ -1483,7 +1629,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Dreamer's Keep",
             "x": 0,
             "y": 0
@@ -1493,7 +1641,7 @@
       {
         "name": "1701",
         "access_rules": [
-          ""
+          "@Magma Depths to Sinner"
         ],
         "sections": [
           {
@@ -1503,7 +1651,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
             "x": 0,
             "y": 0
@@ -1513,7 +1663,7 @@
       {
         "name": "2301",
         "access_rules": [
-          ""
+          "@Sinner's Oath Entrance"
         ],
         "sections": [
           {
@@ -1523,7 +1673,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Sinner's Oath + Phantasmic Palace",
             "x": 0,
             "y": 0
@@ -1533,7 +1685,7 @@
       {
         "name": "1801",
         "access_rules": [
-          ""
+          "@DreamKeeper Outside Left"
         ],
         "sections": [
           {
@@ -1543,7 +1695,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Snowveil + Dreamer's Keep",
             "x": 0,
             "y": 0
@@ -1553,7 +1707,7 @@
       {
         "name": "1901",
         "access_rules": [
-          ""
+          "@Heavens Valley Snow Route Low"
         ],
         "sections": [
           {
@@ -1563,7 +1717,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
@@ -1573,7 +1729,7 @@
       {
         "name": "1900",
         "access_rules": [
-          ""
+          "@Heavens Valley Snow Route Upper"
         ],
         "sections": [
           {
@@ -1583,7 +1739,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
@@ -1593,7 +1751,7 @@
       {
         "name": "2900",
         "access_rules": [
-          ""
+          "@EverGarden To Valley"
         ],
         "sections": [
           {
@@ -1603,7 +1761,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Evernight Garden",
             "x": 0,
             "y": 0
@@ -1613,7 +1773,7 @@
       {
         "name": "2001",
         "access_rules": [
-          ""
+          "@Valhalla City"
         ],
         "sections": [
           {
@@ -1623,7 +1783,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Valhalla",
             "x": 0,
             "y": 0
@@ -1633,7 +1795,7 @@
       {
         "name": "2101",
         "access_rules": [
-          ""
+          "@Valhalla Breath West"
         ],
         "sections": [
           {
@@ -1643,7 +1805,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
             "x": 0,
             "y": 0
@@ -1653,7 +1817,7 @@
       {
         "name": "2003",
         "access_rules": [
-          ""
+          "@Valhalla City"
         ],
         "sections": [
           {
@@ -1663,7 +1827,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Valhalla",
             "x": 0,
             "y": 0
@@ -1673,7 +1839,7 @@
       {
         "name": "2902",
         "access_rules": [
-          ""
+          "@EverGarden To Valhalla"
         ],
         "sections": [
           {
@@ -1683,7 +1849,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Evernight Garden",
             "x": 0,
             "y": 0
@@ -1693,7 +1861,7 @@
       {
         "name": "2008",
         "access_rules": [
-          "slide, bombs"
+          "@Valhalla City,slide, bombs"
         ],
         "sections": [
           {
@@ -1703,7 +1871,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Valhalla",
             "x": 0,
             "y": 0
@@ -1713,7 +1883,7 @@
       {
         "name": "2608",
         "access_rules": [
-          ""
+          "@Cloister Entrance"
         ],
         "sections": [
           {
@@ -1723,7 +1893,9 @@
         ],
         "map_locations": [
           {
-            "force_invisibility_rules":["$True"],
+            "force_invisibility_rules": [
+              "$True"
+            ],
             "map": "Cloister of Redemption",
             "x": 0,
             "y": 0
@@ -1732,7 +1904,6 @@
       }
     ]
   },
-
   {
     "name": "Exit Logic",
     "children": [

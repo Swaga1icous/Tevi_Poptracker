@@ -189,8 +189,6 @@ for val in RandomizerLocationList:
 
 for k,v in RandomizerAreaList.items():
     for area in v:
-        if area["Name"] == "Thanatara Canyon":
-            continue
         for con in area["Connections"]:
             if con["Exit"] == "":
                 continue
@@ -237,8 +235,8 @@ for k,v in RandomizerAreaList.items():
 
                 else:
                     PoptrackerList[regionsIds[con["Exit"]]]["access_rules"] += logic
-
-
+           
+PoptrackerList[regionsIds["Thanatara Canyon"]]["access_rules"] = []
 file = open(Path+"\\locations.jsonc",'w+')
 file.write(json.dumps(PoptrackerList,indent=2))
 file.close()

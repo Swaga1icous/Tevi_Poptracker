@@ -2,13 +2,7 @@
   {
     "name": "Thanatara Canyon",
     "clear_as_group": false,
-    "access_rules": [
-      "@Thanatara Canyon Lower,bombs",
-      "@Thanatara Canyon Lower,slide",
-      "@Thanatara Canyon - Heavens Valley West,bombs",
-      "@Gurun Desert,bombs",
-      "@Gurun Desert,openMorose"
-    ],
+    "access_rules": [],
     "children": [
       {
         "name": "Spanner of Wisdom",
@@ -221,6 +215,7 @@
     "name": "Thanatara Canyon Lower",
     "clear_as_group": false,
     "access_rules": [
+      "@Thanatara Canyon",
       "@Exit Logic/0106",
       "@Exit Logic/0107",
       "@Exit Logic/0100"
