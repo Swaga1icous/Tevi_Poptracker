@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Ulvosa",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
+      "@Ulvosa Exit,bombs , $canChargeShot , slide"
+    ],
+    "children": [
+      {
+        "name": "MP Quicken: Bloodlust",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - MP Quicken: Bloodlust",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Middle Ulvosa - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "airDash",
+              "jetpack",
+              "highJump"
+            ]
+          }
+		],
+		"map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 552,
+            "y": 168
+			}
+		]
+	},
+    {
+		"name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+			"name": "West Ulvosa - Cherry Bunny Potion",
+			"item_count": 1,
+			"access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 360,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Overdrive",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Overdrive",
+            "item_count": 1,
+            "access_rules": [
+              "EVENT_EliteChallangeD"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 600,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Spiral Slash: Cyclone",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Spiral Slash: Cyclone",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 888,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Core Expansion: Dazzle",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Core Expansion: Dazzle",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 888,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Core Expansion: Vitalize",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Core Expansion: Vitalize",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 792,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 648,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 456,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Soul Burst Module",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Soul Burst Module",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 360,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Cursed 6",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Cursed 6",
+            "item_count": 1,
+            "access_rules": [
+              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2 , bombs , slide",
+              "burst , bombs , slide",
+              "$canUseVenaBomb , bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 264,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  }
+]
