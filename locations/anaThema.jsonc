@@ -4,7 +4,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0805",
-      "@Ana Thema Gallery Exit,slide , bombs"
+      "@Ana Thema to Gallery,slide , bombs"
     ],
     "children": [
       {
@@ -148,7 +148,10 @@
           {
             "map": "Ana Thema",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -188,7 +191,10 @@
           {
             "map": "Ana Thema",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -402,17 +408,17 @@
           {
             "map": "Ana Thema",
             "x": 263,
-            "y": 218
+            "y": 218,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
-    "name": "Ana Thema Gallery Exit",
+    "name": "Ana Thema to Gallery",
     "clear_as_group": false,
     "access_rules": [
       "@Ana Thema,slide , bombs",
@@ -424,7 +430,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Ana Thema Gallery Exit - C. Rank Frenzy: Starter",
+            "name": "Ana Thema to Gallery - C. Rank Frenzy: Starter",
             "item_count": 1,
             "access_rules": [
               "bombs"

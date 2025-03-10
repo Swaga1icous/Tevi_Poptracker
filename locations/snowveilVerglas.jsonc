@@ -33,8 +33,8 @@
     "name": "Snowveil",
     "clear_as_group": false,
     "access_rules": [
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , false",
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , false",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
       "@Snowveil Entrance,bombs",
       "@Exit Logic/1204",
       "@Snowveil Ex"
@@ -76,7 +76,10 @@
           {
             "map": "Snowveil + Verglas Village",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -100,9 +103,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
@@ -151,7 +151,10 @@
           {
             "map": "Snowveil + Verglas Village",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -248,7 +251,7 @@
             "item_count": 1,
             "access_rules": [
               "slide , $hasAmount|jetpack|3 , airDash",
-              "slide , false , airDash",
+              "slide , $False , airDash",
               "slide , jetpack , airDash , airJump"
             ]
           }
@@ -261,9 +264,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {

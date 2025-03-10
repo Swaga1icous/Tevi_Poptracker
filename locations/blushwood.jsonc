@@ -43,7 +43,10 @@
           {
             "map": "Blushwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -169,9 +172,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
@@ -247,7 +247,10 @@
           {
             "map": "Blushwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

@@ -82,7 +82,10 @@
           {
             "map": "The Sewerways + Golden Hands Desert Base",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -107,9 +110,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
@@ -125,7 +125,7 @@
       "@Desert Base Entrance,bombs , bombThrow",
       "@Desert Base Entrance,rabbitJump",
       "@Desert Base Entrance,backflip , speed",
-      "@Desert Base Entrance,backflip , false",
+      "@Desert Base Entrance,backflip , $False",
       "@Desert Base Upper Half"
     ],
     "children": [

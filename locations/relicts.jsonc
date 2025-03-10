@@ -4,7 +4,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
-      "@Relicts Exit,bombs"
+      "@Relicts to Gloamwood,bombs"
     ],
     "children": [
       {
@@ -63,7 +63,10 @@
           {
             "map": "The Relicts",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -127,7 +130,10 @@
           {
             "map": "The Relicts",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -171,9 +177,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

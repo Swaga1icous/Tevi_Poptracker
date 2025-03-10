@@ -3,8 +3,8 @@
     "name": "Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
-      "@Ulvosa Exit,bombs , $canChargeShot , slide"
+      "@Ulvosa to Gloamwood,bombs , $canChargeShot , hiddenPaths",
+      "@Ulvosa to Gloamwood,bombs , $canChargeShot , slide"
     ],
     "children": [
       {

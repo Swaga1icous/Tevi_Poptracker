@@ -3,7 +3,6 @@
     "name": "Morose City",
     "clear_as_group": false,
     "access_rules": [
-      "@Thanatara Canyon,openMorose",
       "@Exit Logic/0302",
       "@Exit Logic/0303",
       "@Exit Logic/0301",
@@ -26,7 +25,10 @@
           {
             "map": "Morose",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -46,7 +48,10 @@
           {
             "map": "Morose",
             "x": 432,
-            "y": 60
+            "y": 60,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -86,7 +91,10 @@
           {
             "map": "Morose",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -352,9 +360,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

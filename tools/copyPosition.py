@@ -23,9 +23,10 @@ if os.path.isfile(Path+"\\locations.jsonc"):
 
 
 def updateLocation(mapName):
-    if os.path.isfile(Path+"\\..\\locations\\"+mapName+".jsonc"):
-        currentMap = json.load(open(Path+"\\..\\locations\\"+mapName+".jsonc"))
-    for v in currentMap:
+    if os.path.isfile(Path+"\\resource\\"+mapName+".jsonc"):
+        currentMap = json.load(open(Path+"\\resource\\"+mapName+".jsonc"))
+    
+    for idx,v in enumerate(currentMap):
         region = PoptrackerList[regionsIds[v["name"]]]
         for ve in v["children"]:
             found = False
@@ -33,10 +34,15 @@ def updateLocation(mapName):
                 if regChild["name"] == ve["name"]:
                     found = True
                     if len(regChild["map_locations"]) == 1:
-                        regChild["map_locations"][0] = ve["map_locations"][0]
+                        regChild["map_locations"][0]["x"] = ve["map_locations"][0]["x"]
+                        regChild["map_locations"][0]["y"] = ve["map_locations"][0]["y"]
             if not found:
                 print(f"Could not find Location {ve['name']} in Area {v['name']}")
                 a = 1
+        currentMap[idx] = region
+    file = open(Path+"\\..\\locations\\"+mapName+".jsonc",'w+')
+    file.write(json.dumps(currentMap,indent=2))
+    file.close()
 
 updateLocation("anaThema")
 updateLocation("blushwood")
@@ -68,8 +74,9 @@ updateLocation("verdawnAndMaze")
 updateLocation("verdazureSea")
 
 
-file = open(Path+"\\AllLocations.jsonc",'w+')
+file = open(Path+"\\locations.jsonc",'w+')
 file.write(json.dumps(PoptrackerList,indent=2))
+file.close()
 print("finished")
 
 

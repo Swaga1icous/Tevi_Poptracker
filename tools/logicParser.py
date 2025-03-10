@@ -106,19 +106,19 @@ TeviRuleToPoptacker = {
     "RainbowCheck":"^$RainbowCheck",
     "ItemUse":"[$true]",
     "EVENT_SnowMechanic":"^$EVENT_SnowMechanic",
-    
-    "Everything that is by default false": "false",
-    "Memine":"false",
-    "AllMemine":"false",
-    "Explorer":"false",
-    "Goal":"false",
+
+    "Everything that is by default false": "$False",
+    "Memine":"$False",
+    "AllMemine":"$False",
+    "Explorer":"$False",
+    "Goal":"$False",
     "Chapter":"$SomethingWrong",
-    "BounceKick":"false",
-    "ADCKick":"false",
-    "BarrierSkip":"false",
-    "WindSkip":"false",
-    "EnemyManip":"false",
-    "Hard":"false"
+    "BounceKick":"$False",
+    "ADCKick":"$False",
+    "BarrierSkip":"$False",
+    "WindSkip":"$False",
+    "EnemyManip":"$False",
+    "Hard":"$False"
 }
 
 

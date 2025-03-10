@@ -12,7 +12,7 @@ regionsIds = {}
 regionLocations = {}
 currentRegionId = 0
 PoptrackerList = []
-
+customLocation = {}
 #if os.path.isfile(Path+"\\locations.jsonc"):
 #    PoptrackerList = json.load(open(Path+"\\locations.jsonc"))
 #    for val in PoptrackerList:
@@ -45,9 +45,9 @@ def addMapAccessRule(rule):
 
 def setMapName(area):
     name = "No Map available"
-    if "Exit" in area or " to " in area:
-        a = 2
-    elif "Ana Thema" in area:
+    if " to " in area:
+        area = area.split(" to")[0]
+    if "Ana Thema" in area:
         name = "Ana Thema"
     elif "Blushwood" in area:
         name = "Blushwood"
@@ -61,7 +61,7 @@ def setMapName(area):
         name = "Verdawn Forest + Misty Maze"
     elif "EverGarden" in area:
         name = "Evernight Garden"
-    elif "Gleamwood" in area or "Ulskan" in area:
+    elif "Gloamwood" in area or "Ulskan" in area:
         name = "Gloamwood"
     elif "Industrie" in area: #wrong name (it's german)
         name = "Travoll Industrial Park"
@@ -128,14 +128,10 @@ for val in RandomizerLocationList:
         currentRegionId +=1
         PoptrackerList.append(regionTemplate)
 
-    locName = val["LocationName"].split("-")[1][1:]
-    if "EVENT" in val["Itemname"]:
-        locName = val["Itemname"]
-        regionTemplate["visibillity_rules"] = ["NOTHING"]
     itemName = val["LocationName"]
 
     locTemplate = {
-        "name": locName,
+        "name": "",
         "access_rules": [],
         "sections": [{
                     "name": itemName,
@@ -150,12 +146,22 @@ for val in RandomizerLocationList:
           }
         ]
       }
+    locName = val["LocationName"].split("-")[1][1:]
+    if "EVENT" in val["Itemname"]:
+        locName = val["Itemname"]
+        locTemplate["map_locations"][0]["force_invisibility_rules"] = ["$True"]
+
+
+    locTemplate["name"] = locName
+
+
     if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
         locTemplate["access_rules"] = []
 
     if "Shop" in val["LocationName"]:
         locName = val["LocationName"].split("-")[0][:-1]
         locName = locName[:locName.find("Shop")+4]
+        customLocation[locName] = locTemplate["name"]
         locTemplate["name"] = locName
         
 
@@ -183,6 +189,8 @@ for val in RandomizerLocationList:
 
 for k,v in RandomizerAreaList.items():
     for area in v:
+        if area["Name"] == "Thanatara Canyon":
+            continue
         for con in area["Connections"]:
             if con["Exit"] == "":
                 continue
@@ -233,5 +241,6 @@ for k,v in RandomizerAreaList.items():
 
 file = open(Path+"\\locations.jsonc",'w+')
 file.write(json.dumps(PoptrackerList,indent=2))
+file.close()
 print("finished")
     

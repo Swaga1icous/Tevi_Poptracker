@@ -457,14 +457,14 @@
       "@Pre Swamp,randged",
       "@Pre Swamp,airDash",
       "@Pre Swamp,bombs , bombThrow",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airJump",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airDash",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , airDash , airJump",
-      "@Swamp Tartarus Exit,slide , bombs , $hasAmount|jetpack|2",
-      "@Swamp Tartarus Exit,slide , bombs , jetpack , airJump",
-      "@Swamp Tartarus Exit,slide , bombs , jetpack , airDash",
-      "@Swamp Tartarus Exit,slide , bombs , airDash , airJump"
+      "@Swamp to Tartarus,slide , hiddenPaths , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,slide , hiddenPaths , jetpack , airJump",
+      "@Swamp to Tartarus,slide , hiddenPaths , jetpack , airDash",
+      "@Swamp to Tartarus,slide , hiddenPaths , airDash , airJump",
+      "@Swamp to Tartarus,slide , bombs , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,slide , bombs , jetpack , airJump",
+      "@Swamp to Tartarus,slide , bombs , jetpack , airDash",
+      "@Swamp to Tartarus,slide , bombs , airDash , airJump"
     ],
     "children": [
       {

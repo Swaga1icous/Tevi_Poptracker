@@ -3,8 +3,8 @@
     "name": "CopperWood",
     "clear_as_group": false,
     "access_rules": [
-      "@CopperWood Industry Exit,bombs",
-      "@CopperWood Industry Exit,slide",
+      "@CopperWood Industry to Travoll Industrie,bombs",
+      "@CopperWood Industry to Travoll Industrie,slide",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
@@ -86,7 +86,7 @@
     "name": "CopperWood EP Pot",
     "clear_as_group": false,
     "access_rules": [
-      "@CopperWood Industry Exit,bombs",
+      "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood,airJump",
       "@CopperWood,jetpack"
     ],
@@ -114,7 +114,7 @@
     ]
   },
   {
-    "name": "CopperWood Industry Exit",
+    "name": "CopperWood Industry to Travoll Industrie",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0705",
@@ -126,7 +126,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood Industry Exit - MP Quicken: Style",
+            "name": "CopperWood Industry to Travoll Industrie - MP Quicken: Style",
             "item_count": 1,
             "access_rules": [
               "airJump",

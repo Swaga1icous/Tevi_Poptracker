@@ -7,8 +7,8 @@
       "@Exit Logic/1307,jetpack",
       "@Exit Logic/1307,ADCKick",
       "@Verdazure Sea East,water",
-      "@Verdazure Sea West Exit,bombs",
-      "@Verdazure Sea West Exit,water"
+      "@Verdazure Sea to Forest,bombs",
+      "@Verdazure Sea to Forest,water"
     ],
     "children": [
       {
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "name": "Verdazure Sea Forgotten Exit",
+    "name": "Verdazure Sea to Forgotten city",
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,water , bombs",

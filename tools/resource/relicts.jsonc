@@ -4,7 +4,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
-      "@Relicts Exit,bombs"
+      "@Relicts to Gloamwood,bombs"
     ],
     "children": [
       {

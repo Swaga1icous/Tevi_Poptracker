@@ -191,7 +191,10 @@
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -211,7 +214,10 @@
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -282,9 +288,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
@@ -321,9 +324,9 @@
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , false",
-      "@Gallery of Souls Boss Area,wallJump , bombs , false",
-      "@Gallery of Souls Boss Area,airJump , bombs , false"
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , $False",
+      "@Gallery of Souls Boss Area,wallJump , bombs , $False",
+      "@Gallery of Souls Boss Area,airJump , bombs , $False"
     ],
     "children": [
       {
@@ -376,7 +379,7 @@
       "@Gallery of Souls,wallJump , $canChargeShot",
       "@Gallery of Souls,airJump , $canChargeShot",
       "@Gallery of Souls,bombs , $canChargeShot",
-      "@Gallery of Souls Sea Exit,$hasAmount|bombRange|3"
+      "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
     ],
     "children": [
       {
@@ -437,13 +440,13 @@
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

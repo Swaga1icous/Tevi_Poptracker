@@ -5,8 +5,8 @@
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
-      "@Travoll Industrie East Exit,bombs",
-      "@Travoll Industrie East Exit,slide"
+      "@Travoll Industrie to CopperWood,bombs",
+      "@Travoll Industrie to CopperWood,slide"
     ],
     "children": [
       {
@@ -20,7 +20,7 @@
               "slide , wallJump , airDash",
               "slide , wallJump , jetpack",
               "slide , wallJump , airJump",
-              "slide , false"
+              "slide , $False"
             ]
           }
         ],
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "name": "Travoll Industrie East Exit",
+    "name": "Travoll Industrie to CopperWood",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Industrie,bombs",

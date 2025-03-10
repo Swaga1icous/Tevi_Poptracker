@@ -46,7 +46,10 @@
           {
             "map": "Tartarus",
             "x": 504,
-            "y": 360
+            "y": 360,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -331,13 +334,13 @@
           {
             "map": "Tartarus",
             "x": 120,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

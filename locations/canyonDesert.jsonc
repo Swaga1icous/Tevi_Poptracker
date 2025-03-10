@@ -3,11 +3,6 @@
     "name": "Thanatara Canyon",
     "clear_as_group": false,
     "access_rules": [
-      "@Exit Logic/0101,$canChargeShot",
-      "@Exit Logic/0101,airJump",
-      "@Exit Logic/0101,jetpack",
-      "@Exit Logic/0101,airDash",
-      "@Exit Logic/0101,wallJump , ceilingKick",
       "@Thanatara Canyon Lower,bombs",
       "@Thanatara Canyon Lower,slide",
       "@Thanatara Canyon - Heavens Valley West,bombs",
@@ -153,7 +148,10 @@
           {
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 540,
-            "y": 402
+            "y": 402,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -223,7 +221,6 @@
     "name": "Thanatara Canyon Lower",
     "clear_as_group": false,
     "access_rules": [
-      "@Thanatara Canyon",
       "@Exit Logic/0106",
       "@Exit Logic/0107",
       "@Exit Logic/0100"
@@ -309,9 +306,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {

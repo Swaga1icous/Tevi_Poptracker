@@ -237,7 +237,7 @@
     ]
   },
   {
-    "name": "Plague Forest Exit",
+    "name": "Plague Forest to Ulskan",
     "clear_as_group": false,
     "access_rules": [
       "@Plague Forest,bombs , slide",

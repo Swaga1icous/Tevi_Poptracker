@@ -1,11 +1,11 @@
 [ 
   {
-    "name": "Gleamwood Bottom",
+    "name": "Gloamwood Bottom",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Forest Exit",
+      "@Gloamwood to Forest",
       "@Exit Logic/0905",
-      "@Gleamwood Middle"
+      "@Gloamwood Middle"
     ],
     "children": [
       {
@@ -66,15 +66,15 @@
     ]
   },
   {
-    "name": "Gleamwood Middle",
+    "name": "Gloamwood Middle",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Copperwood Exit,bombs",
-      "@Gleamwood Relicts Exit,bombRange",
-      "@Gleamwood Bottom,airJump, bombs, jetpack, airDash",
-      "@Gleamwood Bottom,EnemyManip",
-      "@Gleamwood Ulvosa Exit",
-      "@Gleamwood Right",
+      "@Gloamwood Copperwood to CopperWood,bombs",
+      "@Gloamwood to Relicts,bombRange",
+      "@Gloamwood Bottom,airJump, bombs, jetpack, airDash",
+      "@Gloamwood Bottom,EnemyManip",
+      "@Gloamwood to Ulvosa",
+      "@Gloamwood Right",
       "@Ulskan Village Area,dagger, $canUseVenaBomb, randged"
     ],
     "children": [
@@ -216,7 +216,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Earth",
+            "name": "Gloamwood Upper - Earth",
             "item_count": 1
           }
         ],
@@ -231,11 +231,11 @@
     ]
   },
   {
-    "name": "Gleamwood Forest Exit",
+    "name": "Gloamwood to Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0908",
-      "@Gleamwood Bottom,bombs"
+      "@Gloamwood Bottom,bombs"
     ],
     "children": [
       {
@@ -263,10 +263,10 @@
     ]
   },
   {
-    "name": "Gleamwood Ulvosa Exit",
+    "name": "Gloamwood to Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Middle,slide , $canChargeShot, hiddenPaths , $canChargeShot",
+      "@Gloamwood Middle,slide , $canChargeShot, hiddenPaths , $canChargeShot",
       "@Exit Logic/0902"
     ],
     "children": [
@@ -275,7 +275,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Elite Challenge C",
+            "name": "Gloamwood Upper - Elite Challenge C",
             "item_count": 1
           }
         ],
@@ -290,11 +290,11 @@
     ]
   },
   {
-    "name": "Gleamwood Right",
+    "name": "Gloamwood Right",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Blush Exit,highJump, airJump, airDash, jetpack, rabbitJump",
-      "@Gleamwood Middle,airJump, airDash, jetpack, rabbitJump"
+      "@Gloamwood to Blushwood,highJump, airJump, airDash, jetpack, rabbitJump",
+      "@Gloamwood Middle,airJump, airDash, jetpack, rabbitJump"
     ],
     "children": [
       {
@@ -378,9 +378,9 @@
     "name": "Ulskan Village Area",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Right",
+      "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan Plague Exit,slide , bombs"
+      "@Ulskan to Plague Forest,slide , bombs"
     ],
     "children": [
       {
@@ -443,7 +443,7 @@
     ]
   },
   {
-    "name": "Ulskan Plague Exit",
+    "name": "Ulskan to Plague Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0904"

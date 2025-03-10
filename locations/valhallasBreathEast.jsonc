@@ -44,7 +44,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -64,7 +67,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -78,7 +84,7 @@
             "access_rules": [
               "slide , bombs , jetpack",
               "slide , bombs , airJump",
-              "slide , bombs , false"
+              "slide , bombs , $False"
             ]
           }
         ],
@@ -111,9 +117,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
@@ -181,7 +184,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -266,13 +272,13 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

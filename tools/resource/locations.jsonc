@@ -1959,8 +1959,8 @@
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
-      "@Travoll Industrie East Exit,bombs",
-      "@Travoll Industrie East Exit,slide"
+      "@Travoll Industrie to CopperWood,bombs",
+      "@Travoll Industrie to CopperWood,slide"
     ],
     "children": [
       {
@@ -2091,7 +2091,7 @@
     ]
   },
   {
-    "name": "Travoll Industrie East Exit",
+    "name": "Travoll Industrie to CopperWood",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Industrie,bombs",
@@ -2125,12 +2125,12 @@
     "name": "Travoll Mines",
     "clear_as_group": false,
     "access_rules": [
-      "@Travoll Mines East Exit,bombs , bombFuel",
-      "@Travoll Mines West Exit,bombs , bombFuel",
+      "@Travoll Mines to Morose City,bombs , bombFuel",
+      "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
       "@Exit Logic/0500",
-      "@Travoll Mines Forest Exit,bombs , dagger",
-      "@Travoll Mines Forest Exit,bombs , ^$EVENT_FreeStrongAttack",
-      "@Travoll Mines Swamp Exit"
+      "@Travoll Mines to Forest,bombs , dagger",
+      "@Travoll Mines to Forest,bombs , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Swamp"
     ],
     "children": [
       {
@@ -2277,7 +2277,7 @@
     ]
   },
   {
-    "name": "Travoll Mines Swamp Exit",
+    "name": "Travoll Mines to Swamp",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,slide , bombFuel",
@@ -2289,7 +2289,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines Swamp Exit - Dodge: Headstrong",
+            "name": "Travoll Mines to Swamp - Dodge: Headstrong",
             "item_count": 1,
             "access_rules": [
               "vortex"
@@ -2307,11 +2307,11 @@
     ]
   },
   {
-    "name": "Travoll Mines East Exit",
+    "name": "Travoll Mines to Morose City",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0501",
-      "@Travoll Mines West Exit,bombs",
+      "@Travoll Mines to Thanatara Canyon,bombs",
       "@Travoll Mines"
     ],
     "children": [
@@ -2338,7 +2338,7 @@
     ]
   },
   {
-    "name": "Travoll Mines Forest Exit",
+    "name": "Travoll Mines to Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,bombs",
@@ -2350,7 +2350,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines Forest Exit - Mana Armor",
+            "name": "Travoll Mines to Forest - Mana Armor",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -2771,12 +2771,12 @@
     ]
   },
   {
-    "name": "Gleamwood Bottom",
+    "name": "Gloamwood Bottom",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Forest Exit",
+      "@Gloamwood to Forest",
       "@Exit Logic/0905",
-      "@Gleamwood Middle"
+      "@Gloamwood Middle"
     ],
     "children": [
       {
@@ -2784,7 +2784,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Lemon Bunny Potion",
+            "name": "Gloamwood Middle - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -2804,7 +2804,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Bottom - Cherry Bunny Potion",
+            "name": "Gloamwood Bottom - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -2824,7 +2824,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Bottom - Kiwi Bunny Potion",
+            "name": "Gloamwood Bottom - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "dagger"
@@ -2844,7 +2844,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Gleamwood - Rainbow Bunny Potion",
+            "name": "Memine Gloamwood - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
@@ -2862,18 +2862,18 @@
     ]
   },
   {
-    "name": "Gleamwood Middle",
+    "name": "Gloamwood Middle",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Copperwood Exit,bombs",
-      "@Gleamwood Relicts Exit,bombRange",
-      "@Gleamwood Bottom,airJump",
-      "@Gleamwood Bottom,bombs",
-      "@Gleamwood Bottom,jetpack",
-      "@Gleamwood Bottom,airDash",
-      "@Gleamwood Bottom,EnemyManip",
-      "@Gleamwood Ulvosa Exit",
-      "@Gleamwood Right",
+      "@Gloamwood Copperwood to CopperWood,bombs",
+      "@Gloamwood to Relicts,bombRange",
+      "@Gloamwood Bottom,airJump",
+      "@Gloamwood Bottom,bombs",
+      "@Gloamwood Bottom,jetpack",
+      "@Gloamwood Bottom,airDash",
+      "@Gloamwood Bottom,EnemyManip",
+      "@Gloamwood to Ulvosa",
+      "@Gloamwood Right",
       "@Ulskan Village Area,dagger",
       "@Ulskan Village Area,$canUseVenaBomb",
       "@Ulskan Village Area,ranged"
@@ -2884,7 +2884,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Quick Bomber",
+            "name": "Gloamwood Middle - Quick Bomber",
             "item_count": 1,
             "access_rules": [
               "bombs"
@@ -2904,7 +2904,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Decay Mask",
+            "name": "Gloamwood Middle - Decay Mask",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -2924,7 +2924,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Blueberry Bunny Potion",
+            "name": "Gloamwood Middle - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "slide , bombs"
@@ -2944,7 +2944,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Combo Time Extend III",
+            "name": "Gloamwood Middle - Combo Time Extend III",
             "item_count": 1,
             "access_rules": [
               "slide , EnemyManip , ranged , dagger",
@@ -2965,7 +2965,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Grape Bunny Potion",
+            "name": "Gloamwood Middle - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "slide , $canChargeShot , bombs"
@@ -2985,7 +2985,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Rainbow Bunny Potion",
+            "name": "Gloamwood Middle - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "airJump , bombs",
@@ -3007,7 +3007,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Dodge: Optimize",
+            "name": "Gloamwood Upper - Dodge: Optimize",
             "item_count": 1,
             "access_rules": [
               "slide , dagger",
@@ -3030,7 +3030,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Earth",
+            "name": "Gloamwood Upper - Earth",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -3048,11 +3048,11 @@
     ]
   },
   {
-    "name": "Gleamwood Forest Exit",
+    "name": "Gloamwood to Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0908",
-      "@Gleamwood Bottom,bombs"
+      "@Gloamwood Bottom,bombs"
     ],
     "children": [
       {
@@ -3060,7 +3060,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Middle - Special Action: Speechless",
+            "name": "Gloamwood Middle - Special Action: Speechless",
             "item_count": 1,
             "access_rules": [
               "jetpack , bombs",
@@ -3081,11 +3081,11 @@
     ]
   },
   {
-    "name": "Gleamwood Ulvosa Exit",
+    "name": "Gloamwood to Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Middle,slide , $canChargeShot",
-      "@Gleamwood Middle,hiddenPaths , $canChargeShot",
+      "@Gloamwood Middle,slide , $canChargeShot",
+      "@Gloamwood Middle,hiddenPaths , $canChargeShot",
       "@Exit Logic/0902"
     ],
     "children": [
@@ -3094,7 +3094,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Elite Challenge C",
+            "name": "Gloamwood Upper - Elite Challenge C",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -3112,18 +3112,18 @@
     ]
   },
   {
-    "name": "Gleamwood Right",
+    "name": "Gloamwood Right",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Blush Exit,highJump",
-      "@Gleamwood Blush Exit,airJump",
-      "@Gleamwood Blush Exit,airDash",
-      "@Gleamwood Blush Exit,jetpack",
-      "@Gleamwood Blush Exit,rabbitJump",
-      "@Gleamwood Middle,airJump",
-      "@Gleamwood Middle,airDash",
-      "@Gleamwood Middle,jetpack",
-      "@Gleamwood Middle,rabbitJump"
+      "@Gloamwood to Blushwood,highJump",
+      "@Gloamwood to Blushwood,airJump",
+      "@Gloamwood to Blushwood,airDash",
+      "@Gloamwood to Blushwood,jetpack",
+      "@Gloamwood to Blushwood,rabbitJump",
+      "@Gloamwood Middle,airJump",
+      "@Gloamwood Middle,airDash",
+      "@Gloamwood Middle,jetpack",
+      "@Gloamwood Middle,rabbitJump"
     ],
     "children": [
       {
@@ -3213,9 +3213,9 @@
     "name": "Ulskan Village Area",
     "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Right",
+      "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan Plague Exit,slide , bombs"
+      "@Ulskan to Plague Forest,slide , bombs"
     ],
     "children": [
       {
@@ -3284,7 +3284,7 @@
     ]
   },
   {
-    "name": "Ulskan Plague Exit",
+    "name": "Ulskan to Plague Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0904"
@@ -3586,7 +3586,7 @@
     ]
   },
   {
-    "name": "Plague Forest Exit",
+    "name": "Plague Forest to Ulskan",
     "clear_as_group": false,
     "access_rules": [
       "@Plague Forest,bombs , slide",
@@ -3639,8 +3639,8 @@
     "name": "Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
-      "@Ulvosa Exit,bombs , $canChargeShot , slide"
+      "@Ulvosa to Gloamwood,bombs , $canChargeShot , hiddenPaths",
+      "@Ulvosa to Gloamwood,bombs , $canChargeShot , slide"
     ],
     "children": [
       {
@@ -3901,8 +3901,8 @@
     "name": "CopperWood",
     "clear_as_group": false,
     "access_rules": [
-      "@CopperWood Industry Exit,bombs",
-      "@CopperWood Industry Exit,slide",
+      "@CopperWood Industry to Travoll Industrie,bombs",
+      "@CopperWood Industry to Travoll Industrie,slide",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
@@ -3997,7 +3997,7 @@
     "name": "CopperWood EP Pot",
     "clear_as_group": false,
     "access_rules": [
-      "@CopperWood Industry Exit,bombs",
+      "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood,airJump",
       "@CopperWood,jetpack"
     ],
@@ -4025,7 +4025,7 @@
     ]
   },
   {
-    "name": "CopperWood Industry Exit",
+    "name": "CopperWood Industry to Travoll Industrie",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0705",
@@ -4037,7 +4037,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood Industry Exit - MP Quicken: Style",
+            "name": "CopperWood Industry to Travoll Industrie - MP Quicken: Style",
             "item_count": 1,
             "access_rules": [
               "airJump",
@@ -4061,7 +4061,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
-      "@Relicts Exit,bombs"
+      "@Relicts to Gloamwood,bombs"
     ],
     "children": [
       {
@@ -4215,7 +4215,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0805",
-      "@Ana Thema Gallery Exit,slide , bombs"
+      "@Ana Thema to Gallery,slide , bombs"
     ],
     "children": [
       {
@@ -4620,7 +4620,7 @@
     ]
   },
   {
-    "name": "Ana Thema Gallery Exit",
+    "name": "Ana Thema to Gallery",
     "clear_as_group": false,
     "access_rules": [
       "@Ana Thema,slide , bombs",
@@ -4632,7 +4632,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Ana Thema Gallery Exit - C. Rank Frenzy: Starter",
+            "name": "Ana Thema to Gallery - C. Rank Frenzy: Starter",
             "item_count": 1,
             "access_rules": [
               "bombs"
@@ -5107,14 +5107,14 @@
       "@Pre Swamp,ranged",
       "@Pre Swamp,airDash",
       "@Pre Swamp,bombs , bombThrow",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , $hasAmount|jetpack|2",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airJump",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , jetpack , airDash",
-      "@Swamp Tartarus Exit,slide , hiddenPaths , airDash , airJump",
-      "@Swamp Tartarus Exit,slide , bombs , $hasAmount|jetpack|2",
-      "@Swamp Tartarus Exit,slide , bombs , jetpack , airJump",
-      "@Swamp Tartarus Exit,slide , bombs , jetpack , airDash",
-      "@Swamp Tartarus Exit,slide , bombs , airDash , airJump"
+      "@Swamp to Tartarus,slide , hiddenPaths , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,slide , hiddenPaths , jetpack , airJump",
+      "@Swamp to Tartarus,slide , hiddenPaths , jetpack , airDash",
+      "@Swamp to Tartarus,slide , hiddenPaths , airDash , airJump",
+      "@Swamp to Tartarus,slide , bombs , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,slide , bombs , jetpack , airJump",
+      "@Swamp to Tartarus,slide , bombs , jetpack , airDash",
+      "@Swamp to Tartarus,slide , bombs , airDash , airJump"
     ],
     "children": [
       {
@@ -6175,8 +6175,8 @@
       "@Exit Logic/1307,jetpack",
       "@Exit Logic/1307,ADCKick",
       "@Verdazure Sea East,water",
-      "@Verdazure Sea West Exit,bombs",
-      "@Verdazure Sea West Exit,water"
+      "@Verdazure Sea to Forest,bombs",
+      "@Verdazure Sea to Forest,water"
     ],
     "children": [
       {
@@ -6333,7 +6333,7 @@
     ]
   },
   {
-    "name": "Verdazure Sea Forgotten Exit",
+    "name": "Verdazure Sea to Forgotten city",
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,water , bombs",
@@ -6908,7 +6908,7 @@
       "@EverGarden To Valley,airJump",
       "@EverGarden To Valley,jetpack",
       "@EverGarden To Valhalla,bombs",
-      "@EverGarden Path to Boss",
+      "@EverGarden Path BossPath",
       "@EverGarden Boss Area"
     ],
     "children": [
@@ -7025,7 +7025,7 @@
     ]
   },
   {
-    "name": "EverGarden Path to Boss",
+    "name": "EverGarden Path BossPath",
     "clear_as_group": false,
     "access_rules": [
       "@EverGarden,airJump",
@@ -7040,7 +7040,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Whipcrack",
+            "name": "EverGarden Path BossPath - Whipcrack",
             "item_count": 1,
             "access_rules": [
               "jetpack , bombs",
@@ -7062,7 +7062,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Shooting Star",
+            "name": "EverGarden Path BossPath - Shooting Star",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , airJump",
@@ -7085,7 +7085,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Battlecry",
+            "name": "EverGarden Path BossPath - Battlecry",
             "item_count": 1,
             "access_rules": [
               "slide , $canChargeShot , jetpack",
@@ -7107,10 +7107,10 @@
     "name": "EverGarden Boss Area",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden Path to Boss,airJump , airDash",
-      "@EverGarden Path to Boss,jetpack , airDash",
-      "@EverGarden Path to Boss,$hasAmount|jetpack|3",
-      "@EverGarden Path to Boss,$hasAmount|jetpack|2"
+      "@EverGarden Path BossPath,airJump , airDash",
+      "@EverGarden Path BossPath,jetpack , airDash",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|3",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|2"
     ],
     "children": [
       {
@@ -7864,7 +7864,7 @@
       "@Gallery of Souls,wallJump , $canChargeShot",
       "@Gallery of Souls,airJump , $canChargeShot",
       "@Gallery of Souls,bombs , $canChargeShot",
-      "@Gallery of Souls Sea Exit,$hasAmount|bombRange|3"
+      "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
     ],
     "children": [
       {
@@ -7911,7 +7911,7 @@
     ]
   },
   {
-    "name": "Verdazure Ocean Sea Exit",
+    "name": "Verdazure Ocean To Sea",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1400",
@@ -7949,7 +7949,7 @@
     "name": "Verdazure Ocean",
     "clear_as_group": false,
     "access_rules": [
-      "@Verdazure Ocean Sea Exit,slide",
+      "@Verdazure Ocean To Sea,slide",
       "@Exit Logic/1402",
       "@Verdazure Swamp,slide , bombs , highJump",
       "@Verdazure Swamp,slide , bombs , airJump",
@@ -8064,7 +8064,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean,bombs , slide",
-      "@Verdazure Swamp Lab Exit,slide"
+      "@Verdazure Swamp to Lab,slide"
     ],
     "children": [
       {
@@ -9321,11 +9321,11 @@
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
-      "@DreamKeeper Outside Left Snow Exit,rabbitJump",
-      "@DreamKeeper Outside Left Snow Exit,airDash",
-      "@DreamKeeper Outside Left Snow Exit,airJump",
-      "@DreamKeeper Outside Left Snow Exit,jetpack",
-      "@DreamKeeper Outside Left Snow Exit,highJump"
+      "@DreamKeeper Outside Left Snow To Snowveil,rabbitJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,airDash",
+      "@DreamKeeper Outside Left Snow To Snowveil,airJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,jetpack",
+      "@DreamKeeper Outside Left Snow To Snowveil,highJump"
     ],
     "children": [
       {
@@ -11997,43 +11997,43 @@
     "children": []
   },
   {
-    "name": "Travoll Mines West Exit",
+    "name": "Travoll Mines to Thanatara Canyon",
     "clear_as_group": false,
     "access_rules": [
-      "@Travoll Mines East Exit,bombs",
+      "@Travoll Mines to Morose City,bombs",
       "@Exit Logic/0507"
     ],
     "children": []
   },
   {
-    "name": "Gleamwood Copperwood Exit",
+    "name": "Gloamwood Copperwood to CopperWood",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0900",
-      "@Gleamwood Middle,bombs"
+      "@Gloamwood Middle,bombs"
     ],
     "children": []
   },
   {
-    "name": "Gleamwood Relicts Exit",
+    "name": "Gloamwood to Relicts",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0906",
-      "@Gleamwood Middle,bombs"
+      "@Gloamwood Middle,bombs"
     ],
     "children": []
   },
   {
-    "name": "Gleamwood Blush Exit",
+    "name": "Gloamwood to Blushwood",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0903",
-      "@Gleamwood Right"
+      "@Gloamwood Right"
     ],
     "children": []
   },
   {
-    "name": "Ulvosa Exit",
+    "name": "Ulvosa to Gloamwood",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1102"
@@ -12041,7 +12041,7 @@
     "children": []
   },
   {
-    "name": "Verdazure Sea West Exit",
+    "name": "Verdazure Sea to Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
@@ -12050,7 +12050,7 @@
     "children": []
   },
   {
-    "name": "Verdazure Swamp Lab Exit",
+    "name": "Verdazure Swamp to Lab",
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Swamp,slide",
@@ -12088,7 +12088,7 @@
     "children": []
   },
   {
-    "name": "Magma Depths Sinner Exit",
+    "name": "Magma Depths to Sinner",
     "clear_as_group": false,
     "access_rules": [
       "@Magma Depths,hiddenPaths",
@@ -12110,7 +12110,7 @@
     "children": []
   },
   {
-    "name": "Swamp Tartarus Exit",
+    "name": "Swamp to Tartarus",
     "clear_as_group": false,
     "access_rules": [
       "@Swamp,hiddenPaths",
@@ -12120,7 +12120,7 @@
     "children": []
   },
   {
-    "name": "DreamKeeper Outside Left Snow Exit",
+    "name": "DreamKeeper Outside Left Snow To Snowveil",
     "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Left",
@@ -12138,7 +12138,7 @@
     "children": []
   },
   {
-    "name": "Relicts Exit",
+    "name": "Relicts to Gloamwood",
     "clear_as_group": false,
     "access_rules": [
       "@Relicts,bombs",
@@ -12178,7 +12178,7 @@
     "children": []
   },
   {
-    "name": "Gallery of Souls Sea Exit",
+    "name": "Gallery of Souls to Sea",
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Boss Area,bombs",

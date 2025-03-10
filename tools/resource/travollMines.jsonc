@@ -3,12 +3,12 @@
     "name": "Travoll Mines",
     "clear_as_group": false,
     "access_rules": [
-      "@Travoll Mines East Exit,bombs , bombFuel",
-      "@Travoll Mines West Exit,bombs , bombFuel",
+      "@Travoll Mines to Morose City,bombs , bombFuel",
+      "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
       "@Exit Logic/0500",
-      "@Travoll Mines Forest Exit,bombs , dagger",
-      "@Travoll Mines Forest Exit,bombs , EVENT_FreeStrongAttack",
-      "@Travoll Mines Swamp Exit"
+      "@Travoll Mines to Forest,bombs , dagger",
+      "@Travoll Mines to Forest,bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines to Swamp"
     ],
     "children": [
       {
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "name": "Travoll Mines Swamp Exit",
+    "name": "Travoll Mines to Swamp",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,slide , bombFuel",
@@ -167,7 +167,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines Swamp Exit - Dodge: Headstrong",
+            "name": "Travoll Mines to Swamp - Dodge: Headstrong",
             "item_count": 1,
             "access_rules": [
               "vortex"
@@ -185,11 +185,11 @@
     ]
   },
   {
-    "name": "Travoll Mines East Exit",
+    "name": "Travoll Mines to Morose City",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0501",
-      "@Travoll Mines West Exit,bombs",
+      "@Travoll Mines to Thanatara Canyon,bombs",
       "@Travoll Mines"
     ],
     "children": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "name": "Travoll Mines Forest Exit",
+    "name": "Travoll Mines to Forest",
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,bombs",
@@ -228,7 +228,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines Forest Exit - Mana Armor",
+            "name": "Travoll Mines to Forest - Mana Armor",
             "item_count": 1,
             "access_rules": [
               "$True"

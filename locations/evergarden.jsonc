@@ -7,7 +7,7 @@
       "@EverGarden To Valley,airJump",
       "@EverGarden To Valley,jetpack",
       "@EverGarden To Valhalla,bombs",
-      "@EverGarden Path to Boss",
+      "@EverGarden Path BossPath",
       "@EverGarden Boss Area"
     ],
     "children": [
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "name": "EverGarden Path to Boss",
+    "name": "EverGarden Path BossPath",
     "clear_as_group": false,
     "access_rules": [
       "@EverGarden,airJump",
@@ -139,7 +139,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Whipcrack",
+            "name": "EverGarden Path BossPath - Whipcrack",
             "item_count": 1,
             "access_rules": [
               "jetpack , bombs",
@@ -161,7 +161,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Shooting Star",
+            "name": "EverGarden Path BossPath - Shooting Star",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , airJump",
@@ -184,7 +184,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path to Boss - Battlecry",
+            "name": "EverGarden Path BossPath - Battlecry",
             "item_count": 1,
             "access_rules": [
               "slide , $canChargeShot , jetpack",
@@ -214,7 +214,7 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
+            "map": "Evernight Garden",
             "x": 0,
             "y": 0
           }
@@ -234,9 +234,12 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
+            "map": "Evernight Garden",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -246,10 +249,10 @@
     "name": "EverGarden Boss Area",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden Path to Boss,airJump , airDash",
-      "@EverGarden Path to Boss,jetpack , airDash",
-      "@EverGarden Path to Boss,$hasAmount|jetpack|3",
-      "@EverGarden Path to Boss,$hasAmount|jetpack|2"
+      "@EverGarden Path BossPath,airJump , airDash",
+      "@EverGarden Path BossPath,jetpack , airDash",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|3",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|2"
     ],
     "children": [
       {
@@ -288,7 +291,10 @@
           {
             "map": "Evernight Garden",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -353,9 +359,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   }
 ]

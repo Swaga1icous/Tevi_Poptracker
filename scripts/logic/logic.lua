@@ -74,7 +74,12 @@ function Chapter (count)
     end
     return chapter >= tonumber(count)
 end
+
 function True()
     return 1
+end
+
+function False()
+    return 0
 end
 --TODO memine challenge count

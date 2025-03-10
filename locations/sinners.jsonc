@@ -159,7 +159,10 @@
           {
             "map": "Sinner's Oath + Phantasmic Palace",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -214,17 +217,14 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {
     "name": "Illusion Palace",
     "clear_as_group": false,
     "access_rules": [
-      "@Illusion Palace Entrance,false , $canChargeShot",
-      "@Illusion Palace Entrance,false , [hiddenPaths]"
+      "@Illusion Palace Entrance,$False , $canChargeShot",
+      "@Illusion Palace Entrance,$False , [hiddenPaths]"
     ],
     "children": [
       {

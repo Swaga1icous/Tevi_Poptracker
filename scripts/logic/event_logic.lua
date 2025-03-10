@@ -25,8 +25,8 @@ end
 function hasEarth()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Gleamwood Middle/EVENT_Earth/Gleamwood Upper - Earth").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Gleamwood Right/EVENT_Earth/Ulskan Village Area - Earth").AccessibilityLevel
+    Tracker:FindObjectForCode("@Gloamwood Middle/EVENT_Earth/Gloamwood Upper - Earth").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Gloamwood Right/EVENT_Earth/Ulskan Village Area - Earth").AccessibilityLevel
     )
     
     if accessibilityLevel >= AccessibilityLevel.Normal then
@@ -104,7 +104,7 @@ function EVENT_EliteChallangeD()
     return  Tracker:FindObjectForCode("@Ana Thema/EVENT_EliteChallangeD/Ana Thema - Elite Challenge D").AccessibilityLevel
 end
 function EVENT_EliteChallangeC()
-    return  Tracker:FindObjectForCode("@Gleamwood Ulvosa Exit/EVENT_EliteChallangeC/Gleamwood Upper - Elite Challenge C").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Gloamwood to Ulvosa/EVENT_EliteChallangeC/Gloamwood Upper - Elite Challenge C").AccessibilityLevel
 end
 function EVENT_AnathemaVisited()
     return  Tracker:FindObjectForCode("@Ana Thema/EVENT_AnathemaVisited/Ana Thema - Visit").AccessibilityLevel
@@ -125,7 +125,7 @@ function EVENT_FreeStrongAttack()
     return  Tracker:FindObjectForCode("@Cloister Entrance/EVENT_FreeStrongAttack/Cloister - Free Attack").AccessibilityLevel
 end
 function EVENT_Memine0()
-    return  Tracker:FindObjectForCode("@Gleamwood Bottom/EVENT_Memine0/Gleamwood - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Gloamwood Bottom/EVENT_Memine0/Gloamwood - Memine Race").AccessibilityLevel
 end
 function EVENT_Memine1()
     return  Tracker:FindObjectForCode("@Blushwood Sliding/EVENT_Memine1/Blushwood Sliding - Memine Race").AccessibilityLevel

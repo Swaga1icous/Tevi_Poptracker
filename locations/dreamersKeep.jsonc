@@ -58,11 +58,11 @@
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
-      "@DreamKeeper Outside Left Snow Exit,rabbitJump",
-      "@DreamKeeper Outside Left Snow Exit,airDash",
-      "@DreamKeeper Outside Left Snow Exit,airJump",
-      "@DreamKeeper Outside Left Snow Exit,jetpack",
-      "@DreamKeeper Outside Left Snow Exit,highJump"
+      "@DreamKeeper Outside Left Snow To Snowveil,rabbitJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,airDash",
+      "@DreamKeeper Outside Left Snow To Snowveil,airJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,jetpack",
+      "@DreamKeeper Outside Left Snow To Snowveil,highJump"
     ],
     "children": [
       {
@@ -208,7 +208,10 @@
           {
             "map": "Snowveil + Dreamer's Keep",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -372,9 +375,6 @@
           }
         ]
       }
-    ],
-    "visibillity_rules": [
-      "NOTHING"
     ]
   },
   {

@@ -353,7 +353,7 @@
       "@Gallery of Souls,wallJump , $canChargeShot",
       "@Gallery of Souls,airJump , $canChargeShot",
       "@Gallery of Souls,bombs , $canChargeShot",
-      "@Gallery of Souls Sea Exit,$hasAmount|bombRange|3"
+      "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
     ],
     "children": [
       {
