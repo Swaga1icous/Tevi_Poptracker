@@ -1139,11 +1139,11 @@
         ]
       },
       {
-        "name": "Nasty Break",
+        "name": "Nasty Break up",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Nasty Break-up",
+            "name": "Solennian Ruins - Nasty Break up",
             "item_count": 1,
             "access_rules": [
               "wallJump",
@@ -4125,11 +4125,11 @@
         ]
       },
       {
-        "name": "Attenu",
+        "name": "Attenu 8",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Attenu-8",
+            "name": "Relicts - Attenu 8",
             "item_count": 1,
             "access_rules": [
               "highJump",
@@ -6131,26 +6131,16 @@
     ]
   },
   {
-    "name": "Lab - Verdazure Swamp Connection",
+    "name": "Lab to Verdazure Swamp Connection",
     "clear_as_group": false,
-    "access_rules": [
-      "@Lab,$hasAmount|bombRange|3 , bombs",
-      "@Exit Logic/2510"
-    ],
+    "access_rules": [],
     "children": [
       {
-        "name": "Verdazure Swamp Connection ",
+        "name": "Alterscope",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Verdazure Swamp Connection - Alterscope",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          },
-          {
-            "name": "Lab - Verdazure Swamp Connection - MP Quicken: Battlescars",
+            "name": "Lab to Verdazure Swamp Connection - Alterscope",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -6159,7 +6149,27 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MP Quicken: Battlescars",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lab to Verdazure Swamp Connection - MP Quicken: Battlescars",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
             "x": 0,
             "y": 0
           }
@@ -10350,53 +10360,111 @@
     ],
     "children": [
       {
-        "name": "Sable Type",
+        "name": "Sable Type A: Voracious",
         "access_rules": [],
         "sections": [
           {
-            "name": "Crafting Chap 1 - Sable Type-A: Voracious",
+            "name": "Crafting Chap 1 - Sable Type A: Voracious",
             "item_count": 1,
             "access_rules": [
               "$True , Chapter 1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Sable Type-A: Fanged",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sable Type A: Fanged",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Sable Type A: Fanged",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHell"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Sable Type-A: Ensnare",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sable Type A: Ensnare",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Sable Type A: Ensnare",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHell"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Sable Type-B: Malediction",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sable Type B: Malediction",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Sable Type B: Malediction",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHell , orbS2"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Sable Type-B: Backlash",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sable Type B: Backlash",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Sable Type B: Backlash",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHell , orbS2"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Sable Type-C: Ignite",
-            "item_count": 1,
-            "access_rules": [
-              "$True , ticketHell , orbS3"
-            ]
-          },
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sable Type C: Ignite",
+        "access_rules": [],
+        "sections": [
           {
-            "name": "Crafting - Sable Type-C: Fervid",
+            "name": "Crafting - Sable Type C: Ignite",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHell , orbS3"
@@ -10412,53 +10480,151 @@
         ]
       },
       {
-        "name": "Celia Type",
+        "name": "Sable Type C: Fervid",
         "access_rules": [],
         "sections": [
           {
-            "name": "Crafting Chap 1 - Celia Type-A: Stunning",
+            "name": "Crafting - Sable Type C: Fervid",
+            "item_count": 1,
+            "access_rules": [
+              "$True , ticketHell , orbS3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type A: Stunning",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting Chap 1 - Celia Type A: Stunning",
             "item_count": 1,
             "access_rules": [
               "$True , Chapter 1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-A: Meteoric",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type A: Meteoric",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type A: Meteoric",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-A: Beguile",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type A: Beguile",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type A: Beguile",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-B: Halo",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type B: Halo",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type B: Halo",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven , orbC2"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-B: Prism",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type B: Prism",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type B: Prism",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven , orbC2"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-C: Barrage",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type C: Barrage",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type C: Barrage",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven , orbC3"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Crafting - Celia Type-C: Panoptic",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Celia Type C: Panoptic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crafting - Celia Type C: Panoptic",
             "item_count": 1,
             "access_rules": [
               "$True , ticketHeaven , orbC3"
@@ -10554,11 +10720,11 @@
         ]
       },
       {
-        "name": "Two",
+        "name": "Two pronged Shot",
         "access_rules": [],
         "sections": [
           {
-            "name": "Crafting Chap 3 - Two-pronged Shot",
+            "name": "Crafting Chap 3 - Two pronged Shot",
             "item_count": 1,
             "access_rules": [
               "$True , Chapter 3"
@@ -11905,18 +12071,11 @@
         ]
       },
       {
-        "name": "Blue Module Type",
+        "name": "Blue Module Type B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Orb Type Upgrade - Blue Module Type-B",
-            "item_count": 1,
-            "access_rules": [
-              "$True , $hasAmount|ranged|3 , $canUpgradeCore"
-            ]
-          },
-          {
-            "name": "Orb Type Upgrade - Blue Module Type-C",
+            "name": "Orb Type Upgrade - Blue Module Type B",
             "item_count": 1,
             "access_rules": [
               "$True , $hasAmount|ranged|3 , $canUpgradeCore"
@@ -11932,18 +12091,11 @@
         ]
       },
       {
-        "name": "Red Module Type",
+        "name": "Red Module Typ B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Orb Type Upgrade - Red Module Type-B",
-            "item_count": 1,
-            "access_rules": [
-              "$True , $hasAmount|ranged|3 , $canUpgradeCore"
-            ]
-          },
-          {
-            "name": "Orb Type Upgrade - Red Module Type-C",
+            "name": "Orb Type Upgrade - Red Module Typ B",
             "item_count": 1,
             "access_rules": [
               "$True , $hasAmount|ranged|3 , $canUpgradeCore"
@@ -11959,18 +12111,71 @@
         ]
       },
       {
-        "name": "Core Module Type",
+        "name": "Blue Module Type C",
         "access_rules": [],
         "sections": [
           {
-            "name": "Orb Type Upgrade - Core Module Type-U",
+            "name": "Orb Type Upgrade - Blue Module Type C",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $hasAmount|ranged|3 , $canUpgradeCore"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Module Type C",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orb Type Upgrade - Red Module Type C",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $hasAmount|ranged|3 , $canUpgradeCore"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Core Module Type U",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orb Type Upgrade - Core Module Type U",
             "item_count": 1,
             "access_rules": [
               "$True , $canUpgradeCore"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Orb Type Upgrade - Core Module Type-D",
+            "map": "No Map available",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Core Module Type D",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orb Type Upgrade - Core Module Type D",
             "item_count": 1,
             "access_rules": [
               "$True , $canUpgradeCore"
@@ -12174,6 +12379,15 @@
       "@Lab Entrance,slide",
       "@Lab Left,slide",
       "@Lab,slide"
+    ],
+    "children": []
+  },
+  {
+    "name": "Lab - Verdazure Swamp Connection",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Lab,$hasAmount|bombRange|3 , bombs",
+      "@Exit Logic/2510"
     ],
     "children": []
   },

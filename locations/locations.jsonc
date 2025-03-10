@@ -738,7 +738,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - EliteB",
+            "name": "Thanatara Canyon - Elite Challenge B",
             "item_count": 1,
             "access_rules": [
               "bombs , bombThrow",
@@ -986,7 +986,7 @@
             "name": "Gurun Desert - Crystallize",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeA"
+              "^$EVENT_EliteChallangeA"
             ]
           }
         ],
@@ -1210,7 +1210,7 @@
             "name": "Solennian Ruins - Core Expansion: Radiant",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeB"
+              "^$EVENT_EliteChallangeB"
             ]
           }
         ],
@@ -1641,7 +1641,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Elite A",
+            "name": "Morose City - Elite Challenge A",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -1759,28 +1759,28 @@
             "name": "Morose City Shop Demonfray - Style Combo: Triple Flash S",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Demonfray"
+              "$True , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Morose City Shop Demonfray - EP Booster: HP",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Demonfray"
+              "$True , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Morose City Shop Demonfray - Bone Breaker",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Demonfray"
+              "$True , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Morose City Shop Demonfray - Perseverance A",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Demonfray"
+              "$True , ^$EVENT_Demonfray"
             ]
           },
           {
@@ -2129,7 +2129,7 @@
       "@Travoll Mines West Exit,bombs , bombFuel",
       "@Exit Logic/0500",
       "@Travoll Mines Forest Exit,bombs , dagger",
-      "@Travoll Mines Forest Exit,bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines Forest Exit,bombs , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines Swamp Exit"
     ],
     "children": [
@@ -2838,6 +2838,26 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Memine Gleamwood - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ]
   },
@@ -3074,7 +3094,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Gleamwood Upper - Elite",
+            "name": "Gleamwood Upper - Elite Challenge C",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -3701,7 +3721,7 @@
             "name": "Ulvosa - Overdrive",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeD"
+              "^$EVENT_EliteChallangeD"
             ]
           }
         ],
@@ -3939,7 +3959,7 @@
             "name": "CopperWood Elite - Core Expansion: Saver",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeC"
+              "^$EVENT_EliteChallangeC"
             ]
           }
         ],
@@ -4328,7 +4348,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Ana Thema - Elite",
+            "name": "Ana Thema - Elite Challenge D",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -4418,28 +4438,28 @@
             "name": "Ana Thema Shop Memloch - Flash Point",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Break Extend",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Tornado Spin: Grav Reversal",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Perseverance D",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
@@ -4578,26 +4598,6 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion #1",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Memine Ana Thema - Rainbow Bunny Potion #1",
-            "item_count": 1,
-            "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
         "name": "Rainbow Bunny Potion #2",
         "access_rules": [],
         "sections": [
@@ -4704,7 +4704,7 @@
             "name": "Magma Pits - Supersonic",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeE , slide"
+              "^$EVENT_EliteChallangeE , slide"
             ]
           }
         ],
@@ -5286,8 +5286,8 @@
     "name": "Tartarus",
     "clear_as_group": false,
     "access_rules": [
-      "@Morose City,EVENT_AnathemaVisited , ticketHell",
-      "@Ana Thema,EVENT_MoroseVisited , ticketHell",
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",
       "@Exit Logic/1502",
       "@Tartarus Catacombs,slide",
       "@Tartarus Catacombs,bombs"
@@ -5318,7 +5318,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Tartarus - Elite E",
+            "name": "Tartarus - Elite Challenge E",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -6602,8 +6602,8 @@
     "name": "Valhalla City",
     "clear_as_group": false,
     "access_rules": [
-      "@Morose City,EVENT_AnathemaVisited , ticketHeaven",
-      "@Ana Thema,EVENT_MoroseVisited , ticketHeaven",
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",
       "@Exit Logic/2008,slide , bombs",
       "@Exit Logic/2003",
       "@Exit Logic/2001"
@@ -6634,7 +6634,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Elite F",
+            "name": "Valhalla City - Elite Challenge F",
             "item_count": 1,
             "access_rules": [
               "bombs , slide"
@@ -6855,6 +6855,13 @@
             ]
           },
           {
+            "name": "Valhalla City Shop - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
             "name": "Valhalla City Shop - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
@@ -6880,26 +6887,6 @@
             "item_count": 1,
             "access_rules": [
               "$True , Chapter 6"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Val",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Valhalla City - Shop Kiwi Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
             ]
           }
         ],
@@ -7224,7 +7211,7 @@
             "name": "Cloister Elite - Core Expansion: Combo",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeF"
+              "^$EVENT_EliteChallangeF"
             ]
           }
         ],
@@ -9035,7 +9022,7 @@
             "name": "Golden Hands HQ - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , EVENT_HQSwitch1"
+              "bombs , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -9055,7 +9042,7 @@
             "name": "Golden Hands HQ - Gilded Right Hand",
             "item_count": 1,
             "access_rules": [
-              "powder , EVENT_HQSwitch1 , $canChargeShot"
+              "powder , ^$EVENT_HQSwitch1 , $canChargeShot"
             ]
           }
         ],
@@ -9075,7 +9062,7 @@
             "name": "Golden Hands HQ - Headbutt",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide , EVENT_HQSwitch1"
+              "bombs , slide , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -9115,7 +9102,7 @@
             "name": "Golden Hands HQ - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $canChargeShot , EVENT_HQSwitch1"
+              "slide , $canChargeShot , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -9754,7 +9741,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9774,7 +9761,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9794,7 +9781,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9816,7 +9803,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9837,7 +9824,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9868,7 +9855,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9888,7 +9875,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9908,7 +9895,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9930,7 +9917,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9950,7 +9937,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }
@@ -9970,7 +9957,7 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
             "y": 0
           }

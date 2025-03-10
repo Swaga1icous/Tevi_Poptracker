@@ -63,7 +63,6 @@ TeviRuleToPoptacker = {
     "Useable_VenaBombDispel":"calicoBomb",
     "Useable_VenaBombHealBlock":"tabbyBomb",
     "Useable_VenaBombBunBun":"bbRabbit",
-    "EVENT_Fire":"fireElement",
     "EVENT_Water":"WaterElement",
     "EVENT_Earth":"earthElement",
     "EVENT_Air":"airElement",
@@ -95,7 +94,8 @@ TeviRuleToPoptacker = {
     "EVENT_Demonfray":"^$EVENT_Demonfray",
     "EVENT_EliteChallangeF":"^$EVENT_EliteChallangeF",
     "EVENT_Memloch":"^$EVENT_Memloch",
-    "EVENT_FreeStrongAttack":"^$EVENT_FreeStrongAttack"
+    "EVENT_FreeStrongAttack":"^$EVENT_FreeStrongAttack",
+    "Boss":"$True"
 }
 
 

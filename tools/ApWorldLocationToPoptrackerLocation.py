@@ -1,9 +1,8 @@
 import json
 import os
-import sys
-import pkgutil
 
-from logicParser import TeviRuleToPoptacker,parse_expression_logic
+
+from logicParser import parse_expression_logic
 
 Path = os.path.dirname(os.path.realpath(__file__))
 

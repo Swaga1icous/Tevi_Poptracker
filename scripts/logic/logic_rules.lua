@@ -208,3 +208,5 @@ canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() end
 canEarlyDream = function() return EarlyDream() and Dagger() end
 
 canBackflip = function() return Backflip() and Dagger() end
+
+goal = function() return Tracker:ProviderCountForCode("darkElement") > 

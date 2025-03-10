@@ -23,4 +23,7 @@ function canAccessExit(exit_name)
     return loc.AccessibilityLevel
 end
 
+function True()
+    return 1
+end
 --TODO memine challenge count
