@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Desert Base Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0000"
+    ],
+    "children": [
+      {
+        "name": "Combo Assist",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Combo Assist",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 810,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 762,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "Boss"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MP Surge: Tag Out",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - MP Surge: Tag Out",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , airJump",
+              "slide , bombs , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 762,
+            "y": 306
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Desert Base Main",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Desert Base Entrance,$canChargeShot",
+      "@Desert Base Entrance,jetpack",
+      "@Desert Base Entrance,airDash",
+      "@Desert Base Entrance,jetpack",
+      "@Desert Base Entrance,airJump",
+      "@Desert Base Entrance,highJump",
+      "@Desert Base Entrance,bombs , bombThrow",
+      "@Desert Base Entrance,rabbitJump",
+      "@Desert Base Entrance,backflip , speed",
+      "@Desert Base Entrance,backflip , Hard",
+      "@Desert Base Upper Half"
+    ],
+    "children": [
+      {
+        "name": "Backstab",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Main - Backstab",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 570,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Knives Out",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Main - Knives Out",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 570,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Main - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 522,
+            "y": 546
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Main - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 570,
+            "y": 498
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Desert Base Upper Half",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Desert Base Main,highJump , airJump , wallJump",
+      "@Desert Base Main,jetpack , wallJump",
+      "@Desert Base Main,airJump , $hasAmount|wallJump|2",
+      "@Desert Base Entrance,backflip , slide , bombs , dagger",
+      "@Desert Base Entrance,airJump , slide , bombs , dagger",
+      "@Desert Base Entrance,jetpack , slide , bombs , dagger",
+      "@Desert Base Entrance,airDash , slide , bombs , dagger"
+    ],
+    "children": [
+      {
+        "name": "Palladium",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Palladium",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 378,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 330,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 330,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 234,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Gilded Left Hand",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Gilded Left Hand",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 42,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Glass Knife",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Glass Knife",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 426,
+            "y": 162
+          }
+        ]
+      },
+      {
+        "name": "Under Score",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Upper Half - Under Score",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 570,
+            "y": 210
+          }
+        ]
+      }
+    ]
+  }
+]
