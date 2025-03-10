@@ -1,0 +1,340 @@
+[
+  {
+    "name": "Tartarus",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Morose City,EVENT_AnathemaVisited , ticketHell",
+      "@Ana Thema,EVENT_MoroseVisited , ticketHell",
+      "@Exit Logic/1502",
+      "@Tartarus Catacombs,slide",
+      "@Tartarus Catacombs,bombs"
+    ],
+    "children": [
+      {
+        "name": "Swift Shots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swift Shots",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Elite E",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Elite E",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 504,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Crystalline Scarlet",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crystalline Scarlet",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 360,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Arcade",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Arcade",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 72,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 264,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Lucky 7: A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lucky 7: A",
+            "item_count": 1,
+            "access_rules": [
+              "highJump , jetpack",
+              "highJump , airJump",
+              "highJump , airJump",
+              "jetpack , airJump",
+              "airDash , airJump",
+              "airDash , jetpack",
+              "$hasAmount|jetpack|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 168,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airDash , airJump , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Upper Slash: Vicious",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Upper Slash: Vicious",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 264,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Tartarus Shop",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus VIP Pass ",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Style Combo: Trickshot",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Hot Buzz",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "MP Quicken: Combo",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Quick Break",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "EP Booster: Shopaholic",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Bounce Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Core Expansion: Extend",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Crystal Healing",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Head Over Heels",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Low Defence Bomber",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Bag Expander",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+		  {
+            "name": "Ch.6 Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True , Chapter 6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 120,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]
