@@ -1,7 +1,6 @@
 [
   {
     "name": "CopperWood",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood Industry to Travoll Industrie,slide",
@@ -54,6 +53,26 @@
         ]
       },
       {
+        "name": "Core Expansion: Saver",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood Elite - Core Expansion: Saver",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeC"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -62,13 +81,6 @@
             "item_count": 1,
             "access_rules": [
               "$True"
-            ]
-          },
-          {
-            "name": "CopperWood Elite - Core Expansion: Saver",
-            "item_count": 1,
-            "access_rules": [
-              "EVENT_EliteChallangeC"
             ]
           }
         ],
@@ -84,7 +96,6 @@
   },
   {
     "name": "CopperWood EP Pot",
-    "clear_as_group": false,
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,bombs",
       "@CopperWood,airJump",
@@ -115,7 +126,6 @@
   },
   {
     "name": "CopperWood Industry to Travoll Industrie",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0705",
       "@CopperWood EP Pot,bombs"
@@ -140,6 +150,59 @@
             "map": "Copperwood",
             "x": 216,
             "y": 71
+          }
+        ]
+      },
+      {
+        "name": "Memine Race from Forest",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Memine Race from Forest",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine2 , bombs , wallJump , highJump",
+              "^$EVENT_Memine2 , bombs , wallJump , airDash",
+              "^$EVENT_Memine2 , bombs , wallJump , airJump",
+              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
+              "^$EVENT_Memine2 , bombs , jetpack , airJump",
+              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 540,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Memine Race from Forest",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine2 , bombs , wallJump , highJump",
+              "^$EVENT_Memine2 , bombs , wallJump , airDash",
+              "^$EVENT_Memine2 , bombs , wallJump , airJump",
+              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
+              "^$EVENT_Memine2 , bombs , jetpack , airJump",
+              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

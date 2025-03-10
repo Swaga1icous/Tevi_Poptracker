@@ -336,8 +336,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 740,
+            "y": 430
           }
         ]
       },
@@ -4247,8 +4247,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 50
           }
         ]
       },
@@ -7254,8 +7254,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 0,
-            "y": 0
+            "x": 500,
+            "y": 50
           }
         ]
       },
@@ -7498,8 +7498,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 0,
-            "y": 0
+            "x": 640,
+            "y": 100
           }
         ]
       },

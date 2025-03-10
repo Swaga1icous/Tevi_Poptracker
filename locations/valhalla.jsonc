@@ -316,8 +316,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 0,
-            "y": 0
+            "x": 500,
+            "y": 50
           }
         ]
       },

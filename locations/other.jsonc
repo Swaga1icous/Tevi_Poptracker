@@ -1,0 +1,234 @@
+[
+{
+    "name": "Thanatara Canyon - Heavens Valley West",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Thanatara Canyon,bombs",
+      "@Exit Logic/0105"
+    ],
+    "children": []
+  },
+  {
+    "name": "Travoll Mines to Thanatara Canyon",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Travoll Mines to Morose City,bombs",
+      "@Exit Logic/0507"
+    ],
+    "children": []
+  },
+  {
+    "name": "Gloamwood Copperwood to CopperWood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0900",
+      "@Gloamwood Middle,bombs"
+    ],
+    "children": []
+  },
+  {
+    "name": "Gloamwood to Relicts",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0906",
+      "@Gloamwood Middle,bombs"
+    ],
+    "children": []
+  },
+  {
+    "name": "Gloamwood to Blushwood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0903",
+      "@Gloamwood Right"
+    ],
+    "children": []
+  },
+  {
+    "name": "Ulvosa to Gloamwood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1102"
+    ],
+    "children": []
+  },
+  {
+    "name": "Verdazure Sea to Forest",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Verdazure Sea West",
+      "@Exit Logic/1304"
+    ],
+    "children": []
+  },
+  {
+    "name": "Verdazure Swamp to Lab",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Verdazure Swamp,slide",
+      "@Exit Logic/1410"
+    ],
+    "children": []
+  },
+  {
+    "name": "Forgotten City Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1403",
+      "@Forgotten City,bombs , slide",
+      "@Forgotten City,bombs , water"
+    ],
+    "children": []
+  },
+  {
+    "name": "Tartarus Catacombs",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Tartarus,slide",
+      "@Tartarus,bombs",
+      "@Exit Logic/1503"
+    ],
+    "children": []
+  },
+  {
+    "name": "Magma Pits Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1700,bombs",
+      "@Swamp Entrance,slide , bombThrow"
+    ],
+    "children": []
+  },
+  {
+    "name": "Magma Depths to Sinner",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Magma Depths,[hiddenPaths]",
+      "@Magma Depths,powder , vortex , airDash",
+      "@Magma Depths,powder , vortex , airJump",
+      "@Magma Depths,powder , vortex , jetpack",
+      "@Magma Depths,powder , vortex , $hasAmount|speed|3",
+      "@Exit Logic/1701"
+    ],
+    "children": []
+  },
+  {
+    "name": "Swamp Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1703",
+      "@Pre Swamp"
+    ],
+    "children": []
+  },
+  {
+    "name": "Swamp to Tartarus",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Swamp,[hiddenPaths]",
+      "@Swamp,bombThrow",
+      "@Exit Logic/1702"
+    ],
+    "children": []
+  },
+  {
+    "name": "DreamKeeper Outside Left Snow To Snowveil",
+    "clear_as_group": false,
+    "access_rules": [
+      "@DreamKeeper Outside Left",
+      "@Exit Logic/1805"
+    ],
+    "children": []
+  },
+  {
+    "name": "Heavens Valley Snow Route Upper",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Heavens Valley Snow Route Middle,bombs , slide",
+      "@Exit Logic/1900"
+    ],
+    "children": []
+  },
+  {
+    "name": "Relicts to Gloamwood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Relicts,bombs",
+      "@Exit Logic/2406,bombs"
+    ],
+    "children": []
+  },
+  {
+    "name": "Catacombs Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/2503",
+      "@Catacombs Main,bombs"
+    ],
+    "children": []
+  },
+  {
+    "name": "Lab Entrance",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Pre Lab,bombs",
+      "@Lab Hub,airJump",
+      "@Lab Hub,airDash , wallJump",
+      "@Lab Hub,jetpack",
+      "@Lab Hub,rabbitWallJump"
+    ],
+    "children": []
+  },
+  {
+    "name": "Lab Hub",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Lab Entrance,slide",
+      "@Lab Left,slide",
+      "@Lab,slide"
+    ],
+    "children": []
+  },
+  {
+    "name": "Lab - Verdazure Swamp Connection",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Lab,$hasAmount|bombRange|3 , bombs",
+      "@Exit Logic/2510"
+    ],
+    "children": []
+  },
+  {
+    "name": "Gallery of Souls to Sea",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Gallery of Souls Boss Area,bombs",
+      "@Exit Logic/2707"
+    ],
+    "children": []
+  },
+  {
+    "name": "EverGarden To Valley",
+    "clear_as_group": false,
+    "access_rules": [
+      "@EverGarden,airJump",
+      "@EverGarden,jetpack",
+      "@EverGarden,airDash",
+      "@Exit Logic/2900"
+    ],
+    "children": []
+  },
+  {
+    "name": "EverGarden To Valhalla",
+    "clear_as_group": false,
+    "access_rules": [
+      "@EverGarden,bombs , [hiddenPaths]",
+      "@EverGarden,bombs , jetpack",
+      "@EverGarden,bombs , airDash",
+      "@EverGarden,bombs , airJump",
+      "@EverGarden,bombs , $hasAmount|speed|3",
+      "@Exit Logic/2902"
+    ],
+    "children": []
+  }
+]

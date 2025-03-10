@@ -1,7 +1,6 @@
 [
   {
     "name": "EverGarden",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden To Valley,airDash",
       "@EverGarden To Valley,airJump",
@@ -125,7 +124,6 @@
   },
   {
     "name": "EverGarden Path BossPath",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden,airJump",
       "@EverGarden,jetpack , airDash",
@@ -199,12 +197,54 @@
             "y": 216
           }
         ]
+      },
+      {
+        "name": "Memine Race From Valhallas Breath East",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 640,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "name": "EverGarden Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@EverGarden Path BossPath,airJump , airDash",
       "@EverGarden Path BossPath,jetpack , airDash",
@@ -220,7 +260,7 @@
             "name": "EverGarden Boss Area - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -229,6 +269,29 @@
             "map": "Evernight Garden",
             "x": 312,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },

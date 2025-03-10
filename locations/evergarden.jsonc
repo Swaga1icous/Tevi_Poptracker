@@ -213,8 +213,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 0,
-            "y": 0
+            "x": 640,
+            "y": 100
           }
         ]
       },

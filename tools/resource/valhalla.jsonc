@@ -1,10 +1,9 @@
 [
   {
     "name": "Valhalla City",
-    "clear_as_group": false,
     "access_rules": [
-      "@Morose City,EVENT_AnathemaVisited , ticketHeaven",
-      "@Ana Thema,EVENT_MoroseVisited , ticketHeaven",
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",
       "@Exit Logic/2008,slide , bombs",
       "@Exit Logic/2003",
       "@Exit Logic/2001"
@@ -35,7 +34,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Elite F",
+            "name": "Valhalla City - Elite Challenge F",
             "item_count": 1,
             "access_rules": [
               "bombs , slide"
@@ -46,7 +45,10 @@
           {
             "map": "Valhalla",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -256,14 +258,14 @@
             ]
           },
           {
-            "name": "Valhalla City Shop - Cherry Bunny Potion",
+            "name": "Valhalla City Shop - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Kiwi Bunny Potion",
+            "name": "Valhalla City Shop - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -287,7 +289,7 @@
             "name": "Valhalla City Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , Chapter 6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -296,6 +298,49 @@
             "map": "Valhalla",
             "x": 552,
             "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Memine Race From Tartarus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 500,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
