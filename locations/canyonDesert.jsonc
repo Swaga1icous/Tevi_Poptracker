@@ -1,0 +1,405 @@
+[
+ {
+    "name": "Thanatara Canyon",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0101,$canChargeShot",
+      "@Exit Logic/0101,airJump",
+      "@Exit Logic/0101,jetpack",
+      "@Exit Logic/0101,airDash",
+      "@Exit Logic/0101,wallJump , ceilingKick",
+      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,slide",
+      "@Thanatara Canyon - Heavens Valley West,bombs",
+      "@Gurun Desert,bombs",
+      "@Gurun Desert,openMorose"
+    ],
+    "children": [
+      {
+        "name": "Spanner of Wisdom",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Spanner of Wisdom",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 203,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Dagger",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dagger",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Orbitars",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orbitars",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Health Plus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Health Plus",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 348,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "C. Count Frenzy: Hotshot",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "C. Count Frenzy: Hotshot",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 395,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "C. Rank Frenzy: Attack",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "C. Rank Frenzy: Attack",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 299,
+            "y": 163
+          }
+        ]
+      },
+      {
+        "name": "EliteB",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EliteB",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , bombThrow",
+              "slide",
+              "bombs , hiddenPaths"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 540,
+            "y": 402
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 395,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 588,
+            "y": 211
+          }
+        ]
+      },
+      {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "AllMemine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thanatara Canyon Lower",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Thanatara Canyon",
+      "@Exit Logic/0106",
+      "@Exit Logic/0107",
+      "@Exit Logic/0100"
+    ],
+    "children": [
+      {
+        "name": "Even Keel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Even Keel",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 395,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "name": "MP Quicken: Steady",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Quicken: Steady",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 588,
+            "y": 498
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 443,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Cross Bomb",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cross Bomb",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 395,
+            "y": 450
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gurun Desert",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,openMorose",
+      "@Exit Logic/0102"
+    ],
+    "children": [
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 1067,
+            "y": 546
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 971,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Spanner Bash: Wrecker",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Spanner Bash: Wrecker",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 1307,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Crystallize",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crystallize",
+            "item_count": 1,
+            "access_rules": [
+              "EVENT_EliteChallangeA"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 923,
+            "y": 498
+          }
+        ]
+      }
+    ]
+  }
+]
