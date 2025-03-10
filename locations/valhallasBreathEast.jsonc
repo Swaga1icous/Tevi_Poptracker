@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Heavens Valley Snow Route Low",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/1901",
+      "@Heavens Valley Snow Route Middle,slide",
+      "@Heavens Valley Snow Route Middle,bombs"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Low - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 634,
+            "y": 772
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Air",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Low - Air",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Light",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Low - Light",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Low - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , jetpack",
+              "slide , bombs , airJump",
+              "slide , bombs , EnemyManip"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 729,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "Excuse Me",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Low - Excuse Me",
+            "item_count": 1,
+            "access_rules": [
+              "vortex , airJump",
+              "vortex , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 585,
+            "y": 531
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heavens Valley Snow Route Middle",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Heavens Valley Snow Route Low,slide , vortex",
+      "@Heavens Valley Snow Route Upper,slide"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide",
+              "bombThrow , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 201,
+            "y": 51
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 249,
+            "y": 51
+          }
+        ]
+      },
+      {
+        "name": "EVENT_SnowMechanic",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Snow Orb",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Bulletproof Pillar C",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Bulletproof Pillar C",
+            "item_count": 1,
+            "access_rules": [
+              "[$hasAmount|dagger|1],false",
+              "airJump",
+              "jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 537,
+            "y": 51
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 393,
+            "y": 147
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 345,
+            "y": 339
+          }
+        ]
+      }
+    ]
+  }
+]
