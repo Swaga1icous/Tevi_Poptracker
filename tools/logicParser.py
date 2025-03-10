@@ -82,7 +82,20 @@ TeviRuleToPoptacker = {
     "Upgrade" : "$canUpgradeItems",
     "OpenMorose":"openMorose",
     "SpinnerBash":"[$hasAmount|dagger|1],false",
-    "LibraryExtra":"[SuperBoss]"
+    "LibraryExtra":"[SuperBoss]",
+    "EVENT_Fire":"^$hasFire",
+    "EVENT_HQSwitch1":"^$EVENT_HQSwitch1",
+    "EVENT_EliteChallangeB":"^$EVENT_EliteChallangeB",
+    "EVENT_EliteChallangeA":"^$EVENT_EliteChallangeA",
+    "EVENT_MoroseVisited":"^$EVENT_MoroseVisited",
+    "EVENT_EliteChallangeD":"^$EVENT_EliteChallangeD",
+    "EVENT_EliteChallangeC":"^$EVENT_EliteChallangeC",
+    "EVENT_AnathemaVisited":"^$EVENT_AnathemaVisited",
+    "EVENT_EliteChallangeE":"^$EVENT_EliteChallangeE",
+    "EVENT_Demonfray":"^$EVENT_Demonfray",
+    "EVENT_EliteChallangeF":"^$EVENT_EliteChallangeF",
+    "EVENT_Memloch":"^$EVENT_Memloch",
+    "EVENT_FreeStrongAttack":"^$EVENT_FreeStrongAttack"
 }
 
 

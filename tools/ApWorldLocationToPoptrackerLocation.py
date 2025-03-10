@@ -105,7 +105,7 @@ def setMapName(area):
     elif "Valhalla City" in area:
         name = "Valhalla"
     elif "Heavens Valley Snow Route" in area:
-         name = "Heaven's Valley (West) + Valhalla's Breath (West)"
+         name = "Heaven's Valley (East) + Valhalla's Breath (East)"
     elif "Valhalla Breath West" in area or "Valley West" in area:
         name = "Heaven's Valley (West) + Valhalla's Breath (West)"
     else:
@@ -130,6 +130,8 @@ for val in RandomizerLocationList:
         PoptrackerList.append(regionTemplate)
 
     locName = val["LocationName"].split("-")[1][1:]
+    if "EVENT" in val["Itemname"]:
+        locName = val["Itemname"]
     itemName = val["LocationName"]
 
     locTemplate = {

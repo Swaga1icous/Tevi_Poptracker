@@ -431,7 +431,7 @@
     {
         "Itemname": "EVENT_EliteChallangeB",
         "Location": "Thanatara Canyon",
-        "LocationName": "Thanatara Canyon - EliteB",
+        "LocationName": "Thanatara Canyon - Elite Challenge B",
         "slotId": 1,
         "Requirement": [
             {
@@ -931,7 +931,7 @@
     {
         "Itemname": "EVENT_EliteChallangeA",
         "Location": "Morose City",
-        "LocationName": "Morose City - Elite A",
+        "LocationName": "Morose City - Elite Challenge A",
         "slotId": 0,
         "Requirement": [
             {
@@ -1876,7 +1876,7 @@
     {
         "Itemname": "EVENT_EliteChallangeC",
         "Location": "Gleamwood Ulvosa Exit",
-        "LocationName": "Gleamwood Upper - Elite",
+        "LocationName": "Gleamwood Upper - Elite Challenge C",
         "slotId": 1,
         "Requirement": [
             {
@@ -2640,7 +2640,7 @@
     {
         "Itemname": "EVENT_EliteChallangeD",
         "Location": "Ana Thema",
-        "LocationName": "Ana Thema - Elite",
+        "LocationName": "Ana Thema - Elite Challenge D",
         "slotId": 1,
         "Requirement": [
             {
@@ -3349,7 +3349,7 @@
     {
         "Itemname": "EVENT_EliteChallangeE",
         "Location": "Tartarus",
-        "LocationName": "Tartarus - Elite E",
+        "LocationName": "Tartarus - Elite Challenge E",
         "slotId": 1,
         "Requirement": [
             {
@@ -4201,7 +4201,7 @@
     {
         "Itemname": "EVENT_EliteChallangeF",
         "Location": "Valhalla City",
-        "LocationName": "Valhalla City - Elite F",
+        "LocationName": "Valhalla City - Elite Challenge F",
         "slotId": 18,
         "Requirement": [
             {
@@ -4466,7 +4466,7 @@
     {
         "Itemname": "STACKABLE_HP",
         "Location": "Valhalla City",
-        "LocationName": "Valhalla City - Shop Kiwi Bunny Potion",
+        "LocationName": "Valhalla City Shop - Kiwi Bunny Potion",
         "slotId": 33,
         "Requirement": [
             {
@@ -6764,8 +6764,8 @@
     },
     {
         "Itemname": "STACKABLE_SHARD",
-        "Location": "Ana Thema",
-        "LocationName": "Memine Ana Thema - Rainbow Bunny Potion #1",
+        "Location": "Gleamwood Bottom",
+        "LocationName": "Memine Gleamwood - Rainbow Bunny Potion",
         "slotId": 0,
         "Requirement": [
             {
