@@ -212,11 +212,11 @@
         ]
       },
       {
-        "name": "Earth",
+        "name": "EVENT_Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Earth",
+            "name": "Gleamwood Upper - Earth",
             "item_count": 1
           }
         ],
@@ -271,11 +271,11 @@
     ],
     "children": [
       {
-        "name": "Elite",
+        "name": "EVENT_EliteChallangeC",
         "access_rules": [],
         "sections": [
           {
-            "name": "Elite",
+            "name": "Gleamwood Upper - Elite Challenge C",
             "item_count": 1
           }
         ],
@@ -317,11 +317,11 @@
         ]
       },
       {
-        "name": "Earth",
+        "name": "EVENT_Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Earth",
+            "name": "Ulskan Village Area - Earth",
             "item_count": 1
           }
         ],

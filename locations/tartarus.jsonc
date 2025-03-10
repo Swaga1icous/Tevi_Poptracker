@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "Elite E",
+        "name": "EVENT_EliteChallangeE",
         "access_rules": [],
         "sections": [
           {
-            "name": "Elite E",
+            "name": "Tartarus - Elite Challenge E",
             "item_count": 1,
             "access_rules": [
               "$True"

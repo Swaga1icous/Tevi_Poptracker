@@ -68,11 +68,11 @@
         ]
       },
       {
-        "name": "Attenu",
+        "name": "Attenu 8",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Attenu-8",
+            "name": "Relicts - Attenu 8",
             "item_count": 1,
             "access_rules": [
               "highJump",

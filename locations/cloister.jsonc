@@ -118,11 +118,11 @@
     ],
     "children": [
       {
-        "name": "Free Attack",
+        "name": "EVENT_FreeStrongAttack",
         "access_rules": [],
         "sections": [
           {
-            "name": "Free Attack",
+            "name": "Cloister - Free Attack",
             "item_count": 1,
             "access_rules": [
               "$True"

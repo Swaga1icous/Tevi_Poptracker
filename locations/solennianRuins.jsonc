@@ -138,11 +138,11 @@
         ]
       },
       {
-        "name": "Nasty Break",
+        "name": "Nasty Break up",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Nasty Break-up",
+            "name": "Solennian Ruins - Nasty Break up",
             "item_count": 1,
             "access_rules": [
               "wallJump",

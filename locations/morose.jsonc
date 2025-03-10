@@ -11,11 +11,11 @@
     ],
     "children": [
       {
-        "name": "Visit",
+        "name": "EVENT_MoroseVisited",
         "access_rules": [],
         "sections": [
           {
-            "name": "Visit",
+            "name": "Morose City - Visit",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "Elite A",
+        "name": "EVENT_EliteChallangeA",
         "access_rules": [],
         "sections": [
           {
-            "name": "Elite A",
+            "name": "Morose City - Elite Challenge A",
             "item_count": 1,
             "access_rules": [
               "$True"

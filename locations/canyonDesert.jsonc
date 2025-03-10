@@ -136,11 +136,11 @@
         ]
       },
       {
-        "name": "EliteB",
+        "name": "EVENT_EliteChallangeB",
         "access_rules": [],
         "sections": [
           {
-            "name": "EliteB",
+            "name": "Thanatara Canyon - Elite Challenge B",
             "item_count": 1,
             "access_rules": [
               "bombs , bombThrow",

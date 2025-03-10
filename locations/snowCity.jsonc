@@ -157,20 +157,7 @@
             "access_rules": [
               "$True"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 311,
-            "y": 337
-          }
-        ]
-      },
-      {
-        "name": "Snow City Shop Chap 6",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
@@ -182,8 +169,8 @@
         "map_locations": [
           {
             "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 0,
-            "y": 0
+            "x": 311,
+            "y": 337
           }
         ]
       }
@@ -241,11 +228,11 @@
         ]
       },
       {
-        "name": "Air",
+        "name": "EVENT_Air",
         "access_rules": [],
         "sections": [
           {
-            "name": "Air",
+            "name": "Snowveil Above HQ - Air",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -261,11 +248,11 @@
         ]
       },
       {
-        "name": "Snow Orb",
+        "name": "EVENT_SnowMechanic",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snow Orb",
+            "name": "Snowveil Above HQ - Snow Orb",
             "item_count": 1,
             "access_rules": [
               "bombs , slide"
