@@ -1,5 +1,5 @@
 [
-   {
+  {
     "name": "Heavens Valley West",
     "clear_as_group": false,
     "access_rules": [
@@ -21,20 +21,7 @@
             "access_rules": [
               "slide"
             ]
-          }
-		],
-		"map_locations": [
-          {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 648,
-            "y": 766
-          }
-        ]
-      },
-      {
-		"name": "Kiwi Bunny Potion",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "North Heavens Valley West - Kiwi Bunny Potion",
             "item_count": 1,
@@ -116,23 +103,26 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
-   {
+  {
     "name": "Valhalla Breath West",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2101",
       "@Heavens Valley West,jetpack , bombThrow",
-      "@Heavens Valley West,jetpack , hiddenPaths",
+      "@Heavens Valley West,jetpack , [hiddenPaths]",
       "@Heavens Valley West,airDash , bombThrow",
-      "@Heavens Valley West,airDash , hiddenPaths",
+      "@Heavens Valley West,airDash , [hiddenPaths]",
       "@Heavens Valley West,slide , powder , bombThrow",
-      "@Heavens Valley West,slide , powder , hiddenPaths",
+      "@Heavens Valley West,slide , powder , [hiddenPaths]",
       "@Heavens Valley West,airJump , bombThrow",
-      "@Heavens Valley West,airJump , hiddenPaths",
+      "@Heavens Valley West,airJump , [hiddenPaths]",
       "@Heavens Valley West,$canChargeShot , bombThrow",
-      "@Heavens Valley West,$canChargeShot , hiddenPaths"
+      "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
     ],
     "children": [
       {
@@ -278,6 +268,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {

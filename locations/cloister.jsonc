@@ -11,10 +11,10 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Core Expansion: Combo",
+            "name": "Cloister Elite - Core Expansion: Combo",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeF"
+              "^$EVENT_EliteChallangeF"
             ]
           }
         ],
@@ -31,7 +31,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Grape Bunny Potion",
+            "name": "Cloister - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -51,7 +51,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Style Combo: Aerial A",
+            "name": "Cloister - Style Combo: Aerial A",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -71,7 +71,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Kiwi Bunny Potion",
+            "name": "Cloister - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "bombThrow",
@@ -92,7 +92,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Crouching Bunny",
+            "name": "Cloister - Crouching Bunny",
             "item_count": 1,
             "access_rules": [
               "bombRange , bombs",
@@ -137,6 +137,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -151,7 +154,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
+            "name": "Cloister Main - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "slide"
@@ -171,7 +174,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Lemon Bunny Potion",
+            "name": "Cloister Main - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "slide"
@@ -191,7 +194,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Coffee Break",
+            "name": "Cloister Main - Coffee Break",
             "item_count": 1,
             "access_rules": [
               "slide"
@@ -211,7 +214,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Parkour Boots",
+            "name": "Cloister Main - Parkour Boots",
             "item_count": 1,
             "access_rules": [
               "slide"
@@ -231,7 +234,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Cherry Bunny Potion",
+            "name": "Cloister Pre Boss - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "bombs"
@@ -251,10 +254,10 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Astral Gear",
+            "name": "Cloister Boss - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -267,11 +270,31 @@
         ]
       },
       {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cloister Boss - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister of Redemption",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
         "name": "MP Reset B",
         "access_rules": [],
         "sections": [
           {
-            "name": "MP Reset B",
+            "name": "Cloister Pre Boss - MP Reset B",
             "item_count": 1,
             "access_rules": [
               "airJump",
@@ -294,7 +317,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "C. Rank Frenzy: Focus MAX",
+            "name": "Cloister Main - C. Rank Frenzy: Focus MAX",
             "item_count": 1,
             "access_rules": [
               "airJump",
@@ -311,6 +334,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

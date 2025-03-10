@@ -163,7 +163,7 @@
             "name": "Gallery of Mirrors East - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "bombRange , decayAntidote , Boss"
+              "bombRange , decayAntidote"
             ]
           }
         ],
@@ -172,6 +172,26 @@
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 887,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , decayAntidote"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -262,6 +282,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -298,9 +321,9 @@
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , BarrierSkip",
-      "@Gallery of Souls Boss Area,wallJump , bombs , BarrierSkip",
-      "@Gallery of Souls Boss Area,airJump , bombs , BarrierSkip"
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , false",
+      "@Gallery of Souls Boss Area,wallJump , bombs , false",
+      "@Gallery of Souls Boss Area,airJump , bombs , false"
     ],
     "children": [
       {
@@ -384,8 +407,8 @@
             "name": "Gallery of Souls Boss Area - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayAntidote , Boss",
-              "alembicCrystal , Boss"
+              "decayAntidote",
+              "alembicCrystal"
             ]
           }
         ],
@@ -396,7 +419,31 @@
             "y": 504
           }
         ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls Boss Area - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "decayAntidote",
+              "alembicCrystal"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

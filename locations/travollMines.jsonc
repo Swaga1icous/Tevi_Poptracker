@@ -7,7 +7,7 @@
       "@Travoll Mines West Exit,bombs , bombFuel",
       "@Exit Logic/0500",
       "@Travoll Mines Forest Exit,bombs , dagger",
-      "@Travoll Mines Forest Exit,bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines Forest Exit,bombs , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines Swamp Exit"
     ],
     "children": [
@@ -59,7 +59,7 @@
             "name": "Travoll Mines - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel , Boss"
+              "$canChargeShot , bombFuel"
             ]
           }
         ],
@@ -68,6 +68,26 @@
             "map": "Travoll Mines",
             "x": 120,
             "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -152,6 +172,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {

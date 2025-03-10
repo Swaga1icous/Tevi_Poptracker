@@ -54,7 +54,27 @@
             "name": "Desert Base Entrance - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
             ]
           }
         ],
@@ -87,6 +107,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -102,7 +125,7 @@
       "@Desert Base Entrance,bombs , bombThrow",
       "@Desert Base Entrance,rabbitJump",
       "@Desert Base Entrance,backflip , speed",
-      "@Desert Base Entrance,backflip , Hard",
+      "@Desert Base Entrance,backflip , false",
       "@Desert Base Upper Half"
     ],
     "children": [

@@ -3,8 +3,8 @@
     "name": "Tartarus",
     "clear_as_group": false,
     "access_rules": [
-      "@Morose City,EVENT_AnathemaVisited , ticketHell",
-      "@Ana Thema,EVENT_MoroseVisited , ticketHell",
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",
       "@Exit Logic/1502",
       "@Tartarus Catacombs,slide",
       "@Tartarus Catacombs,bombs"
@@ -15,7 +15,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Swift Shots",
+            "name": "Tartarus - Swift Shots",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -55,7 +55,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Crystalline Scarlet",
+            "name": "Tartarus - Crystalline Scarlet",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -75,7 +75,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Arcade",
+            "name": "Tartarus - Arcade",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -95,7 +95,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Lemon Bunny Potion",
+            "name": "Tartarus - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "bombs"
@@ -115,7 +115,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Lucky 7: A",
+            "name": "Tartarus - Lucky 7: A",
             "item_count": 1,
             "access_rules": [
               "highJump , jetpack",
@@ -141,7 +141,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
+            "name": "Tartarus - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "airDash , airJump , jetpack"
@@ -161,7 +161,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Upper Slash: Vicious",
+            "name": "Tartarus - Upper Slash: Vicious",
             "item_count": 1,
             "access_rules": [
               "slide"
@@ -181,129 +181,129 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Tartarus VIP Pass ",
+            "name": "Tartarus Shop - Tartarus VIP Pass ",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Style Combo: Trickshot",
+            "name": "Tartarus Shop - Style Combo: Trickshot",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Hot Buzz",
+            "name": "Tartarus Shop - Hot Buzz",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "MP Quicken: Combo",
+            "name": "Tartarus Shop - MP Quicken: Combo",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Quick Break",
+            "name": "Tartarus Shop - Quick Break",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "EP Booster: Shopaholic",
+            "name": "Tartarus Shop - EP Booster: Shopaholic",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Bounce Bonus",
+            "name": "Tartarus Shop - Bounce Bonus",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Core Expansion: Extend",
+            "name": "Tartarus Shop - Core Expansion: Extend",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Crystal Healing",
+            "name": "Tartarus Shop - Crystal Healing",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Head Over Heels",
+            "name": "Tartarus Shop - Head Over Heels",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Low Defence Bomber",
+            "name": "Tartarus Shop - Low Defence Bomber",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Bag Expander",
+            "name": "Tartarus Shop - Bag Expander",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Lemon Bunny Potion",
+            "name": "Tartarus Shop - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Kiwi Bunny Potion",
+            "name": "Tartarus Shop - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Cherry Bunny Potion",
+            "name": "Tartarus Shop - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Blueberry Bunny Potion",
+            "name": "Tartarus Shop - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Grape Bunny Potion",
+            "name": "Tartarus Shop - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
-		  {
-            "name": "Ch.6 Rainbow Bunny Potion",
+          {
+            "name": "Tartarus Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , Chapter 6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -323,7 +323,7 @@
             "name": "Tartarus - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+              "$True"
             ]
           }
         ],
@@ -335,6 +335,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

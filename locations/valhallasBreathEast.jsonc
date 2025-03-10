@@ -78,7 +78,7 @@
             "access_rules": [
               "slide , bombs , jetpack",
               "slide , bombs , airJump",
-              "slide , bombs , EnemyManip"
+              "slide , bombs , false"
             ]
           }
         ],
@@ -111,6 +111,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -243,7 +246,33 @@
             "y": 339
           }
         ]
+      },
+      {
+        "name": "EVENT_Memine4",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $hasAmount|wallJump|2 , airJump",
+              "slide , wallJump , jetpack , airJump",
+              "slide , wallJump , airDash , airJump",
+              "slide , wallJump , airDash , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

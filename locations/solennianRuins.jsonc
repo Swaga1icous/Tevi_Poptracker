@@ -1,5 +1,5 @@
 [
-   {
+  {
     "name": "Solennian Ruins Entrance",
     "clear_as_group": false,
     "access_rules": [
@@ -85,7 +85,7 @@
             "name": "Solennian Ruins - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -94,6 +94,26 @@
             "map": "The Solennian Ruins",
             "x": 360,
             "y": 552
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -209,7 +229,7 @@
             "name": "Solennian Ruins - Core Expansion: Radiant",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeB"
+              "^$EVENT_EliteChallangeB"
             ]
           }
         ],
@@ -221,6 +241,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

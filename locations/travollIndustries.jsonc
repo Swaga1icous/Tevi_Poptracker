@@ -20,7 +20,7 @@
               "slide , wallJump , airDash",
               "slide , wallJump , jetpack",
               "slide , wallJump , airJump",
-              "slide , BounceKick"
+              "slide , false"
             ]
           }
         ],

@@ -3,7 +3,7 @@
     "name": "Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@Ulvosa Exit,bombs , $canChargeShot , hiddenPaths",
+      "@Ulvosa Exit,bombs , $canChargeShot , [hiddenPaths]",
       "@Ulvosa Exit,bombs , $canChargeShot , slide"
     ],
     "children": [
@@ -40,24 +40,11 @@
               "jetpack",
               "highJump"
             ]
-          }
-		],
-		"map_locations": [
+          },
           {
-            "map": "Ulvosa",
-            "x": 552,
-            "y": 168
-			}
-		]
-	},
-    {
-		"name": "Cherry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-			"name": "West Ulvosa - Cherry Bunny Potion",
-			"item_count": 1,
-			"access_rules": [
+            "name": "West Ulvosa - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
               "vortex"
             ]
           }
@@ -98,7 +85,7 @@
             "name": "Ulvosa - Overdrive",
             "item_count": 1,
             "access_rules": [
-              "EVENT_EliteChallangeD"
+              "^$EVENT_EliteChallangeD"
             ]
           }
         ],
@@ -218,7 +205,7 @@
             "name": "Ulvosa - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -227,6 +214,26 @@
             "map": "Ulvosa",
             "x": 456,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ulvosa - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -272,6 +279,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   }
 ]

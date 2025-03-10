@@ -1,9 +1,9 @@
 [
- {
+  {
     "name": "Sinner's Oath",
     "clear_as_group": false,
     "access_rules": [
-      "@Sinner's Oath Entrance,$canChargeShot , bombs , hiddenPaths",
+      "@Sinner's Oath Entrance,$canChargeShot , bombs , [hiddenPaths]",
       "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airDash",
       "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , jetpack",
       "@Sinner's Oath Entrance,$canChargeShot , bombs , slide , vortex , airJump"
@@ -14,7 +14,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Blood Boil",
+            "name": "Sinner's Oath - Blood Boil",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -34,7 +34,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Cherry Bunny Potion",
+            "name": "Sinners Hell - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "airJump , slide",
@@ -56,7 +56,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
+            "name": "Sinner's Oath - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "jetpack , airJump , vortex",
@@ -77,7 +77,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Lemon Bunny Potion",
+            "name": "Sinner's Oath - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|3 , airDash , vortex , slide",
@@ -99,7 +99,7 @@
     "name": "Illusion Palace Entrance",
     "clear_as_group": false,
     "access_rules": [
-      "@Sinner's Oath Entrance,bombs , hiddenPaths",
+      "@Sinner's Oath Entrance,bombs , [hiddenPaths]",
       "@Sinner's Oath"
     ],
     "children": [
@@ -108,7 +108,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Kiwi Bunny Potion",
+            "name": "Sinner's Oath - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "powder , slide"
@@ -128,10 +128,10 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Astral Gear",
+            "name": "Illusion Palace Entrance - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -140,6 +140,26 @@
             "map": "Sinner's Oath + Phantasmic Palace",
             "x": 432,
             "y": 452
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Illusion Palace Entrance - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -157,7 +177,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Rapid Shots Modchip",
+            "name": "Sinner's Oath - Rapid Shots Modchip",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -177,7 +197,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Grape Bunny Potion",
+            "name": "Sinners Hell - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , bombs , powder , slide , airJump",
@@ -194,14 +214,17 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
     "name": "Illusion Palace",
     "clear_as_group": false,
     "access_rules": [
-      "@Illusion Palace Entrance,Goal , $canChargeShot",
-      "@Illusion Palace Entrance,Goal , hiddenPaths"
+      "@Illusion Palace Entrance,false , $canChargeShot",
+      "@Illusion Palace Entrance,false , [hiddenPaths]"
     ],
     "children": [
       {
@@ -209,7 +232,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Core Expansion: Transcend",
+            "name": "Illusion Palace - Core Expansion: Transcend",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -229,7 +252,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Alembic Crystal",
+            "name": "Illusion Palace - Alembic Crystal",
             "item_count": 1,
             "access_rules": [
               "$True"
