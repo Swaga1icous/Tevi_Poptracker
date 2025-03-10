@@ -1,0 +1,148 @@
+[
+   {
+    "name": "CopperWood",
+    "clear_as_group": false,
+    "access_rules": [
+      "@CopperWood Industry Exit,bombs",
+      "@CopperWood Industry Exit,slide",
+      "@CopperWood EP Pot",
+      "@Exit Logic/0701",
+      "@Exit Logic/0704",
+      "@Exit Logic/0700,bombs"
+    ],
+    "children": [
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 600,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "orbS3 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "orbC3 , $canChargeShot , celia , $hasAmount|ranged|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 744,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+		   {
+            "name": "CopperWood Elite - Core Expansion: Saver",
+            "item_count": 1,
+            "access_rules": [
+              "EVENT_EliteChallangeC"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 888,
+            "y": 311
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CopperWood EP Pot",
+    "clear_as_group": false,
+    "access_rules": [
+      "@CopperWood Industry Exit,bombs",
+      "@CopperWood,airJump",
+      "@CopperWood,jetpack"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 408,
+            "y": 311
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CopperWood Industry Exit",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Exit Logic/0705",
+      "@CopperWood EP Pot,bombs"
+    ],
+    "children": [
+      {
+        "name": "MP Quicken: Style",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "CopperWood Industry Exit - MP Quicken: Style",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "airDash",
+              "jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 216,
+            "y": 71
+          }
+        ]
+      }
+    ]
+  }
+]
