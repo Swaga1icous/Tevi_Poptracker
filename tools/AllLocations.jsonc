@@ -275,8 +275,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 810,
+            "y": 354
           }
         ]
       },
@@ -295,8 +295,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 762,
+            "y": 354
           }
         ]
       },
@@ -336,8 +336,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 762,
+            "y": 306
           }
         ]
       }
@@ -375,8 +375,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 450
           }
         ]
       },
@@ -395,8 +395,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 354
           }
         ]
       },
@@ -415,8 +415,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 522,
+            "y": 546
           }
         ]
       },
@@ -435,8 +435,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 498
           }
         ]
       }
@@ -470,8 +470,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 378,
+            "y": 306
           }
         ]
       },
@@ -490,8 +490,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 330,
+            "y": 306
           }
         ]
       },
@@ -510,8 +510,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 330,
+            "y": 210
           }
         ]
       },
@@ -530,8 +530,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 234,
+            "y": 66
           }
         ]
       },
@@ -550,8 +550,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 42,
+            "y": 210
           }
         ]
       },
@@ -570,8 +570,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 426,
+            "y": 162
           }
         ]
       },
@@ -590,8 +590,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 210
           }
         ]
       }
@@ -907,6 +907,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -1222,6 +1225,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -1328,6 +1334,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -1490,6 +1499,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -1873,34 +1885,6 @@
             "access_rules": [
               "$True , $hasAmount|false|6"
             ]
-          },
-          {
-            "name": "Morose City Shop - Honeycloud Waffle",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          },
-          {
-            "name": "Morose City Shop Chap 3 - Toasted Meringue Waffle",
-            "item_count": 1,
-            "access_rules": [
-              "$True , $hasAmount|false|3"
-            ]
-          },
-          {
-            "name": "Morose City Shop Chap 4  - Good Morning Waffle",
-            "item_count": 1,
-            "access_rules": [
-              "$True , $hasAmount|false|4"
-            ]
-          },
-          {
-            "name": "Morose City Shop Chap 5  - Berry Pink Waffle",
-            "item_count": 1,
-            "access_rules": [
-              "$True , $hasAmount|false|5"
-            ]
           }
         ],
         "map_locations": [
@@ -1912,29 +1896,44 @@
         ]
       },
       {
-        "name": "Blueberry Waffle",
+        "name": "Morose City Waffle Shop",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City Chap 6 - Blueberry Waffle",
+            "name": "Morose City Waffle Shop - Honeycloud Waffle",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Morose City Waffle Shop Chap 3 - Toasted Meringue Waffle",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $hasAmount|false|3"
+            ]
+          },
+          {
+            "name": "Morose City Waffle Shop Chap 4  - Good Morning Waffle",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $hasAmount|false|4"
+            ]
+          },
+          {
+            "name": "Morose City Waffle Shop Chap 5  - Berry Pink Waffle",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $hasAmount|false|5"
+            ]
+          },
+          {
+            "name": "Morose City Waffle Shop Chap 6 - Blueberry Waffle",
             "item_count": 1,
             "access_rules": [
               "$True , $hasAmount|false|6"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Morose",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Morose City Waffle Shop",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Morose City Waffle Shop - Muscle Memory",
             "item_count": 1,
@@ -1951,6 +1950,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -2274,6 +2276,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -3078,6 +3083,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -3109,6 +3117,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -3207,6 +3218,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -4208,6 +4222,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -4617,6 +4634,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -4671,8 +4691,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 600,
+            "y": 264
           }
         ]
       },
@@ -4691,8 +4711,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 504,
+            "y": 264
           }
         ]
       },
@@ -4711,8 +4731,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 408,
+            "y": 312
           }
         ]
       },
@@ -4731,8 +4751,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 72,
+            "y": 456
           }
         ]
       },
@@ -4751,8 +4771,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 216,
+            "y": 456
           }
         ]
       },
@@ -4771,8 +4791,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 168,
+            "y": 408
           }
         ]
       }
@@ -4804,8 +4824,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 600,
+            "y": 504
           }
         ]
       },
@@ -4824,8 +4844,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 552,
+            "y": 504
           }
         ]
       }
@@ -4854,8 +4874,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 648,
+            "y": 456
           }
         ]
       },
@@ -4874,8 +4894,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 600,
+            "y": 648
           }
         ]
       },
@@ -4894,8 +4914,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 264,
+            "y": 648
           }
         ]
       },
@@ -4914,8 +4934,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 792,
+            "y": 408
           }
         ]
       },
@@ -4935,8 +4955,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 552,
+            "y": 552
           }
         ]
       },
@@ -4955,8 +4975,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 552,
+            "y": 648
           }
         ]
       },
@@ -4976,8 +4996,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 840,
+            "y": 408
           }
         ]
       },
@@ -4997,8 +5017,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 360,
+            "y": 648
           }
         ]
       }
@@ -5031,8 +5051,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 792,
+            "y": 216
           }
         ]
       },
@@ -5071,8 +5091,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 1128,
+            "y": 264
           }
         ]
       },
@@ -5091,11 +5111,14 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 1128,
+            "y": 168
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -5132,8 +5155,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 936,
+            "y": 456
           }
         ]
       },
@@ -5172,8 +5195,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 888,
+            "y": 264
           }
         ]
       },
@@ -5192,8 +5215,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 792,
+            "y": 360
           }
         ]
       },
@@ -5212,8 +5235,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 936,
+            "y": 408
           }
         ]
       },
@@ -5232,8 +5255,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 888,
+            "y": 312
           }
         ]
       },
@@ -5255,8 +5278,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 1032,
+            "y": 502
           }
         ]
       },
@@ -5275,11 +5298,14 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0
+            "x": 1128,
+            "y": 502
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -5618,6 +5644,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6128,6 +6157,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6289,6 +6321,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6340,6 +6375,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6542,6 +6580,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -6908,6 +6949,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -7344,6 +7388,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -7783,6 +7830,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -8280,6 +8330,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -8571,6 +8624,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9015,6 +9071,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9173,6 +9232,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9840,6 +9902,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {
@@ -9973,6 +10038,9 @@
           }
         ]
       }
+    ],
+    "visibillity_rules": [
+      "NOTHING"
     ]
   },
   {

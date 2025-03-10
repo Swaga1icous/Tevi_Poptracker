@@ -387,11 +387,11 @@
         ]
       },
       {
-        "name": "Dark",
+        "name": "EVENT_Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dark",
+            "name": "Swamp Entrance - Dark",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -488,11 +488,11 @@
         ]
       },
       {
-        "name": "Dark",
+        "name": "EVENT_Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dark",
+            "name": "Swamp - Dark",
             "item_count": 1,
             "access_rules": [
               "$True"

@@ -1224,7 +1224,7 @@
     {
         "Itemname": "Useable_WaffleAHoneycloud",
         "Location": "Morose City",
-        "LocationName": "Morose City Shop - Honeycloud Waffle",
+        "LocationName": "Morose City Waffle Shop - Honeycloud Waffle",
         "slotId": 1,
         "Requirement": [
             {
@@ -1236,7 +1236,7 @@
     {
         "Itemname": "Useable_WaffleBMeringue",
         "Location": "Morose City",
-        "LocationName": "Morose City Shop Chap 3 - Toasted Meringue Waffle",
+        "LocationName": "Morose City Waffle Shop Chap 3 - Toasted Meringue Waffle",
         "slotId": 1,
         "Requirement": [
             {
@@ -1248,7 +1248,7 @@
     {
         "Itemname": "Useable_WaffleCMorning",
         "Location": "Morose City",
-        "LocationName": "Morose City Shop Chap 4  - Good Morning Waffle",
+        "LocationName": "Morose City Waffle Shop Chap 4  - Good Morning Waffle",
         "slotId": 1,
         "Requirement": [
             {
@@ -1260,7 +1260,7 @@
     {
         "Itemname": "Useable_WaffleDJellydrop",
         "Location": "Morose City",
-        "LocationName": "Morose City Shop Chap 5  - Berry Pink Waffle",
+        "LocationName": "Morose City Waffle Shop Chap 5  - Berry Pink Waffle",
         "slotId": 1,
         "Requirement": [
             {
@@ -1272,7 +1272,7 @@
     {
         "Itemname": "Useable_WaffleElueberry",
         "Location": "Morose City",
-        "LocationName": "Morose City Chap 6 - Blueberry Waffle",
+        "LocationName": "Morose City Waffle Shop Chap 6 - Blueberry Waffle",
         "slotId": 1,
         "Requirement": [
             {

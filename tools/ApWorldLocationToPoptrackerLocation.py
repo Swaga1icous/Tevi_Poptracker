@@ -131,6 +131,7 @@ for val in RandomizerLocationList:
     locName = val["LocationName"].split("-")[1][1:]
     if "EVENT" in val["Itemname"]:
         locName = val["Itemname"]
+        regionTemplate["visibillity_rules"] = ["NOTHING"]
     itemName = val["LocationName"]
 
     locTemplate = {
