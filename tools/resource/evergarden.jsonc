@@ -1,0 +1,361 @@
+[
+  {
+    "name": "EverGarden",
+    "access_rules": [
+      "@EverGarden To Valley,airDash",
+      "@EverGarden To Valley,airJump",
+      "@EverGarden To Valley,jetpack",
+      "@EverGarden To Valhalla,bombs",
+      "@EverGarden Path BossPath",
+      "@EverGarden Boss Area"
+    ],
+    "children": [
+      {
+        "name": "Slipstream Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Slipstream Boots",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 840,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Crystalline Cyan",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Crystalline Cyan",
+            "item_count": 1,
+            "access_rules": [
+              "bombs",
+              "airDash",
+              "jetpack",
+              "airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 744,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Style Combo: Power A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Style Combo: Power A",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , airJump",
+              "bombs , highJump , jetpack",
+              "bombs , $hasAmount|jetpack|2",
+              "bombs , wallJump , airDash"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 1032,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Deft B",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Deft B",
+            "item_count": 1,
+            "access_rules": [
+              "slide , airJump , jetpack",
+              "slide , $hasAmount|jetpack|3",
+              "slide , highJump , $hasAmount|jetpack|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 936,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , airJump",
+              "slide , bombs , jetpack",
+              "slide , bombs , airDash , wallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 984,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EverGarden Path BossPath",
+    "access_rules": [
+      "@EverGarden,airJump",
+      "@EverGarden,jetpack , airDash",
+      "@EverGarden,$hasAmount|jetpack|3",
+      "@EverGarden,$hasAmount|jetpack|2",
+      "@EverGarden Boss Area"
+    ],
+    "children": [
+      {
+        "name": "Whipcrack",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Path BossPath - Whipcrack",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack , bombs",
+              "airDash , bombs",
+              "wallJump , bombs , airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 744,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Shooting Star",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Path BossPath - Shooting Star",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , airJump",
+              "$canChargeShot , jetpack",
+              "$canChargeShot , airDash",
+              "$canChargeShot , rabbitWallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 1032,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Battlecry",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Path BossPath - Battlecry",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $canChargeShot , jetpack",
+              "slide , $canChargeShot , airJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 1032,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Memine Race From Valhallas Breath East",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 640,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EverGarden Boss Area",
+    "access_rules": [
+      "@EverGarden Path BossPath,airJump , airDash",
+      "@EverGarden Path BossPath,jetpack , airDash",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|3",
+      "@EverGarden Path BossPath,$hasAmount|jetpack|2"
+    ],
+    "children": [
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Boss Area - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 312,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Debuff Counter",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Boss Area - Debuff Counter",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 312,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Crystal Boon",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heaven Portal Hub - Crystal Boon",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs",
+              "wallJump , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 72,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EverGarden Boss Area - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "orbS3 , airJump , airDash , $canChargeShot , sable , $hasAmount|ranged|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 216,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

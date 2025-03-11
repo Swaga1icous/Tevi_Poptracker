@@ -1,0 +1,366 @@
+[
+  {
+    "name": "Heavens Valley West",
+    "access_rules": [
+      "@Valhalla Breath West,bombs , ceilingKick",
+      "@Valhalla Breath West,bombs , airJump",
+      "@Valhalla Breath West,bombs , jetpack",
+      "@Valhalla Breath West,bombs , airDash",
+      "@Exit Logic/2105",
+      "@Exit Logic/2100"
+    ],
+    "children": [
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "South Heavens Valley West - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          },
+          {
+            "name": "North Heavens Valley West - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , bombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 504,
+            "y": 526
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley West - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump",
+              "jetpack",
+              "$canChargeShot",
+              "airDash",
+              "highJump",
+              "rabbitWallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 504,
+            "y": 574
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley West - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 504,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Light",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley West - Light",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valhalla Breath West",
+    "access_rules": [
+      "@Exit Logic/2101",
+      "@Heavens Valley West,jetpack , bombThrow",
+      "@Heavens Valley West,jetpack , [hiddenPaths]",
+      "@Heavens Valley West,airDash , bombThrow",
+      "@Heavens Valley West,airDash , [hiddenPaths]",
+      "@Heavens Valley West,slide , powder , bombThrow",
+      "@Heavens Valley West,slide , powder , [hiddenPaths]",
+      "@Heavens Valley West,airJump , bombThrow",
+      "@Heavens Valley West,airJump , [hiddenPaths]",
+      "@Heavens Valley West,$canChargeShot , bombThrow",
+      "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 1128,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Light",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Light",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Orbital Slash",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Orbital Slash",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 648,
+            "y": 238
+          }
+        ]
+      },
+      {
+        "name": "Quickstab: Flurry",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Quickstab: Flurry",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 1176,
+            "y": 94
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 888,
+            "y": 48
+          }
+        ]
+      },
+      {
+        "name": "Combo Momentum: Fever",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Combo Momentum: Fever",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 1176,
+            "y": 238
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , airJump",
+              "slide , jetpack",
+              "slide , airDash",
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 648,
+            "y": 334
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valhalla Breath West Extended",
+    "access_rules": [
+      "@Valhalla Breath West,airDash",
+      "@Valhalla Breath West,airJump",
+      "@Valhalla Breath West,jetpack"
+    ],
+    "children": [
+      {
+        "name": "Galvanise",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West Extended - Galvanise",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 550,
+            "y": 94
+          }
+        ]
+      },
+      {
+        "name": "Rapid Shots Enhance",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West Extended - Rapid Shots Enhance",
+            "item_count": 1,
+            "access_rules": [
+              "powder , slide , airJump",
+              "powder , slide , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 120,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Lucky 7: C",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West Extended - Lucky 7: C",
+            "item_count": 1,
+            "access_rules": [
+              "slide , airJump",
+              "slide , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 168,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla Breath West Extended - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 694,
+            "y": 94
+          }
+        ]
+      }
+    ]
+  }
+]

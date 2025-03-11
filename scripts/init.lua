@@ -21,6 +21,7 @@ Tracker:AddItems("items/items.jsonc")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/logic_rules.lua")
+ScriptHost:LoadScript("scripts/logic/event_logic.lua")
 
 -- Custom Items
 -- ScriptHost:LoadScript("scripts/custom_items/class.lua")

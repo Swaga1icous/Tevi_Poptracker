@@ -1,0 +1,349 @@
+[
+  {
+    "name": "Valhalla City",
+    "access_rules": [
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",
+      "@Exit Logic/2008,slide , bombs",
+      "@Exit Logic/2003",
+      "@Exit Logic/2001"
+    ],
+    "children": [
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 648,
+            "y": 407
+          }
+        ]
+      },
+      {
+        "name": "EVENT_EliteChallangeF",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Elite Challenge F",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 456,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Buff Rush",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Buff Rush",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack",
+              "airJump",
+              "airDash , wallJump",
+              "rabbitWallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 456,
+            "y": 71
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 648,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "orbC3 , $canChargeShot , celia , $hasAmount|ranged|2",
+              "jetpack , airJump , $canChargeShot",
+              "airDash , jetpack , $canChargeShot",
+              "airDash , airJump , $canChargeShot",
+              "orbS3 , $canChargeShot , highJump , sable , $hasAmount|ranged|2",
+              "orbS3 , $canChargeShot , airJump , sable , $hasAmount|ranged|2",
+              "orbS3 , $canChargeShot , jetpack , sable , $hasAmount|ranged|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 600,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Combo Momentum: Saver",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Combo Momentum: Saver",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow",
+              "$hasAmount|bombRange|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 408,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Valhalla City Shop",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City Shop - Valhalla VIP Pass",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Style Combo: Flash A",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Tornado Spin: Flurry",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Backflip Flurry",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Combo Momentum: Dodge",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - MP Saver: Rhythm",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - EP Booster: Perfectionist",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Style Combo: Bunny Kick S",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Shock Armor",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Quickstab: Sunder",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Core Expansion: Erase",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Bag Expander",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Valhalla City Shop Chap 6 - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $Chapter|6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 552,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Memine Race From Tartarus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 500,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Valhalla City - Memine Race From Tartarus",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

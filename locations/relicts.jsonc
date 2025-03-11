@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Relicts",
+    "access_rules": [
+      "@Exit Logic/2404",
+      "@Relicts to Gloamwood,bombs"
+    ],
+    "children": [
+      {
+        "name": "MP Quicken: Accelerate",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - MP Quicken: Accelerate",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 264,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Fire",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Fire",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Attenu 8",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Attenu 8",
+            "item_count": 1,
+            "access_rules": [
+              "highJump",
+              "airJump",
+              "jetpack",
+              "airDash",
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 408,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Delicious Secret Notes",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Delicious Secret Notes",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 504,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "MP Surge: Soul",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - MP Surge: Soul",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 504,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  }
+]

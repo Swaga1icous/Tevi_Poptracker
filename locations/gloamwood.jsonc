@@ -1,11 +1,10 @@
-[ 
+[
   {
-    "name": "Gleamwood Bottom",
-    "clear_as_group": false,
+    "name": "Gloamwood Bottom",
     "access_rules": [
-      "@Gleamwood Forest Exit",
+      "@Gloamwood to Forest",
       "@Exit Logic/0905",
-      "@Gleamwood Middle"
+      "@Gloamwood Middle"
     ],
     "children": [
       {
@@ -13,8 +12,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Lemon Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Middle - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -27,13 +29,14 @@
       },
       {
         "name": "Cherry Bunny Potion",
-        "access_rules": [
-          "$canChargeShot"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Cherry Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Bottom - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
           }
         ],
         "map_locations": [
@@ -46,13 +49,14 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "dagger"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Kiwi Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Bottom - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "dagger"
+            ]
           }
         ],
         "map_locations": [
@@ -62,31 +66,59 @@
             "y": 767
           }
         ]
+      },
+      {
+        "name": "EVENT_Memine0",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gloamwood - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "name": "Gleamwood Middle",
-    "clear_as_group": false,
+    "name": "Gloamwood Middle",
     "access_rules": [
-      "@Gleamwood Copperwood Exit,bombs",
-      "@Gleamwood Relicts Exit,bombRange",
-      "@Gleamwood Bottom,airJump, bombs, jetpack, airDash",
-      "@Gleamwood Bottom,EnemyManip",
-      "@Gleamwood Ulvosa Exit",
-      "@Gleamwood Right",
-      "@Ulskan Village Area,dagger, $canUseVenaBomb, randged"
+      "@Gloamwood Copperwood to CopperWood,bombs",
+      "@Gloamwood to Relicts,bombRange",
+      "@Gloamwood Bottom,airJump",
+      "@Gloamwood Bottom,bombs",
+      "@Gloamwood Bottom,jetpack",
+      "@Gloamwood Bottom,airDash",
+      "@Gloamwood Bottom,$False",
+      "@Gloamwood to Ulvosa",
+      "@Gloamwood Right",
+      "@Ulskan Village Area,dagger",
+      "@Ulskan Village Area,$canUseVenaBomb",
+      "@Ulskan Village Area,ranged"
     ],
     "children": [
       {
         "name": "Quick Bomber",
-        "access_rules": [
-          "bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Quick Bomber",
-            "item_count": 1
+            "name": "Gloamwood Middle - Quick Bomber",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -102,8 +134,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Decay Mask",
-            "item_count": 1
+            "name": "Gloamwood Middle - Decay Mask",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -116,13 +151,14 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "slide , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Middle - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -135,13 +171,15 @@
       },
       {
         "name": "Combo Time Extend III",
-        "access_rules": [
-          "slide , EnemyManip , randged , dagger, slide , $canUseVenaBomb , dagger"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Combo Time Extend III",
-            "item_count": 1
+            "name": "Gloamwood Middle - Combo Time Extend III",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $False , ranged , dagger",
+              "slide , $canUseVenaBomb , dagger"
+            ]
           }
         ],
         "map_locations": [
@@ -154,13 +192,14 @@
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "slide , $canChargeShot , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Grape Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Middle - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $canChargeShot , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -173,15 +212,23 @@
       },
       {
         "name": "Rainbow Bunny Potion",
-        "access_rules": [
-          "airJump , bombs",
-          "jetpack , bombs",
-          "airDash , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Rainbow Bunny Potion",
-            "item_count": 1
+            "name": "Gloamwood Middle - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , bombs",
+              "jetpack , bombs",
+              "airDash , bombs"
+            ]
+          },
+          {
+            "name": "Memine Gloamwood - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine0"
+            ]
           }
         ],
         "map_locations": [
@@ -194,13 +241,17 @@
       },
       {
         "name": "Dodge: Optimize",
-        "access_rules": [
-          "slide , dagger, slide , randged, hiddenPaths , dagger, hiddenPaths , randged"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Dodge: Optimize",
-            "item_count": 1
+            "name": "Gloamwood Upper - Dodge: Optimize",
+            "item_count": 1,
+            "access_rules": [
+              "slide , dagger",
+              "slide , ranged",
+              "[hiddenPaths] , dagger",
+              "[hiddenPaths] , ranged"
+            ]
           }
         ],
         "map_locations": [
@@ -212,44 +263,73 @@
         ]
       },
       {
-        "name": "Earth",
+        "name": "EVENT_Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Earth",
-            "item_count": 1
+            "name": "Gloamwood Upper - Earth",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Gloamwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Memine Gloamwood - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine0"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
     ]
   },
   {
-    "name": "Gleamwood Forest Exit",
-    "clear_as_group": false,
+    "name": "Gloamwood to Forest",
     "access_rules": [
       "@Exit Logic/0908",
-      "@Gleamwood Bottom,bombs"
+      "@Gloamwood Bottom,bombs"
     ],
     "children": [
       {
         "name": "Special Action: Speechless",
-        "access_rules": [
-          "jetpack , bombs",
-          "airDash , bombs",
-          "airJump , bombs",
-          "rabbitWallJump , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Special Action: Speechless",
-            "item_count": 1
+            "name": "Gloamwood Middle - Special Action: Speechless",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack , bombs",
+              "airDash , bombs",
+              "airJump , bombs",
+              "rabbitWallJump , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -263,49 +343,62 @@
     ]
   },
   {
-    "name": "Gleamwood Ulvosa Exit",
-    "clear_as_group": false,
+    "name": "Gloamwood to Ulvosa",
     "access_rules": [
-      "@Gleamwood Middle,slide , $canChargeShot, hiddenPaths , $canChargeShot",
+      "@Gloamwood Middle,slide , $canChargeShot",
+      "@Gloamwood Middle,[hiddenPaths] , $canChargeShot",
       "@Exit Logic/0902"
     ],
     "children": [
       {
-        "name": "Elite",
+        "name": "EVENT_EliteChallengeC",
         "access_rules": [],
         "sections": [
           {
-            "name": "Elite",
-            "item_count": 1
+            "name": "Gloamwood Upper - Elite Challenge C",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Gloamwood",
             "x": 328,
-            "y": 191
+            "y": 191,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
     ]
   },
   {
-    "name": "Gleamwood Right",
-    "clear_as_group": false,
+    "name": "Gloamwood Right",
     "access_rules": [
-      "@Gleamwood Blush Exit,highJump, airJump, airDash, jetpack, rabbitJump",
-      "@Gleamwood Middle,airJump, airDash, jetpack, rabbitJump"
+      "@Gloamwood to Blushwood,highJump",
+      "@Gloamwood to Blushwood,airJump",
+      "@Gloamwood to Blushwood,airDash",
+      "@Gloamwood to Blushwood,jetpack",
+      "@Gloamwood to Blushwood,rabbitJump",
+      "@Gloamwood Middle,airJump",
+      "@Gloamwood Middle,airDash",
+      "@Gloamwood Middle,jetpack",
+      "@Gloamwood Middle,rabbitJump"
     ],
     "children": [
       {
         "name": "MP Surge: Battle Start",
-        "access_rules": [
-          "$canChargeShot"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "MP Surge: Battle Start",
-            "item_count": 1
+            "name": "Ulskan Village Area - MP Surge: Battle Start",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
           }
         ],
         "map_locations": [
@@ -317,32 +410,39 @@
         ]
       },
       {
-        "name": "Earth",
+        "name": "EVENT_Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Earth",
-            "item_count": 1
+            "name": "Ulskan Village Area - Earth",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Gloamwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
       {
         "name": "Grape Bunny Potion",
-        "access_rules": [
-          "orbS2 , $canChargeShot , sable , $hasAmount|randged|2",
-          "$canUseVenaBomb"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Grape Bunny Potion",
-            "item_count": 1
+            "name": "Ulskan Village Area - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$canUseVenaBomb"
+            ]
           }
         ],
         "map_locations": [
@@ -355,13 +455,14 @@
       },
       {
         "name": "Slide Halt",
-        "access_rules": [
-          "slide , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Slide Halt",
-            "item_count": 1
+            "name": "Ulskan Village Area - Slide Halt",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -376,22 +477,24 @@
   },
   {
     "name": "Ulskan Village Area",
-    "clear_as_group": false,
     "access_rules": [
-      "@Gleamwood Right",
+      "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan Plague Exit,slide , bombs"
+      "@Ulskan to Plague Forest,slide , bombs"
     ],
     "children": [
       {
         "name": "Aerial Agility",
-        "access_rules": [
-          "dagger, $canUseVenaBomb, randged"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Aerial Agility",
-            "item_count": 1
+            "name": "Ulskan Village Area - Aerial Agility",
+            "item_count": 1,
+            "access_rules": [
+              "dagger",
+              "$canUseVenaBomb",
+              "ranged"
+            ]
           }
         ],
         "map_locations": [
@@ -404,13 +507,14 @@
       },
       {
         "name": "Dual Combo: Flow",
-        "access_rules": [
-          "slide , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Dual Combo: Flow",
-            "item_count": 1
+            "name": "Ulskan Village Area - Dual Combo: Flow",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -423,13 +527,15 @@
       },
       {
         "name": "Blueberry Bunny Potion",
-        "access_rules": [
-          "dagger, $canUseVenaBomb"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1
+            "name": "Ulskan Village Area - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "dagger",
+              "$canUseVenaBomb"
+            ]
           }
         ],
         "map_locations": [
@@ -443,21 +549,21 @@
     ]
   },
   {
-    "name": "Ulskan Plague Exit",
-    "clear_as_group": false,
+    "name": "Ulskan to Plague Forest",
     "access_rules": [
       "@Exit Logic/0904"
     ],
     "children": [
       {
         "name": "Decay Antidote",
-        "access_rules": [
-          "slide , bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Decay Antidote",
-            "item_count": 1
+            "name": "Ulskan Village Area - Decay Antidote",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -470,13 +576,14 @@
       },
       {
         "name": "Dodge: Golden Luck",
-        "access_rules": [
-          "slide , bombs , $canChargeShot"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Dodge: Golden Luck",
-            "item_count": 1
+            "name": "Ulskan Village Area - Dodge: Golden Luck",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , $canChargeShot"
+            ]
           }
         ],
         "map_locations": [
@@ -489,4 +596,4 @@
       }
     ]
   }
- ]
+]

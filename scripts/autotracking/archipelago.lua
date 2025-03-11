@@ -6,6 +6,8 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_tracking.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -81,35 +83,35 @@ end
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
 	local SLOT_DATA = slot_data
-	--print(dump_table(SLOT_DATA))
+	print(dump_table(SLOT_DATA))
 
 	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
-	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["attackMode"]
+	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]
 
-	if SLOT_DATA["CeliaSable"] > 0 then
-		Tracker:FindObjectForCode("startWithCelia/Sable").Active = true
-	end
 
-	if SLOT_DATA["openMorose"] > 0 then
-		Tracker:FindObjectForCode("openMorose").Active = true
-	end
+
+	Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["open_morose"] > 0
+	Tracker:FindObjectForCode("randomizeKnife").Active = SLOT_DATA["options"]["randomize_knife"] > 0
+	Tracker:FindObjectForCode("randomizeOrb").Active = SLOT_DATA["options"]["randomize_orb"] > 0
+	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
+	Tracker:FindObjectForCode("chaosMode").Active = SLOT_DATA["options"]["chaos_mode"] > 0
+	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0 
+	Tracker:FindObjectForCode("transitionShuffle").Active = SLOT_DATA["options"]["transitionShuffle"] > 0
+	Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
+	Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["RWalljump"] > 0
+	Tracker:FindObjectForCode("backflip").Active =  SLOT_DATA["options"]["backflip"] > 0
+	Tracker:FindObjectForCode("ceilingKick").Active = SLOT_DATA["options"]["cKick"] > 0
+	Tracker:FindObjectForCode("hiddenPaths").Active =  SLOT_DATA["options"]["hiddenP"] > 0 
+	Tracker:FindObjectForCode("earlyDream").Active = SLOT_DATA["options"]["earlydream"] > 0
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["barrierSkip"] > 0
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["adcKick"] > 0 
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["superBosses"] > 0
+
 
 	--if SLOT_DATA["REPLACE VALUE"] > 0 then
 	--	Tracker:FindObjectForCode("REPLACE VALUE").Active = true
 	--end
 
-	--Petition to Add to SlotData:
-	--randomizeKnife
-	--randomizeOrb
-	--randomizeItemUpgrades
-	--chaosMode
-	--rabbitJump
-	--rabbitWallJump
-	--backflip
-	--ceilingKick
-	--hiddenPaths
-	--earlyDream
-	--transistionShuffle
 
 	local Transition_Data = SLOT_DATA["transitionData"]
 	for _, transitionNumber in pairs(Transition_Data) do
@@ -124,6 +126,9 @@ function onClear(slot_data)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
+	local key = "Slot:"..Archipelago.PlayerNumber..":currentMap"
+	Archipelago:SetNotify({key})
+	print("Slot:"..Archipelago.PlayerNumber..":currentMap")
 	CUR_INDEX = -1
 	-- reset locations
 	for _, mapping_entry in pairs(LOCATION_MAPPING) do
@@ -171,6 +176,7 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
+	Tracker:UiHint("ActivateTab", MAP_MAPPING[1])
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
@@ -305,3 +311,9 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+
+
+
+
+Archipelago:AddSetReplyHandler("map tracker",onMapChange)

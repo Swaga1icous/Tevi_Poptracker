@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Travoll Mines",
+    "access_rules": [
+      "@Travoll Mines to Morose City,bombs , bombFuel",
+      "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
+      "@Exit Logic/0500",
+      "@Travoll Mines to Forest,bombs , dagger",
+      "@Travoll Mines to Forest,bombs , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Swamp"
+    ],
+    "children": [
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 72,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Fire",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Fire",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 120,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aerial Accel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Aerial Accel",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 312,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs",
+              "ceilingKick"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 456,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombThrow , bombs , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 264,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 936,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines to Swamp",
+    "access_rules": [
+      "@Travoll Mines,slide , bombFuel",
+      "@Exit Logic/0503"
+    ],
+    "children": [
+      {
+        "name": "Dodge: Headstrong",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines to Swamp - Dodge: Headstrong",
+            "item_count": 1,
+            "access_rules": [
+              "vortex"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 936,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines to Morose City",
+    "access_rules": [
+      "@Exit Logic/0501",
+      "@Travoll Mines to Thanatara Canyon,bombs",
+      "@Travoll Mines"
+    ],
+    "children": [
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 408,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Travoll Mines to Forest",
+    "access_rules": [
+      "@Travoll Mines,bombs",
+      "@Exit Logic/0509"
+    ],
+    "children": [
+      {
+        "name": "Mana Armor",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines to Forest - Mana Armor",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 840,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

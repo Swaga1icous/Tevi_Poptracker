@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Tartarus",
+    "access_rules": [
+      "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
+      "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",
+      "@Exit Logic/1502",
+      "@Tartarus Catacombs,slide",
+      "@Tartarus Catacombs,bombs"
+    ],
+    "children": [
+      {
+        "name": "Swift Shots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Swift Shots",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "EVENT_EliteChallengeE",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Elite Challenge E",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 504,
+            "y": 360,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crystalline Scarlet",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Crystalline Scarlet",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 360,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Arcade",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Arcade",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 72,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 264,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Lucky 7: A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Lucky 7: A",
+            "item_count": 1,
+            "access_rules": [
+              "highJump , jetpack",
+              "highJump , airJump",
+              "highJump , airJump",
+              "jetpack , airJump",
+              "airDash , airJump",
+              "airDash , jetpack",
+              "$hasAmount|jetpack|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 168,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "airDash , airJump , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Upper Slash: Vicious",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Upper Slash: Vicious",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 264,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Tartarus Shop",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus Shop - Tartarus VIP Pass ",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Style Combo: Trickshot",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Hot Buzz",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - MP Quicken: Combo",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Quick Break",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - EP Booster: Shopaholic",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Bounce Bonus",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Core Expansion: Extend",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Crystal Healing",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Head Over Heels",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Low Defence Bomber",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Bag Expander",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Tartarus Shop Chap 6 - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $Chapter|6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine3",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tartarus - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 120,
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,483 @@
+[
+  {
+    "name": "DreamKeeper Outside Right",
+    "access_rules": [
+      "@Exit Logic/1800",
+      "@DreamKeeper,slide , bombs"
+    ],
+    "children": [
+      {
+        "name": "Slide Basher",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper Outside Right - Slide Basher",
+            "item_count": 1,
+            "access_rules": [
+              "highJump",
+              "jetpack",
+              "airJump",
+              "airDash , wallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 771,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper Outside Right - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , bombs , slide , $canChargeShot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 723,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DreamKeeper Outside Left",
+    "access_rules": [
+      "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
+      "@Exit Logic/1801",
+      "@DreamKeeper Outside Left Snow To Snowveil,rabbitJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,airDash",
+      "@DreamKeeper Outside Left Snow To Snowveil,airJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,jetpack",
+      "@DreamKeeper Outside Left Snow To Snowveil,highJump"
+    ],
+    "children": [
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper Outside Left - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack , $canChargeShot , slide",
+              "airJump , $canChargeShot , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 435,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Equilibrium Ring",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper Outside Left - Equilibrium Ring",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 435,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper Outside Left - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 341,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DreamKeeper",
+    "access_rules": [
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , earlyDream",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , earlyDream",
+      "@DreamKeeper Outside Left,vortex , slide , slide , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Left,vortex , slide , slide , earlyDream"
+    ],
+    "children": [
+      {
+        "name": "MP Quicken: Sugar Rush",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - MP Quicken: Sugar Rush",
+            "item_count": 1,
+            "access_rules": [
+              "dagger",
+              "$canUseVenaBomb",
+              "$canChargeShot",
+              "bombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear #2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Astral Gear #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Boss Alius",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "DreamKeeper - Boss Charon",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grip Sole Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Grip Sole Boots",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 389,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Refractor",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Refractor",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 437,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "vortex , slide , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 387,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear #1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Astral Gear #1",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 483,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 485,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Dominator",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Dominator",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 531,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dreamless Depths 2",
+    "access_rules": [
+      "@Dreamless Depths,highJump , dagger",
+      "@Dreamless Depths,wallJump",
+      "@Dreamless Depths,jetpack , dagger",
+      "@Dreamless Depths,airJump , dagger"
+    ],
+    "children": [
+      {
+        "name": "Crystal Mirror",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dreamless Depths 2 - Crystal Mirror",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombRange|3 , bombs , powder"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 389,
+            "y": 712
+          }
+        ]
+      },
+      {
+        "name": "Sigil Quicken",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dreamless Depths 2 - Sigil Quicken",
+            "item_count": 1,
+            "access_rules": [
+              "airJump , $hasAmount|jetpack|2 , [$true] , bombs",
+              "airJump , jetpack , wallJump , airDash , bombs",
+              "airJump , jetpack , wallJump , highJump , [$true] , bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 149,
+            "y": 666
+          }
+        ]
+      },
+      {
+        "name": "Royal Emblem",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dreamless Depths 2 - Royal Emblem",
+            "item_count": 1,
+            "access_rules": [
+              "jetpack , airJump",
+              "airJump , airDash",
+              "$hasAmount|jetpack|2 , airDash",
+              "jetpack , airDash , highJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 293,
+            "y": 666
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dreamless Depths",
+    "access_rules": [
+      "@DreamKeeper,slide , bombs"
+    ],
+    "children": [
+      {
+        "name": "Terrestrial Momentum",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dreamless Depths - Terrestrial Momentum",
+            "item_count": 1,
+            "access_rules": [
+              "slide , powder , ranged",
+              "slide , powder , dagger",
+              "slide , powder , bombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 725,
+            "y": 762
+          }
+        ]
+      }
+    ]
+  }
+]

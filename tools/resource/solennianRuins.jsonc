@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Solennian Ruins Entrance",
+    "access_rules": [
+      "@Exit Logic/2206"
+    ],
+    "children": [
+      {
+        "name": "Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins Entrance - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|jetpack|2",
+              "jetpack , airJump",
+              "jetpack , airDash , wallJump"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 600,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Solennian Ruins",
+    "access_rules": [
+      "@Solennian Ruins Entrance,bombs"
+    ],
+    "children": [
+      {
+        "name": "EVENT_Fire",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Fire",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 696,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Astral Gear",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 360,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 72,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 600,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Nasty Break up",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Nasty Break up",
+            "item_count": 1,
+            "access_rules": [
+              "wallJump",
+              "airJump , $hasAmount|jetpack|2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 360,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Lucky 7: B",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Lucky 7: B",
+            "item_count": 1,
+            "access_rules": [
+              "dagger",
+              "$canUseVenaBomb",
+              "ranged",
+              "bombs , bombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 216,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "slide"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 792,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Core Expansion: Radiant",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Solennian Ruins - Core Expansion: Radiant",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeB"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Solennian Ruins",
+            "x": 696,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  }
+]

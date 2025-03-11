@@ -1,86 +1,447 @@
 [
   {
     "name": "Ana Thema",
-    "clear_as_group": false,
     "access_rules": [
-          "@Exit Logic/0805",
-          "@Ana Thema Gallery, bombs, slide"
-        ],
+      "@Exit Logic/0805",
+      "@Ana Thema to Gallery,slide , bombs"
+    ],
     "children": [
       {
         "name": "Library Key",
-        "access_rules": [
-          "bombThrow, slide, bombs, wallJump",
-          "bombThrow, slide, bombs, airJump, $has|jetpack|3",
-          "bombThrow, slide, bombs, airJump, highJump, jetpack"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Library Key",
-            "item_count": 1
+            "name": "Ana Thema - Library Key",
+            "item_count": 1,
+            "access_rules": [
+              "bombThrow , slide , bombs , wallJump",
+              "bombThrow , slide , bombs , airJump , $hasAmount|jetpack|3",
+              "bombThrow , slide , bombs , airJump , highJump , jetpack"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Ana Thema",
             "x": 167,
-            "y": 72
+            "y": 74
           }
         ]
       },
       {
-        "name": "Ana Thema - Cherry Bunny Potion",
-        "access_rules": [
-          "slide, powder, bombs",
-          "slide, airJump, bombs",
-          "slide, [rabbitJump], bombs",
-          "slide, jetpack, bombs"
-        ],
+        "name": "Cherry Bunny Potion",
+        "access_rules": [],
         "sections": [
           {
             "name": "Ana Thema - Cherry Bunny Potion",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "slide , airDash , bombs",
+              "slide , airJump , bombs",
+              "slide , rabbitJump , bombs",
+              "slide , jetpack , bombs"
+            ]
           }
         ],
         "map_locations": [
           {
-            "map":"Ana Thema",
+            "map": "Ana Thema",
             "x": 215,
             "y": 266
           }
         ]
       },
       {
-        "name": "Ana Thema - Sable",
-        "access_rules": [
-          "key"
-        ],
+        "name": "Sable",
+        "access_rules": [],
         "sections": [
           {
             "name": "Ana Thema - Sable",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "key"
+            ]
           }
         ],
         "map_locations": [
           {
-            "map":"Ana Thema",
-            "x": 145,
-            "y": 313
+            "map": "Ana Thema",
+            "x": 143,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "GemaYue",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - GemaYue",
+            "item_count": 1,
+            "access_rules": [
+              "key , [SuperBoss] , dagger , $Chapter|4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EinLee",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - EinLee",
+            "item_count": 1,
+            "access_rules": [
+              "key , [SuperBoss] , dagger , $Chapter|4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Waero",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Waero",
+            "item_count": 1,
+            "access_rules": [
+              "key , [SuperBoss] , dagger , $Chapter|4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EVENT_EliteChallengeD",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Elite Challenge D",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Deft I",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Deft I",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 599,
+            "y": 266
+          }
+        ]
+      },
+      {
+        "name": "EVENT_AnathemaVisited",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Visit",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Terrestrial Agility",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Terrestrial Agility",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 551,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Ana Thema Shop",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema Shop - Deadly Reach",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop Memloch - Flash Point",
+            "item_count": 1,
+            "access_rules": [
+              "$True , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop Memloch - Break Extend",
+            "item_count": 1,
+            "access_rules": [
+              "$True , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop Memloch - Tornado Spin: Grav Reversal",
+            "item_count": 1,
+            "access_rules": [
+              "$True , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop Memloch - Perseverance D",
+            "item_count": 1,
+            "access_rules": [
+              "$True , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - MP Quicken: Step Up",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Upper Slash: Augment",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Synchronized Support II",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - EP Booster: Variety",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Air Combo: Focus",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Dodge Recovery",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - C. Count Frenzy: Acrobatics",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Act Tough",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Biscuit Delivery",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Style Combo: Lock On A",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Combo Crasher",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Bag Expander",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop - Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Ana Thema Shop Chap 6 - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True , $Chapter|6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 215,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine5",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|5"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 263,
+            "y": 218,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
     ]
   },
   {
-  "name": "Ana Thema Gallery",
-    "clear_as_group": false,
+    "name": "Ana Thema to Gallery",
     "access_rules": [
-          "@Exit Logic/0806",
-          "@Ana Thema, bombs, slide"
-        ],
+      "@Ana Thema,slide , bombs",
+      "@Exit Logic/0806"
+    ],
     "children": [
       {
-
+        "name": "C. Rank Frenzy: Starter",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Ana Thema to Gallery - C. Rank Frenzy: Starter",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 695,
+            "y": 216
+          }
+        ]
       }
     ]
   }

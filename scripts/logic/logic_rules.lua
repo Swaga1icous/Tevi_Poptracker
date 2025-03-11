@@ -41,12 +41,12 @@ CloudBomb           = function(count) return Tracker:ProviderCountForCode("cloud
 CalicoBomb          = function(count) return Tracker:ProviderCountForCode("calicoBomb")                >= (count or 1) end
 TabbyBomb           = function(count) return Tracker:ProviderCountForCode("tabbyBomb")                 >= (count or 1) end
 BBBomb              = function(count) return Tracker:ProviderCountForCode("bbBomb")                    >= (count or 1) end
-FireEssence         = function(count) return Tracker:ProviderCountForCode("fireElement")               >= (count or 1) end
-WaterEssence        = function(count) return Tracker:ProviderCountForCode("waterElement")              >= (count or 1) end
-EarthEssence        = function(count) return Tracker:ProviderCountForCode("earthElement")              >= (count or 1) end
-AirEssence          = function(count) return Tracker:ProviderCountForCode("airElement")                >= (count or 1) end
-LightEssence        = function(count) return Tracker:ProviderCountForCode("lightElement")              >= (count or 1) end
-DarkEssence         = function(count) return Tracker:ProviderCountForCode("darkElement")               >= (count or 1) end
+FireElement         = function(count) return Tracker:ProviderCountForCode("fireElement")               >= (count or 1) end
+WaterElement        = function(count) return Tracker:ProviderCountForCode("waterElement")              >= (count or 1) end
+EarthElement        = function(count) return Tracker:ProviderCountForCode("earthElement")              >= (count or 1) end
+AirElement          = function(count) return Tracker:ProviderCountForCode("airElement")                >= (count or 1) end
+LightElement        = function(count) return Tracker:ProviderCountForCode("lightElement")              >= (count or 1) end
+DarkElement         = function(count) return Tracker:ProviderCountForCode("darkElement")               >= (count or 1) end
 
 --Default Transitions
 TRANSITION_PAIRS = {
@@ -191,6 +191,12 @@ canFinishMemine = function() return CrossBomb() and canChargeShot() and hasAllMo
 
 canVoidBomb = function() return VoidBomb() and FireElement() end
 
+canCloudBomb = function() return CloudBomb() and FireElement() and LightElement() end
+
+canCalicoBomb = function() return CalicoBomb() and WaterElement() and EarthElement() end
+
+canTabbyBomb = function() return TabbyBomb() and DarkElement() and EarthElement() end
+
 canUseVenaBomb = function () return canVoidBomb() or canCloudBomb() or canCalicoBomb() or canTabbyBomb() end
 
 canUseFastItem = function () return BBBomb() end
@@ -202,4 +208,3 @@ canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() end
 canEarlyDream = function() return EarlyDream() and Dagger() end
 
 canBackflip = function() return Backflip() and Dagger() end
-
