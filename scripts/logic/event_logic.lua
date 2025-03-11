@@ -1,8 +1,8 @@
 function hasFire()
 	
-    local accessibilityLevel = math.max(Tracker:FindObjectForCode("@Solennian Ruins/EVENT_Fire/Solennian Ruins - Fire").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Travoll Mines/EVENT_Fire/Travoll Mines - Fire").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Travoll Mines/EVENT_Fire/Travoll Mines - Fire").AccessibilityLevel
+    local accessibilityLevel = math.max(Tracker:FindObjectForCode("@Solennian Ruins/Solennian Ruins - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel
     )
     
     if accessibilityLevel >= AccessibilityLevel.Normal then
@@ -13,8 +13,8 @@ end
 function hasWater()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Verdazure Sea West/EVENT_Water/Verdazure Sea - Water West").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Verdazure Sea East/EVENT_Water/Verdazure Sea - Water").AccessibilityLevel
+    Tracker:FindObjectForCode("@Verdazure Sea West/Verdazure Sea - Water West/EVENT_Water").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
     )
     
     if accessibilityLevel >= AccessibilityLevel.Normal then
@@ -25,8 +25,8 @@ end
 function hasEarth()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Gloamwood Middle/EVENT_Earth/Gloamwood Upper - Earth").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Gloamwood Right/EVENT_Earth/Ulskan Village Area - Earth").AccessibilityLevel
+    Tracker:FindObjectForCode("@Gloamwood Middle/Gloamwood Upper - Earth/EVENT_Earth").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Gloamwood Right/Ulskan Village Area - Earth/EVENT_Earth").AccessibilityLevel
     )
     
     if accessibilityLevel >= AccessibilityLevel.Normal then
@@ -37,9 +37,9 @@ end
 function hasAir()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Snowveil/EVENT_Air/Snowveil - Air").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Snowveil Above HQ/EVENT_Air/Snowveil Above HQ - Air").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/EVENT_Air/Heavens Valley Snow Route Low - Air").AccessibilityLevel
+    Tracker:FindObjectForCode("@Snowveil/Snowveil - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Snowveil Above HQ/Snowveil Above HQ - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Air/EVENT_Air").AccessibilityLevel
     )
     if accessibilityLevel >= AccessibilityLevel.Normal then
         local obj = Tracker:FindObjectForCode("airElement")
@@ -60,9 +60,9 @@ end
 function hasLight()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Heavens Valley West/EVENT_Light/Heavens Valley West - Light").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Valhalla Breath West/EVENT_Light/Valhalla Breath West - Light").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/EVENT_Light/Heavens Valley Snow Route Low - Light").AccessibilityLevel
+    Tracker:FindObjectForCode("@Heavens Valley West/Heavens Valley West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Valhalla Breath West/Valhalla Breath West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Light/EVENT_Light").AccessibilityLevel
     )
     if accessibilityLevel >= AccessibilityLevel.Normal then
         local obj = Tracker:FindObjectForCode("lightElement")
@@ -73,10 +73,10 @@ end
 function hasDark()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Swamp Entrance/EVENT_Dark/Swamp Entrance - Dark").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Swamp/EVENT_Dark/Swamp - Dark").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Blushwood/EVENT_Dark/Blushwood - Dark").AccessibilityLevel,
-    Tracker:FindObjectForCode("@Verdazure Swamp/EVENT_Dark/Verdazure Swamp - Dark").AccessibilityLevel
+    Tracker:FindObjectForCode("@Swamp Entrance/Swamp Entrance - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Swamp/Swamp - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Blushwood/Blushwood - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Dark/EVENT_Dark").AccessibilityLevel
     )
     if accessibilityLevel >= AccessibilityLevel.Normal then
         local obj = Tracker:FindObjectForCode("darkElement")
@@ -85,62 +85,59 @@ function hasDark()
 end
 
 function EVENT_HQSwitch1()
-    return Tracker:FindObjectForCode("@Golden Hands HQ/EVENT_HQSwitch1/Golden Hands HQ - EVENT_HQSwitch1").AccessibilityLevel
+    return Tracker:FindObjectForCode("@Golden Hands HQ/Golden Hands HQ - EVENT_HQSwitch1/EVENT_HQSwitch1").AccessibilityLevel
 end
 
-function canSnowMechanic()
-    return  Tracker:FindObjectForCode("@//").AccessibilityLevel
+function EVENT_EliteChallangeB()
+    return  Tracker:FindObjectForCode("@Thanatara Canyon/Thanatara Canyon - Elite Challenge B/EVENT_EliteChallangeB").AccessibilityLevel
 end
-function EVENT_EliteChallengeB()
-    return  Tracker:FindObjectForCode("@Thanatara Canyon/EVENT_EliteChallengeB/Thanatara Canyon - Elite Challenge B").AccessibilityLevel
-end
-function EVENT_EliteChallengeA()
-    return  Tracker:FindObjectForCode("@Morose City/EVENT_EliteChallengeA/Morose City - Elite Challenge A").AccessibilityLevel
+function EVENT_EliteChallangeA()
+    return  Tracker:FindObjectForCode("@Morose City/Morose City - Elite Challenge A/EVENT_EliteChallangeA").AccessibilityLevel
 end
 function EVENT_MoroseVisited()
-    return  Tracker:FindObjectForCode("@Morose City/EVENT_MoroseVisited/Morose City - Visit").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Morose City/Morose City - Visit/EVENT_MoroseVisited").AccessibilityLevel
 end
-function EVENT_EliteChallengeD()
-    return  Tracker:FindObjectForCode("@Ana Thema/EVENT_EliteChallengeD/Ana Thema - Elite Challenge D").AccessibilityLevel
+function EVENT_EliteChallangeD()
+    return  Tracker:FindObjectForCode("@Ana Thema/Ana Thema - Elite Challenge D/EVENT_EliteChallangeD").AccessibilityLevel
 end
-function EVENT_EliteChallengeC()
-    return  Tracker:FindObjectForCode("@Gloamwood to Ulvosa/EVENT_EliteChallengeC/Gloamwood Upper - Elite Challenge C").AccessibilityLevel
+function EVENT_EliteChallangeC()
+    return  Tracker:FindObjectForCode("@Gloamwood to Ulvosa/Gloamwood Upper - Elite Challenge C/EVENT_EliteChallangeC").AccessibilityLevel
 end
 function EVENT_AnathemaVisited()
-    return  Tracker:FindObjectForCode("@Ana Thema/EVENT_AnathemaVisited/Ana Thema - Visit").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Ana Thema/Ana Thema - Visit/EVENT_AnathemaVisited").AccessibilityLevel
 end
-function EVENT_EliteChallengeE()
-    return  Tracker:FindObjectForCode("@Tartarus/EVENT_EliteChallengeE/Tartarus - Elite Challenge E").AccessibilityLevel
+function EVENT_EliteChallangeE()
+    return  Tracker:FindObjectForCode("@Tartarus/Tartarus - Elite Challenge E/EVENT_EliteChallangeE").AccessibilityLevel
 end
 function EVENT_Demonfray()
-    return  Tracker:FindObjectForCode("@Lab/EVENT_Demonfray/Lab - Demon Fray").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Lab/Lab - Demon Fray/EVENT_Demonfray").AccessibilityLevel
 end
-function EVENT_EliteChallengeF()
-    return  Tracker:FindObjectForCode("@Valhalla City/EVENT_EliteChallengeF/Valhalla City - Elite Challenge F").AccessibilityLevel
+function EVENT_EliteChallangeF()
+    return  Tracker:FindObjectForCode("@Valhalla City/Valhalla City - Elite Challenge F/EVENT_EliteChallangeF").AccessibilityLevel
 end
 function EVENT_Memloch()
-    return  Tracker:FindObjectForCode("@Gallery of Mirrors East/EVENT_Memloch/Gallery of Mirrors East - Memloch").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Gallery of Mirrors East/Gallery of Mirrors East - Memloch/EVENT_Memloch").AccessibilityLevel
 end
 function EVENT_FreeStrongAttack()
-    return  Tracker:FindObjectForCode("@Cloister Entrance/EVENT_FreeStrongAttack/Cloister - Free Attack").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Cloister Entrance/Cloister - Free Attack/EVENT_FreeStrongAttack").AccessibilityLevel
 end
 function EVENT_Memine0()
-    return  Tracker:FindObjectForCode("@Gloamwood Bottom/EVENT_Memine0/Gloamwood - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Gloamwood Bottom/Gloamwood - Memine Race/EVENT_Memine0").AccessibilityLevel
 end
 function EVENT_Memine1()
-    return  Tracker:FindObjectForCode("@Blushwood Sliding/EVENT_Memine1/Blushwood Sliding - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Blushwood Sliding/Blushwood Sliding - Memine Race/EVENT_Memine1").AccessibilityLevel
 end
 function EVENT_Memine2()
-    return  Tracker:FindObjectForCode("@Forest/EVENT_Memine2/Forest - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Forest/Forest - Memine Race/EVENT_Memine2").AccessibilityLevel
 end
 function EVENT_Memine3()
-    return  Tracker:FindObjectForCode("@Tartarus/EVENT_Memine3/Tartarus - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Tartarus/Tartarus - Memine Race/EVENT_Memine3").AccessibilityLevel
 end
 function EVENT_Memine4()
-    return  Tracker:FindObjectForCode("@Heavens Valley Snow Route Middle/EVENT_Memine4/Heavens Valley Snow Route Middle - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Heavens Valley Snow Route Middle/Heavens Valley Snow Route Middle - Memine Race/EVENT_Memine4").AccessibilityLevel
 end
 function EVENT_Memine5()
-    return  Tracker:FindObjectForCode("@Ana Thema/EVENT_Memine5/Ana Thema - Memine Race").AccessibilityLevel
+    return  Tracker:FindObjectForCode("@Ana Thema/Ana Thema - Memine Race/EVENT_Memine5").AccessibilityLevel
 end
 function EVENT_Memine()
     return  math.min(EVENT_Memine0(),EVENT_Memine1(),EVENT_Memine2(),EVENT_Memine3(),EVENT_Memine4(),EVENT_Memine5())
@@ -168,9 +165,9 @@ end
 
 function EVENT_SnowMechanic()
     local currentAccess = 0
-    local snow1 = Tracker:FindObjectForCode("@Verdazure Swamp/EVENT_SnowMechanic/Verdazure Swamp - Snow Orb").AccessibilityLevel
-    local snow2 = Tracker:FindObjectForCode("@Snowveil Above HQ/EVENT_SnowMechanic/Snowveil Above HQ - Snow Orb").AccessibilityLevel
-    local snow3 = Tracker:FindObjectForCode("@Heavens Valley Snow Route Middle/EVENT_SnowMechanic/Heavens Valley Snow Route Middle - Snow Orb").AccessibilityLevel
+    local snow1 = Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Snow Orb/EVENT_SnowMechanic").AccessibilityLevel
+    local snow2 = Tracker:FindObjectForCode("@Snowveil Above HQ/Snowveil Above HQ - Snow Orb/EVENT_SnowMechanic").AccessibilityLevel
+    local snow3 = Tracker:FindObjectForCode("@Heavens Valley Snow Route Middle/Heavens Valley Snow Route Middle - Snow Orb/EVENT_SnowMechanic").AccessibilityLevel
     currentAccess = math.max(math.min(snow1,snow3),math.min(snow1,snow2),math.min(snow2,snow3))
     return currentAccess
 end

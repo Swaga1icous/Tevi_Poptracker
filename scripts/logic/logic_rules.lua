@@ -4,9 +4,9 @@ Sable               = function(count) return Tracker:ProviderCountForCode("sable
 Celia               = function(count) return Tracker:ProviderCountForCode("celia")                     >= (count or 1) end
 Orbitars            = function(count) return Tracker:ProviderCountForCode("ranged")                    >= (count or 1) end
 CrossBomb           = function(count) return Tracker:ProviderCountForCode("bombs")                     >= (count or 1) end
-ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) end
-BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) end
-Combustible         = function(count) return Tracker:ProviderCountForCode("bombRange")                 >= (count or 1) end
+ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) and CrossBomb(1) end
+BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) and CrossBomb(1) end
+Combustible         = function(count) return Tracker:ProviderCountForCode("bombRange")                 >= (count or 1) and CrossBomb(1) end
 RunningBoots        = function(count) return Tracker:ProviderCountForCode("speed")                     >= (count or 1) end
 SlickBoots          = function(count) return Tracker:ProviderCountForCode("slide")                     >= (count or 1) end
 SlipstreamBoots     = function(count) return Tracker:ProviderCountForCode("airDash")                   >= (count or 1) end
@@ -15,13 +15,13 @@ DoubleRabiBoots     = function(count) return Tracker:ProviderCountForCode("airJu
 ParkourBoots        = function(count) return Tracker:ProviderCountForCode("wallJump")                  >= (count or 1) end
 Hydrodynamo         = function(count) return Tracker:ProviderCountForCode("water")                     >= (count or 1) end
 Jetpack             = function(count) return Tracker:ProviderCountForCode("jetpack")                   >= (count or 1) end
-AiryPowder          = function(count) return Tracker:ProviderCountForCode("powder")                    >= (count or 1) end
-VortexGloves        = function(count) return Tracker:ProviderCountForCode("vortex")                    >= (count or 1) end
+AiryPowder          = function(count) return Tracker:ProviderCountForCode("powder")                    >= (count or 1) and SlickBoots(1) end
+VortexGloves        = function(count) return Tracker:ProviderCountForCode("vortex")                    >= (count or 1) and Dagger(1) end
 EquilibriumRing     = function(count) return Tracker:ProviderCountForCode("ringTemp")                  >= (count or 1) end
-RedTypeB            = function(count) return Tracker:ProviderCountForCode("orbS2")                     >= (count or 1) end
-RedTypeC            = function(count) return Tracker:ProviderCountForCode("orbS3")                     >= (count or 1) end
-BlueTypeB           = function(count) return Tracker:ProviderCountForCode("orbC2")                     >= (count or 1) end
-BlueTypeC           = function(count) return Tracker:ProviderCountForCode("orbC3")                     >= (count or 1) end
+RedTypeB            = function(count) return Tracker:ProviderCountForCode("orbS2")                     >= (count or 1) and Orbitars(2)end
+RedTypeC            = function(count) return Tracker:ProviderCountForCode("orbS3")                     >= (count or 1) and Orbitars(2)end
+BlueTypeB           = function(count) return Tracker:ProviderCountForCode("orbC2")                     >= (count or 1) and Orbitars(2)end
+BlueTypeC           = function(count) return Tracker:ProviderCountForCode("orbC3")                     >= (count or 1) and Orbitars(2)end
 TartarusVIP         = function(count) return Tracker:ProviderCountForCode("ticketHell")                >= (count or 1) end
 ValhallaVIP         = function(count) return Tracker:ProviderCountForCode("ticketHeaven")              >= (count or 1) end
 LibraryKey          = function(count) return Tracker:ProviderCountForCode("key")                       >= (count or 1) end
@@ -139,7 +139,7 @@ TRANSITION_PAIRS = {
 }
 
 
-canBombThrow = function() return ClusterBomb() and CrossBomb() end
+canBombThrow = function() return ClusterBomb(1) and CrossBomb(1) end
 canAirSlide = function() return AiryPowder() and SlickBoots() end
 canBombFuel = function() return BombFuel() and CrossBomb() end
 canVortex = function() return VortexGloves() and Dagger() end

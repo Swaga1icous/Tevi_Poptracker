@@ -10,11 +10,11 @@
     ],
     "children": [
       {
-        "name": "EVENT_MoroseVisited",
+        "name": "Morose City - Visit",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Visit",
+            "name": "EVENT_MoroseVisited",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -33,11 +33,11 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallengeA",
+        "name": "Morose City - Elite Challenge A",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Elite Challenge A",
+            "name": "EVENT_EliteChallangeA",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -56,11 +56,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Morose City - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -76,11 +76,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Morose City - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -99,11 +99,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Morose City - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -119,14 +119,14 @@
         ]
       },
       {
-        "name": "Special Action: Paparazzo",
+        "name": "Morose City - Special Action: Paparazzo",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Special Action: Paparazzo",
+            "name": "Special Action: Paparazzo",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -139,15 +139,15 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Morose City - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airDash , $hasAmount|jetpack|3 , bombs",
-              "airDash , airJump , jetpack , bombs"
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -164,133 +164,133 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City Shop - Running Boots",
+            "name": "Running Boots",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Metamorphose",
+            "name": "Metamorphose",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop Demonfray - Style Combo: Triple Flash S",
+            "name": "Style Combo: Triple Flash S",
             "item_count": 1,
             "access_rules": [
               "$True , ^$EVENT_Demonfray"
             ]
           },
           {
-            "name": "Morose City Shop Demonfray - EP Booster: HP",
+            "name": "EP Booster: HP",
             "item_count": 1,
             "access_rules": [
               "$True , ^$EVENT_Demonfray"
             ]
           },
           {
-            "name": "Morose City Shop Demonfray - Bone Breaker",
+            "name": "Bone Breaker",
             "item_count": 1,
             "access_rules": [
               "$True , ^$EVENT_Demonfray"
             ]
           },
           {
-            "name": "Morose City Shop Demonfray - Perseverance A",
+            "name": "Perseverance A",
             "item_count": 1,
             "access_rules": [
               "$True , ^$EVENT_Demonfray"
             ]
           },
           {
-            "name": "Morose City Shop - Special Action: Question Mark",
+            "name": "Special Action: Question Mark",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - MP Reset A",
+            "name": "MP Reset A",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Intrepid Explorer",
+            "name": "Intrepid Explorer",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Style Combo: Windmill B",
+            "name": "Style Combo: Windmill B",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Upper Slash: Shatter",
+            "name": "Upper Slash: Shatter",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Punisher",
+            "name": "Punisher",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Bag Expander",
+            "name": "Bag Expander",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Shop Chap 6 - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|6"
@@ -310,42 +310,42 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Morose City Waffle Shop - Honeycloud Waffle",
+            "name": "Honeycloud Waffle",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Morose City Waffle Shop Chap 3 - Toasted Meringue Waffle",
+            "name": "Toasted Meringue Waffle",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|3"
             ]
           },
           {
-            "name": "Morose City Waffle Shop Chap 4  - Good Morning Waffle",
+            "name": "Good Morning Waffle",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|4"
             ]
           },
           {
-            "name": "Morose City Waffle Shop Chap 5  - Berry Pink Waffle",
+            "name": "Berry Pink Waffle",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|5"
             ]
           },
           {
-            "name": "Morose City Waffle Shop Chap 6 - Blueberry Waffle",
+            "name": "Blueberry Waffle",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|6"
             ]
           },
           {
-            "name": "Morose City Waffle Shop - Muscle Memory",
+            "name": "Muscle Memory",
             "item_count": 1,
             "access_rules": [
               "$True"
