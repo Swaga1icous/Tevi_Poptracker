@@ -8,11 +8,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Heavens Valley Snow Route Low - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Low - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -28,11 +28,11 @@
         ]
       },
       {
-        "name": "EVENT_Air",
+        "name": "Heavens Valley Snow Route Low - Air",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Low - Air",
+            "name": "EVENT_Air",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -51,11 +51,11 @@
         ]
       },
       {
-        "name": "EVENT_Light",
+        "name": "Heavens Valley Snow Route Low - Light",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Low - Light",
+            "name": "EVENT_Light",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -74,11 +74,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Heavens Valley Snow Route Low - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Low - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -96,11 +96,11 @@
         ]
       },
       {
-        "name": "Excuse Me",
+        "name": "Heavens Valley Snow Route Low - Excuse Me",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Low - Excuse Me",
+            "name": "Excuse Me",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airJump|1",
@@ -126,11 +126,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Heavens Valley Snow Route Middle - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1",
@@ -147,11 +147,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Heavens Valley Snow Route Middle - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -167,11 +167,11 @@
         ]
       },
       {
-        "name": "EVENT_SnowMechanic",
+        "name": "Heavens Valley Snow Route Middle - Snow Orb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Snow Orb",
+            "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -190,11 +190,11 @@
         ]
       },
       {
-        "name": "Bulletproof Pillar C",
+        "name": "Heavens Valley Snow Route Middle - Bulletproof Pillar C",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Bulletproof Pillar C",
+            "name": "Bulletproof Pillar C",
             "item_count": 1,
             "access_rules": [
               "[$hasAmount|dagger|1],false",
@@ -212,11 +212,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Heavens Valley Snow Route Middle - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
@@ -232,11 +232,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Heavens Valley Snow Route Middle - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -252,11 +252,11 @@
         ]
       },
       {
-        "name": "EVENT_Memine4",
+        "name": "Heavens Valley Snow Route Middle - Memine Race",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley Snow Route Middle - Memine Race",
+            "name": "EVENT_Memine4",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|wallJump|2 , $hasAmount|airJump|1",

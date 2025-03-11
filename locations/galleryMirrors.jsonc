@@ -6,11 +6,11 @@
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Gallery of Mirrors West - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors West - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -26,11 +26,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Gallery of Mirrors West - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors West - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -46,11 +46,11 @@
         ]
       },
       {
-        "name": "MP Saver: Fireworks",
+        "name": "Gallery of Mirrors West - MP Saver: Fireworks",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors West - MP Saver: Fireworks",
+            "name": "MP Saver: Fireworks",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -66,11 +66,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Gallery of Mirrors West - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors West - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -94,11 +94,11 @@
     ],
     "children": [
       {
-        "name": "Bomb Pitcher",
+        "name": "Gallery of Mirrors East - Bomb Pitcher",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Bomb Pitcher",
+            "name": "Bomb Pitcher",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
@@ -114,11 +114,11 @@
         ]
       },
       {
-        "name": "Triple Threat",
+        "name": "Gallery of Mirrors East - Triple Threat",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Triple Threat",
+            "name": "Triple Threat",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $canChargeShot"
@@ -134,11 +134,11 @@
         ]
       },
       {
-        "name": "Combustible",
+        "name": "Gallery of Mirrors East - Combustible",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Combustible",
+            "name": "Combustible",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $canChargeShot"
@@ -154,11 +154,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Gallery of Mirrors East - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
@@ -174,11 +174,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Gallery of Mirrors East - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
@@ -197,11 +197,11 @@
         ]
       },
       {
-        "name": "EVENT_Memloch",
+        "name": "Gallery of Mirrors East - Memloch",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Memloch",
+            "name": "EVENT_Memloch",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1"
@@ -220,11 +220,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Gallery of Mirrors East - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -240,11 +240,11 @@
         ]
       },
       {
-        "name": "C. Count Frenzy: Uprise",
+        "name": "Gallery of Mirrors East - C. Count Frenzy: Uprise",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - C. Count Frenzy: Uprise",
+            "name": "C. Count Frenzy: Uprise",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|highJump|1 , $canChargeShot",
@@ -264,11 +264,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Gallery of Mirrors East - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Mirrors East - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -295,11 +295,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Gallery of Souls - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -326,11 +326,11 @@
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Gallery of Souls - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -346,11 +346,11 @@
         ]
       },
       {
-        "name": "Double Rabi Boots",
+        "name": "Gallery of Souls - Double Rabi Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls - Double Rabi Boots",
+            "name": "Double Rabi Boots",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -378,11 +378,11 @@
     ],
     "children": [
       {
-        "name": "Hero Call",
+        "name": "Gallery of Souls Boss Area - Hero Call",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls Boss Area - Hero Call",
+            "name": "Hero Call",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -398,11 +398,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Gallery of Souls Boss Area - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls Boss Area - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|decayAntidote|1",
@@ -419,11 +419,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Gallery of Souls Boss Area - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gallery of Souls Boss Area - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|decayAntidote|1",

@@ -9,11 +9,11 @@
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Snow City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snow City - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -29,11 +29,11 @@
         ]
       },
       {
-        "name": "Slash Quartet",
+        "name": "Snow City - Slash Quartet",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snow City - Slash Quartet",
+            "name": "Slash Quartet",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -53,112 +53,112 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Snow City Shop - Trinketeer's Fortune",
+            "name": "Trinketeer's Fortune",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Dodge Enhancer: Slide",
+            "name": "Dodge Enhancer: Slide",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Slayer",
+            "name": "Slayer",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Ranged Roulette",
+            "name": "Ranged Roulette",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Perseverance C",
+            "name": "Perseverance C",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Ballasting Off",
+            "name": "Ballasting Off",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - MP Surge: Explosives",
+            "name": "MP Surge: Explosives",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Mana Flare",
+            "name": "Mana Flare",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Fast Pillar",
+            "name": "Fast Pillar",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Bag Expander",
+            "name": "Bag Expander",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Snow City Shop Chap 6 - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|6"
@@ -185,11 +185,11 @@
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Snowveil Above HQ - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil Above HQ - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -206,11 +206,11 @@
         ]
       },
       {
-        "name": "Thick Pillar",
+        "name": "Snowveil Above HQ - Thick Pillar",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil Above HQ - Thick Pillar",
+            "name": "Thick Pillar",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -226,11 +226,11 @@
         ]
       },
       {
-        "name": "EVENT_Air",
+        "name": "Snowveil Above HQ - Air",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil Above HQ - Air",
+            "name": "EVENT_Air",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -249,11 +249,11 @@
         ]
       },
       {
-        "name": "EVENT_SnowMechanic",
+        "name": "Snowveil Above HQ - Snow Orb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil Above HQ - Snow Orb",
+            "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -280,11 +280,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Golden Hands HQ - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1"
@@ -300,11 +300,11 @@
         ]
       },
       {
-        "name": "Gilded Right Hand",
+        "name": "Golden Hands HQ - Gilded Right Hand",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Gilded Right Hand",
+            "name": "Gilded Right Hand",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|powder|1,$hasAmount|slide|1 , ^$EVENT_HQSwitch1 , $canChargeShot"
@@ -320,11 +320,11 @@
         ]
       },
       {
-        "name": "Headbutt",
+        "name": "Golden Hands HQ - Headbutt",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Headbutt",
+            "name": "Headbutt",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
@@ -340,11 +340,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Golden Hands HQ - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
@@ -360,11 +360,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Golden Hands HQ - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $canChargeShot , ^$EVENT_HQSwitch1"
@@ -380,11 +380,11 @@
         ]
       },
       {
-        "name": "EVENT_HQSwitch1",
+        "name": "Golden Hands HQ - EVENT_HQSwitch1",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - EVENT_HQSwitch1",
+            "name": "EVENT_HQSwitch1",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
@@ -411,11 +411,11 @@
     ],
     "children": [
       {
-        "name": "Dodge Enhancer: Spanner",
+        "name": "Golden Hands HQ - Dodge Enhancer: Spanner",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ - Dodge Enhancer: Spanner",
+            "name": "Dodge Enhancer: Spanner",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1"
@@ -441,11 +441,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Golden Hands HQ Sewer - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ Sewer - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -461,11 +461,11 @@
         ]
       },
       {
-        "name": "Supercluster Bomb",
+        "name": "Golden Hands HQ Sewer - Supercluster Bomb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ Sewer - Supercluster Bomb",
+            "name": "Supercluster Bomb",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -481,11 +481,11 @@
         ]
       },
       {
-        "name": "Airy Powder",
+        "name": "Golden Hands HQ Sewer - Airy Powder",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ Sewer - Airy Powder",
+            "name": "Airy Powder",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1",
@@ -504,11 +504,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Golden Hands HQ Sewer - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ Sewer - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1",
@@ -527,11 +527,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Golden Hands HQ Sewer - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Hands HQ Sewer - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1",

@@ -10,11 +10,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Valhalla City - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallengeF",
+        "name": "Valhalla City - Elite Challenge F",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Elite Challenge F",
+            "name": "EVENT_EliteChallangeF",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -53,11 +53,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Valhalla City - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -73,11 +73,11 @@
         ]
       },
       {
-        "name": "Buff Rush",
+        "name": "Valhalla City - Buff Rush",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Buff Rush",
+            "name": "Buff Rush",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1",
@@ -96,11 +96,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Valhalla City - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -116,11 +116,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Valhalla City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
@@ -142,11 +142,11 @@
         ]
       },
       {
-        "name": "Combo Momentum: Saver",
+        "name": "Valhalla City - Combo Momentum: Saver",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Combo Momentum: Saver",
+            "name": "Combo Momentum: Saver",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
@@ -167,126 +167,126 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City Shop - Valhalla VIP Pass",
+            "name": "Valhalla VIP Pass",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Style Combo: Flash A",
+            "name": "Style Combo: Flash A",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Tornado Spin: Flurry",
+            "name": "Tornado Spin: Flurry",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Backflip Flurry",
+            "name": "Backflip Flurry",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Combo Momentum: Dodge",
+            "name": "Combo Momentum: Dodge",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - MP Saver: Rhythm",
+            "name": "MP Saver: Rhythm",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - EP Booster: Perfectionist",
+            "name": "EP Booster: Perfectionist",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Style Combo: Bunny Kick S",
+            "name": "Style Combo: Bunny Kick S",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Shock Armor",
+            "name": "Shock Armor",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Quickstab: Sunder",
+            "name": "Quickstab: Sunder",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Core Expansion: Erase",
+            "name": "Core Expansion: Erase",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Bag Expander",
+            "name": "Bag Expander",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
             ]
           },
           {
-            "name": "Valhalla City Shop Chap 6 - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True , $Chapter|6"
@@ -302,31 +302,18 @@
         ]
       },
       {
-        "name": "Memine Race From Tartarus",
+        "name": "Valhalla City - Memine Race From Tartarus",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla City - Memine Race From Tartarus",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine3"
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Valhalla",
-            "x": 500,
-            "y": 50
-          }
-        ]
-      },
-      {
-        "name": "EVENT_Memine",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Valhalla City - Memine Race From Tartarus",
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine3"
@@ -337,10 +324,7 @@
           {
             "map": "Valhalla",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }

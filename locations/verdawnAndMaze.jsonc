@@ -11,11 +11,11 @@
     ],
     "children": [
       {
-        "name": "Short Fuse",
+        "name": "Forest - Short Fuse",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Short Fuse",
+            "name": "Short Fuse",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Forest - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -51,11 +51,11 @@
         ]
       },
       {
-        "name": "Orbital Efficiency A",
+        "name": "Forest - Orbital Efficiency A",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Orbital Efficiency A",
+            "name": "Orbital Efficiency A",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -71,11 +71,11 @@
         ]
       },
       {
-        "name": "Special Action: Olive Branch",
+        "name": "Forest - Special Action: Olive Branch",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Special Action: Olive Branch",
+            "name": "Special Action: Olive Branch",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , $hasAmount|bombs|1"
@@ -91,11 +91,11 @@
         ]
       },
       {
-        "name": "Celia",
+        "name": "Forest - Celia",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Celia",
+            "name": "Celia",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , $hasAmount|pillow|1"
@@ -111,11 +111,11 @@
         ]
       },
       {
-        "name": "Acrobat",
+        "name": "Forest - Acrobat",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Acrobat",
+            "name": "Acrobat",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|water|1"
@@ -131,11 +131,11 @@
         ]
       },
       {
-        "name": "EVENT_Memine2",
+        "name": "Forest - Memine Race",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Memine Race",
+            "name": "EVENT_Memine2",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -165,11 +165,11 @@
     ],
     "children": [
       {
-        "name": "Modular Blueprints",
+        "name": "Forest Maze - Modular Blueprints",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze - Modular Blueprints",
+            "name": "Modular Blueprints",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -185,11 +185,11 @@
         ]
       },
       {
-        "name": "Titanium Spanner",
+        "name": "Forest Maze - Titanium Spanner",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze - Titanium Spanner",
+            "name": "Titanium Spanner",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -205,11 +205,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Forest Maze - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -233,11 +233,11 @@
     ],
     "children": [
       {
-        "name": "Astral Gear",
+        "name": "Forest - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -253,11 +253,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Forest - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -286,11 +286,11 @@
     ],
     "children": [
       {
-        "name": "Auto Heal",
+        "name": "Forest Maze extended - Auto Heal",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Auto Heal",
+            "name": "Auto Heal",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -306,11 +306,11 @@
         ]
       },
       {
-        "name": "Gilded Exultation",
+        "name": "Forest Maze extended - Gilded Exultation",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Gilded Exultation",
+            "name": "Gilded Exultation",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|handRight|1 , $hasAmount|handLeft|1"
@@ -326,11 +326,11 @@
         ]
       },
       {
-        "name": "MP Surge: Recovery",
+        "name": "Forest Maze extended - MP Surge: Recovery",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - MP Surge: Recovery",
+            "name": "MP Surge: Recovery",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -346,11 +346,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Forest Maze extended - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -366,11 +366,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Forest Maze extended - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -386,11 +386,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion #1",
+        "name": "Forest Maze extended - Grape Bunny Potion #1",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Grape Bunny Potion #1",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -406,11 +406,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion #2",
+        "name": "Forest Maze extended - Grape Bunny Potion #2",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forest Maze extended - Grape Bunny Potion #2",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"

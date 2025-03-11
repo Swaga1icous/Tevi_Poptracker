@@ -6,14 +6,14 @@
     ],
     "children": [
       {
-        "name": "Core Expansion: Combo",
+        "name": "Cloister Elite - Core Expansion: Combo",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Elite - Core Expansion: Combo",
+            "name": "Core Expansion: Combo",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallengeF"
+              "^$EVENT_EliteChallangeF"
             ]
           }
         ],
@@ -26,11 +26,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Cloister - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -46,11 +46,11 @@
         ]
       },
       {
-        "name": "Style Combo: Aerial A",
+        "name": "Cloister - Style Combo: Aerial A",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister - Style Combo: Aerial A",
+            "name": "Style Combo: Aerial A",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -66,11 +66,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Cloister - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
@@ -87,11 +87,11 @@
         ]
       },
       {
-        "name": "Crouching Bunny",
+        "name": "Cloister - Crouching Bunny",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister - Crouching Bunny",
+            "name": "Crouching Bunny",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1",
@@ -116,11 +116,11 @@
     ],
     "children": [
       {
-        "name": "EVENT_FreeStrongAttack",
+        "name": "Cloister - Free Attack",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister - Free Attack",
+            "name": "EVENT_FreeStrongAttack",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -147,11 +147,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Cloister Main - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Main - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -167,11 +167,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Cloister Main - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Main - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -187,11 +187,11 @@
         ]
       },
       {
-        "name": "Coffee Break",
+        "name": "Cloister Main - Coffee Break",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Main - Coffee Break",
+            "name": "Coffee Break",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -207,11 +207,11 @@
         ]
       },
       {
-        "name": "Parkour Boots",
+        "name": "Cloister Main - Parkour Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Main - Parkour Boots",
+            "name": "Parkour Boots",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -227,11 +227,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Cloister Pre Boss - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Pre Boss - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -247,11 +247,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Cloister Boss - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Boss - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -267,11 +267,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Cloister Boss - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Boss - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -290,11 +290,11 @@
         ]
       },
       {
-        "name": "MP Reset B",
+        "name": "Cloister Pre Boss - MP Reset B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Pre Boss - MP Reset B",
+            "name": "MP Reset B",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -313,11 +313,11 @@
         ]
       },
       {
-        "name": "C. Rank Frenzy: Focus MAX",
+        "name": "Cloister Main - C. Rank Frenzy: Focus MAX",
         "access_rules": [],
         "sections": [
           {
-            "name": "Cloister Main - C. Rank Frenzy: Focus MAX",
+            "name": "C. Rank Frenzy: Focus MAX",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",

@@ -6,11 +6,11 @@
     ],
     "children": [
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Solennian Ruins Entrance - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins Entrance - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|2",
@@ -36,11 +36,11 @@
     ],
     "children": [
       {
-        "name": "EVENT_Fire",
+        "name": "Solennian Ruins - Fire",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Fire",
+            "name": "EVENT_Fire",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -59,11 +59,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Solennian Ruins - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -79,11 +79,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Solennian Ruins - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -99,11 +99,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Solennian Ruins - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -122,11 +122,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Solennian Ruins - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -142,11 +142,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Solennian Ruins - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -162,11 +162,11 @@
         ]
       },
       {
-        "name": "Nasty Break up",
+        "name": "Solennian Ruins - Nasty Break up",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Nasty Break up",
+            "name": "Nasty Break-up",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1",
@@ -183,11 +183,11 @@
         ]
       },
       {
-        "name": "Lucky 7: B",
+        "name": "Solennian Ruins - Lucky 7: B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Lucky 7: B",
+            "name": "Lucky 7: B",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|dagger|1",
@@ -206,11 +206,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Solennian Ruins - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -226,14 +226,14 @@
         ]
       },
       {
-        "name": "Core Expansion: Radiant",
+        "name": "Solennian Ruins - Core Expansion: Radiant",
         "access_rules": [],
         "sections": [
           {
-            "name": "Solennian Ruins - Core Expansion: Radiant",
+            "name": "Core Expansion: Radiant",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallengeB"
+              "^$EVENT_EliteChallangeB"
             ]
           }
         ],

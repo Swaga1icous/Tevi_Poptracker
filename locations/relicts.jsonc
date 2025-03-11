@@ -7,11 +7,11 @@
     ],
     "children": [
       {
-        "name": "MP Quicken: Accelerate",
+        "name": "Relicts - MP Quicken: Accelerate",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - MP Quicken: Accelerate",
+            "name": "MP Quicken: Accelerate",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -27,11 +27,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Relicts - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -47,11 +47,11 @@
         ]
       },
       {
-        "name": "EVENT_Fire",
+        "name": "Relicts - Fire",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Fire",
+            "name": "EVENT_Fire",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -70,11 +70,11 @@
         ]
       },
       {
-        "name": "Attenu 8",
+        "name": "Relicts - Attenu 8",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Attenu 8",
+            "name": "Attenu-8",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|highJump|1",
@@ -94,11 +94,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Relicts - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -114,11 +114,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Relicts - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -137,11 +137,11 @@
         ]
       },
       {
-        "name": "Delicious Secret Notes",
+        "name": "Relicts - Delicious Secret Notes",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - Delicious Secret Notes",
+            "name": "Delicious Secret Notes",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -157,11 +157,11 @@
         ]
       },
       {
-        "name": "MP Surge: Soul",
+        "name": "Relicts - MP Surge: Soul",
         "access_rules": [],
         "sections": [
           {
-            "name": "Relicts - MP Surge: Soul",
+            "name": "MP Surge: Soul",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"

@@ -13,11 +13,11 @@
     ],
     "children": [
       {
-        "name": "Spiral Slash: Flurry",
+        "name": "Catacombs Main - Spiral Slash: Flurry",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Main - Spiral Slash: Flurry",
+            "name": "Spiral Slash: Flurry",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -36,11 +36,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "North Catacombs Main - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "North Catacombs Main - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airDash|1",
@@ -58,11 +58,11 @@
         ]
       },
       {
-        "name": "High Defence Bomber",
+        "name": "Catacombs Main - High Defence Bomber",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Main - High Defence Bomber",
+            "name": "High Defence Bomber",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -78,11 +78,11 @@
         ]
       },
       {
-        "name": "Dodge: Panic Switch",
+        "name": "Catacombs Main - Dodge: Panic Switch",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Main - Dodge: Panic Switch",
+            "name": "Dodge: Panic Switch",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -107,11 +107,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Sout East Catacombs Main - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Sout East Catacombs Main - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -127,11 +127,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Pre Lab - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Pre Lab - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -158,11 +158,11 @@
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Catacombs Inner - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
@@ -178,11 +178,11 @@
         ]
       },
       {
-        "name": "Double Drop",
+        "name": "Catacombs Inner - Double Drop",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Double Drop",
+            "name": "Double Drop",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -198,11 +198,11 @@
         ]
       },
       {
-        "name": "Crystal Shrapnel",
+        "name": "Catacombs Inner - Crystal Shrapnel",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Crystal Shrapnel",
+            "name": "Crystal Shrapnel",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -218,11 +218,11 @@
         ]
       },
       {
-        "name": "Dogfight",
+        "name": "Catacombs Inner - Dogfight",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Dogfight",
+            "name": "Dogfight",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -239,11 +239,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Catacombs Inner - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -259,11 +259,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Catacombs Inner - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Catacombs Inner - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -294,11 +294,11 @@
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Lab - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1",
@@ -315,11 +315,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Lab - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -335,11 +335,11 @@
         ]
       },
       {
-        "name": "Dodge Enhancer: Spiral",
+        "name": "Lab - Dodge Enhancer: Spiral",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Dodge Enhancer: Spiral",
+            "name": "Dodge Enhancer: Spiral",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -355,11 +355,11 @@
         ]
       },
       {
-        "name": "Core Expansion: Charge",
+        "name": "Lab - Core Expansion: Charge",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Core Expansion: Charge",
+            "name": "Core Expansion: Charge",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -375,11 +375,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion #1",
+        "name": "Lab - Lemon Bunny Potion #1",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Lemon Bunny Potion #1",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -395,11 +395,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion #2",
+        "name": "Lab Extended - Lemon Bunny Potion #2",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab Extended - Lemon Bunny Potion #2",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -415,11 +415,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Lab - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -435,11 +435,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Lab - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -458,11 +458,11 @@
         ]
       },
       {
-        "name": "EVENT_Demonfray",
+        "name": "Lab - Demon Fray",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Demon Fray",
+            "name": "EVENT_Demonfray",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -481,11 +481,11 @@
         ]
       },
       {
-        "name": "C. Rank Frenzy: Focus A",
+        "name": "Lab - C. Rank Frenzy: Focus A",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - C. Rank Frenzy: Focus A",
+            "name": "C. Rank Frenzy: Focus A",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -501,11 +501,11 @@
         ]
       },
       {
-        "name": "Shining Bangle",
+        "name": "Lab - Shining Bangle",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - Shining Bangle",
+            "name": "Shining Bangle",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -532,11 +532,11 @@
     ],
     "children": [
       {
-        "name": "EP Booster: Dodge",
+        "name": "Lab - EP Booster: Dodge",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab - EP Booster: Dodge",
+            "name": "EP Booster: Dodge",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -558,11 +558,11 @@
     "access_rules": [],
     "children": [
       {
-        "name": "Alterscope",
+        "name": "Lab to Verdazure Swamp Connection - Alterscope",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab to Verdazure Swamp Connection - Alterscope",
+            "name": "Alterscope",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -578,11 +578,11 @@
         ]
       },
       {
-        "name": "MP Quicken: Battlescars",
+        "name": "Lab to Verdazure Swamp Connection - MP Quicken: Battlescars",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lab to Verdazure Swamp Connection - MP Quicken: Battlescars",
+            "name": "MP Quicken: Battlescars",
             "item_count": 1,
             "access_rules": [
               "$True"

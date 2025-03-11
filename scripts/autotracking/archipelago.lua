@@ -83,7 +83,6 @@ end
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
 	local SLOT_DATA = slot_data
-	print(dump_table(SLOT_DATA))
 
 	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
 	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]

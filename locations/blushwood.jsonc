@@ -7,11 +7,11 @@
     ],
     "children": [
       {
-        "name": "Combo Time Extend I",
+        "name": "Blushwood - Combo Time Extend I",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Combo Time Extend I",
+            "name": "Combo Time Extend A ",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -27,11 +27,11 @@
         ]
       },
       {
-        "name": "EVENT_Dark",
+        "name": "Blushwood - Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Dark",
+            "name": "EVENT_Dark",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -50,11 +50,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Blushwood - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -70,11 +70,11 @@
         ]
       },
       {
-        "name": "Dodge: Feeling Lucky",
+        "name": "Blushwood - Dodge: Feeling Lucky",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Dodge: Feeling Lucky",
+            "name": "Dodge: Feeling Lucky",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1"
@@ -90,11 +90,11 @@
         ]
       },
       {
-        "name": "Double Airstrike",
+        "name": "Blushwood - Double Airstrike",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Double Airstrike",
+            "name": "Double Airstrike",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -110,11 +110,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Blushwood - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -130,11 +130,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Blushwood - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -152,11 +152,11 @@
         ]
       },
       {
-        "name": "Core Expansion: Recovery",
+        "name": "Blushwood - Core Expansion: Recovery",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood - Core Expansion: Recovery",
+            "name": "Core Expansion: Recovery",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -182,11 +182,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Blushwood Sliding - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood Sliding - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -205,11 +205,11 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "Blushwood Sliding - Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood Sliding - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -228,11 +228,11 @@
         ]
       },
       {
-        "name": "EVENT_Memine1",
+        "name": "Blushwood Sliding - Memine Race",
         "access_rules": [],
         "sections": [
           {
-            "name": "Blushwood Sliding - Memine Race",
+            "name": "EVENT_Memine1",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",

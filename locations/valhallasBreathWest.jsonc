@@ -11,21 +11,14 @@
     ],
     "children": [
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "South Heavens Valley West - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "South Heavens Valley West - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
-            ]
-          },
-          {
-            "name": "North Heavens Valley West - Kiwi Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -38,11 +31,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Heavens Valley West - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley West - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -63,11 +56,31 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "North Heavens Valley West - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley West - Blueberry Bunny Potion",
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Heavens Valley West - Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -83,11 +96,11 @@
         ]
       },
       {
-        "name": "EVENT_Light",
+        "name": "Heavens Valley West - Light",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heavens Valley West - Light",
+            "name": "EVENT_Light",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -124,11 +137,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Valhalla Breath West - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -144,11 +157,11 @@
         ]
       },
       {
-        "name": "EVENT_Light",
+        "name": "Valhalla Breath West - Light",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Light",
+            "name": "EVENT_Light",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -167,11 +180,11 @@
         ]
       },
       {
-        "name": "Orbital Slash",
+        "name": "Valhalla Breath West - Orbital Slash",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Orbital Slash",
+            "name": "Orbital Slash",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -187,11 +200,11 @@
         ]
       },
       {
-        "name": "Quickstab: Flurry",
+        "name": "Valhalla Breath West - Quickstab: Flurry",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Quickstab: Flurry",
+            "name": "Quickstab: Flurry",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -207,11 +220,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Valhalla Breath West - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -227,11 +240,11 @@
         ]
       },
       {
-        "name": "Combo Momentum: Fever",
+        "name": "Valhalla Breath West - Combo Momentum: Fever",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Combo Momentum: Fever",
+            "name": "Combo Momentum: Fever",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -247,11 +260,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Valhalla Breath West - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airJump|1",
@@ -280,11 +293,11 @@
     ],
     "children": [
       {
-        "name": "Galvanise",
+        "name": "Valhalla Breath West Extended - Galvanise",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West Extended - Galvanise",
+            "name": "Galvanise",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -300,11 +313,11 @@
         ]
       },
       {
-        "name": "Rapid Shots Enhance",
+        "name": "Valhalla Breath West Extended - Rapid Shots Enhance",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West Extended - Rapid Shots Enhance",
+            "name": "Rapid Shots Enhance",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
@@ -321,11 +334,11 @@
         ]
       },
       {
-        "name": "Lucky 7: C",
+        "name": "Valhalla Breath West Extended - Lucky 7: C",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West Extended - Lucky 7: C",
+            "name": "Lucky 7: C",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airJump|1",
@@ -342,11 +355,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Valhalla Breath West Extended - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Valhalla Breath West Extended - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"

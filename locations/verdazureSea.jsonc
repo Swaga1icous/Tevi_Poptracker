@@ -11,11 +11,11 @@
     ],
     "children": [
       {
-        "name": "Hydrodynamo",
+        "name": "Verdazure Sea - Hydrodynamo",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Hydrodynamo",
+            "name": "Hydrodynamo",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "EVENT_Water",
+        "name": "Verdazure Sea - Water West",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Water West",
+            "name": "EVENT_Water",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -54,11 +54,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Verdazure Sea - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -74,11 +74,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Verdazure Sea - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -94,11 +94,11 @@
         ]
       },
       {
-        "name": "Invictus",
+        "name": "Verdazure Sea - Invictus",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Invictus",
+            "name": "Invictus",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -124,11 +124,11 @@
     ],
     "children": [
       {
-        "name": "Grub Guru",
+        "name": "Verdazure Sea - Grub Guru",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Grub Guru",
+            "name": "Grub Guru",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -144,11 +144,11 @@
         ]
       },
       {
-        "name": "EVENT_Water",
+        "name": "Verdazure Sea - Water",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Water",
+            "name": "EVENT_Water",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -176,11 +176,11 @@
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"

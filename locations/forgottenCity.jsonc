@@ -7,11 +7,11 @@
     ],
     "children": [
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Verdazure Ocean - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -25,7 +25,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 108,
             "y": 204
           }
@@ -45,11 +45,11 @@
     ],
     "children": [
       {
-        "name": "MP Surge: Dodge",
+        "name": "Verdazure Ocean - MP Surge: Dodge",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - MP Surge: Dodge",
+            "name": "MP Surge: Dodge",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $canChargeShot"
@@ -58,18 +58,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 348,
             "y": 204
           }
         ]
       },
       {
-        "name": "Blueberry Bunny Potion #1",
+        "name": "Verdazure Ocean - Blueberry Bunny Potion #1",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Blueberry Bunny Potion #1",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -78,18 +78,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 300,
             "y": 300
           }
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Verdazure Ocean - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -98,18 +98,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 636,
             "y": 156
           }
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Verdazure Ocean - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
@@ -118,18 +118,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 972,
             "y": 252
           }
         ]
       },
       {
-        "name": "Blueberry Bunny Potion #2",
+        "name": "Verdazure Ocean - Blueberry Bunny Potion #2",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Blueberry Bunny Potion #2",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
@@ -138,18 +138,25 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 636,
             "y": 300
           }
         ]
       },
       {
-        "name": "Memine Race From Blushwood",
+        "name": "Verdazure Ocean - Memine Race From Blushwood",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Ocean - Memine Race From Blushwood",
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine1"
+            ]
+          },
+          {
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine1"
@@ -158,32 +165,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 684,
-            "y": 156
-          }
-        ]
-      },
-      {
-        "name": "EVENT_Memine",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Verdazure Ocean - Memine Race From Blushwood",
-            "item_count": 1,
-            "access_rules": [
-              "^$EVENT_Memine1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }
@@ -197,11 +181,11 @@
     ],
     "children": [
       {
-        "name": "Combo Time Extend II",
+        "name": "Verdazure Swamp - Combo Time Extend II",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Combo Time Extend II",
+            "name": "Combo Time Extend B",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1",
@@ -211,18 +195,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 1116,
             "y": 396
           }
         ]
       },
       {
-        "name": "Enthusiastic Excavator",
+        "name": "Verdazure Swamp - Enthusiastic Excavator",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Enthusiastic Excavator",
+            "name": "Enthusiastic Excavator",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -231,18 +215,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 924,
             "y": 396
           }
         ]
       },
       {
-        "name": "EVENT_Dark",
+        "name": "Verdazure Swamp - Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Dark",
+            "name": "EVENT_Dark",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -251,7 +235,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0,
             "force_invisibility_rules": [
@@ -261,11 +245,11 @@
         ]
       },
       {
-        "name": "EVENT_SnowMechanic",
+        "name": "Verdazure Swamp - Snow Orb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Snow Orb",
+            "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -274,7 +258,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0,
             "force_invisibility_rules": [
@@ -284,11 +268,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Verdazure Swamp - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
@@ -297,18 +281,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 924,
             "y": 540
           }
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Verdazure Swamp - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -317,18 +301,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 876,
             "y": 636
           }
         ]
       },
       {
-        "name": "Tornado Spin: Pressure",
+        "name": "Verdazure Swamp - Tornado Spin: Pressure",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Tornado Spin: Pressure",
+            "name": "Tornado Spin: Pressure",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1"
@@ -337,18 +321,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 972,
             "y": 636
           }
         ]
       },
       {
-        "name": "Red Haze",
+        "name": "Verdazure Swamp - Red Haze",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Red Haze",
+            "name": "Red Haze",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -357,18 +341,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 1116,
             "y": 684
           }
         ]
       },
       {
-        "name": "Bulletproof Pillar S",
+        "name": "Verdazure Swamp - Bulletproof Pillar S",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Bulletproof Pillar S",
+            "name": "Bulletproof Pillar S",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -377,18 +361,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 1020,
             "y": 780
           }
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Verdazure Swamp - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Swamp - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1",
@@ -399,7 +383,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 924,
             "y": 732
           }
@@ -418,11 +402,11 @@
     ],
     "children": [
       {
-        "name": "Blood Magic",
+        "name": "Forgotten City Upper Exit - Blood Magic",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City Upper Exit - Blood Magic",
+            "name": "Blood Magic",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -431,7 +415,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 396,
             "y": 444
           }
@@ -446,11 +430,11 @@
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Forgotten City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -459,18 +443,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 348,
             "y": 684
           }
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Forgotten City - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -479,18 +463,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 492,
             "y": 828
           }
         ]
       },
       {
-        "name": "Pogo Drop",
+        "name": "Forgotten City - Pogo Drop",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Pogo Drop",
+            "name": "Pogo Drop",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -499,18 +483,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 348,
             "y": 780
           }
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Forgotten City - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -519,18 +503,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 536,
             "y": 492
           }
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Forgotten City - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
@@ -542,18 +526,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 516,
             "y": 636
           }
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Forgotten City - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
@@ -565,7 +549,7 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
             "y": 0,
             "force_invisibility_rules": [
@@ -575,11 +559,11 @@
         ]
       },
       {
-        "name": "Heavy Metal",
+        "name": "Forgotten City - Heavy Metal",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Heavy Metal",
+            "name": "Heavy Metal",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
@@ -591,18 +575,18 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 396,
             "y": 588
           }
         ]
       },
       {
-        "name": "C. Rank Frenzy: Focus S",
+        "name": "Forgotten City - C. Rank Frenzy: Focus S",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - C. Rank Frenzy: Focus S",
+            "name": "C. Rank Frenzy: Focus S",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -611,18 +595,28 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 636,
             "y": 684
           }
         ]
       },
       {
-        "name": "Memine Race From Ana Thema",
+        "name": "Forgotten City - Memine Race From Ana Thema",
         "access_rules": [],
         "sections": [
           {
-            "name": "Forgotten City - Memine Race From Ana Thema",
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , ^$EVENT_Memine5",
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
+            ]
+          },
+          {
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , ^$EVENT_Memine5",
@@ -634,35 +628,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 588,
-            "y": 636
-          }
-        ]
-      },
-      {
-        "name": "EVENT_Memine",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Forgotten City - Memine Race From Ana Thema",
-            "item_count": 1,
-            "access_rules": [
-              "$canChargeShot , ^$EVENT_Memine5",
-              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
-              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
-              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)",
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }

@@ -11,11 +11,11 @@
     ],
     "children": [
       {
-        "name": "Slipstream Boots",
+        "name": "EverGarden - Slipstream Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Slipstream Boots",
+            "name": "Slipstream Boots",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "Crystalline Cyan",
+        "name": "EverGarden - Crystalline Cyan",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Crystalline Cyan",
+            "name": "Crystalline Cyan",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
@@ -54,11 +54,11 @@
         ]
       },
       {
-        "name": "Style Combo: Power A",
+        "name": "EverGarden - Style Combo: Power A",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Style Combo: Power A",
+            "name": "Style Combo: Power A",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -77,11 +77,11 @@
         ]
       },
       {
-        "name": "Deft B",
+        "name": "EverGarden - Deft B",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Deft B",
+            "name": "Deft B",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
@@ -99,11 +99,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "EverGarden - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -133,11 +133,11 @@
     ],
     "children": [
       {
-        "name": "Whipcrack",
+        "name": "EverGarden Path BossPath - Whipcrack",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path BossPath - Whipcrack",
+            "name": "Whipcrack",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
@@ -155,11 +155,11 @@
         ]
       },
       {
-        "name": "Shooting Star",
+        "name": "EverGarden Path BossPath - Shooting Star",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path BossPath - Shooting Star",
+            "name": "Shooting Star",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , $hasAmount|airJump|1",
@@ -178,11 +178,11 @@
         ]
       },
       {
-        "name": "Battlecry",
+        "name": "EverGarden Path BossPath - Battlecry",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Path BossPath - Battlecry",
+            "name": "Battlecry",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1",
@@ -199,31 +199,18 @@
         ]
       },
       {
-        "name": "Memine Race From Valhallas Breath East",
+        "name": "EverGarden - Memine Race From Valhallas Breath East",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine4"
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Evernight Garden",
-            "x": 640,
-            "y": 100
-          }
-        ]
-      },
-      {
-        "name": "EVENT_Memine",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EverGarden - Memine Race From Valhallas Breath East",
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine4"
@@ -234,10 +221,7 @@
           {
             "map": "Evernight Garden",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }
@@ -253,11 +237,11 @@
     ],
     "children": [
       {
-        "name": "Astral Gear",
+        "name": "EverGarden Boss Area - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Boss Area - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -273,11 +257,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "EverGarden - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -296,11 +280,11 @@
         ]
       },
       {
-        "name": "Debuff Counter",
+        "name": "EverGarden Boss Area - Debuff Counter",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Boss Area - Debuff Counter",
+            "name": "Debuff Counter",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -316,11 +300,11 @@
         ]
       },
       {
-        "name": "Crystal Boon",
+        "name": "Heaven Portal Hub - Crystal Boon",
         "access_rules": [],
         "sections": [
           {
-            "name": "Heaven Portal Hub - Crystal Boon",
+            "name": "Crystal Boon",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1",
@@ -337,11 +321,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "EverGarden Boss Area - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "EverGarden Boss Area - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $canChargeShot , sable , $hasAmount|ranged|2"

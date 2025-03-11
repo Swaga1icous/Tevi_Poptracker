@@ -8,11 +8,11 @@
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Gloamwood Middle - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -28,11 +28,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Gloamwood Bottom - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Bottom - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -48,11 +48,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Gloamwood Bottom - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Bottom - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|dagger|1"
@@ -68,11 +68,11 @@
         ]
       },
       {
-        "name": "EVENT_Memine0",
+        "name": "Gloamwood - Memine Race",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood - Memine Race",
+            "name": "EVENT_Memine0",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -110,11 +110,11 @@
     ],
     "children": [
       {
-        "name": "Quick Bomber",
+        "name": "Gloamwood Middle - Quick Bomber",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Quick Bomber",
+            "name": "Quick Bomber",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1"
@@ -130,11 +130,11 @@
         ]
       },
       {
-        "name": "Decay Mask",
+        "name": "Gloamwood Middle - Decay Mask",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Decay Mask",
+            "name": "Decay Mask",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -150,11 +150,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Gloamwood Middle - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -170,11 +170,11 @@
         ]
       },
       {
-        "name": "Combo Time Extend III",
+        "name": "Gloamwood Middle - Combo Time Extend III",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Combo Time Extend III",
+            "name": "Combo Time Extend C",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $False , $hasAmount|ranged|1 , $hasAmount|dagger|1",
@@ -191,11 +191,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Gloamwood Middle - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
@@ -211,23 +211,16 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "Gloamwood Middle - Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
               "$hasAmount|airDash|1 , $hasAmount|bombs|1"
-            ]
-          },
-          {
-            "name": "Memine Gloamwood - Rainbow Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "^$EVENT_Memine0"
             ]
           }
         ],
@@ -240,11 +233,11 @@
         ]
       },
       {
-        "name": "Dodge: Optimize",
+        "name": "Gloamwood Upper - Dodge: Optimize",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Upper - Dodge: Optimize",
+            "name": "Dodge: Optimize",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|dagger|1",
@@ -263,11 +256,11 @@
         ]
       },
       {
-        "name": "EVENT_Earth",
+        "name": "Gloamwood Upper - Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Upper - Earth",
+            "name": "EVENT_Earth",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -286,11 +279,18 @@
         ]
       },
       {
-        "name": "EVENT_Memine",
+        "name": "Memine Gloamwood - Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Gloamwood - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine0"
+            ]
+          },
+          {
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine0"
@@ -301,10 +301,7 @@
           {
             "map": "Gloamwood",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }
@@ -318,11 +315,11 @@
     ],
     "children": [
       {
-        "name": "Special Action: Speechless",
+        "name": "Gloamwood Middle - Special Action: Speechless",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Middle - Special Action: Speechless",
+            "name": "Special Action: Speechless",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
@@ -351,11 +348,11 @@
     ],
     "children": [
       {
-        "name": "EVENT_EliteChallengeC",
+        "name": "Gloamwood Upper - Elite Challenge C",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gloamwood Upper - Elite Challenge C",
+            "name": "EVENT_EliteChallangeC",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -390,11 +387,11 @@
     ],
     "children": [
       {
-        "name": "MP Surge: Battle Start",
+        "name": "Ulskan Village Area - MP Surge: Battle Start",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - MP Surge: Battle Start",
+            "name": "MP Surge: Battle Start",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -410,11 +407,11 @@
         ]
       },
       {
-        "name": "EVENT_Earth",
+        "name": "Ulskan Village Area - Earth",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Earth",
+            "name": "EVENT_Earth",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -433,11 +430,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Ulskan Village Area - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
@@ -454,11 +451,11 @@
         ]
       },
       {
-        "name": "Slide Halt",
+        "name": "Ulskan Village Area - Slide Halt",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Slide Halt",
+            "name": "Slide Halt",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -484,11 +481,11 @@
     ],
     "children": [
       {
-        "name": "Aerial Agility",
+        "name": "Ulskan Village Area - Aerial Agility",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Aerial Agility",
+            "name": "Aerial Agility",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|dagger|1",
@@ -506,11 +503,11 @@
         ]
       },
       {
-        "name": "Dual Combo: Flow",
+        "name": "Ulskan Village Area - Dual Combo: Flow",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Dual Combo: Flow",
+            "name": "Dual Combo: Flow",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -526,11 +523,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Ulskan Village Area - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|dagger|1",
@@ -555,11 +552,11 @@
     ],
     "children": [
       {
-        "name": "Decay Antidote",
+        "name": "Ulskan Village Area - Decay Antidote",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Decay Antidote",
+            "name": "Decay Antidote",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
@@ -575,11 +572,11 @@
         ]
       },
       {
-        "name": "Dodge: Golden Luck",
+        "name": "Ulskan Village Area - Dodge: Golden Luck",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulskan Village Area - Dodge: Golden Luck",
+            "name": "Dodge: Golden Luck",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
