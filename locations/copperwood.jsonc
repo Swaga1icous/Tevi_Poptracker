@@ -60,7 +60,7 @@
             "name": "CopperWood Elite - Core Expansion: Saver",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeC"
+              "^$EVENT_EliteChallengeC"
             ]
           }
         ],
