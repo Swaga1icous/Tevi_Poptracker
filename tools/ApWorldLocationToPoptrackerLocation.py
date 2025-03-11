@@ -189,8 +189,9 @@ for val in RandomizerLocationList:
                 locTemplate["access_rules"] = []
     if not found:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
-        extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locName}/{itemName}"'+"}}\n")
-        baseID += 1
+    
+    extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locName}/{itemName}"'+"}},\n")
+    baseID += 1
 extra.close()
 for k,v in RandomizerAreaList.items():
     for area in v:
