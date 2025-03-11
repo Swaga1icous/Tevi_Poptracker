@@ -86,15 +86,27 @@ function apply_slot_data(slot_data)
 	--print(dump_table(SLOT_DATA))
 
 	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
-	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["attackMode"]
+	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]
 
-	if SLOT_DATA["CeliaSable"] > 0 then
-		Tracker:FindObjectForCode("startWithCelia/Sable").Active = true
-	end
 
-	if SLOT_DATA["openMorose"] > 0 then
-		Tracker:FindObjectForCode("openMorose").Active = true
-	end
+
+	Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["open_morose"] > 0
+	Tracker:FindObjectForCode("randomizeKnife").Active = SLOT_DATA["options"]["randomize_knife"] > 0
+	Tracker:FindObjectForCode("randomizeOrb").Active = SLOT_DATA["options"]["randomize_orb"] > 0
+	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
+	Tracker:FindObjectForCode("chaosMode").Active = SLOT_DATA["options"]["chaos_mode"] > 0
+	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0 
+	Tracker:FindObjectForCode("transitionShuffle").Active = SLOT_DATA["options"]["transitionShuffle"] > 0
+	Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
+	Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["RWalljump"] > 0
+	Tracker:FindObjectForCode("backflip").Active =  SLOT_DATA["options"]["backflip"] > 0
+	Tracker:FindObjectForCode("ceilingKick").Active = SLOT_DATA["options"]["cKick"] > 0
+	Tracker:FindObjectForCode("hiddenPaths").Active =  SLOT_DATA["options"]["hiddenP"] > 0 
+	Tracker:FindObjectForCode("earlyDream").Active = SLOT_DATA["options"]["earlydream"] > 0
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["barrierSkip"] > 0
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["adcKick"] > 0 
+	--Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["superBosses"] > 0
+
 
 	--if SLOT_DATA["REPLACE VALUE"] > 0 then
 	--	Tracker:FindObjectForCode("REPLACE VALUE").Active = true
