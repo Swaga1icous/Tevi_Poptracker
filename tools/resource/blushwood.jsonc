@@ -1,7 +1,6 @@
 [
   {
     "name": "Blushwood",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2801",
       "@Exit Logic/2803"
@@ -43,7 +42,10 @@
           {
             "map": "Blushwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -173,11 +175,10 @@
   },
   {
     "name": "Blushwood Sliding",
-    "clear_as_group": false,
     "access_rules": [
       "@Blushwood,slide",
-      "@Blushwood,hiddenPaths , airJump , jetpack",
-      "@Blushwood,hiddenPaths , $hasAmount|jetpack|3"
+      "@Blushwood,[hiddenPaths] , airJump , jetpack",
+      "@Blushwood,[hiddenPaths] , $hasAmount|jetpack|3"
     ],
     "children": [
       {
@@ -217,32 +218,37 @@
               "slide , bombs , airDash , wallJump"
             ]
           }
-		],
-		"map_locations": [
-          {
-            "map": "Blushwood",
-            "x": 197,
-            "y": 204
-          }
-        ]
-      },
-	  {
-        "name": "Rainbow Bunny Potion",
-        "access_rules": [],
-        "sections": [  
-		  {
-            "name": "Memine Blushwood Sliding - Rainbow Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
-            ]
-          }
         ],
         "map_locations": [
           {
             "map": "Blushwood",
             "x": 485,
             "y": 204
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blushwood Sliding - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "slide , bombs , $hasAmount|jetpack|3",
+              "slide , bombs , airJump , $hasAmount|speed|3",
+              "slide , bombs , airJump , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

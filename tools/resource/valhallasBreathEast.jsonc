@@ -1,7 +1,6 @@
 [
   {
     "name": "Heavens Valley Snow Route Low",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,slide",
@@ -44,7 +43,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -64,7 +66,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -78,7 +83,7 @@
             "access_rules": [
               "slide , bombs , jetpack",
               "slide , bombs , airJump",
-              "slide , bombs , EnemyManip"
+              "slide , bombs , $False"
             ]
           }
         ],
@@ -115,7 +120,6 @@
   },
   {
     "name": "Heavens Valley Snow Route Middle",
-    "clear_as_group": false,
     "access_rules": [
       "@Heavens Valley Snow Route Low,slide , vortex",
       "@Heavens Valley Snow Route Upper,slide"
@@ -178,7 +182,10 @@
           {
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -241,6 +248,32 @@
             "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
             "x": 345,
             "y": 339
+          }
+        ]
+      },
+      {
+        "name": "EVENT_Memine4",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Heavens Valley Snow Route Middle - Memine Race",
+            "item_count": 1,
+            "access_rules": [
+              "slide , $hasAmount|wallJump|2 , airJump",
+              "slide , wallJump , jetpack , airJump",
+              "slide , wallJump , airDash , airJump",
+              "slide , wallJump , airDash , jetpack"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

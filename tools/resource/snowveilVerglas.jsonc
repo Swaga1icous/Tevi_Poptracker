@@ -1,7 +1,6 @@
 [
-   {
+  {
     "name": "Snowveil Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1202",
       "@Snowveil"
@@ -31,10 +30,9 @@
   },
   {
     "name": "Snowveil",
-    "clear_as_group": false,
     "access_rules": [
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , WindSkip",
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , WindSkip",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
+      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
       "@Snowveil Entrance,bombs",
       "@Exit Logic/1204",
       "@Snowveil Ex"
@@ -76,7 +74,10 @@
           {
             "map": "Snowveil + Verglas Village",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -104,7 +105,6 @@
   },
   {
     "name": "Snowveil Ex",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil,$canChargeShot , bombs",
       "@Snowveil,airJump , bombs",
@@ -120,7 +120,7 @@
             "name": "Snowveil - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -129,6 +129,29 @@
             "map": "Snowveil + Verglas Village",
             "x": 216,
             "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Snowveil - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Verglas Village",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -225,7 +248,7 @@
             "item_count": 1,
             "access_rules": [
               "slide , $hasAmount|jetpack|3 , airDash",
-              "slide , BounceKick , airDash",
+              "slide , $False , airDash",
               "slide , jetpack , airDash , airJump"
             ]
           }
@@ -242,12 +265,11 @@
   },
   {
     "name": "Snowveil above Verglas Village",
-    "clear_as_group": false,
     "access_rules": [
       "@Snowveil Ex,slide",
       "@Snowveil Ex,jetpack , airJump",
       "@Snowveil Ex,jetpack , highJump , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,airJump , highJump , ItemUse",
+      "@Snowveil Ex,airJump , highJump , [$true]",
       "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
       "@Exit Logic/1205"
     ],

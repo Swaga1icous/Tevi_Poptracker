@@ -1,7 +1,6 @@
 [
   {
     "name": "Travoll Industrie",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
@@ -20,7 +19,7 @@
               "slide , wallJump , airDash",
               "slide , wallJump , jetpack",
               "slide , wallJump , airJump",
-              "slide , BounceKick"
+              "slide , $False"
             ]
           }
         ],
@@ -138,7 +137,6 @@
   },
   {
     "name": "Travoll Industrie to CopperWood",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Industrie,bombs",
       "@Travoll Industrie,slide",

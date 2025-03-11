@@ -1,13 +1,12 @@
 [
   {
     "name": "Travoll Mines",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines to Morose City,bombs , bombFuel",
       "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
       "@Exit Logic/0500",
       "@Travoll Mines to Forest,bombs , dagger",
-      "@Travoll Mines to Forest,bombs , EVENT_FreeStrongAttack",
+      "@Travoll Mines to Forest,bombs , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Swamp"
     ],
     "children": [
@@ -47,7 +46,10 @@
           {
             "map": "Travoll Mines",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -59,7 +61,7 @@
             "name": "Travoll Mines - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel , Boss"
+              "$canChargeShot , bombFuel"
             ]
           }
         ],
@@ -68,6 +70,29 @@
             "map": "Travoll Mines",
             "x": 120,
             "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Travoll Mines - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$canChargeShot , bombFuel"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -156,7 +181,6 @@
   },
   {
     "name": "Travoll Mines to Swamp",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,slide , bombFuel",
       "@Exit Logic/0503"
@@ -186,7 +210,6 @@
   },
   {
     "name": "Travoll Mines to Morose City",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0501",
       "@Travoll Mines to Thanatara Canyon,bombs",
@@ -217,7 +240,6 @@
   },
   {
     "name": "Travoll Mines to Forest",
-    "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines,bombs",
       "@Exit Logic/0509"

@@ -1,7 +1,6 @@
 [
-   {
+  {
     "name": "Ana Thema",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0805",
       "@Ana Thema to Gallery,slide , bombs"
@@ -80,7 +79,7 @@
             "name": "Ana Thema - GemaYue",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , Chapter 4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -100,7 +99,7 @@
             "name": "Ana Thema - EinLee",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , Chapter 4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -120,7 +119,7 @@
             "name": "Ana Thema - Waero",
             "item_count": 1,
             "access_rules": [
-              "key , [SuperBoss] , dagger , Chapter 4"
+              "key , [SuperBoss] , dagger , $Chapter|4"
             ]
           }
         ],
@@ -148,7 +147,10 @@
           {
             "map": "Ana Thema",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -188,7 +190,10 @@
           {
             "map": "Ana Thema",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -227,28 +232,28 @@
             "name": "Ana Thema Shop Memloch - Flash Point",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Break Extend",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Tornado Spin: Grav Reversal",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Ana Thema Shop Memloch - Perseverance D",
             "item_count": 1,
             "access_rules": [
-              "$True , EVENT_Memloch"
+              "$True , ^$EVENT_Memloch"
             ]
           },
           {
@@ -374,7 +379,7 @@
             "name": "Ana Thema Shop Chap 6 - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , Chapter 6"
+              "$True , $Chapter|6"
             ]
           }
         ],
@@ -394,7 +399,7 @@
             "name": "Ana Thema - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs , dagger , airDash , slide , jetpack , Memine"
+              "$Chapter|5"
             ]
           }
         ],
@@ -402,7 +407,10 @@
           {
             "map": "Ana Thema",
             "x": 263,
-            "y": 218
+            "y": 218,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -410,7 +418,6 @@
   },
   {
     "name": "Ana Thema to Gallery",
-    "clear_as_group": false,
     "access_rules": [
       "@Ana Thema,slide , bombs",
       "@Exit Logic/0806"

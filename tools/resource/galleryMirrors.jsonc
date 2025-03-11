@@ -1,7 +1,6 @@
 [
   {
     "name": "Gallery of Mirrors West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2706,$canChargeShot"
     ],
@@ -90,7 +89,6 @@
   },
   {
     "name": "Gallery of Mirrors East",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors West,$canChargeShot , slide"
     ],
@@ -163,7 +161,7 @@
             "name": "Gallery of Mirrors East - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "bombRange , decayAntidote , Boss"
+              "bombRange , decayAntidote"
             ]
           }
         ],
@@ -172,6 +170,29 @@
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 887,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Mirrors East - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "bombRange , decayAntidote"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -191,7 +212,10 @@
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -266,7 +290,6 @@
   },
   {
     "name": "Gallery of Souls Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Mirrors East"
     ],
@@ -295,12 +318,11 @@
   },
   {
     "name": "Gallery of Souls",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Entrance,bombs",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , BarrierSkip",
-      "@Gallery of Souls Boss Area,wallJump , bombs , BarrierSkip",
-      "@Gallery of Souls Boss Area,airJump , bombs , BarrierSkip"
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , $False",
+      "@Gallery of Souls Boss Area,wallJump , bombs , $False",
+      "@Gallery of Souls Boss Area,airJump , bombs , $False"
     ],
     "children": [
       {
@@ -347,7 +369,6 @@
   },
   {
     "name": "Gallery of Souls Boss Area",
-    "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
       "@Gallery of Souls,wallJump , $canChargeShot",
@@ -384,8 +405,8 @@
             "name": "Gallery of Souls Boss Area - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayAntidote , Boss",
-              "alembicCrystal , Boss"
+              "decayAntidote",
+              "alembicCrystal"
             ]
           }
         ],
@@ -394,6 +415,30 @@
             "map": "Gallery of Mirrors + Gallery of Souls",
             "x": 431,
             "y": 504
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gallery of Souls Boss Area - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "decayAntidote",
+              "alembicCrystal"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors + Gallery of Souls",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

@@ -1,11 +1,10 @@
 [
   {
     "name": "Verdazure Sea West",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1307,airJump",
       "@Exit Logic/1307,jetpack",
-      "@Exit Logic/1307,ADCKick",
+      "@Exit Logic/1307,$False",
       "@Verdazure Sea East,water",
       "@Verdazure Sea to Forest,bombs",
       "@Verdazure Sea to Forest,water"
@@ -47,7 +46,10 @@
           {
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -115,7 +117,6 @@
   },
   {
     "name": "Verdazure Sea East",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
       "@Exit Logic/1301",
@@ -158,7 +159,10 @@
           {
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -166,7 +170,6 @@
   },
   {
     "name": "Verdazure Sea to Forgotten city",
-    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,water , bombs",
       "@Exit Logic/1303"

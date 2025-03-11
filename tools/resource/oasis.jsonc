@@ -1,20 +1,20 @@
 [
   {
     "name": "Oasis",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0201"
     ],
     "children": [
       {
         "name": "Upper Slash: Volley",
-        "access_rules": [
-          "bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "badge",
-            "item_count": 1
+            "name": "Oasis - Upper Slash: Volley",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -30,8 +30,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "compass",
-            "item_count": 1
+            "name": "Oasis - Explorer's Compass",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -43,14 +46,38 @@
         ]
       },
       {
-        "name": "Special Action: Yawn",
-        "access_rules": [
-          "ceilingKick, airJump, jetpack, airDash"
-        ],
+        "name": "PK Recon Badge",
+        "access_rules": [],
         "sections": [
           {
-            "name": "badge",
-            "item_count": 1
+            "name": "Oasis - PK Recon Badge",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oasis",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Special Action: Yawn",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Oasis - Special Action: Yawn",
+            "item_count": 1,
+            "access_rules": [
+              "ceilingKick",
+              "airJump",
+              "jetpack",
+              "airDash"
+            ]
           }
         ],
         "map_locations": [
@@ -66,8 +93,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "badge",
-            "item_count": 1
+            "name": "Oasis - Spring Back",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -83,8 +113,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "matk",
-            "item_count": 1
+            "name": "Oasis - Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -97,13 +130,14 @@
       },
       {
         "name": "Kiwi Bunny Potion",
-        "access_rules": [
-          "bombs"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "hp",
-            "item_count": 1
+            "name": "Oasis - Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs"
+            ]
           }
         ],
         "map_locations": [
@@ -116,18 +150,15 @@
       },
       {
         "name": "Astral Gear",
-        "access_rules": [
-          "Boss"
-        ],
+        "access_rules": [],
         "sections": [
           {
-            "name": "Astral Gear",
-            "item_count": 1
-          },
-		  {
-			  "name": "PK Recon Badge",
-			  "item_count": 1
-		  }	  
+            "name": "Oasis - Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
         ],
         "map_locations": [
           {
@@ -138,16 +169,40 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
-        "access_rules": [
-          "bombs , highJump",
-          "bombs , airJump",
-          "bombs , jetpack"
-        ],
+        "name": "EVENT_BOSS",
+        "access_rules": [],
         "sections": [
           {
-            "name": "shard",
-            "item_count": 1
+            "name": "Oasis - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oasis",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rainbow Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Oasis - Rainbow Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "bombs , highJump",
+              "bombs , airJump",
+              "bombs , jetpack"
+            ]
           }
         ],
         "map_locations": [
@@ -163,8 +218,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "ep",
-            "item_count": 1
+            "name": "Oasis - Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -180,8 +238,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "highJump",
-            "item_count": 1
+            "name": "Oasis - Rabi Boots",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -197,8 +258,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "badge",
-            "item_count": 1
+            "name": "Oasis - MP Surge: Concuss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [

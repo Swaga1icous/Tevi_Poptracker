@@ -1,7 +1,6 @@
 [
   {
     "name": "Desert Base Entrance",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0000"
     ],
@@ -54,7 +53,7 @@
             "name": "Desert Base Entrance - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -63,6 +62,29 @@
             "map": "The Sewerways + Golden Hands Desert Base",
             "x": 740,
             "y": 430
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Desert Base Entrance - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Sewerways + Golden Hands Desert Base",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -91,7 +113,6 @@
   },
   {
     "name": "Desert Base Main",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Entrance,$canChargeShot",
       "@Desert Base Entrance,jetpack",
@@ -102,7 +123,7 @@
       "@Desert Base Entrance,bombs , bombThrow",
       "@Desert Base Entrance,rabbitJump",
       "@Desert Base Entrance,backflip , speed",
-      "@Desert Base Entrance,backflip , Hard",
+      "@Desert Base Entrance,backflip , $False",
       "@Desert Base Upper Half"
     ],
     "children": [
@@ -190,7 +211,6 @@
   },
   {
     "name": "Desert Base Upper Half",
-    "clear_as_group": false,
     "access_rules": [
       "@Desert Base Main,highJump , airJump , wallJump",
       "@Desert Base Main,jetpack , wallJump",

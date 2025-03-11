@@ -1,7 +1,6 @@
 [
-   {
+  {
     "name": "DreamKeeper Outside Right",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1800",
       "@DreamKeeper,slide , bombs"
@@ -54,7 +53,6 @@
   },
   {
     "name": "DreamKeeper Outside Left",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
       "@Exit Logic/1801",
@@ -130,15 +128,14 @@
   },
   {
     "name": "DreamKeeper",
-    "clear_as_group": false,
     "access_rules": [
-      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Right,vortex , slide , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , slide , slide , EVENT_SnowMechanic 2",
+      "@DreamKeeper Outside Left,vortex , slide , slide , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Left,vortex , slide , slide , earlyDream"
     ],
     "children": [
@@ -173,7 +170,7 @@
             "name": "DreamKeeper - Astral Gear #2",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -182,6 +179,36 @@
             "map": "Snowveil + Dreamer's Keep",
             "x": 579,
             "y": 568
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "DreamKeeper - Boss Alius",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "DreamKeeper - Boss Charon",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -273,7 +300,7 @@
             "name": "DreamKeeper - Astral Gear #1",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -349,7 +376,6 @@
   },
   {
     "name": "Dreamless Depths 2",
-    "clear_as_group": false,
     "access_rules": [
       "@Dreamless Depths,highJump , dagger",
       "@Dreamless Depths,wallJump",
@@ -385,9 +411,9 @@
             "name": "Dreamless Depths 2 - Sigil Quicken",
             "item_count": 1,
             "access_rules": [
-              "airJump , $hasAmount|jetpack|2 , ItemUse , bombs",
+              "airJump , $hasAmount|jetpack|2 , [$true] , bombs",
               "airJump , jetpack , wallJump , airDash , bombs",
-              "airJump , jetpack , wallJump , highJump , ItemUse , bombs"
+              "airJump , jetpack , wallJump , highJump , [$true] , bombs"
             ]
           }
         ],
@@ -426,7 +452,6 @@
   },
   {
     "name": "Dreamless Depths",
-    "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper,slide , bombs"
     ],

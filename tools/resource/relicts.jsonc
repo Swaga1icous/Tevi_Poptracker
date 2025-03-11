@@ -1,7 +1,6 @@
 [
   {
     "name": "Relicts",
-    "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2404",
       "@Relicts to Gloamwood,bombs"
@@ -63,7 +62,10 @@
           {
             "map": "The Relicts",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -99,7 +101,7 @@
             "name": "Relicts - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "Boss"
+              "$True"
             ]
           }
         ],
@@ -108,6 +110,29 @@
             "map": "The Relicts",
             "x": 408,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "EVENT_BOSS",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Relicts - Boss",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Relicts",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
