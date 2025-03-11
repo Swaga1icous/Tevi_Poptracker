@@ -84,7 +84,7 @@
             "name": "Ulvosa - Overdrive",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeD"
+              "^$EVENT_EliteChallengeD"
             ]
           }
         ],

@@ -91,32 +91,32 @@ end
 function canSnowMechanic()
     return  Tracker:FindObjectForCode("@//").AccessibilityLevel
 end
-function EVENT_EliteChallangeB()
-    return  Tracker:FindObjectForCode("@Thanatara Canyon/EVENT_EliteChallangeB/Thanatara Canyon - Elite Challenge B").AccessibilityLevel
+function EVENT_EliteChallengeB()
+    return  Tracker:FindObjectForCode("@Thanatara Canyon/EVENT_EliteChallengeB/Thanatara Canyon - Elite Challenge B").AccessibilityLevel
 end
-function EVENT_EliteChallangeA()
-    return  Tracker:FindObjectForCode("@Morose City/EVENT_EliteChallangeA/Morose City - Elite Challenge A").AccessibilityLevel
+function EVENT_EliteChallengeA()
+    return  Tracker:FindObjectForCode("@Morose City/EVENT_EliteChallengeA/Morose City - Elite Challenge A").AccessibilityLevel
 end
 function EVENT_MoroseVisited()
     return  Tracker:FindObjectForCode("@Morose City/EVENT_MoroseVisited/Morose City - Visit").AccessibilityLevel
 end
-function EVENT_EliteChallangeD()
-    return  Tracker:FindObjectForCode("@Ana Thema/EVENT_EliteChallangeD/Ana Thema - Elite Challenge D").AccessibilityLevel
+function EVENT_EliteChallengeD()
+    return  Tracker:FindObjectForCode("@Ana Thema/EVENT_EliteChallengeD/Ana Thema - Elite Challenge D").AccessibilityLevel
 end
-function EVENT_EliteChallangeC()
-    return  Tracker:FindObjectForCode("@Gloamwood to Ulvosa/EVENT_EliteChallangeC/Gloamwood Upper - Elite Challenge C").AccessibilityLevel
+function EVENT_EliteChallengeC()
+    return  Tracker:FindObjectForCode("@Gloamwood to Ulvosa/EVENT_EliteChallengeC/Gloamwood Upper - Elite Challenge C").AccessibilityLevel
 end
 function EVENT_AnathemaVisited()
     return  Tracker:FindObjectForCode("@Ana Thema/EVENT_AnathemaVisited/Ana Thema - Visit").AccessibilityLevel
 end
-function EVENT_EliteChallangeE()
-    return  Tracker:FindObjectForCode("@Tartarus/EVENT_EliteChallangeE/Tartarus - Elite Challenge E").AccessibilityLevel
+function EVENT_EliteChallengeE()
+    return  Tracker:FindObjectForCode("@Tartarus/EVENT_EliteChallengeE/Tartarus - Elite Challenge E").AccessibilityLevel
 end
 function EVENT_Demonfray()
     return  Tracker:FindObjectForCode("@Lab/EVENT_Demonfray/Lab - Demon Fray").AccessibilityLevel
 end
-function EVENT_EliteChallangeF()
-    return  Tracker:FindObjectForCode("@Valhalla City/EVENT_EliteChallangeF/Valhalla City - Elite Challenge F").AccessibilityLevel
+function EVENT_EliteChallengeF()
+    return  Tracker:FindObjectForCode("@Valhalla City/EVENT_EliteChallengeF/Valhalla City - Elite Challenge F").AccessibilityLevel
 end
 function EVENT_Memloch()
     return  Tracker:FindObjectForCode("@Gallery of Mirrors East/EVENT_Memloch/Gallery of Mirrors East - Memloch").AccessibilityLevel
