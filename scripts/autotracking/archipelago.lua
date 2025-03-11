@@ -6,6 +6,8 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_tracking.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -124,6 +126,9 @@ function onClear(slot_data)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
+	local key = "Slot:"..Archipelago.PlayerNumber..":currentMap"
+	Archipelago:SetNotify({key})
+	print("Slot:"..Archipelago.PlayerNumber..":currentMap")
 	CUR_INDEX = -1
 	-- reset locations
 	for _, mapping_entry in pairs(LOCATION_MAPPING) do
@@ -305,3 +310,9 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+
+
+
+
+Archipelago:AddSetReplyHandler("map tracker",onMapChange)
