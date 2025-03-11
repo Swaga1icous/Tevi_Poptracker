@@ -8,10 +8,11 @@ function hasAmount (code, count)
     if (item == nil) then
         return 0
     end
-    if (item.AcquiredCount >= tonumber(count)) then
-        return 1
+    if(item.Type == "toggle") then
+        return item.Active
+    else 
+        return item.AcquiredCount >= tonumber(count)
     end
-    return 0
 end
 
 
@@ -19,7 +20,7 @@ function canAccessExit(exit_name)
     local entrance = TRANSITION_PAIRS[exit_name]
     local entrance_logic_path = "@Entrance Logic/"..entrance
     local loc = Tracker:FindObjectForCode(entrance_logic_path)
-    print(string.format("Resolving exit logic for '%s' accessible from entrance '%s'", exit_name, entrance))
+    --print(string.format("Resolving exit logic for '%s' accessible from entrance '%s'", exit_name, entrance))
     return loc.AccessibilityLevel
 end
 
