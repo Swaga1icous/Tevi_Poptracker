@@ -13,7 +13,7 @@
             "name": "Oasis - Upper Slash: Volley",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -74,9 +74,9 @@
             "item_count": 1,
             "access_rules": [
               "ceilingKick",
-              "airJump",
-              "jetpack",
-              "airDash"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
             ]
           }
         ],
@@ -136,7 +136,7 @@
             "name": "Oasis - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -199,9 +199,9 @@
             "name": "Oasis - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , highJump",
-              "bombs , airJump",
-              "bombs , jetpack"
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1"
             ]
           }
         ],

@@ -2,7 +2,7 @@
   {
     "name": "Cloister",
     "access_rules": [
-      "@Cloister Entrance,slide"
+      "@Cloister Entrance,$hasAmount|slide|1"
     ],
     "children": [
       {
@@ -73,8 +73,8 @@
             "name": "Cloister - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow",
-              "bombRange"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -94,8 +94,8 @@
             "name": "Cloister - Crouching Bunny",
             "item_count": 1,
             "access_rules": [
-              "bombRange , bombs",
-              "bombThrow , bombs"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -154,7 +154,7 @@
             "name": "Cloister Main - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -174,7 +174,7 @@
             "name": "Cloister Main - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -194,7 +194,7 @@
             "name": "Cloister Main - Coffee Break",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -214,7 +214,7 @@
             "name": "Cloister Main - Parkour Boots",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -234,7 +234,7 @@
             "name": "Cloister Pre Boss - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -297,10 +297,10 @@
             "name": "Cloister Pre Boss - MP Reset B",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "highJump , wallJump",
-              "airDash , wallJump",
-              "jetpack"
+              "$hasAmount|airJump|1",
+              "$hasAmount|highJump|1 , $hasAmount|wallJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1"
             ]
           }
         ],
@@ -320,9 +320,9 @@
             "name": "Cloister Main - C. Rank Frenzy: Focus MAX",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "airDash , wallJump",
-              "jetpack"
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1"
             ]
           }
         ],

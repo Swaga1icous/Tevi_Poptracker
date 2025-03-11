@@ -2,12 +2,12 @@
   {
     "name": "Verdazure Sea West",
     "access_rules": [
-      "@Exit Logic/1307,airJump",
-      "@Exit Logic/1307,jetpack",
+      "@Exit Logic/1307,$hasAmount|airJump|1",
+      "@Exit Logic/1307,$hasAmount|jetpack|1",
       "@Exit Logic/1307,$False",
-      "@Verdazure Sea East,water",
-      "@Verdazure Sea to Forest,bombs",
-      "@Verdazure Sea to Forest,water"
+      "@Verdazure Sea East,$hasAmount|water|1",
+      "@Verdazure Sea to Forest,$hasAmount|bombs|1",
+      "@Verdazure Sea to Forest,$hasAmount|water|1"
     ],
     "children": [
       {
@@ -61,7 +61,7 @@
             "name": "Verdazure Sea - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -101,7 +101,7 @@
             "name": "Verdazure Sea - Invictus",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -120,7 +120,7 @@
     "access_rules": [
       "@Verdazure Sea West",
       "@Exit Logic/1301",
-      "@Exit Logic/1300,slide , $canChargeShot"
+      "@Exit Logic/1300,$hasAmount|slide|1 , $canChargeShot"
     ],
     "children": [
       {
@@ -171,7 +171,7 @@
   {
     "name": "Verdazure Sea to Forgotten city",
     "access_rules": [
-      "@Verdazure Sea West,water , bombs",
+      "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombs|1",
       "@Exit Logic/1303"
     ],
     "children": [
@@ -183,7 +183,7 @@
             "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],

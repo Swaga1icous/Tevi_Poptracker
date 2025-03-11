@@ -14,8 +14,8 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|2",
-              "jetpack , airJump",
-              "jetpack , airDash , wallJump"
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1"
             ]
           }
         ],
@@ -32,7 +32,7 @@
   {
     "name": "Solennian Ruins",
     "access_rules": [
-      "@Solennian Ruins Entrance,bombs"
+      "@Solennian Ruins Entrance,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -169,8 +169,8 @@
             "name": "Solennian Ruins - Nasty Break up",
             "item_count": 1,
             "access_rules": [
-              "wallJump",
-              "airJump , $hasAmount|jetpack|2"
+              "$hasAmount|wallJump|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2"
             ]
           }
         ],
@@ -190,10 +190,10 @@
             "name": "Solennian Ruins - Lucky 7: B",
             "item_count": 1,
             "access_rules": [
-              "dagger",
+              "$hasAmount|dagger|1",
               "$canUseVenaBomb",
-              "ranged",
-              "bombs , bombThrow"
+              "$hasAmount|ranged|1",
+              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -213,7 +213,7 @@
             "name": "Solennian Ruins - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],

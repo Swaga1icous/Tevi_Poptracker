@@ -2,14 +2,14 @@
   {
     "name": "Catacombs Main",
     "access_rules": [
-      "@Catacombs Entrance,slide , airJump",
-      "@Catacombs Entrance,slide , jetpack",
-      "@Pre Lab,bombs , slide , jetpack",
-      "@Pre Lab,bombs , slide , airDash",
-      "@Pre Lab,bombs , slide , airJump",
-      "@Pre Lab,dagger , slide , jetpack",
-      "@Pre Lab,dagger , slide , airDash",
-      "@Pre Lab,dagger , slide , airJump"
+      "@Catacombs Entrance,$hasAmount|slide|1 , $hasAmount|airJump|1",
+      "@Catacombs Entrance,$hasAmount|slide|1 , $hasAmount|jetpack|1",
+      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
+      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airDash|1",
+      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
+      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
+      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|airDash|1",
+      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|airJump|1"
     ],
     "children": [
       {
@@ -20,10 +20,10 @@
             "name": "Catacombs Main - Spiral Slash: Flurry",
             "item_count": 1,
             "access_rules": [
-              "bombs , airJump",
-              "bombs , airDash",
-              "bombs , jetpack",
-              "bombs , highJump"
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -43,9 +43,9 @@
             "name": "North Catacombs Main - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airDash",
-              "jetpack",
-              "airJump"
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1"
             ]
           }
         ],
@@ -85,7 +85,7 @@
             "name": "Catacombs Main - Dodge: Panic Switch",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -102,8 +102,8 @@
   {
     "name": "Pre Lab",
     "access_rules": [
-      "@Catacombs Main,bombs , slide , airJump",
-      "@Catacombs Main,bombs , slide , jetpack"
+      "@Catacombs Main,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
+      "@Catacombs Main,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -134,7 +134,7 @@
             "name": "Pre Lab - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -151,10 +151,10 @@
   {
     "name": "Catacombs Inner",
     "access_rules": [
-      "@Catacombs Main,airJump , bombs , slide",
-      "@Catacombs Main,$hasAmount|jetpack|2 , bombs , slide",
-      "@Catacombs Main,jetpack , highJump , bombs , slide",
-      "@Catacombs Main,jetpack , wallJump , airDash , bombs , slide"
+      "@Catacombs Main,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Catacombs Main,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Catacombs Main,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Catacombs Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -165,7 +165,7 @@
             "name": "Catacombs Inner - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -185,7 +185,7 @@
             "name": "Catacombs Inner - Double Drop",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -205,7 +205,7 @@
             "name": "Catacombs Inner - Crystal Shrapnel",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -225,8 +225,8 @@
             "name": "Catacombs Inner - Dogfight",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide",
-              "bombs , $canChargeShot"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -286,11 +286,11 @@
   {
     "name": "Lab",
     "access_rules": [
-      "@Lab Left,bombs , airJump",
-      "@Lab Left,bombs , jetpack",
-      "@Lab Left,bombs , wallJump , airDash",
-      "@Lab Left,bombs , rabbitWallJump",
-      "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , bombs"
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+      "@Lab Left,$hasAmount|bombs|1 , rabbitWallJump",
+      "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -301,8 +301,8 @@
             "name": "Lab - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|3 , bombs",
-              "bombThrow , bombs"
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -322,7 +322,7 @@
             "name": "Lab - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -382,7 +382,7 @@
             "name": "Lab - Lemon Bunny Potion #1",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -402,7 +402,7 @@
             "name": "Lab Extended - Lemon Bunny Potion #2",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -488,7 +488,7 @@
             "name": "Lab - C. Rank Frenzy: Focus A",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -525,10 +525,10 @@
   {
     "name": "Lab Left",
     "access_rules": [
-      "@Lab Hub,airJump , slide , bombs",
-      "@Lab Hub,airDash , wallJump , slide , bombs",
-      "@Lab Hub,jetpack , slide , bombs",
-      "@Lab Hub,rabbitWallJump , slide , bombs"
+      "@Lab Hub,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,rabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {

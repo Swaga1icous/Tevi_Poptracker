@@ -55,7 +55,7 @@
             "name": "Gloamwood Bottom - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "dagger"
+              "$hasAmount|dagger|1"
             ]
           }
         ],
@@ -95,18 +95,18 @@
   {
     "name": "Gloamwood Middle",
     "access_rules": [
-      "@Gloamwood Copperwood to CopperWood,bombs",
-      "@Gloamwood to Relicts,bombRange",
-      "@Gloamwood Bottom,airJump",
-      "@Gloamwood Bottom,bombs",
-      "@Gloamwood Bottom,jetpack",
-      "@Gloamwood Bottom,airDash",
+      "@Gloamwood Copperwood to CopperWood,$hasAmount|bombs|1",
+      "@Gloamwood to Relicts,$hasAmount|bombRange|1,$hasAmount|bombs|1",
+      "@Gloamwood Bottom,$hasAmount|airJump|1",
+      "@Gloamwood Bottom,$hasAmount|bombs|1",
+      "@Gloamwood Bottom,$hasAmount|jetpack|1",
+      "@Gloamwood Bottom,$hasAmount|airDash|1",
       "@Gloamwood Bottom,$False",
       "@Gloamwood to Ulvosa",
       "@Gloamwood Right",
-      "@Ulskan Village Area,dagger",
+      "@Ulskan Village Area,$hasAmount|dagger|1",
       "@Ulskan Village Area,$canUseVenaBomb",
-      "@Ulskan Village Area,ranged"
+      "@Ulskan Village Area,$hasAmount|ranged|1"
     ],
     "children": [
       {
@@ -117,7 +117,7 @@
             "name": "Gloamwood Middle - Quick Bomber",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -157,7 +157,7 @@
             "name": "Gloamwood Middle - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -177,8 +177,8 @@
             "name": "Gloamwood Middle - Combo Time Extend III",
             "item_count": 1,
             "access_rules": [
-              "slide , $False , ranged , dagger",
-              "slide , $canUseVenaBomb , dagger"
+              "$hasAmount|slide|1 , $False , $hasAmount|ranged|1 , $hasAmount|dagger|1",
+              "$hasAmount|slide|1 , $canUseVenaBomb , $hasAmount|dagger|1"
             ]
           }
         ],
@@ -198,7 +198,7 @@
             "name": "Gloamwood Middle - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $canChargeShot , bombs"
+              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -218,9 +218,9 @@
             "name": "Gloamwood Middle - Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airJump , bombs",
-              "jetpack , bombs",
-              "airDash , bombs"
+              "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|bombs|1"
             ]
           },
           {
@@ -247,10 +247,10 @@
             "name": "Gloamwood Upper - Dodge: Optimize",
             "item_count": 1,
             "access_rules": [
-              "slide , dagger",
-              "slide , ranged",
-              "[hiddenPaths] , dagger",
-              "[hiddenPaths] , ranged"
+              "$hasAmount|slide|1 , $hasAmount|dagger|1",
+              "$hasAmount|slide|1 , $hasAmount|ranged|1",
+              "[hiddenPaths] , $hasAmount|dagger|1",
+              "[hiddenPaths] , $hasAmount|ranged|1"
             ]
           }
         ],
@@ -314,7 +314,7 @@
     "name": "Gloamwood to Forest",
     "access_rules": [
       "@Exit Logic/0908",
-      "@Gloamwood Bottom,bombs"
+      "@Gloamwood Bottom,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -325,10 +325,10 @@
             "name": "Gloamwood Middle - Special Action: Speechless",
             "item_count": 1,
             "access_rules": [
-              "jetpack , bombs",
-              "airDash , bombs",
-              "airJump , bombs",
-              "rabbitWallJump , bombs"
+              "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "rabbitWallJump , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -345,7 +345,7 @@
   {
     "name": "Gloamwood to Ulvosa",
     "access_rules": [
-      "@Gloamwood Middle,slide , $canChargeShot",
+      "@Gloamwood Middle,$hasAmount|slide|1 , $canChargeShot",
       "@Gloamwood Middle,[hiddenPaths] , $canChargeShot",
       "@Exit Logic/0902"
     ],
@@ -378,14 +378,14 @@
   {
     "name": "Gloamwood Right",
     "access_rules": [
-      "@Gloamwood to Blushwood,highJump",
-      "@Gloamwood to Blushwood,airJump",
-      "@Gloamwood to Blushwood,airDash",
-      "@Gloamwood to Blushwood,jetpack",
+      "@Gloamwood to Blushwood,$hasAmount|highJump|1",
+      "@Gloamwood to Blushwood,$hasAmount|airJump|1",
+      "@Gloamwood to Blushwood,$hasAmount|airDash|1",
+      "@Gloamwood to Blushwood,$hasAmount|jetpack|1",
       "@Gloamwood to Blushwood,rabbitJump",
-      "@Gloamwood Middle,airJump",
-      "@Gloamwood Middle,airDash",
-      "@Gloamwood Middle,jetpack",
+      "@Gloamwood Middle,$hasAmount|airJump|1",
+      "@Gloamwood Middle,$hasAmount|airDash|1",
+      "@Gloamwood Middle,$hasAmount|jetpack|1",
       "@Gloamwood Middle,rabbitJump"
     ],
     "children": [
@@ -440,7 +440,7 @@
             "name": "Ulskan Village Area - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
               "$canUseVenaBomb"
             ]
           }
@@ -461,7 +461,7 @@
             "name": "Ulskan Village Area - Slide Halt",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -480,7 +480,7 @@
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan to Plague Forest,slide , bombs"
+      "@Ulskan to Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -491,9 +491,9 @@
             "name": "Ulskan Village Area - Aerial Agility",
             "item_count": 1,
             "access_rules": [
-              "dagger",
+              "$hasAmount|dagger|1",
               "$canUseVenaBomb",
-              "ranged"
+              "$hasAmount|ranged|1"
             ]
           }
         ],
@@ -513,7 +513,7 @@
             "name": "Ulskan Village Area - Dual Combo: Flow",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -533,7 +533,7 @@
             "name": "Ulskan Village Area - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "dagger",
+              "$hasAmount|dagger|1",
               "$canUseVenaBomb"
             ]
           }
@@ -562,7 +562,7 @@
             "name": "Ulskan Village Area - Decay Antidote",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -582,7 +582,7 @@
             "name": "Ulskan Village Area - Dodge: Golden Luck",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],

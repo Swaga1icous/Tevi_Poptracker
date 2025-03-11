@@ -131,9 +131,9 @@
             "name": "Thanatara Canyon - Elite Challenge B",
             "item_count": 1,
             "access_rules": [
-              "bombs , bombThrow",
-              "slide",
-              "bombs , [hiddenPaths]"
+              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1",
+              "$hasAmount|bombs|1 , [hiddenPaths]"
             ]
           }
         ],
@@ -156,7 +156,7 @@
             "name": "North Thanatara Canyon - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -176,7 +176,7 @@
             "name": "Thanatara Canyon - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -267,7 +267,7 @@
             "name": "Middle Thanatara Canyon - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -304,7 +304,7 @@
   {
     "name": "Gurun Desert",
     "access_rules": [
-      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,$hasAmount|bombs|1",
       "@Thanatara Canyon Lower,openMorose",
       "@Exit Logic/0102"
     ],
@@ -317,7 +317,7 @@
             "name": "Gurun Desert - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -357,7 +357,7 @@
             "name": "Gurun Desert - Spanner Bash: Wrecker",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],

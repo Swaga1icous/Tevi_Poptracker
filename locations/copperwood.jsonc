@@ -2,12 +2,12 @@
   {
     "name": "CopperWood",
     "access_rules": [
-      "@CopperWood Industry to Travoll Industrie,bombs",
-      "@CopperWood Industry to Travoll Industrie,slide",
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|slide|1",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
-      "@Exit Logic/0700,bombs"
+      "@Exit Logic/0700,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -18,7 +18,7 @@
             "name": "CopperWood - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -38,9 +38,9 @@
             "name": "CopperWood - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "orbS3 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "orbC3 , $canChargeShot , celia , $hasAmount|ranged|2"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -97,9 +97,9 @@
   {
     "name": "CopperWood EP Pot",
     "access_rules": [
-      "@CopperWood Industry to Travoll Industrie,bombs",
-      "@CopperWood,airJump",
-      "@CopperWood,jetpack"
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood,$hasAmount|airJump|1",
+      "@CopperWood,$hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -128,7 +128,7 @@
     "name": "CopperWood Industry to Travoll Industrie",
     "access_rules": [
       "@Exit Logic/0705",
-      "@CopperWood EP Pot,bombs"
+      "@CopperWood EP Pot,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -139,9 +139,9 @@
             "name": "CopperWood Industry to Travoll Industrie - MP Quicken: Style",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "airDash",
-              "jetpack"
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1"
             ]
           }
         ],
@@ -161,12 +161,12 @@
             "name": "CopperWood - Memine Race from Forest",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine2 , bombs , wallJump , highJump",
-              "^$EVENT_Memine2 , bombs , wallJump , airDash",
-              "^$EVENT_Memine2 , bombs , wallJump , airJump",
-              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
-              "^$EVENT_Memine2 , bombs , jetpack , airJump",
-              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -186,12 +186,12 @@
             "name": "CopperWood - Memine Race from Forest",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine2 , bombs , wallJump , highJump",
-              "^$EVENT_Memine2 , bombs , wallJump , airDash",
-              "^$EVENT_Memine2 , bombs , wallJump , airJump",
-              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
-              "^$EVENT_Memine2 , bombs , jetpack , airJump",
-              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],

@@ -126,7 +126,7 @@
             "name": "Morose City - Special Action: Paparazzo",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -146,8 +146,8 @@
             "name": "Morose City - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airDash , $hasAmount|jetpack|3 , bombs",
-              "airDash , airJump , jetpack , bombs"
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
             ]
           }
         ],

@@ -1,17 +1,5 @@
 -- Ana Thema
 Tracker:AddLocations("locations/anaThema.jsonc")
--- Gallery of Mirrors
-Tracker:AddLocations("locations/galleryMirrors.jsonc")
--- Gallery of Mirrors
-Tracker:AddLocations("locations/cloister.jsonc")
--- Gallery of Mirrors
-Tracker:AddLocations("locations/snowCity.jsonc")
--- Gallery of Mirrors
-Tracker:AddLocations("locations/gloamwood.jsonc")
--- Gallery of Mirrors
-Tracker:AddLocations("locations/plagueForest.jsonc")
--- Transitions
-Tracker:AddLocations("locations/Transitions.jsonc")
 Tracker:AddLocations("locations/gloamwood.jsonc")
 Tracker:AddLocations("locations/oasis.jsonc")
 Tracker:AddLocations("locations/plagueForest.jsonc")
@@ -42,4 +30,7 @@ Tracker:AddLocations("locations/forgottenCity.jsonc")
 Tracker:AddLocations("locations/catacombs.jsonc")
 Tracker:AddLocations("locations/valhallasBreathEast.jsonc")
 Tracker:AddLocations("locations/other.jsonc")
+-- Transitions
+Tracker:AddLocations("locations/Transitions.jsonc")
+
 

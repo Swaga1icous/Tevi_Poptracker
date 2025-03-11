@@ -14,7 +14,7 @@
             "name": "Snowveil Entrance - Dodge: Discharge",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -31,9 +31,9 @@
   {
     "name": "Snowveil",
     "access_rules": [
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
-      "@Snowveil Entrance,bombs",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $False",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , $False",
+      "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Exit Logic/1204",
       "@Snowveil Ex"
     ],
@@ -46,7 +46,7 @@
             "name": "Snowveil - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs , slide"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -106,10 +106,10 @@
   {
     "name": "Snowveil Ex",
     "access_rules": [
-      "@Snowveil,$canChargeShot , bombs",
-      "@Snowveil,airJump , bombs",
-      "@Snowveil,jetpack , bombs",
-      "@Snowveil above Verglas Village,bombs"
+      "@Snowveil,$canChargeShot , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|airJump|1 , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+      "@Snowveil above Verglas Village,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -163,7 +163,7 @@
             "name": "Snowveil - Life Steal",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -203,10 +203,10 @@
             "name": "Snowveil - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $hasAmount|jetpack|2",
-              "slide , jetpack , highJump , [$hasAmount|dagger|1],false",
-              "airJump , wallJump",
-              "airJump , [$hasAmount|dagger|1],false"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|2",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|airJump|1 , $hasAmount|wallJump|1",
+              "$hasAmount|airJump|1 , [$hasAmount|dagger|1],false"
             ]
           }
         ],
@@ -226,8 +226,8 @@
             "name": "Snowveil - Aerial Assist",
             "item_count": 1,
             "access_rules": [
-              "slide , airJump , airDash , jetpack",
-              "slide , airJump , $hasAmount|jetpack|3"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -247,9 +247,9 @@
             "name": "Snowveil - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $hasAmount|jetpack|3 , airDash",
-              "slide , $False , airDash",
-              "slide , jetpack , airDash , airJump"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|3 , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $False , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -266,11 +266,11 @@
   {
     "name": "Snowveil above Verglas Village",
     "access_rules": [
-      "@Snowveil Ex,slide",
-      "@Snowveil Ex,jetpack , airJump",
-      "@Snowveil Ex,jetpack , highJump , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,airJump , highJump , [$true]",
-      "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
+      "@Snowveil Ex,$hasAmount|slide|1",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
+      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$true]",
+      "@Snowveil Ex,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Exit Logic/1205"
     ],
     "children": [
@@ -282,9 +282,9 @@
             "name": "Snowveil above Verglas Village - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , $hasAmount|jetpack|2 , airJump",
-              "bombs , $hasAmount|jetpack|3",
-              "bombs , $hasAmount|jetpack|2 , highJump , [$hasAmount|dagger|1],false"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false"
             ]
           }
         ],

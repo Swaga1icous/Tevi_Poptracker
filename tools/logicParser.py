@@ -121,8 +121,6 @@ TeviRuleToPoptacker = {
     "Hard":"$False"
 }
 
-
-
 isExpr = lambda s: not isinstance(s, str)
 
 def parse_expression_logic(line):
@@ -194,6 +192,18 @@ class OpLit:
             else:
                 return TeviRuleToPoptacker[itemstack[0]]
         elif self.name in TeviRuleToPoptacker:
+            if "ITEM" in self.name or "QUEST" in self.name:
+                if "ITEM_Rotater" == self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,[$hasAmount|dagger|1]"
+                elif self.name in ["ITEM_AREABOMB","ITEM_BOMBFUEL","ITEM_BombLengthExtend"]:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|bombs|1"
+                elif "ITEM_AirSlide" == self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|slide|1"
+                elif "OrbTypeS" in self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$has|sable|1"
+                elif "OrbTypeC" in self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$has|celia|1"
+                return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1"
             f = TeviRuleToPoptacker[self.name]
             return f
         if self.name != "True":

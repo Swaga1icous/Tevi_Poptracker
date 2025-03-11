@@ -33,7 +33,7 @@
             "name": "Plague Forest - C. Rank Frenzy: Defend",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -53,7 +53,7 @@
             "name": "Plague Forest - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -73,7 +73,7 @@
             "name": "Plague Forest - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -93,7 +93,7 @@
             "name": "Plague Forest - Slick Boots",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -133,11 +133,11 @@
             "name": "Plague Forest - Special Action: Show Off",
             "item_count": 1,
             "access_rules": [
-              "airDash",
-              "airJump",
-              "jetpack",
-              "bombs",
-              "highJump , wallJump"
+              "$hasAmount|airDash|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $hasAmount|wallJump|1"
             ]
           }
         ],
@@ -157,7 +157,7 @@
             "name": "Plague Forest - Dodge Enhancer: Upper",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -177,7 +177,7 @@
             "name": "Plague Forest - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayMask"
+              "$hasAmount|decayMask|1"
             ]
           }
         ],
@@ -197,7 +197,7 @@
             "name": "Plague Forest - Boss",
             "item_count": 1,
             "access_rules": [
-              "decayMask"
+              "$hasAmount|decayMask|1"
             ]
           }
         ],
@@ -260,7 +260,7 @@
             "name": "Plague Forest - Unlucky 7",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -277,7 +277,7 @@
   {
     "name": "Plague Forest to Ulskan",
     "access_rules": [
-      "@Plague Forest,bombs , slide",
+      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1",
       "@Exit Logic/1004"
     ],
     "children": [
@@ -289,7 +289,7 @@
             "name": "Plague Forest - Aplomb",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -309,7 +309,7 @@
             "name": "Plague Forest - Blood Armor",
             "item_count": 1,
             "access_rules": [
-              "powder , slide , bombs"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
