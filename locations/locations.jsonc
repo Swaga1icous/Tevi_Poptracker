@@ -769,7 +769,7 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeB",
+        "name": "EVENT_EliteChallengeB",
         "access_rules": [],
         "sections": [
           {
@@ -1024,7 +1024,7 @@
             "name": "Gurun Desert - Crystallize",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeA"
+              "^$EVENT_EliteChallengeA"
             ]
           }
         ],
@@ -1274,7 +1274,7 @@
             "name": "Solennian Ruins - Core Expansion: Radiant",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeB"
+              "^$EVENT_EliteChallengeB"
             ]
           }
         ],
@@ -1690,7 +1690,7 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeA",
+        "name": "EVENT_EliteChallengeA",
         "access_rules": [],
         "sections": [
           {
@@ -3247,7 +3247,7 @@
     ],
     "children": [
       {
-        "name": "EVENT_EliteChallangeC",
+        "name": "EVENT_EliteChallengeC",
         "access_rules": [],
         "sections": [
           {
@@ -3907,7 +3907,7 @@
             "name": "Ulvosa - Overdrive",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeD"
+              "^$EVENT_EliteChallengeD"
             ]
           }
         ],
@@ -4168,7 +4168,7 @@
             "name": "CopperWood Elite - Core Expansion: Saver",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeC"
+              "^$EVENT_EliteChallengeC"
             ]
           }
         ],
@@ -4632,7 +4632,7 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeD",
+        "name": "EVENT_EliteChallengeD",
         "access_rules": [],
         "sections": [
           {
@@ -5001,7 +5001,7 @@
             "name": "Magma Pits - Supersonic",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeE , slide"
+              "^$EVENT_EliteChallengeE , slide"
             ]
           }
         ],
@@ -5617,7 +5617,7 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeE",
+        "name": "EVENT_EliteChallengeE",
         "access_rules": [],
         "sections": [
           {
@@ -7025,7 +7025,7 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeF",
+        "name": "EVENT_EliteChallengeF",
         "access_rules": [],
         "sections": [
           {
@@ -7718,7 +7718,7 @@
             "name": "Cloister Elite - Core Expansion: Combo",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeF"
+              "^$EVENT_EliteChallengeF"
             ]
           }
         ],

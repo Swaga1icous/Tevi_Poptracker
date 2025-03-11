@@ -53,7 +53,7 @@
             "name": "Magma Pits - Supersonic",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeE , slide"
+              "^$EVENT_EliteChallengeE , slide"
             ]
           }
         ],

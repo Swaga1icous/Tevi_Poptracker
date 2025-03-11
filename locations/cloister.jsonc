@@ -13,7 +13,7 @@
             "name": "Cloister Elite - Core Expansion: Combo",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeF"
+              "^$EVENT_EliteChallengeF"
             ]
           }
         ],

@@ -233,7 +233,7 @@
             "name": "Solennian Ruins - Core Expansion: Radiant",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeB"
+              "^$EVENT_EliteChallengeB"
             ]
           }
         ],

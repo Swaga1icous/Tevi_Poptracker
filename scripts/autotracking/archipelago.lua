@@ -83,7 +83,7 @@ end
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
 	local SLOT_DATA = slot_data
-	--print(dump_table(SLOT_DATA))
+	print(dump_table(SLOT_DATA))
 
 	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
 	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]
@@ -112,18 +112,6 @@ function apply_slot_data(slot_data)
 	--	Tracker:FindObjectForCode("REPLACE VALUE").Active = true
 	--end
 
-	--Petition to Add to SlotData:
-	--randomizeKnife
-	--randomizeOrb
-	--randomizeItemUpgrades
-	--chaosMode
-	--rabbitJump
-	--rabbitWallJump
-	--backflip
-	--ceilingKick
-	--hiddenPaths
-	--earlyDream
-	--transistionShuffle
 
 	local Transition_Data = SLOT_DATA["transitionData"]
 	for _, transitionNumber in pairs(Transition_Data) do
@@ -188,6 +176,7 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
+	Tracker:UiHint("ActivateTab", MAP_MAPPING[1])
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
