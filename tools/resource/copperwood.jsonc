@@ -2,23 +2,23 @@
   {
     "name": "CopperWood",
     "access_rules": [
-      "@CopperWood Industry to Travoll Industrie,bombs",
-      "@CopperWood Industry to Travoll Industrie,slide",
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|slide|1",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
-      "@Exit Logic/0700,bombs"
+      "@Exit Logic/0700,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "CopperWood - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -31,16 +31,16 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "CopperWood - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "orbS3 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "orbC3 , $canChargeShot , celia , $hasAmount|ranged|2"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -53,11 +53,11 @@
         ]
       },
       {
-        "name": "Core Expansion: Saver",
+        "name": "CopperWood Elite - Core Expansion: Saver",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood Elite - Core Expansion: Saver",
+            "name": "Core Expansion: Saver",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeC"
@@ -73,11 +73,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "CopperWood - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -97,17 +97,17 @@
   {
     "name": "CopperWood EP Pot",
     "access_rules": [
-      "@CopperWood Industry to Travoll Industrie,bombs",
-      "@CopperWood,airJump",
-      "@CopperWood,jetpack"
+      "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood,$hasAmount|airJump|1",
+      "@CopperWood,$hasAmount|jetpack|1"
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "CopperWood - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -128,20 +128,20 @@
     "name": "CopperWood Industry to Travoll Industrie",
     "access_rules": [
       "@Exit Logic/0705",
-      "@CopperWood EP Pot,bombs"
+      "@CopperWood EP Pot,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "MP Quicken: Style",
+        "name": "CopperWood Industry to Travoll Industrie - MP Quicken: Style",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood Industry to Travoll Industrie - MP Quicken: Style",
+            "name": "MP Quicken: Style",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "airDash",
-              "jetpack"
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1"
             ]
           }
         ],
@@ -154,44 +154,31 @@
         ]
       },
       {
-        "name": "Memine Race from Forest",
+        "name": "CopperWood - Memine Race from Forest",
         "access_rules": [],
         "sections": [
           {
-            "name": "CopperWood - Memine Race from Forest",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine2 , bombs , wallJump , highJump",
-              "^$EVENT_Memine2 , bombs , wallJump , airDash",
-              "^$EVENT_Memine2 , bombs , wallJump , airJump",
-              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
-              "^$EVENT_Memine2 , bombs , jetpack , airJump",
-              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Copperwood",
-            "x": 540,
-            "y": 50
-          }
-        ]
-      },
-      {
-        "name": "EVENT_Memine",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "CopperWood - Memine Race from Forest",
+            "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine2 , bombs , wallJump , highJump",
-              "^$EVENT_Memine2 , bombs , wallJump , airDash",
-              "^$EVENT_Memine2 , bombs , wallJump , airJump",
-              "^$EVENT_Memine2 , bombs , wallJump , jetpack",
-              "^$EVENT_Memine2 , bombs , jetpack , airJump",
-              "^$EVENT_Memine2 , bombs , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -199,10 +186,7 @@
           {
             "map": "Copperwood",
             "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
+            "y": 0
           }
         ]
       }

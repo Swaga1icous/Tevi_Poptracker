@@ -2,20 +2,20 @@
   {
     "name": "Verdazure Sea West",
     "access_rules": [
-      "@Exit Logic/1307,airJump",
-      "@Exit Logic/1307,jetpack",
+      "@Exit Logic/1307,$hasAmount|airJump|1",
+      "@Exit Logic/1307,$hasAmount|jetpack|1",
       "@Exit Logic/1307,$False",
-      "@Verdazure Sea East,water",
-      "@Verdazure Sea to Forest,bombs",
-      "@Verdazure Sea to Forest,water"
+      "@Verdazure Sea East,$hasAmount|water|1",
+      "@Verdazure Sea to Forest,$hasAmount|bombs|1",
+      "@Verdazure Sea to Forest,$hasAmount|water|1"
     ],
     "children": [
       {
-        "name": "Hydrodynamo",
+        "name": "Verdazure Sea - Hydrodynamo",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Hydrodynamo",
+            "name": "Hydrodynamo",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "EVENT_Water",
+        "name": "Verdazure Sea - Water West",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Water West",
+            "name": "EVENT_Water",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -54,14 +54,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Verdazure Sea - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -74,11 +74,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Verdazure Sea - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -94,14 +94,14 @@
         ]
       },
       {
-        "name": "Invictus",
+        "name": "Verdazure Sea - Invictus",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Invictus",
+            "name": "Invictus",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -120,15 +120,15 @@
     "access_rules": [
       "@Verdazure Sea West",
       "@Exit Logic/1301",
-      "@Exit Logic/1300,slide , $canChargeShot"
+      "@Exit Logic/1300,$hasAmount|slide|1 , $canChargeShot"
     ],
     "children": [
       {
-        "name": "Grub Guru",
+        "name": "Verdazure Sea - Grub Guru",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Grub Guru",
+            "name": "Grub Guru",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -144,11 +144,11 @@
         ]
       },
       {
-        "name": "EVENT_Water",
+        "name": "Verdazure Sea - Water",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea - Water",
+            "name": "EVENT_Water",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -171,19 +171,19 @@
   {
     "name": "Verdazure Sea to Forgotten city",
     "access_rules": [
-      "@Verdazure Sea West,water , bombs",
+      "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombs|1",
       "@Exit Logic/1303"
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
