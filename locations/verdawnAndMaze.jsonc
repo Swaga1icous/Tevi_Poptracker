@@ -38,7 +38,7 @@
             "name": "Forest - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -78,7 +78,7 @@
             "name": "Forest - Special Action: Olive Branch",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombs"
+              "$canChargeShot , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -98,7 +98,7 @@
             "name": "Forest - Celia",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , pillow"
+              "$canChargeShot , $hasAmount|pillow|1"
             ]
           }
         ],
@@ -118,7 +118,7 @@
             "name": "Forest - Acrobat",
             "item_count": 1,
             "access_rules": [
-              "water"
+              "$hasAmount|water|1"
             ]
           }
         ],
@@ -138,10 +138,10 @@
             "name": "Forest - Memine Race",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "jetpack",
-              "highJump",
-              "wallJump"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|highJump|1",
+              "$hasAmount|wallJump|1"
             ]
           }
         ],
@@ -192,7 +192,7 @@
             "name": "Forest Maze - Titanium Spanner",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -229,7 +229,7 @@
   {
     "name": "Forest Maze boss",
     "access_rules": [
-      "@Forest Maze,bombs"
+      "@Forest Maze,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -280,9 +280,9 @@
   {
     "name": "Forest Maze extended",
     "access_rules": [
-      "@Forest Maze boss,jetpack",
-      "@Forest Maze boss,airJump",
-      "@Forest Maze boss,airDash"
+      "@Forest Maze boss,$hasAmount|jetpack|1",
+      "@Forest Maze boss,$hasAmount|airJump|1",
+      "@Forest Maze boss,$hasAmount|airDash|1"
     ],
     "children": [
       {
@@ -313,7 +313,7 @@
             "name": "Forest Maze extended - Gilded Exultation",
             "item_count": 1,
             "access_rules": [
-              "handRight , handLeft"
+              "$hasAmount|handRight|1 , $hasAmount|handLeft|1"
             ]
           }
         ],

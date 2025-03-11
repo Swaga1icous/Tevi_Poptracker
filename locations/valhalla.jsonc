@@ -2,9 +2,9 @@
   {
     "name": "Valhalla City",
     "access_rules": [
-      "@Morose City,^$EVENT_AnathemaVisited , ticketHeaven",
-      "@Ana Thema,^$EVENT_MoroseVisited , ticketHeaven",
-      "@Exit Logic/2008,slide , bombs",
+      "@Morose City,^$EVENT_AnathemaVisited , $hasAmount|ticketHeaven|1",
+      "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHeaven|1",
+      "@Exit Logic/2008,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Exit Logic/2003",
       "@Exit Logic/2001"
     ],
@@ -17,7 +17,7 @@
             "name": "Valhalla City - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -37,7 +37,7 @@
             "name": "Valhalla City - Elite Challenge F",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -60,7 +60,7 @@
             "name": "Valhalla City - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -80,9 +80,9 @@
             "name": "Valhalla City - Buff Rush",
             "item_count": 1,
             "access_rules": [
-              "jetpack",
-              "airJump",
-              "airDash , wallJump",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
               "rabbitWallJump"
             ]
           }
@@ -103,7 +103,7 @@
             "name": "Valhalla City - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -123,13 +123,13 @@
             "name": "Valhalla City - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "orbC3 , $canChargeShot , celia , $hasAmount|ranged|2",
-              "jetpack , airJump , $canChargeShot",
-              "airDash , jetpack , $canChargeShot",
-              "airDash , airJump , $canChargeShot",
-              "orbS3 , $canChargeShot , highJump , sable , $hasAmount|ranged|2",
-              "orbS3 , $canChargeShot , airJump , sable , $hasAmount|ranged|2",
-              "orbS3 , $canChargeShot , jetpack , sable , $hasAmount|ranged|2"
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot",
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|highJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|airJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|jetpack|1 , sable , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -149,7 +149,7 @@
             "name": "Valhalla City - Combo Momentum: Saver",
             "item_count": 1,
             "access_rules": [
-              "bombThrow",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
               "$hasAmount|bombRange|3"
             ]
           }

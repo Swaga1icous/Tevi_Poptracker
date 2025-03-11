@@ -2,11 +2,11 @@
   {
     "name": "Tartarus",
     "access_rules": [
-      "@Morose City,^$EVENT_AnathemaVisited , ticketHell",
-      "@Ana Thema,^$EVENT_MoroseVisited , ticketHell",
+      "@Morose City,^$EVENT_AnathemaVisited , $hasAmount|ticketHell|1",
+      "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHell|1",
       "@Exit Logic/1502",
-      "@Tartarus Catacombs,slide",
-      "@Tartarus Catacombs,bombs"
+      "@Tartarus Catacombs,$hasAmount|slide|1",
+      "@Tartarus Catacombs,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -100,7 +100,7 @@
             "name": "Tartarus - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -120,12 +120,12 @@
             "name": "Tartarus - Lucky 7: A",
             "item_count": 1,
             "access_rules": [
-              "highJump , jetpack",
-              "highJump , airJump",
-              "highJump , airJump",
-              "jetpack , airJump",
-              "airDash , airJump",
-              "airDash , jetpack",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|highJump|1 , $hasAmount|airJump|1",
+              "$hasAmount|highJump|1 , $hasAmount|airJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|1",
               "$hasAmount|jetpack|2"
             ]
           }
@@ -146,7 +146,7 @@
             "name": "Tartarus - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airDash , airJump , jetpack"
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -166,7 +166,7 @@
             "name": "Tartarus - Upper Slash: Vicious",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],

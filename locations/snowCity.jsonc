@@ -3,7 +3,7 @@
     "name": "Snow City",
     "access_rules": [
       "@Exit Logic/1604",
-      "@Snowveil Above HQ,bombs , bombThrow",
+      "@Snowveil Above HQ,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Golden Hands HQ Sewer",
       "@Golden Hands HQ Extra"
     ],
@@ -16,7 +16,7 @@
             "name": "Snow City - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -36,7 +36,7 @@
             "name": "Snow City - Slash Quartet",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -178,10 +178,10 @@
   {
     "name": "Snowveil Above HQ",
     "access_rules": [
-      "@Snow City,bombs , slide",
-      "@Exit Logic/1600,airJump",
-      "@Exit Logic/1600,wallJump",
-      "@Exit Logic/1600,jetpack"
+      "@Snow City,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Exit Logic/1600,$hasAmount|airJump|1",
+      "@Exit Logic/1600,$hasAmount|wallJump|1",
+      "@Exit Logic/1600,$hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -192,8 +192,8 @@
             "name": "Snowveil Above HQ - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|3 , bombs , slide",
-              "bombThrow , bombs , slide"
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -213,7 +213,7 @@
             "name": "Snowveil Above HQ - Thick Pillar",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -256,7 +256,7 @@
             "name": "Snowveil Above HQ - Snow Orb",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -276,7 +276,7 @@
   {
     "name": "Golden Hands HQ",
     "access_rules": [
-      "@Snow City,slide , $canChargeShot"
+      "@Snow City,$hasAmount|slide|1 , $canChargeShot"
     ],
     "children": [
       {
@@ -287,7 +287,7 @@
             "name": "Golden Hands HQ - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -307,7 +307,7 @@
             "name": "Golden Hands HQ - Gilded Right Hand",
             "item_count": 1,
             "access_rules": [
-              "powder , ^$EVENT_HQSwitch1 , $canChargeShot"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , ^$EVENT_HQSwitch1 , $canChargeShot"
             ]
           }
         ],
@@ -327,7 +327,7 @@
             "name": "Golden Hands HQ - Headbutt",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -347,7 +347,7 @@
             "name": "Golden Hands HQ - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -367,7 +367,7 @@
             "name": "Golden Hands HQ - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $canChargeShot , ^$EVENT_HQSwitch1"
+              "$hasAmount|slide|1 , $canChargeShot , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -387,7 +387,7 @@
             "name": "Golden Hands HQ - EVENT_HQSwitch1",
             "item_count": 1,
             "access_rules": [
-              "slide , $canChargeShot , bombs"
+              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -407,7 +407,7 @@
   {
     "name": "Golden Hands HQ Extra",
     "access_rules": [
-      "@Golden Hands HQ Sewer,slide , vortex , $canChargeShot"
+      "@Golden Hands HQ Sewer,$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot"
     ],
     "children": [
       {
@@ -418,7 +418,7 @@
             "name": "Golden Hands HQ - Dodge Enhancer: Spanner",
             "item_count": 1,
             "access_rules": [
-              "slide , vortex , $canChargeShot , bombs"
+              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -435,9 +435,9 @@
   {
     "name": "Golden Hands HQ Sewer",
     "access_rules": [
-      "@Snow City,slide",
+      "@Snow City,$hasAmount|slide|1",
       "@Snow City,$canChargeShot",
-      "@Golden Hands HQ,bombs , $canChargeShot"
+      "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot"
     ],
     "children": [
       {
@@ -448,7 +448,7 @@
             "name": "Golden Hands HQ Sewer - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -468,7 +468,7 @@
             "name": "Golden Hands HQ Sewer - Supercluster Bomb",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -488,10 +488,10 @@
             "name": "Golden Hands HQ Sewer - Airy Powder",
             "item_count": 1,
             "access_rules": [
-              "wallJump",
-              "airJump",
-              "jetpack",
-              "bombs , $canChargeShot , slide"
+              "$hasAmount|wallJump|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -511,10 +511,10 @@
             "name": "Golden Hands HQ Sewer - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "wallJump",
-              "airJump",
-              "jetpack",
-              "bombs , $canChargeShot , slide"
+              "$hasAmount|wallJump|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -534,10 +534,10 @@
             "name": "Golden Hands HQ Sewer - Boss",
             "item_count": 1,
             "access_rules": [
-              "wallJump",
-              "airJump",
-              "jetpack",
-              "bombs , $canChargeShot , slide"
+              "$hasAmount|wallJump|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],

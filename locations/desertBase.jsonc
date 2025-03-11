@@ -33,7 +33,7 @@
             "name": "Desert Base Entrance - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -96,8 +96,8 @@
             "name": "Desert Base Entrance - MP Surge: Tag Out",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs , airJump",
-              "slide , bombs , jetpack"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -115,14 +115,14 @@
     "name": "Desert Base Main",
     "access_rules": [
       "@Desert Base Entrance,$canChargeShot",
-      "@Desert Base Entrance,jetpack",
-      "@Desert Base Entrance,airDash",
-      "@Desert Base Entrance,jetpack",
-      "@Desert Base Entrance,airJump",
-      "@Desert Base Entrance,highJump",
-      "@Desert Base Entrance,bombs , bombThrow",
+      "@Desert Base Entrance,$hasAmount|jetpack|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1",
+      "@Desert Base Entrance,$hasAmount|jetpack|1",
+      "@Desert Base Entrance,$hasAmount|airJump|1",
+      "@Desert Base Entrance,$hasAmount|highJump|1",
+      "@Desert Base Entrance,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Desert Base Entrance,rabbitJump",
-      "@Desert Base Entrance,backflip , speed",
+      "@Desert Base Entrance,backflip , $hasAmount|speed|1",
       "@Desert Base Entrance,backflip , $False",
       "@Desert Base Upper Half"
     ],
@@ -175,7 +175,7 @@
             "name": "Desert Base Main - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -212,13 +212,13 @@
   {
     "name": "Desert Base Upper Half",
     "access_rules": [
-      "@Desert Base Main,highJump , airJump , wallJump",
-      "@Desert Base Main,jetpack , wallJump",
-      "@Desert Base Main,airJump , $hasAmount|wallJump|2",
-      "@Desert Base Entrance,backflip , slide , bombs , dagger",
-      "@Desert Base Entrance,airJump , slide , bombs , dagger",
-      "@Desert Base Entrance,jetpack , slide , bombs , dagger",
-      "@Desert Base Entrance,airDash , slide , bombs , dagger"
+      "@Desert Base Main,$hasAmount|highJump|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
+      "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
+      "@Desert Base Main,$hasAmount|airJump|1 , $hasAmount|wallJump|2",
+      "@Desert Base Entrance,backflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1"
     ],
     "children": [
       {
@@ -309,7 +309,7 @@
             "name": "Desert Base Upper Half - Gilded Left Hand",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -349,7 +349,7 @@
             "name": "Desert Base Upper Half - Under Score",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],

@@ -4,8 +4,8 @@
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
-      "@Travoll Industrie to CopperWood,bombs",
-      "@Travoll Industrie to CopperWood,slide"
+      "@Travoll Industrie to CopperWood,$hasAmount|bombs|1",
+      "@Travoll Industrie to CopperWood,$hasAmount|slide|1"
     ],
     "children": [
       {
@@ -16,10 +16,10 @@
             "name": "Travoll Industrie - Style Combo: Backbomb S",
             "item_count": 1,
             "access_rules": [
-              "slide , wallJump , airDash",
-              "slide , wallJump , jetpack",
-              "slide , wallJump , airJump",
-              "slide , $False"
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $False"
             ]
           }
         ],
@@ -39,7 +39,7 @@
             "name": "Travoll Industrie - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -59,7 +59,7 @@
             "name": "Travoll Industrie - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -99,9 +99,9 @@
             "name": "Travoll Industrie - Buns of Steel",
             "item_count": 1,
             "access_rules": [
-              "slide , jetpack",
-              "slide , airJump",
-              "slide , wallJump , airDash"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1"
             ]
           }
         ],
@@ -138,8 +138,8 @@
   {
     "name": "Travoll Industrie to CopperWood",
     "access_rules": [
-      "@Travoll Industrie,bombs",
-      "@Travoll Industrie,slide",
+      "@Travoll Industrie,$hasAmount|bombs|1",
+      "@Travoll Industrie,$hasAmount|slide|1",
       "@Exit Logic/0605"
     ],
     "children": [
@@ -151,7 +151,7 @@
             "name": "Travoll Industrie - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],

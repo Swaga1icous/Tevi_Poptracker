@@ -3,7 +3,7 @@
     "name": "Verdazure Ocean To Sea",
     "access_rules": [
       "@Exit Logic/1400",
-      "@Verdazure Ocean,slide"
+      "@Verdazure Ocean,$hasAmount|slide|1"
     ],
     "children": [
       {
@@ -14,12 +14,12 @@
             "name": "Verdazure Ocean - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "wallJump , airJump",
-              "wallJump , $hasAmount|jetpack|2",
-              "wallJump , water",
-              "wallJump , jetpack , airDash",
-              "water , airDash , airJump",
-              "water , airJump , jetpack"
+              "$hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "$hasAmount|wallJump|1 , $hasAmount|jetpack|2",
+              "$hasAmount|wallJump|1 , $hasAmount|water|1",
+              "$hasAmount|wallJump|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+              "$hasAmount|water|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+              "$hasAmount|water|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -36,11 +36,11 @@
   {
     "name": "Verdazure Ocean",
     "access_rules": [
-      "@Verdazure Ocean To Sea,slide",
+      "@Verdazure Ocean To Sea,$hasAmount|slide|1",
       "@Exit Logic/1402",
-      "@Verdazure Swamp,slide , bombs , highJump",
-      "@Verdazure Swamp,slide , bombs , airJump",
-      "@Verdazure Swamp,slide , bombs , jetpack",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|highJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Forgotten City Upper Exit,$canChargeShot"
     ],
     "children": [
@@ -52,7 +52,7 @@
             "name": "Verdazure Ocean - MP Surge: Dodge",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs , $canChargeShot"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -72,7 +72,7 @@
             "name": "Verdazure Ocean - Blueberry Bunny Potion #1",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -92,7 +92,7 @@
             "name": "Verdazure Ocean - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -112,7 +112,7 @@
             "name": "Verdazure Ocean - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombRange , bombs"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -132,7 +132,7 @@
             "name": "Verdazure Ocean - Blueberry Bunny Potion #2",
             "item_count": 1,
             "access_rules": [
-              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2 , slide , bombRange , bombThrow"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -192,8 +192,8 @@
   {
     "name": "Verdazure Swamp",
     "access_rules": [
-      "@Verdazure Ocean,bombs , slide",
-      "@Verdazure Swamp to Lab,slide"
+      "@Verdazure Ocean,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Verdazure Swamp to Lab,$hasAmount|slide|1"
     ],
     "children": [
       {
@@ -204,8 +204,8 @@
             "name": "Verdazure Swamp - Combo Time Extend II",
             "item_count": 1,
             "access_rules": [
-              "jetpack",
-              "airJump"
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1"
             ]
           }
         ],
@@ -268,7 +268,7 @@
             "name": "Verdazure Swamp - Snow Orb",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -291,7 +291,7 @@
             "name": "Verdazure Swamp - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -311,7 +311,7 @@
             "name": "Verdazure Swamp - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -331,7 +331,7 @@
             "name": "Verdazure Swamp - Tornado Spin: Pressure",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -371,7 +371,7 @@
             "name": "Verdazure Swamp - Bulletproof Pillar S",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -391,9 +391,9 @@
             "name": "Verdazure Swamp - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "airDash",
-              "jetpack"
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1"
             ]
           }
         ],
@@ -410,11 +410,11 @@
   {
     "name": "Forgotten City Upper Exit",
     "access_rules": [
-      "@Verdazure Ocean,water , orbS3 , sable , $canChargeShot , $hasAmount|ranged|3",
+      "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
       "@Forgotten City,$canChargeShot",
-      "@Forgotten City,airJump , $hasAmount|bombRange|3 , bombs",
-      "@Forgotten City,wallJump , $hasAmount|bombRange|3 , bombs",
-      "@Forgotten City,highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
+      "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Forgotten City,$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -425,7 +425,7 @@
             "name": "Forgotten City Upper Exit - Blood Magic",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -442,7 +442,7 @@
   {
     "name": "Forgotten City",
     "access_rules": [
-      "@Forgotten City Entrance,bombs"
+      "@Forgotten City Entrance,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -453,7 +453,7 @@
             "name": "Forgotten City - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -534,9 +534,9 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
-              "airJump , $hasAmount|bombRange|3 , bombs",
-              "wallJump , $hasAmount|bombRange|3 , bombs",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -557,9 +557,9 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
-              "airJump , $hasAmount|bombRange|3 , bombs",
-              "wallJump , $hasAmount|bombRange|3 , bombs",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -583,9 +583,9 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot",
-              "airJump , $hasAmount|bombRange|3 , bombs",
-              "wallJump , $hasAmount|bombRange|3 , bombs",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs"
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -605,7 +605,7 @@
             "name": "Forgotten City - C. Rank Frenzy: Focus S",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -626,9 +626,9 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , ^$EVENT_Memine5",
-              "airJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
-              "wallJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5"
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
             ]
           }
         ],
@@ -649,9 +649,9 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , ^$EVENT_Memine5",
-              "airJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
-              "wallJump , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5",
-              "highJump , $hasAmount|jetpack|3 , dagger , $hasAmount|bombRange|3 , bombs , ^$EVENT_Memine5"
+              "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
             ]
           }
         ],

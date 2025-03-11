@@ -13,7 +13,7 @@
             "name": "Gallery of Mirrors West - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -90,7 +90,7 @@
   {
     "name": "Gallery of Mirrors East",
     "access_rules": [
-      "@Gallery of Mirrors West,$canChargeShot , slide"
+      "@Gallery of Mirrors West,$canChargeShot , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -101,7 +101,7 @@
             "name": "Gallery of Mirrors East - Bomb Pitcher",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , $canChargeShot"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -121,7 +121,7 @@
             "name": "Gallery of Mirrors East - Triple Threat",
             "item_count": 1,
             "access_rules": [
-              "bombs , $canChargeShot"
+              "$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -141,7 +141,7 @@
             "name": "Gallery of Mirrors East - Combustible",
             "item_count": 1,
             "access_rules": [
-              "bombs , $canChargeShot"
+              "$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -161,7 +161,7 @@
             "name": "Gallery of Mirrors East - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "bombRange , decayAntidote"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
             ]
           }
         ],
@@ -181,7 +181,7 @@
             "name": "Gallery of Mirrors East - Boss",
             "item_count": 1,
             "access_rules": [
-              "bombRange , decayAntidote"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
             ]
           }
         ],
@@ -204,7 +204,7 @@
             "name": "Gallery of Mirrors East - Memloch",
             "item_count": 1,
             "access_rules": [
-              "bombRange"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -227,7 +227,7 @@
             "name": "Gallery of Mirrors East - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -247,10 +247,10 @@
             "name": "Gallery of Mirrors East - C. Count Frenzy: Uprise",
             "item_count": 1,
             "access_rules": [
-              "highJump , $canChargeShot",
-              "airJump , $canChargeShot",
-              "jetpack , $canChargeShot",
-              "airDash , $canChargeShot",
+              "$hasAmount|highJump|1 , $canChargeShot",
+              "$hasAmount|airJump|1 , $canChargeShot",
+              "$hasAmount|jetpack|1 , $canChargeShot",
+              "$hasAmount|airDash|1 , $canChargeShot",
               "rabbitJump , $canChargeShot"
             ]
           }
@@ -271,10 +271,10 @@
             "name": "Gallery of Mirrors East - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "vortex , jetpack , airJump , airDash",
-              "vortex , jetpack , airDash",
-              "vortex , $hasAmount|jetpack|2 , airDash",
-              "vortex , airJump , jetpack"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|2 , $hasAmount|airDash|1",
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -302,7 +302,7 @@
             "name": "Gallery of Souls - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -319,10 +319,10 @@
   {
     "name": "Gallery of Souls",
     "access_rules": [
-      "@Gallery of Souls Entrance,bombs",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , bombs , $False",
-      "@Gallery of Souls Boss Area,wallJump , bombs , $False",
-      "@Gallery of Souls Boss Area,airJump , bombs , $False"
+      "@Gallery of Souls Entrance,$hasAmount|bombs|1",
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $False",
+      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $False",
+      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $False"
     ],
     "children": [
       {
@@ -333,7 +333,7 @@
             "name": "Gallery of Souls - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -371,9 +371,9 @@
     "name": "Gallery of Souls Boss Area",
     "access_rules": [
       "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
-      "@Gallery of Souls,wallJump , $canChargeShot",
-      "@Gallery of Souls,airJump , $canChargeShot",
-      "@Gallery of Souls,bombs , $canChargeShot",
+      "@Gallery of Souls,$hasAmount|wallJump|1 , $canChargeShot",
+      "@Gallery of Souls,$hasAmount|airJump|1 , $canChargeShot",
+      "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot",
       "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
     ],
     "children": [
@@ -385,7 +385,7 @@
             "name": "Gallery of Souls Boss Area - Hero Call",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -405,8 +405,8 @@
             "name": "Gallery of Souls Boss Area - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayAntidote",
-              "alembicCrystal"
+              "$hasAmount|decayAntidote|1",
+              "$hasAmount|alembicCrystal|1"
             ]
           }
         ],
@@ -426,8 +426,8 @@
             "name": "Gallery of Souls Boss Area - Boss",
             "item_count": 1,
             "access_rules": [
-              "decayAntidote",
-              "alembicCrystal"
+              "$hasAmount|decayAntidote|1",
+              "$hasAmount|alembicCrystal|1"
             ]
           }
         ],

@@ -2,11 +2,11 @@
   {
     "name": "Travoll Mines",
     "access_rules": [
-      "@Travoll Mines to Morose City,bombs , bombFuel",
-      "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
+      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
       "@Exit Logic/0500",
-      "@Travoll Mines to Forest,bombs , dagger",
-      "@Travoll Mines to Forest,bombs , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Forest,$hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Travoll Mines to Forest,$hasAmount|bombs|1 , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Swamp"
     ],
     "children": [
@@ -18,7 +18,7 @@
             "name": "Travoll Mines - Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -61,7 +61,7 @@
             "name": "Travoll Mines - Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel"
+              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -81,7 +81,7 @@
             "name": "Travoll Mines - Boss",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel"
+              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -104,7 +104,7 @@
             "name": "Travoll Mines - Aerial Accel",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -124,7 +124,7 @@
             "name": "Travoll Mines - Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs",
+              "$hasAmount|bombs|1",
               "ceilingKick"
             ]
           }
@@ -145,7 +145,7 @@
             "name": "Travoll Mines - Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombThrow , bombs , bombFuel"
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -165,7 +165,7 @@
             "name": "Travoll Mines - Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -182,7 +182,7 @@
   {
     "name": "Travoll Mines to Swamp",
     "access_rules": [
-      "@Travoll Mines,slide , bombFuel",
+      "@Travoll Mines,$hasAmount|slide|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
       "@Exit Logic/0503"
     ],
     "children": [
@@ -194,7 +194,7 @@
             "name": "Travoll Mines to Swamp - Dodge: Headstrong",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -212,7 +212,7 @@
     "name": "Travoll Mines to Morose City",
     "access_rules": [
       "@Exit Logic/0501",
-      "@Travoll Mines to Thanatara Canyon,bombs",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1",
       "@Travoll Mines"
     ],
     "children": [
@@ -224,7 +224,7 @@
             "name": "Travoll Mines - Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -241,7 +241,7 @@
   {
     "name": "Travoll Mines to Forest",
     "access_rules": [
-      "@Travoll Mines,bombs",
+      "@Travoll Mines,$hasAmount|bombs|1",
       "@Exit Logic/0509"
     ],
     "children": [
