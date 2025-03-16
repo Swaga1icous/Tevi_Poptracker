@@ -290,7 +290,7 @@
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
       "@Lab Left,$hasAmount|bombs|1 , rabbitWallJump",
-      "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
+      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -555,7 +555,10 @@
   },
   {
     "name": "Lab to Verdazure Swamp Connection",
-    "access_rules": [],
+    "access_rules": [
+      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Exit Logic/2510"
+    ],
     "children": [
       {
         "name": "Lab to Verdazure Swamp Connection - Alterscope",

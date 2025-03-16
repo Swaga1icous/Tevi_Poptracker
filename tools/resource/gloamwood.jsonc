@@ -288,7 +288,20 @@
             "access_rules": [
               "^$EVENT_Memine0"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 88,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Memine Gloamwood - Rainbow Bunny Potion Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -301,7 +314,10 @@
           {
             "map": "Gloamwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -477,7 +493,7 @@
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan to Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -546,7 +562,7 @@
     ]
   },
   {
-    "name": "Ulskan to Plague Forest",
+    "name": "Ulskan To Plague Forest",
     "access_rules": [
       "@Exit Logic/0904"
     ],

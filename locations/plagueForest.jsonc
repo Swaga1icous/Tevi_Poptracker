@@ -113,7 +113,10 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot"
+              "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+              "$canChargeShot , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],

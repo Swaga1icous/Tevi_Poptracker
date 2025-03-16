@@ -2035,7 +2035,7 @@
     },
     {
         "Itemname": "ITEM_AntiDecay",
-        "Location": "Ulskan to Plague Forest",
+        "Location": "Ulskan To Plague Forest",
         "LocationName": "Ulskan Village Area - Decay Antidote",
         "slotId": 1,
         "Requirement": [
@@ -2059,7 +2059,7 @@
     },
     {
         "Itemname": "BADGE_GoldenLuck",
-        "Location": "Ulskan to Plague Forest",
+        "Location": "Ulskan To Plague Forest",
         "LocationName": "Ulskan Village Area - Dodge: Golden Luck",
         "slotId": 1,
         "Requirement": [
@@ -2136,7 +2136,7 @@
         "slotId": 6,
         "Requirement": [
             {
-                "Method": "ChargeShot",
+                "Method": "ChargeShot && (ITEM_LINEBOMB || (ITEM_WALLJUMP && (ITEM_AirDash && (ITEM_JETPACK || ITEM_DOUBLEJUMP)) || (ITEM_DOUBLEJUMP && ITEM_JETPACK)))",
                 "Difficulty": 0
             }
         ]
@@ -4749,8 +4749,8 @@
     },
     {
         "Itemname": "BADGE_ToArmorReducer",
-        "Location": "EverGarden Path BossPath",
-        "LocationName": "EverGarden Path BossPath - Whipcrack",
+        "Location": "EverGarden BossPath",
+        "LocationName": "EverGarden BossPath - Whipcrack",
         "slotId": 1,
         "Requirement": [
             {
@@ -4769,8 +4769,8 @@
     },
     {
         "Itemname": "BADGE_DashFlashInv",
-        "Location": "EverGarden Path BossPath",
-        "LocationName": "EverGarden Path BossPath - Shooting Star",
+        "Location": "EverGarden BossPath",
+        "LocationName": "EverGarden BossPath - Shooting Star",
         "slotId": 1,
         "Requirement": [
             {
@@ -4781,8 +4781,8 @@
     },
     {
         "Itemname": "BADGE_ComboAntiFullHealth",
-        "Location": "EverGarden Path BossPath",
-        "LocationName": "EverGarden Path BossPath - Battlecry",
+        "Location": "EverGarden BossPath",
+        "LocationName": "EverGarden BossPath - Battlecry",
         "slotId": 1,
         "Requirement": [
             {
@@ -5791,7 +5791,7 @@
                 "Difficulty": 0
             },
             {
-                "Method": "ITEM_DOUBLEJUMP && (ITEM_WALLJUMP || SpinnerBash)",
+                "Method": "ITEM_SLIDE && ITEM_DOUBLEJUMP && (ITEM_WALLJUMP || SpinnerBash || ITEM_JETPACK)",
                 "Difficulty": 0
             }
         ]
@@ -7053,7 +7053,7 @@
     {
         "Itemname": "EVENT_Memine",
         "Location": "Gloamwood Middle",
-        "LocationName": "Memine Gloamwood - Rainbow Bunny Potion",
+        "LocationName": "Memine Gloamwood - Rainbow Bunny Potion Event",
         "slotId": 0,
         "Requirement": [
             {
@@ -7089,7 +7089,7 @@
     {
         "Itemname": "EVENT_Memine",
         "Location": "Verdazure Ocean",
-        "LocationName": "Verdazure Ocean - Memine Race From Blushwood",
+        "LocationName": "Verdazure Ocean - Memine Race From Blushwood Event",
         "slotId": 1,
         "Requirement": [
             {
@@ -7125,7 +7125,7 @@
     {
         "Itemname": "EVENT_Memine",
         "Location": "CopperWood Industry to Travoll Industrie",
-        "LocationName": "CopperWood - Memine Race from Forest",
+        "LocationName": "CopperWood - Memine Race from Forest Event",
         "slotId": 2,
         "Requirement": [
             {
@@ -7161,7 +7161,7 @@
     {
         "Itemname": "EVENT_Memine",
         "Location": "Valhalla City",
-        "LocationName": "Valhalla City - Memine Race From Tartarus",
+        "LocationName": "Valhalla City - Memine Race From Tartarus Event",
         "slotId": 3,
         "Requirement": [
             {
@@ -7196,7 +7196,7 @@
     },
     {
         "Itemname": "STACKABLE_SHARD",
-        "Location": "EverGarden Path BossPath",
+        "Location": "EverGarden BossPath",
         "LocationName": "EverGarden - Memine Race From Valhallas Breath East",
         "slotId": 4,
         "Requirement": [
@@ -7208,8 +7208,8 @@
     },
     {
         "Itemname": "EVENT_Memine",
-        "Location": "EverGarden Path BossPath",
-        "LocationName": "EverGarden - Memine Race From Valhallas Breath East",
+        "Location": "EverGarden BossPath",
+        "LocationName": "EverGarden - Memine Race From Valhallas Breath East Event",
         "slotId": 4,
         "Requirement": [
             {
@@ -7245,7 +7245,7 @@
     {
         "Itemname": "EVENT_Memine",
         "Location": "Forgotten City",
-        "LocationName": "Forgotten City - Memine Race From Ana Thema",
+        "LocationName": "Forgotten City - Memine Race From Ana Thema Event",
         "slotId": 5,
         "Requirement": [
             {

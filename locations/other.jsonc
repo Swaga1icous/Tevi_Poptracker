@@ -190,7 +190,7 @@
     "children": []
   },
   {
-    "name": "Lab - Verdazure Swamp Connection",
+    "name": "Lab to Verdazure Swamp Connection",
     "clear_as_group": false,
     "access_rules": [
       "@Lab,$hasAmount|bombRange|3 , bombs",

@@ -52,7 +52,7 @@
         ]
       },
       {
-        "name": "Ana Thema - Sable",
+        "name": "Library checks",
         "access_rules": [],
         "sections": [
           {
@@ -61,20 +61,21 @@
             "access_rules": [
               "$hasAmount|key|1"
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "Ana Thema",
-            "x": 143,
-            "y": 314
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - GemaYue",
-        "access_rules": [],
-        "sections": [
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+            ]
+          },
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+            ]
+          },
           {
             "name": "Astral Gear",
             "item_count": 1,
@@ -86,48 +87,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - EinLee",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - Waero",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 0,
-            "y": 0
+            "x": 216,
+            "y": 168
           }
         ]
       },

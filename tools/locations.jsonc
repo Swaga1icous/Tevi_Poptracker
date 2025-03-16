@@ -3170,7 +3170,20 @@
             "access_rules": [
               "^$EVENT_Memine0"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Memine Gloamwood - Rainbow Bunny Potion Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -3183,7 +3196,10 @@
           {
             "map": "Gloamwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -3359,7 +3375,7 @@
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan to Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -3428,7 +3444,7 @@
     ]
   },
   {
-    "name": "Ulskan to Plague Forest",
+    "name": "Ulskan To Plague Forest",
     "access_rules": [
       "@Exit Logic/0904"
     ],
@@ -3589,7 +3605,10 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot"
+              "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+              "$canChargeShot , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -4265,7 +4284,20 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "CopperWood - Memine Race from Forest Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -4283,7 +4315,10 @@
           {
             "map": "Copperwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -4521,7 +4556,7 @@
         ]
       },
       {
-        "name": "Ana Thema - Sable",
+        "name": "Library checks",
         "access_rules": [],
         "sections": [
           {
@@ -4530,60 +4565,21 @@
             "access_rules": [
               "$hasAmount|key|1"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 143,
-            "y": 314
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - GemaYue",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - EinLee",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Ana Thema",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Ana Thema - Waero",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Astral Gear",
             "item_count": 1,
@@ -6182,7 +6178,7 @@
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
       "@Lab Left,$hasAmount|bombs|1 , rabbitWallJump",
-      "@Lab - Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
+      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -6447,7 +6443,10 @@
   },
   {
     "name": "Lab to Verdazure Swamp Connection",
-    "access_rules": [],
+    "access_rules": [
+      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Exit Logic/2510"
+    ],
     "children": [
       {
         "name": "Lab to Verdazure Swamp Connection - Alterscope",
@@ -7256,7 +7255,20 @@
             "access_rules": [
               "^$EVENT_Memine3"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Valhalla City - Memine Race From Tartarus Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -7269,7 +7281,10 @@
           {
             "map": "Valhalla",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -7282,7 +7297,7 @@
       "@EverGarden To Valley,$hasAmount|airJump|1",
       "@EverGarden To Valley,$hasAmount|jetpack|1",
       "@EverGarden To Valhalla,$hasAmount|bombs|1",
-      "@EverGarden Path BossPath",
+      "@EverGarden BossPath",
       "@EverGarden Boss Area"
     ],
     "children": [
@@ -7399,7 +7414,7 @@
     ]
   },
   {
-    "name": "EverGarden Path BossPath",
+    "name": "EverGarden BossPath",
     "access_rules": [
       "@EverGarden,$hasAmount|airJump|1",
       "@EverGarden,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
@@ -7409,7 +7424,7 @@
     ],
     "children": [
       {
-        "name": "EverGarden Path BossPath - Whipcrack",
+        "name": "EverGarden BossPath - Whipcrack",
         "access_rules": [],
         "sections": [
           {
@@ -7431,7 +7446,7 @@
         ]
       },
       {
-        "name": "EverGarden Path BossPath - Shooting Star",
+        "name": "EverGarden BossPath - Shooting Star",
         "access_rules": [],
         "sections": [
           {
@@ -7454,7 +7469,7 @@
         ]
       },
       {
-        "name": "EverGarden Path BossPath - Battlecry",
+        "name": "EverGarden BossPath - Battlecry",
         "access_rules": [],
         "sections": [
           {
@@ -7484,7 +7499,20 @@
             "access_rules": [
               "^$EVENT_Memine4"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "EverGarden - Memine Race From Valhallas Breath East Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -7497,7 +7525,10 @@
           {
             "map": "Evernight Garden",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -7506,10 +7537,10 @@
   {
     "name": "EverGarden Boss Area",
     "access_rules": [
-      "@EverGarden Path BossPath,$hasAmount|airJump|1 , $hasAmount|airDash|1",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|3",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|2"
+      "@EverGarden BossPath,$hasAmount|airJump|1 , $hasAmount|airDash|1",
+      "@EverGarden BossPath,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
+      "@EverGarden BossPath,$hasAmount|jetpack|3",
+      "@EverGarden BossPath,$hasAmount|jetpack|2"
     ],
     "children": [
       {
@@ -8555,7 +8586,20 @@
             "access_rules": [
               "^$EVENT_Memine1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Verdazure Ocean - Memine Race From Blushwood Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -8568,7 +8612,10 @@
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -9015,7 +9062,20 @@
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City - Memine Race From Ana Thema Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -9031,7 +9091,10 @@
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -9243,8 +9306,9 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|jetpack|2",
               "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
-              "$hasAmount|airJump|1 , $hasAmount|wallJump|1",
-              "$hasAmount|airJump|1 , [$hasAmount|dagger|1],false"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -11037,7 +11101,7 @@
   {
     "name": "Memine All",
     "access_rules": [
-      "@Thanatara Canyon,$False"
+      "@Thanatara Canyon,^$EVENT_Memine"
     ],
     "children": [
       {
@@ -13087,15 +13151,6 @@
       "@Lab Entrance,$hasAmount|slide|1",
       "@Lab Left,$hasAmount|slide|1",
       "@Lab,$hasAmount|slide|1"
-    ],
-    "children": []
-  },
-  {
-    "name": "Lab - Verdazure Swamp Connection",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
-      "@Exit Logic/2510"
     ],
     "children": []
   },

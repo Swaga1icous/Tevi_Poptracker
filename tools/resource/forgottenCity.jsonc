@@ -154,7 +154,20 @@
             "access_rules": [
               "^$EVENT_Memine1"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 680,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "Verdazure Ocean - Memine Race From Blushwood Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -167,7 +180,10 @@
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -614,7 +630,20 @@
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+            "x": 584,
+            "y": 637
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City - Memine Race From Ana Thema Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -630,7 +659,10 @@
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

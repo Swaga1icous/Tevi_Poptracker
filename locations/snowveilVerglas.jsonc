@@ -205,8 +205,9 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|jetpack|2",
               "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
-              "$hasAmount|airJump|1 , $hasAmount|wallJump|1",
-              "$hasAmount|airJump|1 , [$hasAmount|dagger|1],false"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],

@@ -311,7 +311,20 @@
             "access_rules": [
               "^$EVENT_Memine3"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 504,
+            "y": 71
+          }
+        ]
+      },
+      {
+        "name": "Valhalla City - Memine Race From Tartarus Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -324,7 +337,10 @@
           {
             "map": "Valhalla",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 0,
-            "y": 0
+            "x": 885,
+            "y": 272
           }
         ]
       },
@@ -168,7 +168,20 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 550,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "CopperWood - Memine Race from Forest Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -186,7 +199,10 @@
           {
             "map": "Copperwood",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }

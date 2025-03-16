@@ -118,7 +118,7 @@
                 },
                 {
                     "Exit": "Memine All",
-                    "Method": "AllMemine"
+                    "Method": "EVENT_Memine 6"
                 }
             ]
         },
@@ -921,7 +921,7 @@
             ]
         },
         {
-            "Name": "Ulskan to Plague Forest",
+            "Name": "Ulskan To Plague Forest",
             "Money": [],
             "Connections": [
                 {
@@ -2456,13 +2456,13 @@
                     "Method": "ITEM_SLIDE"
                 },
                 {
-                    "Exit": "Lab - Verdazure Swamp Connection",
+                    "Exit": "Lab to Verdazure Swamp Connection",
                     "Method": "ITEM_BombLengthExtend 3 && ITEM_LINEBOMB"
                 }
             ]
         },
         {
-            "Name": "Lab - Verdazure Swamp Connection",
+            "Name": "Lab to Verdazure Swamp Connection",
             "Money": [
                 {
                     "Method": "(ITEM_JETPACK||ITEM_DOUBLEJUMP) || ITEM_AirDash",
@@ -2717,19 +2717,19 @@
             ],
             "Connections": [
                 {
-                    "Exit": "EverGarden Path BossPath",
+                    "Exit": "EverGarden BossPath",
                     "Method": "ITEM_DOUBLEJUMP"
                 },
                 {
-                    "Exit": "EverGarden Path BossPath",
+                    "Exit": "EverGarden BossPath",
                     "Method": "ITEM_JETPACK && ITEM_AirDash"
                 },
                 {
-                    "Exit": "EverGarden Path BossPath",
+                    "Exit": "EverGarden BossPath",
                     "Method": "ITEM_JETPACK 3"
                 },
                 {
-                    "Exit": "EverGarden Path BossPath",
+                    "Exit": "EverGarden BossPath",
                     "Method": "ITEM_JETPACK 2"
                 },
                 {
@@ -2771,7 +2771,7 @@
             ]
         },
         {
-            "Name": "EverGarden Path BossPath",
+            "Name": "EverGarden BossPath",
             "Money": [
                 {
                     "Method": "ITEM_LINEBOMB",
@@ -2819,7 +2819,7 @@
             ],
             "Connections": [
                 {
-                    "Exit": "EverGarden Path BossPath",
+                    "Exit": "EverGarden BossPath",
                     "Method": ""
                 },
                 {
@@ -3410,7 +3410,7 @@
                     "Method": ""
                 },
                 {
-                    "Exit": "Ulskan to Plague Forest",
+                    "Exit": "Ulskan To Plague Forest",
                     "Method": ""
                 }
             ]
@@ -3709,7 +3709,7 @@
                     "Method": ""
                 },
                 {
-                    "Exit": "Lab - Verdazure Swamp Connection",
+                    "Exit": "Lab to Verdazure Swamp Connection",
                     "Method": ""
                 }
             ]

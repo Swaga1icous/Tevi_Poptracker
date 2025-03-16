@@ -168,7 +168,9 @@ for val in RandomizerLocationList:
         itemName = itemName[:itemName.find("Shop")+4]
         customLocation[itemName] = locTemplate["name"]
         locTemplate["name"] = itemName
-        
+    if val["LocationName"] in ["Ana Thema - EinLee","Ana Thema - Waero","Ana Thema - GemaYue","Ana Thema - Sable"]:
+        itemName = "Library checks"
+        locTemplate["name"] = itemName
 
 
     found = False

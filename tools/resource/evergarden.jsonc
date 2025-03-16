@@ -6,7 +6,7 @@
       "@EverGarden To Valley,$hasAmount|airJump|1",
       "@EverGarden To Valley,$hasAmount|jetpack|1",
       "@EverGarden To Valhalla,$hasAmount|bombs|1",
-      "@EverGarden Path BossPath",
+      "@EverGarden BossPath",
       "@EverGarden Boss Area"
     ],
     "children": [
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "name": "EverGarden Path BossPath",
+    "name": "EverGarden BossPath",
     "access_rules": [
       "@EverGarden,$hasAmount|airJump|1",
       "@EverGarden,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
@@ -133,7 +133,7 @@
     ],
     "children": [
       {
-        "name": "EverGarden Path BossPath - Whipcrack",
+        "name": "EverGarden BossPath - Whipcrack",
         "access_rules": [],
         "sections": [
           {
@@ -155,7 +155,7 @@
         ]
       },
       {
-        "name": "EverGarden Path BossPath - Shooting Star",
+        "name": "EverGarden BossPath - Shooting Star",
         "access_rules": [],
         "sections": [
           {
@@ -178,7 +178,7 @@
         ]
       },
       {
-        "name": "EverGarden Path BossPath - Battlecry",
+        "name": "EverGarden BossPath - Battlecry",
         "access_rules": [],
         "sections": [
           {
@@ -208,7 +208,20 @@
             "access_rules": [
               "^$EVENT_Memine4"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 649,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "EverGarden - Memine Race From Valhallas Breath East Event",
+        "access_rules": [],
+        "sections": [
           {
             "name": "EVENT_Memine",
             "item_count": 1,
@@ -221,7 +234,10 @@
           {
             "map": "Evernight Garden",
             "x": 0,
-            "y": 0
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -230,10 +246,10 @@
   {
     "name": "EverGarden Boss Area",
     "access_rules": [
-      "@EverGarden Path BossPath,$hasAmount|airJump|1 , $hasAmount|airDash|1",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|3",
-      "@EverGarden Path BossPath,$hasAmount|jetpack|2"
+      "@EverGarden BossPath,$hasAmount|airJump|1 , $hasAmount|airDash|1",
+      "@EverGarden BossPath,$hasAmount|jetpack|1 , $hasAmount|airDash|1",
+      "@EverGarden BossPath,$hasAmount|jetpack|3",
+      "@EverGarden BossPath,$hasAmount|jetpack|2"
     ],
     "children": [
       {
