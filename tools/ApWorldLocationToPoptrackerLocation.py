@@ -171,7 +171,7 @@ for val in RandomizerLocationList:
     if val["LocationName"] in ["Ana Thema - EinLee","Ana Thema - Waero","Ana Thema - GemaYue","Ana Thema - Sable"]:
         itemName = "Library checks"
         locTemplate["name"] = itemName
-
+        locName = val["LocationName"].split("-")[1][1:]
 
     found = False
 

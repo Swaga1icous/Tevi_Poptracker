@@ -13,6 +13,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+AP_WORLD_VERSION = "0.4"
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -124,6 +125,9 @@ function onClear(slot_data)
 	Tracker.BulkUpdate = true	
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+	end
+	if AP_WORLD_VERSION ~= slot_data["version"] then
+		print(string.format("Ap world version: %s is not %s",slot_data["version"],AP_WORLD_VERSION))
 	end
 	local key = "Slot:"..Archipelago.PlayerNumber..":currentMap"
 	Archipelago:SetNotify({key})
