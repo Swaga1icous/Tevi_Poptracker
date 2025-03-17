@@ -81,7 +81,7 @@ TeviRuleToPoptacker = {
     "VenaBomb":"$canUseVenaBomb",
     "Upgrade" : "$canUpgradeItems",
     "OpenMorose":"openMorose",
-    "SpinnerBash":"[$hasAmount|dagger|1],false",
+    "SpinnerBash":"$hasAmount|dagger|1,[$False]",
     "LibraryExtra":"[SuperBoss]",
     "EVENT_Fire":"^$hasFire",
     "EVENT_HQSwitch1":"^$EVENT_HQSwitch1",
@@ -104,7 +104,7 @@ TeviRuleToPoptacker = {
     "EVENT_Memine4":"^$EVENT_Memine4",
     "EVENT_Memine5":"^$EVENT_Memine5",
     "RainbowCheck":"^$RainbowCheck",
-    "ItemUse":"[$true]",
+    "ItemUse":"[$canUseFastItem]",
     "EVENT_SnowMechanic":"^$EVENT_SnowMechanic",
 
     "Everything that is by default false": "$False",
@@ -200,9 +200,9 @@ class OpLit:
                 elif "ITEM_AirSlide" == self.name:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|slide|1"
                 elif "OrbTypeS" in self.name:
-                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$has|sable|1"
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|sable|1"
                 elif "OrbTypeC" in self.name:
-                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$has|celia|1"
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|celia|1"
                 return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1"
             f = TeviRuleToPoptacker[self.name]
             return f

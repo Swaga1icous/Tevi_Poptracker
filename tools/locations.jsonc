@@ -60,8 +60,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 0,
-            "y": 0
+            "x": 330,
+            "y": 155
           }
         ]
       },
@@ -163,7 +163,7 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 330,
+            "x": 378,
             "y": 155
           }
         ]
@@ -1350,8 +1350,8 @@
         "map_locations": [
           {
             "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 0,
-            "y": 0
+            "x": 648,
+            "y": 766
           }
         ]
       },
@@ -3175,8 +3175,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 0,
-            "y": 0
+            "x": 88,
+            "y": 190
           }
         ]
       },
@@ -3335,7 +3335,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
               "$canUseVenaBomb"
             ]
           }
@@ -4079,7 +4079,7 @@
             "name": "Cursed 6",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
               "$hasAmount|burst|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
               "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
@@ -4108,8 +4108,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 0,
-            "y": 0
+            "x": 551,
+            "y": 168
           }
         ]
       }
@@ -4154,9 +4154,9 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$hasAmount|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -4183,8 +4183,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 0,
-            "y": 0
+            "x": 885,
+            "y": 272
           }
         ]
       },
@@ -4289,8 +4289,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 0,
-            "y": 0
+            "x": 550,
+            "y": 70
           }
         ]
       },
@@ -4567,21 +4567,21 @@
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "GemaYue",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "EinLee",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "Waero",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
@@ -4591,8 +4591,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 0,
-            "y": 0
+            "x": 216,
+            "y": 168
           }
         ]
       },
@@ -5172,8 +5172,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 408
+            "x": 360,
+            "y": 648
           }
         ]
       },
@@ -5255,8 +5255,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 360,
-            "y": 648
+            "x": 792,
+            "y": 408
           }
         ]
       }
@@ -7067,13 +7067,13 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$hasAmount|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
               "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot",
               "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot",
               "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|highJump|1 , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|airJump|1 , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|jetpack|1 , sable , $hasAmount|ranged|2"
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|highJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|airJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|jetpack|1 , sable , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -7260,8 +7260,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 0,
-            "y": 0
+            "x": 504,
+            "y": 71
           }
         ]
       },
@@ -7504,8 +7504,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 0,
-            "y": 0
+            "x": 649,
+            "y": 120
           }
         ]
       },
@@ -7635,7 +7635,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $canChargeShot , sable , $hasAmount|ranged|2"
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $canChargeShot , sable , $hasAmount|ranged|2"
             ]
           }
         ],
@@ -8564,7 +8564,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -8591,8 +8591,8 @@
         "map_locations": [
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 680,
+            "y": 155
           }
         ]
       },
@@ -8842,7 +8842,7 @@
   {
     "name": "Forgotten City Upper Exit",
     "access_rules": [
-      "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
+      "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
       "@Forgotten City,$canChargeShot",
       "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
@@ -9067,8 +9067,8 @@
         "map_locations": [
           {
             "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0
+            "x": 584,
+            "y": 637
           }
         ]
       },
@@ -9305,9 +9305,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|jetpack|2",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1,[$False]",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
@@ -9370,8 +9370,8 @@
     "access_rules": [
       "@Snowveil Ex,$hasAmount|slide|1",
       "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|airJump|1",
-      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$true]",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$canUseFastItem]",
       "@Snowveil Ex,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Exit Logic/1205"
     ],
@@ -9386,7 +9386,7 @@
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
             ]
           }
         ],
@@ -10383,9 +10383,9 @@
             "name": "Sigil Quicken",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$true] , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$true] , $hasAmount|bombs|1"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -10650,7 +10650,7 @@
             "name": "Bulletproof Pillar C",
             "item_count": 1,
             "access_rules": [
-              "[$hasAmount|dagger|1],false",
+              "$hasAmount|dagger|1,[$False]",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1"
             ]
@@ -11200,7 +11200,7 @@
             "name": "Sable Type-B: Malediction",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1"
+              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1"
             ]
           }
         ],
@@ -11220,7 +11220,7 @@
             "name": "Sable Type-B: Backlash",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1"
+              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1"
             ]
           }
         ],
@@ -11240,7 +11240,7 @@
             "name": "Sable Type-C: Ignite",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1"
+              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1"
             ]
           }
         ],
@@ -11260,7 +11260,7 @@
             "name": "Sable Type-C: Fervid",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1"
+              "$True , $hasAmount|ticketHell|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1"
             ]
           }
         ],
@@ -11340,7 +11340,7 @@
             "name": "Celia Type-B: Halo",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC2|1,$hasAmount|ranged|2,$has|celia|1"
+              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC2|1,$hasAmount|ranged|2,$hasAmount|celia|1"
             ]
           }
         ],
@@ -11360,7 +11360,7 @@
             "name": "Celia Type-B: Prism",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC2|1,$hasAmount|ranged|2,$has|celia|1"
+              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC2|1,$hasAmount|ranged|2,$hasAmount|celia|1"
             ]
           }
         ],
@@ -11380,7 +11380,7 @@
             "name": "Celia Type-C: Barrage",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1"
+              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC3|1,$hasAmount|ranged|2,$hasAmount|celia|1"
             ]
           }
         ],
@@ -11400,7 +11400,7 @@
             "name": "Celia Type-C: Panoptic",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1"
+              "$True , $hasAmount|ticketHeaven|1 , $hasAmount|orbC3|1,$hasAmount|ranged|2,$hasAmount|celia|1"
             ]
           }
         ],

@@ -63,21 +63,21 @@
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "GemaYue",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "EinLee",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
             ]
           },
           {
-            "name": "Astral Gear",
+            "name": "Waero",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"

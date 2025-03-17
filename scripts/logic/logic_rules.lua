@@ -40,7 +40,7 @@ VoidBomb            = function(count) return Tracker:ProviderCountForCode("voidB
 CloudBomb           = function(count) return Tracker:ProviderCountForCode("cloudBomb")                 >= (count or 1) end
 CalicoBomb          = function(count) return Tracker:ProviderCountForCode("calicoBomb")                >= (count or 1) end
 TabbyBomb           = function(count) return Tracker:ProviderCountForCode("tabbyBomb")                 >= (count or 1) end
-BBBomb              = function(count) return Tracker:ProviderCountForCode("bbBomb")                    >= (count or 1) end
+BBBomb              = function(count) return Tracker:ProviderCountForCode("bbRabbit")                    >= (count or 1) end
 FireElement         = function(count) return Tracker:ProviderCountForCode("fireElement")               >= (count or 1) end
 WaterElement        = function(count) return Tracker:ProviderCountForCode("waterElement")              >= (count or 1) end
 EarthElement        = function(count) return Tracker:ProviderCountForCode("earthElement")              >= (count or 1) end
@@ -199,7 +199,7 @@ canTabbyBomb = function() return TabbyBomb() and DarkElement() and EarthElement(
 
 canUseVenaBomb = function () return canVoidBomb() or canCloudBomb() or canCalicoBomb() or canTabbyBomb() end
 
-canUseFastItem = function () return BBBomb() end
+canUseFastItem = function () return BBBomb() or canUseVenaBomb() end
 
 canRabbitJump = function() return RabbitJump() and canUseFastItem() end
 

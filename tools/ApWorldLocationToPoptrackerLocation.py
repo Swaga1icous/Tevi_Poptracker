@@ -1,7 +1,6 @@
 import json
 import os
 
-
 from logicParser import parse_expression_logic
 
 Path = os.path.dirname(os.path.realpath(__file__))
@@ -252,4 +251,6 @@ file = open(Path+"\\locations.jsonc",'w+')
 file.write(json.dumps(PoptrackerList,indent=2))
 file.close()
 print("finished")
+import copyPosition
+
     

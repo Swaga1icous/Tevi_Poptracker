@@ -132,7 +132,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -410,7 +410,7 @@
   {
     "name": "Forgotten City Upper Exit",
     "access_rules": [
-      "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
+      "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
       "@Forgotten City,$canChargeShot",
       "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",

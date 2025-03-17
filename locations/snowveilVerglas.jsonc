@@ -204,9 +204,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|jetpack|2",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , [$hasAmount|dagger|1],false",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1,[$False]",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
@@ -269,8 +269,8 @@
     "access_rules": [
       "@Snowveil Ex,$hasAmount|slide|1",
       "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|airJump|1",
-      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$true]",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$canUseFastItem]",
       "@Snowveil Ex,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Exit Logic/1205"
     ],
@@ -285,7 +285,7 @@
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$hasAmount|dagger|1],false"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
             ]
           }
         ],
