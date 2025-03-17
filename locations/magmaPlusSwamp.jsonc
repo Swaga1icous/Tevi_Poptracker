@@ -261,8 +261,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 408
+            "x": 360,
+            "y": 648
           }
         ]
       },
@@ -344,8 +344,8 @@
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 360,
-            "y": 648
+            "x": 792,
+            "y": 408
           }
         ]
       }
