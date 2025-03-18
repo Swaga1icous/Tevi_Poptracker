@@ -69,6 +69,7 @@ updateLocation("valhallasBreathEast")
 updateLocation("valhallasBreathWest")
 updateLocation("verdawnAndMaze")
 updateLocation("verdazureSea")
+updateLocation("other")
 
 
 file = open(Path+"\\locations.jsonc",'w+')

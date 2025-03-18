@@ -101,7 +101,7 @@
       "@Gloamwood Bottom,$hasAmount|bombs|1",
       "@Gloamwood Bottom,$hasAmount|jetpack|1",
       "@Gloamwood Bottom,$hasAmount|airDash|1",
-      "@Gloamwood Bottom,$False",
+      "@Gloamwood Bottom,[$False]",
       "@Gloamwood to Ulvosa",
       "@Gloamwood Right",
       "@Ulskan Village Area,$hasAmount|dagger|1",
@@ -177,7 +177,7 @@
             "name": "Combo Time Extend C",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $False , $hasAmount|ranged|1 , $hasAmount|dagger|1",
+              "$hasAmount|slide|1 , [$False] , $hasAmount|ranged|1 , $hasAmount|dagger|1",
               "$hasAmount|slide|1 , $canUseVenaBomb , $hasAmount|dagger|1"
             ]
           }
@@ -453,7 +453,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2",
               "$canUseVenaBomb"
             ]
           }

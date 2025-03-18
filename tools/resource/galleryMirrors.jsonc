@@ -320,9 +320,9 @@
     "name": "Gallery of Souls",
     "access_rules": [
       "@Gallery of Souls Entrance,$hasAmount|bombs|1",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $False",
-      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $False",
-      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $False"
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
+      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
+      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]"
     ],
     "children": [
       {

@@ -203,7 +203,7 @@ canUseFastItem = function () return BBBomb() or canUseVenaBomb() end
 
 canRabbitJump = function() return RabbitJump() and canUseFastItem() end
 
-canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() end
+canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() and ParkourBoots() end
 
 canEarlyDream = function() return EarlyDream() and Dagger() end
 

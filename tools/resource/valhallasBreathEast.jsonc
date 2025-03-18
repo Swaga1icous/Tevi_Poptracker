@@ -83,7 +83,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $False"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$False]"
             ]
           }
         ],
@@ -197,7 +197,7 @@
             "name": "Bulletproof Pillar C",
             "item_count": 1,
             "access_rules": [
-              "[$hasAmount|dagger|1],false",
+              "$hasAmount|dagger|1,[$False]",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1"
             ]

@@ -427,9 +427,9 @@
             "name": "Sigil Quicken",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$true] , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$true] , $hasAmount|bombs|1"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1"
             ]
           }
         ],

@@ -123,13 +123,13 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$has|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
+              "$hasAmount|orbC3|1,$hasAmount|ranged|2,$hasAmount|celia|1 , $canChargeShot , celia , $hasAmount|ranged|2",
               "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot",
               "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot",
               "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|highJump|1 , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|airJump|1 , sable , $hasAmount|ranged|2",
-              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$has|sable|1 , $canChargeShot , $hasAmount|jetpack|1 , sable , $hasAmount|ranged|2"
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|highJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|airJump|1 , sable , $hasAmount|ranged|2",
+              "$hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , $hasAmount|jetpack|1 , sable , $hasAmount|ranged|2"
             ]
           }
         ],

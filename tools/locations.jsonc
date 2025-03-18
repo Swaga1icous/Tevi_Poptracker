@@ -13111,7 +13111,7 @@
     "name": "DreamKeeper Outside Left Snow To Snowveil",
     "clear_as_group": false,
     "access_rules": [
-      "@DreamKeeper Outside Left",
+      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Exit Logic/1805"
     ],
     "children": []
