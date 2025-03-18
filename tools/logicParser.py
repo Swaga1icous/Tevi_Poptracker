@@ -111,14 +111,14 @@ TeviRuleToPoptacker = {
     "Memine":"$False",
     "AllMemine":"$False",
     "Explorer":"$False",
-    "Goal":"$False",
+    "Goal":"$CanFinish",
     "Chapter":"$SomethingWrong",
-    "BounceKick":"$False",
-    "ADCKick":"$False",
-    "BarrierSkip":"$False",
-    "WindSkip":"$False",
-    "EnemyManip":"$False",
-    "Hard":"$False"
+    "BounceKick":"$hasAmount|airJump|1,[$False]",
+    "ADCKick":"$hasAmount|airDash|1,[$False]",
+    "BarrierSkip":"$airOrSlide,[$False]",
+    "WindSkip":"[$False]",
+    "EnemyManip":"[$False]",
+    "Hard":"[$False]"
 }
 
 isExpr = lambda s: not isinstance(s, str)

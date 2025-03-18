@@ -24,6 +24,13 @@ function canAccessExit(exit_name)
     return loc.AccessibilityLevel
 end
 
+function canFinish()
+    if SLOT_DATA ~= nil then
+        return goal_count <= Tracker:FindObjectForCode("gear")
+    end
+    -- need a implentation for singleplayer / manual tracking
+    return false
+end
 
 function Chapter (count)
     local chapter = 0

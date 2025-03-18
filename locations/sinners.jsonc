@@ -219,8 +219,8 @@
   {
     "name": "Illusion Palace",
     "access_rules": [
-      "@Illusion Palace Entrance,$False , $canChargeShot",
-      "@Illusion Palace Entrance,$False , [hiddenPaths]"
+      "@Illusion Palace Entrance,$CanFinish , $canChargeShot",
+      "@Illusion Palace Entrance,$CanFinish , [hiddenPaths]"
     ],
     "children": [
       {

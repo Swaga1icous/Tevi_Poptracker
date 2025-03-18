@@ -30,6 +30,7 @@ Tracker:AddLocations("locations/ulvosa.jsonc")
 Tracker:AddLocations("locations/catacombs.jsonc")
 Tracker:AddLocations("locations/valhallasBreathEast.jsonc")
 Tracker:AddLocations("locations/other.jsonc")
+Tracker:AddLocations("locations/vena.jsonc")
 -- Transitions
 Tracker:AddLocations("locations/Transitions.jsonc")
 

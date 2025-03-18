@@ -108,6 +108,8 @@ def setMapName(area):
          name = "Heaven's Valley (East) + Valhalla's Breath (East)"
     elif "Valhalla Breath West" in area or "Valley West" in area:
         name = "Heaven's Valley (West) + Valhalla's Breath (West)"
+    elif "Vena" in area:
+        return name
     else:
         print(f"{area} has no Map")
     return name
@@ -171,6 +173,26 @@ for val in RandomizerLocationList:
         itemName = "Library checks"
         locTemplate["name"] = itemName
         locName = val["LocationName"].split("-")[1][1:]
+    if "Vena" in itemName:
+        locTemplate["access_rules"] = "@Morose City/Morose City - Boss/EVENT_BOSS"
+        locTemplate["map_locations"] =[
+            {
+            "map": setMapName("Ana Thema"),
+            "x": 404,
+            "y": 77
+          },
+          {
+            "map": setMapName("Valhalla City"),
+            "x": 696,
+            "y": 264
+          },
+          {
+            "map": setMapName("Tartarus"),
+            "x": 505,
+            "y": 313
+          }
+        ]
+        pass
 
     found = False
 

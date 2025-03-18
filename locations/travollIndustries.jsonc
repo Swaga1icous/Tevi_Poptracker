@@ -19,7 +19,7 @@
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $False"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False]"
             ]
           }
         ],

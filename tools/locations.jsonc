@@ -399,7 +399,7 @@
       "@Desert Base Entrance,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Desert Base Entrance,rabbitJump",
       "@Desert Base Entrance,backflip , $hasAmount|speed|1",
-      "@Desert Base Entrance,backflip , $False",
+      "@Desert Base Entrance,backflip , [$False]",
       "@Desert Base Upper Half"
     ],
     "children": [
@@ -2039,7 +2039,7 @@
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $False"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False]"
             ]
           }
         ],
@@ -2983,7 +2983,7 @@
       "@Gloamwood Bottom,$hasAmount|bombs|1",
       "@Gloamwood Bottom,$hasAmount|jetpack|1",
       "@Gloamwood Bottom,$hasAmount|airDash|1",
-      "@Gloamwood Bottom,$False",
+      "@Gloamwood Bottom,[$False]",
       "@Gloamwood to Ulvosa",
       "@Gloamwood Right",
       "@Ulskan Village Area,$hasAmount|dagger|1",
@@ -3059,7 +3059,7 @@
             "name": "Combo Time Extend C",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $False , $hasAmount|ranged|1 , $hasAmount|dagger|1",
+              "$hasAmount|slide|1 , [$False] , $hasAmount|ranged|1 , $hasAmount|dagger|1",
               "$hasAmount|slide|1 , $canUseVenaBomb , $hasAmount|dagger|1"
             ]
           }
@@ -6495,7 +6495,7 @@
     "access_rules": [
       "@Exit Logic/1307,$hasAmount|airJump|1",
       "@Exit Logic/1307,$hasAmount|jetpack|1",
-      "@Exit Logic/1307,$False",
+      "@Exit Logic/1307,$hasAmount|airDash|1,[$False]",
       "@Verdazure Sea East,$hasAmount|water|1",
       "@Verdazure Sea to Forest,$hasAmount|bombs|1",
       "@Verdazure Sea to Forest,$hasAmount|water|1"
@@ -8307,9 +8307,9 @@
     "name": "Gallery of Souls",
     "access_rules": [
       "@Gallery of Souls Entrance,$hasAmount|bombs|1",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $False",
-      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $False",
-      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $False"
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
+      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
+      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]"
     ],
     "children": [
       {
@@ -9132,8 +9132,8 @@
   {
     "name": "Snowveil",
     "access_rules": [
-      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $False",
-      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , $False",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$False]",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , [$False]",
       "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Exit Logic/1204",
       "@Snowveil Ex"
@@ -9329,6 +9329,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3"
             ]
           }
@@ -9350,7 +9351,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|jetpack|3 , $hasAmount|airDash|1",
-              "$hasAmount|slide|1 , $False , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False] , $hasAmount|airDash|1",
               "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1"
             ]
           }
@@ -10536,7 +10537,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $False"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$False]"
             ]
           }
         ],
@@ -10952,8 +10953,8 @@
   {
     "name": "Illusion Palace",
     "access_rules": [
-      "@Illusion Palace Entrance,$False , $canChargeShot",
-      "@Illusion Palace Entrance,$False , [hiddenPaths]"
+      "@Illusion Palace Entrance,$CanFinish , $canChargeShot",
+      "@Illusion Palace Entrance,$CanFinish , [hiddenPaths]"
     ],
     "children": [
       {
@@ -11008,7 +11009,7 @@
     "children": [
       {
         "name": "Vena Shop",
-        "access_rules": [],
+        "access_rules": "@Morose City/Morose City - Boss/EVENT_BOSS",
         "sections": [
           {
             "name": "Bombard",
@@ -11090,9 +11091,19 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Ana Thema",
+            "x": 404,
+            "y": 77
+          },
+          {
+            "map": "Valhalla",
+            "x": 696,
+            "y": 264
+          },
+          {
+            "map": "Tartarus",
+            "x": 505,
+            "y": 313
           }
         ]
       }

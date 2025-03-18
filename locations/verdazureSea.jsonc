@@ -4,7 +4,7 @@
     "access_rules": [
       "@Exit Logic/1307,$hasAmount|airJump|1",
       "@Exit Logic/1307,$hasAmount|jetpack|1",
-      "@Exit Logic/1307,$False",
+      "@Exit Logic/1307,$hasAmount|airDash|1,[$False]",
       "@Verdazure Sea East,$hasAmount|water|1",
       "@Verdazure Sea to Forest,$hasAmount|bombs|1",
       "@Verdazure Sea to Forest,$hasAmount|water|1"

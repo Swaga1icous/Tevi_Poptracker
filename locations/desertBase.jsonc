@@ -123,7 +123,7 @@
       "@Desert Base Entrance,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Desert Base Entrance,rabbitJump",
       "@Desert Base Entrance,backflip , $hasAmount|speed|1",
-      "@Desert Base Entrance,backflip , $False",
+      "@Desert Base Entrance,backflip , [$False]",
       "@Desert Base Upper Half"
     ],
     "children": [
