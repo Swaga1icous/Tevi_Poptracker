@@ -58,7 +58,7 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 50,
             "y": 0
           }
         ]
@@ -203,7 +203,7 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 90,
             "y": 0
           }
         ]
