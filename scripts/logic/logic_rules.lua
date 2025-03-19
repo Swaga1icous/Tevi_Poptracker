@@ -139,6 +139,93 @@ TRANSITION_PAIRS = {
 }
 
 
+function hasFire()
+	
+    local accessibilityLevel = math.max(Tracker:FindObjectForCode("@Solennian Ruins/Solennian Ruins - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("fireElement")
+        obj.Active = true
+    end
+end
+function hasWater()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Verdazure Sea West/Verdazure Sea - Water West/EVENT_Water").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("waterElement")
+        obj.Active = true
+    end
+end
+function hasEarth()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Gloamwood Middle/Gloamwood Upper - Earth/EVENT_Earth").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Gloamwood Right/Ulskan Village Area - Earth/EVENT_Earth").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("earthElement")
+        obj.Active = true
+    end
+end
+function hasAir()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Snowveil/Snowveil - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Snowveil Above HQ/Snowveil Above HQ - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Air/EVENT_Air").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("airElement")
+        obj.Active = true
+    end
+end
+function hasWater()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@//").AccessibilityLevel,
+    Tracker:FindObjectForCode("@//").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("fireElement")
+        obj.Active = true
+    end
+end
+function hasLight()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Heavens Valley West/Heavens Valley West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Valhalla Breath West/Valhalla Breath West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Light/EVENT_Light").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("lightElement")
+        obj.Active = true
+    end
+
+end
+function hasDark()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Swamp Entrance/Swamp Entrance - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Swamp/Swamp - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Blushwood/Blushwood - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Dark/EVENT_Dark").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("darkElement")
+        obj.Active = true
+    end
+end
+
+
 canBombThrow = function() return ClusterBomb(1) and CrossBomb(1) end
 canAirSlide = function() return AiryPowder() and SlickBoots() end
 canBombFuel = function() return BombFuel() and CrossBomb() end
@@ -189,13 +276,13 @@ canUseSpinnerBash = function() return Dagger() end
 
 canFinishMemine = function() return CrossBomb() and canChargeShot() and hasAllMovement() end
 
-canVoidBomb = function() return VoidBomb() and FireElement() end
+canVoidBomb = function() return VoidBomb() and hasFire() end
 
-canCloudBomb = function() return CloudBomb() and FireElement() and LightElement() end
+canCloudBomb = function() return CloudBomb() and hasFire() and hasLight() end
 
-canCalicoBomb = function() return CalicoBomb() and WaterElement() and EarthElement() end
+canCalicoBomb = function() return CalicoBomb() and hasWater() and hasEarth() end
 
-canTabbyBomb = function() return TabbyBomb() and DarkElement() and EarthElement() end
+canTabbyBomb = function() return TabbyBomb() and hasDark() and hasEarth() end
 
 canUseVenaBomb = function () return canVoidBomb() or canCloudBomb() or canCalicoBomb() or canTabbyBomb() end
 
