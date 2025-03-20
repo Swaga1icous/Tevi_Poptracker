@@ -3,21 +3,21 @@
     "name": "DreamKeeper Outside Right",
     "access_rules": [
       "@Exit Logic/1800",
-      "@DreamKeeper,slide , bombs"
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Slide Basher",
+        "name": "DreamKeeper Outside Right - Slide Basher",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper Outside Right - Slide Basher",
+            "name": "Slide Basher",
             "item_count": 1,
             "access_rules": [
-              "highJump",
-              "jetpack",
-              "airJump",
-              "airDash , wallJump"
+              "$hasAmount|highJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1"
             ]
           }
         ],
@@ -30,14 +30,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "DreamKeeper Outside Right - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper Outside Right - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombRange , bombs , slide , $canChargeShot"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot"
             ]
           }
         ],
@@ -54,25 +54,25 @@
   {
     "name": "DreamKeeper Outside Left",
     "access_rules": [
-      "@DreamKeeper Outside Right,$canChargeShot , slide , bombs",
+      "@DreamKeeper Outside Right,$canChargeShot , $hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Exit Logic/1801",
       "@DreamKeeper Outside Left Snow To Snowveil,rabbitJump",
-      "@DreamKeeper Outside Left Snow To Snowveil,airDash",
-      "@DreamKeeper Outside Left Snow To Snowveil,airJump",
-      "@DreamKeeper Outside Left Snow To Snowveil,jetpack",
-      "@DreamKeeper Outside Left Snow To Snowveil,highJump"
+      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airDash|1",
+      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airJump|1",
+      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|jetpack|1",
+      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|highJump|1"
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "DreamKeeper Outside Left - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper Outside Left - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "jetpack , $canChargeShot , slide",
-              "airJump , $canChargeShot , slide"
+              "$hasAmount|jetpack|1 , $canChargeShot , $hasAmount|slide|1",
+              "$hasAmount|airJump|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -85,11 +85,11 @@
         ]
       },
       {
-        "name": "Equilibrium Ring",
+        "name": "DreamKeeper Outside Left - Equilibrium Ring",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper Outside Left - Equilibrium Ring",
+            "name": "Equilibrium Ring",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -105,11 +105,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "DreamKeeper Outside Left - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper Outside Left - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -129,28 +129,28 @@
   {
     "name": "DreamKeeper",
     "access_rules": [
-      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Right,vortex , $canChargeShot , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Right,vortex , slide , bombs , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Left,vortex , $canChargeShot , slide , earlyDream",
-      "@DreamKeeper Outside Left,vortex , slide , slide , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Left,vortex , slide , slide , earlyDream"
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , earlyDream"
     ],
     "children": [
       {
-        "name": "MP Quicken: Sugar Rush",
+        "name": "DreamKeeper - MP Quicken: Sugar Rush",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - MP Quicken: Sugar Rush",
+            "name": "MP Quicken: Sugar Rush",
             "item_count": 1,
             "access_rules": [
-              "dagger",
+              "$hasAmount|dagger|1",
               "$canUseVenaBomb",
               "$canChargeShot",
-              "bombThrow"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -163,11 +163,11 @@
         ]
       },
       {
-        "name": "Astral Gear #2",
+        "name": "DreamKeeper - Astral Gear #2",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Astral Gear #2",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -183,18 +183,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "DreamKeeper - Boss Alius",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Boss Alius",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          },
-          {
-            "name": "DreamKeeper - Boss Charon",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -213,11 +206,11 @@
         ]
       },
       {
-        "name": "Grip Sole Boots",
+        "name": "DreamKeeper - Grip Sole Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Grip Sole Boots",
+            "name": "Grip Sole Boots",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -233,14 +226,14 @@
         ]
       },
       {
-        "name": "Refractor",
+        "name": "DreamKeeper - Refractor",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Refractor",
+            "name": "Refractor",
             "item_count": 1,
             "access_rules": [
-              "bombs , slide"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -253,14 +246,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "DreamKeeper - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -273,14 +266,14 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "DreamKeeper - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "vortex , slide , bombs"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -293,11 +286,11 @@
         ]
       },
       {
-        "name": "Astral Gear #1",
+        "name": "DreamKeeper - Astral Gear #1",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Astral Gear #1",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -313,14 +306,37 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "DreamKeeper - Boss Charon",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Cherry Bunny Potion",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -333,14 +349,14 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "DreamKeeper - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -353,14 +369,14 @@
         ]
       },
       {
-        "name": "Dominator",
+        "name": "DreamKeeper - Dominator",
         "access_rules": [],
         "sections": [
           {
-            "name": "DreamKeeper - Dominator",
+            "name": "Dominator",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -377,21 +393,21 @@
   {
     "name": "Dreamless Depths 2",
     "access_rules": [
-      "@Dreamless Depths,highJump , dagger",
-      "@Dreamless Depths,wallJump",
-      "@Dreamless Depths,jetpack , dagger",
-      "@Dreamless Depths,airJump , dagger"
+      "@Dreamless Depths,$hasAmount|highJump|1 , $hasAmount|dagger|1",
+      "@Dreamless Depths,$hasAmount|wallJump|1",
+      "@Dreamless Depths,$hasAmount|jetpack|1 , $hasAmount|dagger|1",
+      "@Dreamless Depths,$hasAmount|airJump|1 , $hasAmount|dagger|1"
     ],
     "children": [
       {
-        "name": "Crystal Mirror",
+        "name": "Dreamless Depths 2 - Crystal Mirror",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dreamless Depths 2 - Crystal Mirror",
+            "name": "Crystal Mirror",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|3 , bombs , powder"
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           }
         ],
@@ -404,16 +420,16 @@
         ]
       },
       {
-        "name": "Sigil Quicken",
+        "name": "Dreamless Depths 2 - Sigil Quicken",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dreamless Depths 2 - Sigil Quicken",
+            "name": "Sigil Quicken",
             "item_count": 1,
             "access_rules": [
-              "airJump , $hasAmount|jetpack|2 , [$true] , bombs",
-              "airJump , jetpack , wallJump , airDash , bombs",
-              "airJump , jetpack , wallJump , highJump , [$true] , bombs"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -426,17 +442,17 @@
         ]
       },
       {
-        "name": "Royal Emblem",
+        "name": "Dreamless Depths 2 - Royal Emblem",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dreamless Depths 2 - Royal Emblem",
+            "name": "Royal Emblem",
             "item_count": 1,
             "access_rules": [
-              "jetpack , airJump",
-              "airJump , airDash",
-              "$hasAmount|jetpack|2 , airDash",
-              "jetpack , airDash , highJump"
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$hasAmount|jetpack|2 , $hasAmount|airDash|1",
+              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -453,20 +469,20 @@
   {
     "name": "Dreamless Depths",
     "access_rules": [
-      "@DreamKeeper,slide , bombs"
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Terrestrial Momentum",
+        "name": "Dreamless Depths - Terrestrial Momentum",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dreamless Depths - Terrestrial Momentum",
+            "name": "Terrestrial Momentum",
             "item_count": 1,
             "access_rules": [
-              "slide , powder , ranged",
-              "slide , powder , dagger",
-              "slide , powder , bombThrow"
+              "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|ranged|1",
+              "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|dagger|1",
+              "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],

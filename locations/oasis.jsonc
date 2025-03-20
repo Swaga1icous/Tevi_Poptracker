@@ -6,14 +6,14 @@
     ],
     "children": [
       {
-        "name": "Upper Slash: Volley",
+        "name": "Oasis - Upper Slash: Volley",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Upper Slash: Volley",
+            "name": "Upper Slash: Volley",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -26,11 +26,11 @@
         ]
       },
       {
-        "name": "Explorer's Compass",
+        "name": "Oasis - Explorer's Compass",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Explorer's Compass",
+            "name": "Explorer's Compass",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -46,11 +46,11 @@
         ]
       },
       {
-        "name": "PK Recon Badge",
+        "name": "Oasis - PK Recon Badge",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - PK Recon Badge",
+            "name": "PK Recon Badge",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -60,23 +60,23 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 0,
-            "y": 0
+            "x": 330,
+            "y": 155
           }
         ]
       },
       {
-        "name": "Special Action: Yawn",
+        "name": "Oasis - Special Action: Yawn",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Special Action: Yawn",
+            "name": "Special Action: Yawn",
             "item_count": 1,
             "access_rules": [
               "ceilingKick",
-              "airJump",
-              "jetpack",
-              "airDash"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
             ]
           }
         ],
@@ -89,11 +89,11 @@
         ]
       },
       {
-        "name": "Spring Back",
+        "name": "Oasis - Spring Back",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Spring Back",
+            "name": "Spring Back",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -109,11 +109,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Oasis - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -129,14 +129,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Oasis - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -149,11 +149,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Oasis - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -163,17 +163,17 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 330,
+            "x": 378,
             "y": 155
           }
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Oasis - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -192,16 +192,16 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "Oasis - Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , highJump",
-              "bombs , airJump",
-              "bombs , jetpack"
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -214,11 +214,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Oasis - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -234,11 +234,11 @@
         ]
       },
       {
-        "name": "Rabi Boots",
+        "name": "Oasis - Rabi Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - Rabi Boots",
+            "name": "Rabi Boots",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -254,11 +254,11 @@
         ]
       },
       {
-        "name": "MP Surge: Concuss",
+        "name": "Oasis - MP Surge: Concuss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Oasis - MP Surge: Concuss",
+            "name": "MP Surge: Concuss",
             "item_count": 1,
             "access_rules": [
               "$True"

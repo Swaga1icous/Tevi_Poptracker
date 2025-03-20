@@ -7,14 +7,14 @@
     ],
     "children": [
       {
-        "name": "Dodge: Discharge",
+        "name": "Snowveil Entrance - Dodge: Discharge",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil Entrance - Dodge: Discharge",
+            "name": "Dodge: Discharge",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -31,22 +31,22 @@
   {
     "name": "Snowveil",
     "access_rules": [
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|2 , highJump , $False",
-      "@Snowveil Entrance,airDash , airJump , $hasAmount|jetpack|3 , $False",
-      "@Snowveil Entrance,bombs",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$False]",
+      "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , [$False]",
+      "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Exit Logic/1204",
       "@Snowveil Ex"
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Snowveil - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs , slide"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -59,11 +59,11 @@
         ]
       },
       {
-        "name": "EVENT_Air",
+        "name": "Snowveil - Air",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Air",
+            "name": "EVENT_Air",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -82,11 +82,11 @@
         ]
       },
       {
-        "name": "EP Booster: Melee Menace",
+        "name": "Snowveil - EP Booster: Melee Menace",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - EP Booster: Melee Menace",
+            "name": "EP Booster: Melee Menace",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -106,18 +106,18 @@
   {
     "name": "Snowveil Ex",
     "access_rules": [
-      "@Snowveil,$canChargeShot , bombs",
-      "@Snowveil,airJump , bombs",
-      "@Snowveil,jetpack , bombs",
-      "@Snowveil above Verglas Village,bombs"
+      "@Snowveil,$canChargeShot , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|airJump|1 , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+      "@Snowveil above Verglas Village,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Astral Gear",
+        "name": "Snowveil - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -133,11 +133,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Snowveil - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -156,14 +156,14 @@
         ]
       },
       {
-        "name": "Life Steal",
+        "name": "Snowveil - Life Steal",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Life Steal",
+            "name": "Life Steal",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -176,11 +176,11 @@
         ]
       },
       {
-        "name": "Vortex Gloves",
+        "name": "Snowveil - Vortex Gloves",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Vortex Gloves",
+            "name": "Vortex Gloves",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -196,17 +196,18 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Snowveil - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $hasAmount|jetpack|2",
-              "slide , jetpack , highJump , [$hasAmount|dagger|1],false",
-              "airJump , wallJump",
-              "airJump , [$hasAmount|dagger|1],false"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|2",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1,[$False]",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -219,15 +220,16 @@
         ]
       },
       {
-        "name": "Aerial Assist",
+        "name": "Snowveil - Aerial Assist",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Aerial Assist",
+            "name": "Aerial Assist",
             "item_count": 1,
             "access_rules": [
-              "slide , airJump , airDash , jetpack",
-              "slide , airJump , $hasAmount|jetpack|3"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -240,16 +242,16 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Snowveil - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , $hasAmount|jetpack|3 , airDash",
-              "slide , $False , airDash",
-              "slide , jetpack , airDash , airJump"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|3 , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False] , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -266,25 +268,25 @@
   {
     "name": "Snowveil above Verglas Village",
     "access_rules": [
-      "@Snowveil Ex,slide",
-      "@Snowveil Ex,jetpack , airJump",
-      "@Snowveil Ex,jetpack , highJump , [$hasAmount|dagger|1],false",
-      "@Snowveil Ex,airJump , highJump , [$true]",
-      "@Snowveil Ex,$hasAmount|bombRange|3 , bombs",
+      "@Snowveil Ex,$hasAmount|slide|1",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+      "@Snowveil Ex,$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+      "@Snowveil Ex,$hasAmount|airJump|1 , $hasAmount|highJump|1 , [$canUseFastItem]",
+      "@Snowveil Ex,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Exit Logic/1205"
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Snowveil above Verglas Village - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Snowveil above Verglas Village - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs , $hasAmount|jetpack|2 , airJump",
-              "bombs , $hasAmount|jetpack|3",
-              "bombs , $hasAmount|jetpack|2 , highJump , [$hasAmount|dagger|1],false"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
             ]
           }
         ],

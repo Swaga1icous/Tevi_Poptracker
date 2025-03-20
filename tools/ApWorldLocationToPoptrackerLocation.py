@@ -1,12 +1,13 @@
 import json
 import os
 
-
 from logicParser import parse_expression_logic
 
 Path = os.path.dirname(os.path.realpath(__file__))
 
-
+TeviToApNames = json.load(open(Path+"\\ItemToReal.json"))
+ApNamesToTevi = {name: data for name, data in TeviToApNames.items()}
+ApNames = [name for name in TeviToApNames.values()]
 
 regionsIds = {}
 regionLocations = {}
@@ -66,7 +67,7 @@ def setMapName(area):
     elif "Industrie" in area: #wrong name (it's german)
         name = "Travoll Industrial Park"
     elif "Verdazure Swamp" == area or "Forgotten City" in area or "Verdazure Ocean" in area:
-        name = "Verdazure Sea (East) + Forgotten City + Gothera Swamplands (East)"
+        name = "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)"
     elif "Magma" in area or "Swamp" in area:
         name = "Magma Pits + Magma Depths + Gothera Swamplands (West)"
     elif "Mines" in area:
@@ -107,6 +108,8 @@ def setMapName(area):
          name = "Heaven's Valley (East) + Valhalla's Breath (East)"
     elif "Valhalla Breath West" in area or "Valley West" in area:
         name = "Heaven's Valley (West) + Valhalla's Breath (West)"
+    elif "Vena" in area:
+        return name
     else:
         print(f"{area} has no Map")
     return name
@@ -134,10 +137,10 @@ for val in RandomizerLocationList:
     itemName = val["LocationName"]
 
     locTemplate = {
-        "name": "",
+        "name": itemName,
         "access_rules": [],
         "sections": [{
-                    "name": itemName,
+                    "name": "",
                     "item_count": 1,
                     "access_rules":setAccessRule(val["Requirement"])
                     }],
@@ -149,30 +152,52 @@ for val in RandomizerLocationList:
           }
         ]
       }
-    locName = val["LocationName"].split("-")[1][1:]
+    locName = val["Itemname"]
     if "EVENT" in val["Itemname"]:
-        locName = val["Itemname"]
         locTemplate["map_locations"][0]["force_invisibility_rules"] = ["$True"]
 
+    if val["Itemname"] in ApNamesToTevi:
+        locName = ApNamesToTevi[locName]
 
-    locTemplate["name"] = locName
-
+    locTemplate["sections"][0]["name"] = locName
 
     if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":
         locTemplate["access_rules"] = []
 
     if "Shop" in val["LocationName"]:
-        locName = val["LocationName"].split("-")[0][:-1]
-        locName = locName[:locName.find("Shop")+4]
-        customLocation[locName] = locTemplate["name"]
-        locTemplate["name"] = locName
-        
-
+        itemName = val["LocationName"].split("-")[0][:-1]
+        itemName = itemName[:itemName.find("Shop")+4]
+        customLocation[itemName] = locTemplate["name"]
+        locTemplate["name"] = itemName
+    if val["LocationName"] in ["Ana Thema - EinLee","Ana Thema - Waero","Ana Thema - GemaYue","Ana Thema - Sable"]:
+        itemName = "Library checks"
+        locTemplate["name"] = itemName
+        locName = val["LocationName"].split("-")[1][1:]
+    if "Vena" in itemName:
+        locTemplate["access_rules"] = "@Morose City/Morose City - Boss/EVENT_BOSS"
+        locTemplate["map_locations"] =[
+            {
+            "map": setMapName("Ana Thema"),
+            "x": 404,
+            "y": 77
+          },
+          {
+            "map": setMapName("Valhalla City"),
+            "x": 696,
+            "y": 264
+          },
+          {
+            "map": setMapName("Tartarus"),
+            "x": 505,
+            "y": 313
+          }
+        ]
+        pass
 
     found = False
 
     for location in PoptrackerList[regionsIds[val["Location"]]]["children"]:
-        if location["name"] == locName:
+        if location["name"] == itemName:
             location["access_rules"] = locTemplate["access_rules"]
             for section in location["sections"]:
                 if section["name"] == itemName:
@@ -180,7 +205,7 @@ for val in RandomizerLocationList:
                     break
             if not found:
                 location["sections"] += [{
-                    "name": itemName,
+                    "name": locName,
                     "item_count": 1,
                     "access_rules":setAccessRule(val["Requirement"])
                     }]
@@ -189,8 +214,9 @@ for val in RandomizerLocationList:
                 locTemplate["access_rules"] = []
     if not found:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
-        extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locName}/{itemName}"'+"}}\n")
-        baseID += 1
+    
+    extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{itemName}/{locName}"'+"}},\n")
+    baseID += 1
 extra.close()
 for k,v in RandomizerAreaList.items():
     for area in v:
@@ -247,4 +273,6 @@ file = open(Path+"\\locations.jsonc",'w+')
 file.write(json.dumps(PoptrackerList,indent=2))
 file.close()
 print("finished")
+import copyPosition
+
     

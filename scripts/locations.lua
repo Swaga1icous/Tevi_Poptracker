@@ -1,17 +1,18 @@
--- Maps
+-- Ana Thema
 Tracker:AddLocations("locations/anaThema.jsonc")
-Tracker:AddLocations("locations/galleryMirrors.jsonc")
-Tracker:AddLocations("locations/cloister.jsonc")
-Tracker:AddLocations("locations/snowCity.jsonc")
 Tracker:AddLocations("locations/gloamwood.jsonc")
-Tracker:AddLocations("locations/plagueForest.jsonc")
 Tracker:AddLocations("locations/oasis.jsonc")
+Tracker:AddLocations("locations/plagueForest.jsonc")
 Tracker:AddLocations("locations/magmaPlusSwamp.jsonc")
+Tracker:AddLocations("locations/cloister.jsonc")
+Tracker:AddLocations("locations/galleryMirrors.jsonc")
+Tracker:AddLocations("locations/snowCity.jsonc")
 Tracker:AddLocations("locations/copperwood.jsonc")
 Tracker:AddLocations("locations/verdazureSea.jsonc")
 Tracker:AddLocations("locations/blushwood.jsonc")
 Tracker:AddLocations("locations/valhalla.jsonc")
 Tracker:AddLocations("locations/evergarden.jsonc")
+Tracker:AddLocations("locations/forgottenCity.jsonc")
 Tracker:AddLocations("locations/dreamersKeep.jsonc")
 Tracker:AddLocations("locations/ValhallasBreathWest.jsonc")
 Tracker:AddLocations("locations/desertBase.jsonc")
@@ -26,12 +27,11 @@ Tracker:AddLocations("locations/solennianRuins.jsonc")
 Tracker:AddLocations("locations/travollIndustries.jsonc")
 Tracker:AddLocations("locations/travollMines.jsonc")
 Tracker:AddLocations("locations/ulvosa.jsonc")
-Tracker:AddLocations("locations/forgottenCity.jsonc")
 Tracker:AddLocations("locations/catacombs.jsonc")
 Tracker:AddLocations("locations/valhallasBreathEast.jsonc")
-
--- Other
 Tracker:AddLocations("locations/other.jsonc")
-
+Tracker:AddLocations("locations/vena.jsonc")
 -- Transitions
 Tracker:AddLocations("locations/Transitions.jsonc")
+
+

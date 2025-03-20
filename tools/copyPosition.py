@@ -26,7 +26,7 @@ def updateLocation(mapName):
         for ve in v["children"]:
             found = False
             for regChild in region["children"]:
-                if regChild["name"] == ve["name"]:
+                if regChild["name"] == ve["name"] or ve["sections"][0]["name"] == regChild["name"]:
                     found = True
                     if len(regChild["map_locations"]) == 1:
                         regChild["map_locations"][0]["x"] = ve["map_locations"][0]["x"]
@@ -69,6 +69,7 @@ updateLocation("valhallasBreathEast")
 updateLocation("valhallasBreathWest")
 updateLocation("verdawnAndMaze")
 updateLocation("verdazureSea")
+updateLocation("other")
 
 
 file = open(Path+"\\locations.jsonc",'w+')

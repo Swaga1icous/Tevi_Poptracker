@@ -4,11 +4,11 @@
     "access_rules": [],
     "children": [
       {
-        "name": "Spanner of Wisdom",
+        "name": "Thanatara Canyon - Spanner of Wisdom",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Spanner of Wisdom",
+            "name": "Spanner of Wisdom",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "name": "Dagger",
+        "name": "Thanatara Canyon - Dagger",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Dagger",
+            "name": "Dagger",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -44,11 +44,11 @@
         ]
       },
       {
-        "name": "Orbitars",
+        "name": "Thanatara Canyon - Orbitars",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Orbitars",
+            "name": "Orbitars",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -58,17 +58,17 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 50,
             "y": 0
           }
         ]
       },
       {
-        "name": "Health Plus",
+        "name": "Thanatara Canyon - Health Plus",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Health Plus",
+            "name": "Health Plus",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -84,11 +84,11 @@
         ]
       },
       {
-        "name": "C. Count Frenzy: Hotshot",
+        "name": "Thanatara Canyon - C. Count Frenzy: Hotshot",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - C. Count Frenzy: Hotshot",
+            "name": "C. Count Frenzy: Hotshot",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -104,11 +104,11 @@
         ]
       },
       {
-        "name": "C. Rank Frenzy: Attack",
+        "name": "Thanatara Canyon - C. Rank Frenzy: Attack",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - C. Rank Frenzy: Attack",
+            "name": "C. Rank Frenzy: Attack",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -124,16 +124,16 @@
         ]
       },
       {
-        "name": "EVENT_EliteChallangeB",
+        "name": "Thanatara Canyon - Elite Challenge B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Elite Challenge B",
+            "name": "EVENT_EliteChallangeB",
             "item_count": 1,
             "access_rules": [
-              "bombs , bombThrow",
-              "slide",
-              "bombs , [hiddenPaths]"
+              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1",
+              "$hasAmount|bombs|1 , [hiddenPaths]"
             ]
           }
         ],
@@ -149,14 +149,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "North Thanatara Canyon - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "North Thanatara Canyon - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -169,14 +169,14 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Thanatara Canyon - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -189,11 +189,11 @@
         ]
       },
       {
-        "name": "Rainbow Bunny Potion",
+        "name": "Memine Completion - Rainbow Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Memine Completion - Rainbow Bunny Potion",
+            "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine"
@@ -203,7 +203,7 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 90,
             "y": 0
           }
         ]
@@ -220,11 +220,11 @@
     ],
     "children": [
       {
-        "name": "Even Keel",
+        "name": "Thanatara Canyon - Even Keel",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Even Keel",
+            "name": "Even Keel",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -240,11 +240,11 @@
         ]
       },
       {
-        "name": "MP Quicken: Steady",
+        "name": "Thanatara Canyon - MP Quicken: Steady",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - MP Quicken: Steady",
+            "name": "MP Quicken: Steady",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -260,14 +260,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Middle Thanatara Canyon - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Middle Thanatara Canyon - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -280,11 +280,11 @@
         ]
       },
       {
-        "name": "Cross Bomb",
+        "name": "Thanatara Canyon - Cross Bomb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Thanatara Canyon - Cross Bomb",
+            "name": "Cross Bomb",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -304,20 +304,20 @@
   {
     "name": "Gurun Desert",
     "access_rules": [
-      "@Thanatara Canyon Lower,bombs",
+      "@Thanatara Canyon Lower,$hasAmount|bombs|1",
       "@Thanatara Canyon Lower,openMorose",
       "@Exit Logic/0102"
     ],
     "children": [
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Gurun Desert - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gurun Desert - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -330,11 +330,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Gurun Desert - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gurun Desert - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -350,14 +350,14 @@
         ]
       },
       {
-        "name": "Spanner Bash: Wrecker",
+        "name": "Gurun Desert - Spanner Bash: Wrecker",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gurun Desert - Spanner Bash: Wrecker",
+            "name": "Spanner Bash: Wrecker",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -370,11 +370,11 @@
         ]
       },
       {
-        "name": "Crystallize",
+        "name": "Gurun Desert - Crystallize",
         "access_rules": [],
         "sections": [
           {
-            "name": "Gurun Desert - Crystallize",
+            "name": "Crystallize",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeA"

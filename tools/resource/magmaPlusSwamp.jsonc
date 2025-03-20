@@ -2,18 +2,18 @@
   {
     "name": "Magma Pits",
     "access_rules": [
-      "@Magma Pits Entrance,bombs"
+      "@Magma Pits Entrance,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Kiwi Bunny Potion #1",
+        "name": "Magma Pits - Kiwi Bunny Potion #1",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Kiwi Bunny Potion #1",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -26,11 +26,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion #2",
+        "name": "Magma Pits - Kiwi Bunny Potion #2",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Kiwi Bunny Potion #2",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -46,14 +46,14 @@
         ]
       },
       {
-        "name": "Supersonic",
+        "name": "Magma Pits - Supersonic",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Supersonic",
+            "name": "Supersonic",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_EliteChallangeE , slide"
+              "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
             ]
           }
         ],
@@ -66,11 +66,11 @@
         ]
       },
       {
-        "name": "Jetpack",
+        "name": "Magma Pits - Jetpack",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Jetpack",
+            "name": "Jetpack",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -86,11 +86,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Magma Pits - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -106,14 +106,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Magma Pits - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Pits - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -130,22 +130,22 @@
   {
     "name": "Magma Depths O",
     "access_rules": [
-      "@Magma Pits,jetpack , powder",
-      "@Magma Pits,powder , airDash , $canChargeShot",
-      "@Magma Pits,powder , airJump , $canChargeShot",
-      "@Magma Pits,powder , highJump , $canChargeShot",
-      "@Magma Pits,powder , airJump , jetpack"
+      "@Magma Pits,$hasAmount|jetpack|1 , $hasAmount|powder|1,$hasAmount|slide|1",
+      "@Magma Pits,$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|airDash|1 , $canChargeShot",
+      "@Magma Pits,$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|airJump|1 , $canChargeShot",
+      "@Magma Pits,$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|highJump|1 , $canChargeShot",
+      "@Magma Pits,$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {
-        "name": "EP Booster: Quintuple",
+        "name": "Magma Depths - EP Booster: Quintuple",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - EP Booster: Quintuple",
+            "name": "EP Booster: Quintuple",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -158,14 +158,14 @@
         ]
       },
       {
-        "name": "Razor Arrow",
+        "name": "Magma Depths - Razor Arrow",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Razor Arrow",
+            "name": "Razor Arrow",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -182,16 +182,16 @@
   {
     "name": "Magma Depths",
     "access_rules": [
-      "@Magma Depths O,powder",
-      "@Swamp,bombs"
+      "@Magma Depths O,$hasAmount|powder|1,$hasAmount|slide|1",
+      "@Swamp,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Grape Bunny Potion",
+        "name": "Magma Depths - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -207,11 +207,11 @@
         ]
       },
       {
-        "name": "Perseverance B",
+        "name": "Magma Depths - Perseverance B",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Perseverance B",
+            "name": "Perseverance B",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -227,14 +227,14 @@
         ]
       },
       {
-        "name": "Ground Control",
+        "name": "Magma Depths - Ground Control",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Ground Control",
+            "name": "Ground Control",
             "item_count": 1,
             "access_rules": [
-              "vortex , powder , slide"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -247,35 +247,35 @@
         ]
       },
       {
-        "name": "MP Surge: Brawl",
+        "name": "Magma Depths - MP Surge: Brawl",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - MP Surge: Brawl",
+            "name": "MP Surge: Brawl",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 408
+            "x": 360,
+            "y": 648
           }
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Magma Depths - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "powder , slide",
-              "bombRange , bombs , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -288,14 +288,14 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Magma Depths - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombRange , bombs , slide"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -308,15 +308,15 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Magma Depths - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , jetpack",
-              "slide , airJump"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -329,23 +329,23 @@
         ]
       },
       {
-        "name": "Dual Combo: Rush",
+        "name": "Magma Depths - Dual Combo: Rush",
         "access_rules": [],
         "sections": [
           {
-            "name": "Magma Depths - Dual Combo: Rush",
+            "name": "Dual Combo: Rush",
             "item_count": 1,
             "access_rules": [
-              "slide , airJump , bombs",
-              "slide , jetpack , bombs"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 360,
-            "y": 648
+            "x": 792,
+            "y": 408
           }
         ]
       }
@@ -354,23 +354,23 @@
   {
     "name": "Pre Swamp",
     "access_rules": [
-      "@Magma Pits Entrance,bombs",
-      "@Magma Pits,bombs",
-      "@Swamp Entrance,slide",
-      "@Swamp,airDash",
-      "@Swamp,ranged",
-      "@Swamp,dagger"
+      "@Magma Pits Entrance,$hasAmount|bombs|1",
+      "@Magma Pits,$hasAmount|bombs|1",
+      "@Swamp Entrance,$hasAmount|slide|1",
+      "@Swamp,$hasAmount|airDash|1",
+      "@Swamp,$hasAmount|ranged|1",
+      "@Swamp,$hasAmount|dagger|1"
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Swamp Entrance - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp Entrance - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide"
+              "$hasAmount|slide|1"
             ]
           }
         ],
@@ -383,11 +383,11 @@
         ]
       },
       {
-        "name": "EVENT_Dark",
+        "name": "Swamp Entrance - Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp Entrance - Dark",
+            "name": "EVENT_Dark",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -406,14 +406,14 @@
         ]
       },
       {
-        "name": "Aerial Kinetics",
+        "name": "Swamp - Aerial Kinetics",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Aerial Kinetics",
+            "name": "Aerial Kinetics",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -426,14 +426,14 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Swamp Entrance - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp Entrance - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -450,30 +450,30 @@
   {
     "name": "Swamp",
     "access_rules": [
-      "@Magma Pits,$canChargeShot , bombs",
-      "@Pre Swamp,dagger",
-      "@Pre Swamp,ranged",
-      "@Pre Swamp,airDash",
-      "@Pre Swamp,bombs , bombThrow",
-      "@Swamp to Tartarus,slide , [hiddenPaths] , $hasAmount|jetpack|2",
-      "@Swamp to Tartarus,slide , [hiddenPaths] , jetpack , airJump",
-      "@Swamp to Tartarus,slide , [hiddenPaths] , jetpack , airDash",
-      "@Swamp to Tartarus,slide , [hiddenPaths] , airDash , airJump",
-      "@Swamp to Tartarus,slide , bombs , $hasAmount|jetpack|2",
-      "@Swamp to Tartarus,slide , bombs , jetpack , airJump",
-      "@Swamp to Tartarus,slide , bombs , jetpack , airDash",
-      "@Swamp to Tartarus,slide , bombs , airDash , airJump"
+      "@Magma Pits,$canChargeShot , $hasAmount|bombs|1",
+      "@Pre Swamp,$hasAmount|dagger|1",
+      "@Pre Swamp,$hasAmount|ranged|1",
+      "@Pre Swamp,$hasAmount|airDash|1",
+      "@Pre Swamp,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1"
     ],
     "children": [
       {
-        "name": "Cluster Bomb",
+        "name": "Swamp - Cluster Bomb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Cluster Bomb",
+            "name": "Cluster Bomb",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -486,11 +486,11 @@
         ]
       },
       {
-        "name": "EVENT_Dark",
+        "name": "Swamp - Dark",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Dark",
+            "name": "EVENT_Dark",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -509,11 +509,11 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Swamp - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -529,11 +529,11 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Swamp - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -549,11 +549,11 @@
         ]
       },
       {
-        "name": "Quickstab: Lightning",
+        "name": "Swamp - Quickstab: Lightning",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Quickstab: Lightning",
+            "name": "Quickstab: Lightning",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -569,11 +569,11 @@
         ]
       },
       {
-        "name": "MP Surge: Break",
+        "name": "Swamp - MP Surge: Break",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - MP Surge: Break",
+            "name": "MP Surge: Break",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -589,17 +589,17 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Swamp - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|2",
-              "jetpack , airJump",
-              "jetpack , airDash",
-              "airDash , airJump"
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|airDash|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -612,14 +612,14 @@
         ]
       },
       {
-        "name": "C. Count Frenzy: Preemptive",
+        "name": "Swamp - C. Count Frenzy: Preemptive",
         "access_rules": [],
         "sections": [
           {
-            "name": "Swamp - C. Count Frenzy: Preemptive",
+            "name": "C. Count Frenzy: Preemptive",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],

@@ -6,11 +6,11 @@
     ],
     "children": [
       {
-        "name": "Windmill Strike",
+        "name": "Plague Forest - Windmill Strike",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Windmill Strike",
+            "name": "Windmill Strike",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -26,14 +26,14 @@
         ]
       },
       {
-        "name": "C. Rank Frenzy: Defend",
+        "name": "Plague Forest - C. Rank Frenzy: Defend",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - C. Rank Frenzy: Defend",
+            "name": "C. Rank Frenzy: Defend",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -46,14 +46,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Plague Forest - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -66,14 +66,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Plague Forest - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -86,14 +86,14 @@
         ]
       },
       {
-        "name": "Slick Boots",
+        "name": "Plague Forest - Slick Boots",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Slick Boots",
+            "name": "Slick Boots",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -106,14 +106,17 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Plague Forest - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot"
+              "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+              "$canChargeShot , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -126,18 +129,18 @@
         ]
       },
       {
-        "name": "Special Action: Show Off",
+        "name": "Plague Forest - Special Action: Show Off",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Special Action: Show Off",
+            "name": "Special Action: Show Off",
             "item_count": 1,
             "access_rules": [
-              "airDash",
-              "airJump",
-              "jetpack",
-              "bombs",
-              "highJump , wallJump"
+              "$hasAmount|airDash|1",
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $hasAmount|wallJump|1"
             ]
           }
         ],
@@ -150,14 +153,14 @@
         ]
       },
       {
-        "name": "Dodge Enhancer: Upper",
+        "name": "Plague Forest - Dodge Enhancer: Upper",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Dodge Enhancer: Upper",
+            "name": "Dodge Enhancer: Upper",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -170,14 +173,14 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Plague Forest - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "decayMask"
+              "$hasAmount|decayMask|1"
             ]
           }
         ],
@@ -190,14 +193,14 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Plague Forest - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "decayMask"
+              "$hasAmount|decayMask|1"
             ]
           }
         ],
@@ -213,11 +216,11 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Plague Forest - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -233,11 +236,11 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Plague Forest - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -253,14 +256,14 @@
         ]
       },
       {
-        "name": "Unlucky 7",
+        "name": "Plague Forest - Unlucky 7",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Unlucky 7",
+            "name": "Unlucky 7",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -277,19 +280,19 @@
   {
     "name": "Plague Forest to Ulskan",
     "access_rules": [
-      "@Plague Forest,bombs , slide",
+      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1",
       "@Exit Logic/1004"
     ],
     "children": [
       {
-        "name": "Aplomb",
+        "name": "Plague Forest - Aplomb",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Aplomb",
+            "name": "Aplomb",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -302,14 +305,14 @@
         ]
       },
       {
-        "name": "Blood Armor",
+        "name": "Plague Forest - Blood Armor",
         "access_rules": [],
         "sections": [
           {
-            "name": "Plague Forest - Blood Armor",
+            "name": "Blood Armor",
             "item_count": 1,
             "access_rules": [
-              "powder , slide , bombs"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],

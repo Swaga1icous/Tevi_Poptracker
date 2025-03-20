@@ -2,16 +2,16 @@
   {
     "name": "Ulvosa",
     "access_rules": [
-      "@Ulvosa to Gloamwood,bombs , $canChargeShot , [hiddenPaths]",
-      "@Ulvosa to Gloamwood,bombs , $canChargeShot , slide"
+      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
+      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
     ],
     "children": [
       {
-        "name": "MP Quicken: Bloodlust",
+        "name": "Ulvosa - MP Quicken: Bloodlust",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - MP Quicken: Bloodlust",
+            "name": "MP Quicken: Bloodlust",
             "item_count": 1,
             "access_rules": [
               "$canChargeShot"
@@ -27,24 +27,17 @@
         ]
       },
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Middle Ulvosa - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Middle Ulvosa - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "airJump",
-              "airDash",
-              "jetpack",
-              "highJump"
-            ]
-          },
-          {
-            "name": "West Ulvosa - Cherry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "vortex"
+              "$hasAmount|airJump|1",
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|highJump|1"
             ]
           }
         ],
@@ -57,14 +50,14 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Ulvosa - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs , slide"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -77,11 +70,11 @@
         ]
       },
       {
-        "name": "Overdrive",
+        "name": "Ulvosa - Overdrive",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Overdrive",
+            "name": "Overdrive",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeD"
@@ -97,11 +90,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Ulvosa - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -117,11 +110,11 @@
         ]
       },
       {
-        "name": "Spiral Slash: Cyclone",
+        "name": "Ulvosa - Spiral Slash: Cyclone",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Spiral Slash: Cyclone",
+            "name": "Spiral Slash: Cyclone",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -137,11 +130,11 @@
         ]
       },
       {
-        "name": "Core Expansion: Dazzle",
+        "name": "Ulvosa - Core Expansion: Dazzle",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Core Expansion: Dazzle",
+            "name": "Core Expansion: Dazzle",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -157,14 +150,14 @@
         ]
       },
       {
-        "name": "Core Expansion: Vitalize",
+        "name": "Ulvosa - Core Expansion: Vitalize",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Core Expansion: Vitalize",
+            "name": "Core Expansion: Vitalize",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -177,14 +170,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Ulvosa - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -197,11 +190,11 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Ulvosa - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -217,11 +210,11 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Ulvosa - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -240,11 +233,11 @@
         ]
       },
       {
-        "name": "Soul Burst Module",
+        "name": "Ulvosa - Soul Burst Module",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Soul Burst Module",
+            "name": "Soul Burst Module",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -260,16 +253,16 @@
         ]
       },
       {
-        "name": "Cursed 6",
+        "name": "Ulvosa - Cursed 6",
         "access_rules": [],
         "sections": [
           {
-            "name": "Ulvosa - Cursed 6",
+            "name": "Cursed 6",
             "item_count": 1,
             "access_rules": [
-              "orbS2 , $canChargeShot , sable , $hasAmount|ranged|2 , bombs , slide",
-              "burst , bombs , slide",
-              "$canUseVenaBomb , bombs , slide"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|burst|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -278,6 +271,26 @@
             "map": "Ulvosa",
             "x": 264,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "West Ulvosa - Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 551,
+            "y": 168
           }
         ]
       }

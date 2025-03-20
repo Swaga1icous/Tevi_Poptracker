@@ -4,22 +4,22 @@
     "access_rules": [
       "@Exit Logic/0603",
       "@Exit Logic/0600",
-      "@Travoll Industrie to CopperWood,bombs",
-      "@Travoll Industrie to CopperWood,slide"
+      "@Travoll Industrie to CopperWood,$hasAmount|bombs|1",
+      "@Travoll Industrie to CopperWood,$hasAmount|slide|1"
     ],
     "children": [
       {
-        "name": "Style Combo: Backbomb S",
+        "name": "Travoll Industrie - Style Combo: Backbomb S",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Style Combo: Backbomb S",
+            "name": "Style Combo: Backbomb S",
             "item_count": 1,
             "access_rules": [
-              "slide , wallJump , airDash",
-              "slide , wallJump , jetpack",
-              "slide , wallJump , airJump",
-              "slide , $False"
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False]"
             ]
           }
         ],
@@ -32,14 +32,14 @@
         ]
       },
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Travoll Industrie - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombThrow , bombs"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -52,14 +52,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Travoll Industrie - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -72,11 +72,11 @@
         ]
       },
       {
-        "name": "Bomb Fuel",
+        "name": "Travoll Industrie - Bomb Fuel",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Bomb Fuel",
+            "name": "Bomb Fuel",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -92,16 +92,16 @@
         ]
       },
       {
-        "name": "Buns of Steel",
+        "name": "Travoll Industrie - Buns of Steel",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Buns of Steel",
+            "name": "Buns of Steel",
             "item_count": 1,
             "access_rules": [
-              "slide , jetpack",
-              "slide , airJump",
-              "slide , wallJump , airDash"
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1"
             ]
           }
         ],
@@ -114,11 +114,11 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Travoll Industrie - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -138,20 +138,20 @@
   {
     "name": "Travoll Industrie to CopperWood",
     "access_rules": [
-      "@Travoll Industrie,bombs",
-      "@Travoll Industrie,slide",
+      "@Travoll Industrie,$hasAmount|bombs|1",
+      "@Travoll Industrie,$hasAmount|slide|1",
       "@Exit Logic/0605"
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Travoll Industrie - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Industrie - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "powder , slide"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1"
             ]
           }
         ],

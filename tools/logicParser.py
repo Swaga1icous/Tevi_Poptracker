@@ -69,19 +69,19 @@ TeviRuleToPoptacker = {
     "EVENT_Air":"airElement",
     "EVENT_Light":"lightElement",
     "EVENT_Dark":"darkElement",
-    "BackFlip":"backflip",
+    "BackFlip":"$canBackflip",
     "CKick":"ceilingKick",
     "HiddenP":"[hiddenPaths]",
-    "RabbitJump":"rabbitJump",
-    "RabbitWalljump":"rabbitWallJump",
-    "EarlyDream":"earlyDream",
+    "RabbitJump":"$canRabbitJump",
+    "RabbitWalljump":"$canRabbitWallJump",
+    "EarlyDream":"$canEarlyDream",
     "ChargeShot":"$canChargeShot",
     "Coins": "$True",
     "Core":"$canUpgradeCore",
     "VenaBomb":"$canUseVenaBomb",
     "Upgrade" : "$canUpgradeItems",
     "OpenMorose":"openMorose",
-    "SpinnerBash":"[$hasAmount|dagger|1],false",
+    "SpinnerBash":"$hasAmount|dagger|1,[$False]",
     "LibraryExtra":"[SuperBoss]",
     "EVENT_Fire":"^$hasFire",
     "EVENT_HQSwitch1":"^$EVENT_HQSwitch1",
@@ -104,24 +104,22 @@ TeviRuleToPoptacker = {
     "EVENT_Memine4":"^$EVENT_Memine4",
     "EVENT_Memine5":"^$EVENT_Memine5",
     "RainbowCheck":"^$RainbowCheck",
-    "ItemUse":"[$true]",
+    "ItemUse":"[$canUseFastItem]",
     "EVENT_SnowMechanic":"^$EVENT_SnowMechanic",
 
     "Everything that is by default false": "$False",
     "Memine":"$False",
     "AllMemine":"$False",
     "Explorer":"$False",
-    "Goal":"$False",
+    "Goal":"$CanFinish",
     "Chapter":"$SomethingWrong",
-    "BounceKick":"$False",
-    "ADCKick":"$False",
-    "BarrierSkip":"$False",
-    "WindSkip":"$False",
-    "EnemyManip":"$False",
-    "Hard":"$False"
+    "BounceKick":"$hasAmount|airJump|1,[$False]",
+    "ADCKick":"$hasAmount|airDash|1,[$False]",
+    "BarrierSkip":"$airOrSlide,[$False]",
+    "WindSkip":"[$False]",
+    "EnemyManip":"[$False]",
+    "Hard":"[$False]"
 }
-
-
 
 isExpr = lambda s: not isinstance(s, str)
 
@@ -194,6 +192,18 @@ class OpLit:
             else:
                 return TeviRuleToPoptacker[itemstack[0]]
         elif self.name in TeviRuleToPoptacker:
+            if "ITEM" in self.name or "QUEST" in self.name:
+                if "ITEM_Rotater" == self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,[$hasAmount|dagger|1]"
+                elif self.name in ["ITEM_AREABOMB","ITEM_BOMBFUEL","ITEM_BombLengthExtend"]:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|bombs|1"
+                elif "ITEM_AirSlide" == self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|slide|1"
+                elif "OrbTypeS" in self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|sable|1"
+                elif "OrbTypeC" in self.name:
+                    return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|celia|1"
+                return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1"
             f = TeviRuleToPoptacker[self.name]
             return f
         if self.name != "True":

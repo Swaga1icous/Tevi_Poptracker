@@ -4,9 +4,9 @@ Sable               = function(count) return Tracker:ProviderCountForCode("sable
 Celia               = function(count) return Tracker:ProviderCountForCode("celia")                     >= (count or 1) end
 Orbitars            = function(count) return Tracker:ProviderCountForCode("ranged")                    >= (count or 1) end
 CrossBomb           = function(count) return Tracker:ProviderCountForCode("bombs")                     >= (count or 1) end
-ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) end
-BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) end
-Combustible         = function(count) return Tracker:ProviderCountForCode("bombRange")                 >= (count or 1) end
+ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) and CrossBomb(1) end
+BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) and CrossBomb(1) end
+Combustible         = function(count) return Tracker:ProviderCountForCode("bombRange")                 >= (count or 1) and CrossBomb(1) end
 RunningBoots        = function(count) return Tracker:ProviderCountForCode("speed")                     >= (count or 1) end
 SlickBoots          = function(count) return Tracker:ProviderCountForCode("slide")                     >= (count or 1) end
 SlipstreamBoots     = function(count) return Tracker:ProviderCountForCode("airDash")                   >= (count or 1) end
@@ -15,13 +15,13 @@ DoubleRabiBoots     = function(count) return Tracker:ProviderCountForCode("airJu
 ParkourBoots        = function(count) return Tracker:ProviderCountForCode("wallJump")                  >= (count or 1) end
 Hydrodynamo         = function(count) return Tracker:ProviderCountForCode("water")                     >= (count or 1) end
 Jetpack             = function(count) return Tracker:ProviderCountForCode("jetpack")                   >= (count or 1) end
-AiryPowder          = function(count) return Tracker:ProviderCountForCode("powder")                    >= (count or 1) end
-VortexGloves        = function(count) return Tracker:ProviderCountForCode("vortex")                    >= (count or 1) end
+AiryPowder          = function(count) return Tracker:ProviderCountForCode("powder")                    >= (count or 1) and SlickBoots(1) end
+VortexGloves        = function(count) return Tracker:ProviderCountForCode("vortex")                    >= (count or 1) and Dagger(1) end
 EquilibriumRing     = function(count) return Tracker:ProviderCountForCode("ringTemp")                  >= (count or 1) end
-RedTypeB            = function(count) return Tracker:ProviderCountForCode("orbS2")                     >= (count or 1) end
-RedTypeC            = function(count) return Tracker:ProviderCountForCode("orbS3")                     >= (count or 1) end
-BlueTypeB           = function(count) return Tracker:ProviderCountForCode("orbC2")                     >= (count or 1) end
-BlueTypeC           = function(count) return Tracker:ProviderCountForCode("orbC3")                     >= (count or 1) end
+RedTypeB            = function(count) return Tracker:ProviderCountForCode("orbS2")                     >= (count or 1) and Orbitars(2)end
+RedTypeC            = function(count) return Tracker:ProviderCountForCode("orbS3")                     >= (count or 1) and Orbitars(2)end
+BlueTypeB           = function(count) return Tracker:ProviderCountForCode("orbC2")                     >= (count or 1) and Orbitars(2)end
+BlueTypeC           = function(count) return Tracker:ProviderCountForCode("orbC3")                     >= (count or 1) and Orbitars(2)end
 TartarusVIP         = function(count) return Tracker:ProviderCountForCode("ticketHell")                >= (count or 1) end
 ValhallaVIP         = function(count) return Tracker:ProviderCountForCode("ticketHeaven")              >= (count or 1) end
 LibraryKey          = function(count) return Tracker:ProviderCountForCode("key")                       >= (count or 1) end
@@ -40,7 +40,7 @@ VoidBomb            = function(count) return Tracker:ProviderCountForCode("voidB
 CloudBomb           = function(count) return Tracker:ProviderCountForCode("cloudBomb")                 >= (count or 1) end
 CalicoBomb          = function(count) return Tracker:ProviderCountForCode("calicoBomb")                >= (count or 1) end
 TabbyBomb           = function(count) return Tracker:ProviderCountForCode("tabbyBomb")                 >= (count or 1) end
-BBBomb              = function(count) return Tracker:ProviderCountForCode("bbBomb")                    >= (count or 1) end
+BBBomb              = function(count) return Tracker:ProviderCountForCode("bbRabbit")                    >= (count or 1) end
 FireElement         = function(count) return Tracker:ProviderCountForCode("fireElement")               >= (count or 1) end
 WaterElement        = function(count) return Tracker:ProviderCountForCode("waterElement")              >= (count or 1) end
 EarthElement        = function(count) return Tracker:ProviderCountForCode("earthElement")              >= (count or 1) end
@@ -139,7 +139,94 @@ TRANSITION_PAIRS = {
 }
 
 
-canBombThrow = function() return ClusterBomb() and CrossBomb() end
+function hasFire()
+	
+    local accessibilityLevel = math.max(Tracker:FindObjectForCode("@Solennian Ruins/Solennian Ruins - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("fireElement")
+        obj.Active = true
+    end
+end
+function hasWater()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Verdazure Sea West/Verdazure Sea - Water West/EVENT_Water").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("waterElement")
+        obj.Active = true
+    end
+end
+function hasEarth()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Gloamwood Middle/Gloamwood Upper - Earth/EVENT_Earth").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Gloamwood Right/Ulskan Village Area - Earth/EVENT_Earth").AccessibilityLevel
+    )
+    
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("earthElement")
+        obj.Active = true
+    end
+end
+function hasAir()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Snowveil/Snowveil - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Snowveil Above HQ/Snowveil Above HQ - Air/EVENT_Air").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Air/EVENT_Air").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("airElement")
+        obj.Active = true
+    end
+end
+function hasWater()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@//").AccessibilityLevel,
+    Tracker:FindObjectForCode("@//").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("fireElement")
+        obj.Active = true
+    end
+end
+function hasLight()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Heavens Valley West/Heavens Valley West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Valhalla Breath West/Valhalla Breath West - Light/EVENT_Light").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Light/EVENT_Light").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("lightElement")
+        obj.Active = true
+    end
+
+end
+function hasDark()
+	
+    local accessibilityLevel = math.max(
+    Tracker:FindObjectForCode("@Swamp Entrance/Swamp Entrance - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Swamp/Swamp - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Blushwood/Blushwood - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Dark/EVENT_Dark").AccessibilityLevel
+    )
+    if accessibilityLevel >= AccessibilityLevel.Normal then
+        local obj = Tracker:FindObjectForCode("darkElement")
+        obj.Active = true
+    end
+end
+
+
+canBombThrow = function() return ClusterBomb(1) and CrossBomb(1) end
 canAirSlide = function() return AiryPowder() and SlickBoots() end
 canBombFuel = function() return BombFuel() and CrossBomb() end
 canVortex = function() return VortexGloves() and Dagger() end
@@ -189,22 +276,26 @@ canUseSpinnerBash = function() return Dagger() end
 
 canFinishMemine = function() return CrossBomb() and canChargeShot() and hasAllMovement() end
 
-canVoidBomb = function() return VoidBomb() and FireElement() end
+canVoidBomb = function() return VoidBomb() and hasFire() end
 
-canCloudBomb = function() return CloudBomb() and FireElement() and LightElement() end
+canCloudBomb = function() return CloudBomb() and hasFire() and hasLight() end
 
-canCalicoBomb = function() return CalicoBomb() and WaterElement() and EarthElement() end
+canCalicoBomb = function() return CalicoBomb() and hasWater() and hasEarth() end
 
-canTabbyBomb = function() return TabbyBomb() and DarkElement() and EarthElement() end
+canTabbyBomb = function() return TabbyBomb() and hasDark() and hasEarth() end
 
 canUseVenaBomb = function () return canVoidBomb() or canCloudBomb() or canCalicoBomb() or canTabbyBomb() end
 
-canUseFastItem = function () return BBBomb() end
+canUseFastItem = function () return BBBomb() or canUseVenaBomb() end
 
 canRabbitJump = function() return RabbitJump() and canUseFastItem() end
 
-canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() end
+canRabbitWallJump = function() return RabbitWallJump() and canUseFastItem() and ParkourBoots() end
 
 canEarlyDream = function() return EarlyDream() and Dagger() end
 
 canBackflip = function() return Backflip() and Dagger() end
+
+function airOrSlide() 
+    return SlickBoots() or SlipstreamBoots()
+end

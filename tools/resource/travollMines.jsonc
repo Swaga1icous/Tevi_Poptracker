@@ -2,23 +2,23 @@
   {
     "name": "Travoll Mines",
     "access_rules": [
-      "@Travoll Mines to Morose City,bombs , bombFuel",
-      "@Travoll Mines to Thanatara Canyon,bombs , bombFuel",
+      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
       "@Exit Logic/0500",
-      "@Travoll Mines to Forest,bombs , dagger",
-      "@Travoll Mines to Forest,bombs , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Forest,$hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Travoll Mines to Forest,$hasAmount|bombs|1 , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Swamp"
     ],
     "children": [
       {
-        "name": "Cherry Bunny Potion",
+        "name": "Travoll Mines - Cherry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Cherry Bunny Potion",
+            "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -31,11 +31,11 @@
         ]
       },
       {
-        "name": "EVENT_Fire",
+        "name": "Travoll Mines - Fire",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Fire",
+            "name": "EVENT_Fire",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -54,14 +54,14 @@
         ]
       },
       {
-        "name": "Astral Gear",
+        "name": "Travoll Mines - Astral Gear",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Astral Gear",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel"
+              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -74,14 +74,14 @@
         ]
       },
       {
-        "name": "EVENT_BOSS",
+        "name": "Travoll Mines - Boss",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Boss",
+            "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , bombFuel"
+              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -97,14 +97,14 @@
         ]
       },
       {
-        "name": "Aerial Accel",
+        "name": "Travoll Mines - Aerial Accel",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Aerial Accel",
+            "name": "Aerial Accel",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -117,14 +117,14 @@
         ]
       },
       {
-        "name": "Grape Bunny Potion",
+        "name": "Travoll Mines - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Grape Bunny Potion",
+            "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs",
+              "$hasAmount|bombs|1",
               "ceilingKick"
             ]
           }
@@ -138,14 +138,14 @@
         ]
       },
       {
-        "name": "Blueberry Bunny Potion",
+        "name": "Travoll Mines - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Blueberry Bunny Potion",
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombThrow , bombs , bombFuel"
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -158,14 +158,14 @@
         ]
       },
       {
-        "name": "Kiwi Bunny Potion",
+        "name": "Travoll Mines - Kiwi Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Kiwi Bunny Potion",
+            "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "slide , bombs"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -182,19 +182,19 @@
   {
     "name": "Travoll Mines to Swamp",
     "access_rules": [
-      "@Travoll Mines,slide , bombFuel",
+      "@Travoll Mines,$hasAmount|slide|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
       "@Exit Logic/0503"
     ],
     "children": [
       {
-        "name": "Dodge: Headstrong",
+        "name": "Travoll Mines to Swamp - Dodge: Headstrong",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines to Swamp - Dodge: Headstrong",
+            "name": "Dodge: Headstrong",
             "item_count": 1,
             "access_rules": [
-              "vortex"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
@@ -212,19 +212,19 @@
     "name": "Travoll Mines to Morose City",
     "access_rules": [
       "@Exit Logic/0501",
-      "@Travoll Mines to Thanatara Canyon,bombs",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1",
       "@Travoll Mines"
     ],
     "children": [
       {
-        "name": "Lemon Bunny Potion",
+        "name": "Travoll Mines - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines - Lemon Bunny Potion",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "bombs"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -241,16 +241,16 @@
   {
     "name": "Travoll Mines to Forest",
     "access_rules": [
-      "@Travoll Mines,bombs",
+      "@Travoll Mines,$hasAmount|bombs|1",
       "@Exit Logic/0509"
     ],
     "children": [
       {
-        "name": "Mana Armor",
+        "name": "Travoll Mines to Forest - Mana Armor",
         "access_rules": [],
         "sections": [
           {
-            "name": "Travoll Mines to Forest - Mana Armor",
+            "name": "Mana Armor",
             "item_count": 1,
             "access_rules": [
               "$True"
